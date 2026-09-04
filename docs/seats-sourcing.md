@@ -1,7 +1,18 @@
 # Front seats — sourcing and installation
 
-Scenario: the cab is empty, no front seat at all. This covers what fits a 1981
-Caballero, where to buy it, and how it bolts (or welds) in.
+**Actual state of the car:** the cab currently has a pair of **1982 Firebird
+bucket seats bolted to wood**, sitting slumped. That is not an anchorage — it is
+a safety defect and an SAAQ inspection failure, tracked in
+[`known-issues.md`](known-issues.md).
+
+The car left the factory with a **full bench**, which is the root of the problem:
+a full-bench floor has only the *outer* mounting points, and buckets need *inner*
+ones too.
+
+Two paths follow. [Adapting the Firebird buckets properly](#adapting-the-1982-firebird-buckets)
+is the near-term fix and is written up first in the install section. The
+sourcing sections below cover the alternative — a factory-style bench or a
+different set of buckets — if the Firebird seats turn out to be unsalvageable.
 
 **Research caveat:** vendor sites could not be opened directly from the research
 session — the egress policy blocked every parts retailer. Everything below comes
@@ -41,7 +52,123 @@ Reported caveat: floor mounting brackets are the same between split bench and
 buckets, but **only two of the four split-bench seat tracks interchange** for
 bucket use.
 
-## Option A — factory-style 50/50 split bench (recommended)
+## Adapting the 1982 Firebird buckets
+
+The seats already in the car are 3rd-gen F-body buckets. They can be mounted
+properly, but not by bolting them to the floor — the chain has three links and
+the car is missing two of them:
+
+```
+Firebird seat frame  →  G-body seat sliders  →  G-body floor mounts  →  floor
+   (have it)             (need them)             (outer: probably have
+                                                  inner: definitely missing)
+```
+
+### The two spacings that decide the job
+
+| Measurement | Dimension |
+|---|---|
+| 3rd/4th-gen Camaro/Firebird — seat frame to slider, side to side | **13-1/2"** |
+| G-body — seat frame to slider, side to side | **14-1/2"** |
+| G-body — floor mounting holes, side to side | **14-1/2"** |
+
+That 1" is the whole problem. **Do not fix it at the floor** — the floor holes
+are the one part of the system that is factory-correct and load-rated. Fix it at
+the seat frame.
+
+Two ways it gets reconciled, both reported as done:
+
+1. **Re-drill the seat frame (preferred).** Take the sliders off, re-drill or
+   elongate the seat frame's slider holes out to the G-body **14-1/2"** spacing —
+   in practice this is one hole per side, not four. The G-body sliders then land
+   exactly on the factory floor points with nothing else modified.
+2. **Bolt the G-body sliders on at the Firebird's 13-1/2" spacing.** They bolt up
+   as-is, but the finished track assembly is 1" narrower than the floor holes, so
+   the trans-tunnel-side mounting brackets have to be modified — moved inboard, or
+   G-body donor brackets lined up on the narrower track and welded or bolted to
+   the floor. More fabrication, and it moves the modification onto the
+   load-bearing side. Second choice.
+
+Measure both the seats and the floor before ordering anything — reported figures
+vary (14" vs 14-1/2" for the floor spacing), and this car's floor has been
+worked on by whoever fitted the wood.
+
+### Parts needed
+
+**Sliders (adjuster rails).** F-body sliders will not fit the G-body floor. Source
+a pair of used G-body bucket sliders — 78-87 Malibu, Monte Carlo, Regal, Grand
+Prix, Cutlass, El Camino.
+
+| Part | Source |
+|---|---|
+| Used G-body bucket seat tracks | [eBay](https://www.ebay.com/shop/g-body-bucket-seat-tracks?_nkw=g+body+bucket+seat+tracks), [Dixie](https://www.dixierestorationdepot.com/Product/Browse.aspx?d=681&p=1), donor car |
+| Bucket seat track repair parts, 78-88 G-body | [Chicago Muscle Car Parts](https://www.chicagomusclecarparts.com/products/seat-track-repair-78-88-g-body) |
+| Slider leg mount plastic covers, LH & RH manual, 8pc | [GBodyParts #1323](https://gbodyparts.com/product_info.php?products_id=1323) |
+
+**Inner floor mounts — the missing link on a bench car.**
+
+| Part | Source | Price |
+|---|---|---|
+| 78-88 **inner** bucket & 55/45 bench seat track floor mounts, set of 4 — DM00572 | [Dixie](https://www.dixierestorationdepot.com/Product/Detail.aspx?s=DM00572) | confirm |
+| 78-88 G-body bucket seat track floor mount conversion bracket set (INNER) | [GBodyParts #769](https://gbodyparts.com/product_info.php?products_id=769) / [eBay](https://www.ebay.com/itm/313735442447) | ~$57.95 |
+| G-body main seat mount brackets w/ bucket brackets — replaces both inner track mounts, bench→bucket | [GBodyParts #2943](https://gbodyparts.com/product_info.php?products_id=2943) | confirm |
+| Golden Star **SB12-78BS** bench→bucket bracket set, El Camino/Caballero | [JEGS](https://www.jegs.com/i/Golden-Star/189/SB12-78BS/10002/-1) | $65.95 – $69.25 |
+| GMK4562507811S bench→bucket bracket set | [BC G-Body Parts (CA)](https://bcgbodyparts.com/products/gmk4562507811s) | confirm CAD |
+| Bucket seat brackets GK3023, 78-87 A/G body | [eBay](https://www.ebay.com/itm/388061843404) | confirm |
+
+**Outer floor mounts.** These are **shared between a full bench and buckets** —
+Dixie describes DM00579 as "for factory bench seats, or the outboard mounts for
+buckets and 55/45 split bench." So the outer mounts already in this car are the
+right part. Replace only if rusted or missing.
+
+| Part | Source | Price |
+|---|---|---|
+| 78-88 outer seat track floor mounts — DM00579 | [Dixie](https://www.dixierestorationdepot.com/Product/Detail.aspx?s=DM00579) | $54.95 |
+| Outer seat mounts, set of 4, model 3183055 | [Chevelle Depot (CA)](https://www.chevelledepot.ca/interior/seats/seat-hardware/el-camino-outer-seat-mounts-factory-bucket-seats-45-55-bench) | confirm CAD |
+
+### Why they slump — diagnose before mounting
+
+"Slumped" is a symptom with four possible causes; sort out which before spending
+anything on brackets.
+
+1. **The wood.** Plywood under a seat compresses, splits and pulls its fasteners.
+   Often the whole answer.
+2. **Broken recliner hinge.** A known 3rd-gen F-body failure. Used GM hinges and
+   reproduction parts are available ([Hawks Third Generation](https://www.hawksmotorsports.com/),
+   [Third Gen Bargain Barn](https://shop.thirdgenbargainbarn.com/products/seat-hinge-recline-mechanism-82-92-camaro-firebird-shrm001)).
+3. **Broken or seized slider.** Also common on 3rd-gens.
+4. **Cracked seat frame** at the hinge pivot — if this, the seat is scrap; buy
+   different buckets or go back to a bench.
+
+### Procedure
+
+1. **Seats out.** Photograph the floor with the carpet back: outer mounts present
+   or not, any inner mounts, condition of the pan where the wood sat, and every
+   hole already drilled through it.
+2. **Fix the floor first.** Weld up stray holes, repair rust. Weld-in brackets
+   need sound metal, and this car already has water-trail staining down the cab
+   back panel into the smuggler's box — do the rear window seal and the back
+   panel before anything gets bolted or welded into the floor.
+3. **Sort the seats** — recliner, slider, frame — per the diagnosis above.
+4. **Mate the seats to G-body sliders.** Re-drill the seat frame to 14-1/2".
+5. **Fit the inner floor mounts.** The repro sets are weld-in. Bolt the inner
+   bracket loosely to the slider, bolt the seat down at the existing **outer**
+   floor holes, square the seat, trace the bracket footprint, **tack only**,
+   test-fit both seats, then weld out. Factory locations are in the
+   [measurement table below](#installation).
+   For a missing stud, the sound practice is to **weld the head of a flanged or
+   carriage bolt to the underside of the floor pan** rather than relying on a
+   nut and washer alone.
+6. **Test-fit for cab clearance before final welding.** 3rd-gen F-body backs are
+   tall and the Caballero's rear cab wall is close behind. Check recline travel
+   and full rearward slide.
+7. **Sort the belts.** A bench car is plumbed for two outboard belts plus a centre
+   lap belt; buckets need an inboard buckle stalk per seat. Grade 8 hardware,
+   wide backing plates under the pan. The open known-issue on the loose rear
+   driver-side belt anchor bolt gets fixed now, with the floor open.
+8. **Then carpet, then trim.**
+
+## Option A — factory-style 50/50 split bench
 
 Nobody reproduces a complete assembled 78-87 El Camino/Caballero split bench.
 The path is **used core + new foam + new cover**.
@@ -91,7 +218,9 @@ Cerullo is the only one of these that keeps the factory bolt pattern.
 
 ### Used OEM that bolts up
 - **Any 78-87 G-body buckets** — direct bolt-up, no modification.
-- **82-92 Camaro / Firebird** — bolt onto existing G-body tracks.
+- **82-92 Camaro / Firebird** — bolt onto existing G-body tracks, but the seat
+  frame's slider holes are **13-1/2"** apart against the G-body's **14-1/2"**;
+  see [Adapting the 1982 Firebird buckets](#adapting-the-1982-firebird-buckets).
 - **Late-80s Grand Am**, **S-10 Blazer** — reported to bolt to G-body tracks.
 - **S-10 pickup buckets** — *not* a clean bolt-in: roughly **0.75" difference in
   the bolt holes side to side** (front-to-back is fine), and the stock El Camino

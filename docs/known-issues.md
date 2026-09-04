@@ -41,6 +41,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 |---|---|---|---|
 | Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
+| Front seats are 1982 Firebird buckets **bolted to wood**, sitting slumped — not a valid anchorage; car was originally a full bench, so the inner floor mounts buckets require do not exist | **Safety — inspection-critical** | Open — see [`seats-sourcing.md`](seats-sourcing.md) |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
 
