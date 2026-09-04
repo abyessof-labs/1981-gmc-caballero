@@ -424,6 +424,78 @@ the inner holes it needs reinforcing.
   brokerage. A local used core off Kijiji or Marketplace, collected with the
   trailer, is usually the cheapest route to a Montréal driveway.
 
+## Seat belts
+
+The buckle receivers on the Firebird seats are worn. Before buying Firebird
+parts, note the constraint that decides this:
+
+> The replacement buckle must match the name printed on the seat belt label —
+> various manufacturers were used and **they are not interchangeable.**
+
+A buckle and its latch plate (tongue) are a **matched pair**. A Firebird buckle
+is engineered to accept a Firebird tongue. Mixing a Firebird buckle with this
+car's belt tongue is not a safe assembly, however well it seems to click.
+
+### First: what is actually worn?
+
+Two very different problems wearing the same name.
+
+| Symptom | Severity | Fix |
+|---|---|---|
+| Plastic sleeve scuffed, cracked, faded; button sticky or discoloured | Cosmetic | Reproduction sleeves and push-button kits, cheap |
+| Latch does not click positively, releases under a hard pull, button binds | **Safety — replace, do not restore** | New matched belt set |
+
+Test: buckle it, then yank hard on the tongue. A latch that holds is sound and
+may only need new plastics.
+
+### Recommended — belts for the car, not for the seats
+
+Complete **1978-87 El Camino bucket seat** belt kits are made: 3-point, with
+retractor, receiver, floor bracket and safety loop, correct GM push buttons,
+sold as direct bolt-in replacements for the factory system. That is a matched
+set, anchored the way this car was designed to be anchored, and the cleanest
+answer for the SAAQ inspection.
+
+| Source | Product |
+|---|---|
+| [SeatbeltPlanet](https://www.seatbeltplanet.com/i-30497560-1978-1987-chevy-el-camino-bucket-seat-belt-kit.html) | 1978-1987 El Camino **bucket seat** belt kit |
+| [OPGI](https://www.opgi.com/interior-accessories/seat-accessories/seat-belts-1978-87-el-camino-3-point-retractable-buckets-L240541.html) | 1978-87 El Camino 3-point retractable, buckets |
+| [SeatbeltsPlus](https://www.seatbeltsplus.com/category/el-camino-seatbelts.html) | "Direct Fit" El Camino belts, factory-match |
+| [SafeTboy](https://safetboy.com/products/1978-1987-chevrolet-el-camino-safety-seat-belt-mounting-anchor-system-with-90-degree-plates-for-2-belts-ss-conquista-royal-knight-el-camino) | Anchor system with reinforcement and 90° conversion plates — converts floor mounts to upright mounts |
+
+Note the [SeatbeltPlanet bench version](https://www.seatbeltplanet.com/i-30497559-1978-1987-chevrolet-el-camino-bench-seat-belt-kit.html) exists too — order the
+**bucket** kit, since the car is going to buckets.
+
+### If the Firebird belts are kept instead
+
+Only viable as a **complete matched F-body set** — buckles, tongues and
+retractors together, not buckles alone.
+
+| Part | Source |
+|---|---|
+| 82-92 receiver sleeves, repro, pair — black / grey / red / saddle tan | [Hawks](https://www.hawksmotorsports.com/84-92-camaro-firebird-seat-belt-receiver-sleeves-black-pair-new-reproduction/), [eBay](https://www.ebay.com/itm/292005833101) |
+| 83-92 receiver **push button repair kit**, set of 4 | [Hawks](https://www.hawksmotorsports.com/83-92-camaro-firebird-seat-belt-receiver-push-button-kit-set-of-4/) |
+| 82-2002 receiver bolts, GM used, pair | [Hawks](https://www.hawksmotorsports.com/1982-2002-camaro-firebird-seat-belt-receiver-bolts-gm-used-pair/) |
+| 83-92 seat belt pieces, used, select pieces | [Hawks](https://www.hawksmotorsports.com/83-92-seat-belt-pieces-select-pieces-used/) — 82-84 colours are rare; black sold only as a complete set |
+| NOS 85-92 GM black buckle kit, front & rear | [eBay](https://www.ebay.com/itm/266678187688) |
+| Reproduction F-body belts | [Classic Industries](https://www.classicindustries.com/shop/1982/pontiac/firebird/parts/interior-hard-parts/seat-belts-harnesses/), [Ecklers](https://www.ecklers.com/1982-firebird-seat-belts-harnesses.html) |
+
+### Restoration services (rewebbing, latch rebuild)
+
+Appropriate for cosmetics and webbing on a sound latch. Not a fix for a latch
+that fails the yank test.
+
+- [Ssnake-Oyl](https://www.ssnake-oyl.com/mm5/merchant.mvc?Screen=CTGY&Store_Code=Ssnake-Oyl&Category_Code=RS) — concours quality, priced accordingly
+- [Python Restoration](https://pythonrestoration.com/)
+- [Safety Restore — classic car webbing](https://www.safetyrestore.com/webbing-replacement/6793-classic-car-seat-belts.html)
+
+### SAAQ
+
+Belts and their anchorages are inspected. Whatever route is taken, the finished
+system must be one matched set, properly anchored, with the
+[open rear driver-side anchor bolt issue](known-issues.md) corrected — that work
+happens with the seats out, alongside the mounting.
+
 ## Reference threads and videos
 
 Collected while researching this job. **None of these could be opened from the
