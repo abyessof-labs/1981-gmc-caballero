@@ -29,6 +29,7 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   parts-sourcing.md       Where to buy in Canada, and the El Camino/Caballero part-number traps
+  power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry

@@ -43,6 +43,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
+| Power windows — presence unconfirmed; base Z88 so `A31` was optional | Informational | Open — check door for switch plate vs crank, and `A31` on the SPID sticker. Procedure and manuals researched in [`power-window-motor.md`](power-window-motor.md) |
 
 ## Trim / identification
 
