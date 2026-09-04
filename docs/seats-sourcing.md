@@ -195,22 +195,43 @@ descriptions of images anyone has verified.
 - [GBodyForum — need help with G-body bucket seat brackets](https://gbodyforum.com/threads/need-help-with-g-body-bucket-seat-brackets.62258/)
 - [El Camino Central — seat tracks: different for buckets and 60/40?](https://www.elcaminocentral.com/threads/question-about-seat-tracks-differnt-for-buckets-and-60-40.12543/)
 
-### Unresolved: 13-1/2" or 14-1/2"?
+### Resolved: the tracks in this car are the later style, all four usable
 
-The sources conflict, and it matters because it decides whether the seat frames
-need re-drilling at all.
+Confirmed 2026-09-04 — all four rails sit flat on the floor beside the tunnel,
+none on top of it. That is the later split-bench style, which shares the bucket
+configuration. **Nothing needs to be bought for the mounting**: no bracket set,
+no floor mounts, no tracks.
 
-| Source | Claim |
+### The seat-to-track spacing — and why it may work out
+
+The earlier conflict is now mostly settled, and not in favour of the
+"one universal GM pattern" claim:
+
+| Measurement | Reported |
 |---|---|
-| El Camino Central | El Camino seat-to-slider holes are **14-1/2"**; 3rd/4th-gen Camaro/Firebird are **13-1/2"** |
-| GBodyForum | GM manual bucket adjusters bolt at ~**13-1/2"**, and that is "the same bolt pattern on every manual adjust bucket seat GM has ever made" — later split benches included |
+| G-body **bucket** seat, centre-to-centre on the seat underside | **14-1/2"** |
+| Camaro / Firebird seat, side to side | **13-1/2"** |
+| 86-91 F-body seat bolt pattern | **13-1/2" W x 14" L** |
 
-If the second is right for this car, the Firebird seats bolt to G-body tracks
-with **no re-drill**. It is possible both are true and the 14-1/2" figure
-describes the bench/split-bench tracks rather than the bucket ones.
+Three independent sources now agree the F-body pattern is narrower than the
+G-body bucket pattern, so the "every GM manual bucket adjuster is the same"
+claim does not hold.
 
-Not resolvable from a search result. Settle it with a tape measure on the actual
-parts before ordering or drilling anything.
+**But this car does not have bucket tracks — it has split-bench tracks.** And
+one report states the standard bucket seat track is about **1" wider on the
+driver side than the 60/40 split bench track**. If that holds, the split-bench
+tracks in this car are around 13-1/2" — which is the Firebird pattern.
+
+If so, the Firebird seats bolt straight onto the tracks already in the floor
+with no re-drill and no modification of any kind.
+
+This is two forum claims chained together, so treat it as a hypothesis, not a
+fact. It is also the single cheapest thing to check: one tape measure, two
+minutes.
+
+**The measurement that ends the job:** centre-to-centre across the driver's
+side, between the inner and outer track where the seat bolts down — then the
+same across the underside of a Firebird seat. Matching numbers means bolt it in.
 
 #### Current prices
 
