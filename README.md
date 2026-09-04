@@ -20,15 +20,36 @@ Purchase, repair, and restoration tracking for a 1981 GMC Caballero bought in Oa
 ## Repo layout
 
 ```
+index.html               Cost & mileage logger (GitHub Pages app) — see below
+assets/                  Stylesheet and script for that app
+costs.csv                Running spend, direct and indirect
+mileage.csv              Odometer readings
 docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry
 photos/
   evidence/                Annotated photos referenced from known-issues.md
 ```
+
+## Cost & mileage logger
+
+`index.html` is a small phone-friendly web app for logging spend and odometer readings from the
+driveway. Three buttons on the home screen — **direct cost**, **indirect cost**, **mileage** — each
+open a short form; totals sit underneath.
+
+Entries save to the browser immediately, so the app works offline and needs no account. With a
+fine-grained GitHub token pasted into Settings, the **pending** chip commits those entries onto the
+end of `costs.csv` and `mileage.csv` in this repo — that is the closest thing to a database a static
+site gets, and it keeps the full history in git. Without a token the app stays device-only and
+exports CSV you can paste in by hand.
+
+To publish it: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**, which
+serves it at `https://abyessof-labs.github.io/1981-gmc-caballero/`. Full details, including the cost
+classification and the token's security trade-off, are in [`docs/logger-app.md`](docs/logger-app.md).
 
 ## Status
 
