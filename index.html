@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#16181d">
+<title>Caballero Log</title>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#128663;</text></svg>">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark">81</span>
+    <span class="brand-text">GMC Caballero<small>cost &amp; mileage log</small></span>
+  </a>
+  <button id="syncBtn" class="sync-chip" type="button" title="Sync to GitHub">
+    <span id="syncCount">0</span> pending
+  </button>
+</header>
+
+<main id="app" class="wrap"></main>
+
+<nav class="tabbar">
+  <a href="#/" data-tab="/">Home</a>
+  <a href="#/entries" data-tab="/entries">Entries</a>
+  <a href="#/settings" data-tab="/settings">Settings</a>
+</nav>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
