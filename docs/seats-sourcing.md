@@ -5,9 +5,17 @@ bucket seats bolted to wood**, sitting slumped. That is not an anchorage — it 
 a safety defect and an SAAQ inspection failure, tracked in
 [`known-issues.md`](known-issues.md).
 
-The car left the factory with a **full bench**, which is the root of the problem:
-a full-bench floor has only the *outer* mounting points, and buckets need *inner*
-ones too.
+**The factory seat was a split bench with fold-down backs**, per the previous
+owner (2026-09-04) — not the plain "granny" bench. That is the good case, and it
+decides the whole job: **a split-bench floor already carries the inner mounting
+points that buckets need.** No bench-to-bucket bracket set, no drilling, no
+welding.
+
+Note this is the owner's recollection, not documentation. The SPID sticker
+(RPO **AM6** = front split seat, 3-passenger, centre armrest) would confirm it,
+and that sticker is already owed for the trim question in
+[`purchase-summary.md`](purchase-summary.md). What is in the floor is
+verifiable directly, though — see the check below.
 
 Two paths follow. [Adapting the Firebird buckets properly](#adapting-the-1982-firebird-buckets)
 is the near-term fix and is written up first in the install section. The
@@ -55,14 +63,29 @@ bucket use.
 ## Adapting the 1982 Firebird buckets
 
 The seats already in the car are 3rd-gen F-body buckets. They can be mounted
-properly, but not by bolting them to the floor — the chain has three links and
-the car is missing two of them:
+properly, but not by bolting them to the floor. The chain has three links:
 
 ```
 Firebird seat frame  →  G-body seat sliders  →  G-body floor mounts  →  floor
-   (have it)             (need them)             (outer: probably have
-                                                  inner: definitely missing)
+   (have it)             (need them)             (have them — split bench
+                                                  car, inner + outer both)
 ```
+
+**Only the middle link is missing.** Multiple sources agree that split-bench and
+bucket floor brackets are the same part, so with a split-bench car there is
+nothing to weld and nothing to drill.
+
+### Verify before buying (5 minutes, carpet back)
+
+Look at the driver's side. Two rails **side by side, running fore-aft, roughly
+14-1/2" apart** — one near the door, one near the tunnel — confirms inner and
+outer are both present. Two rails **in line front-to-back** with bare floor by
+the tunnel would mean the floor is a full-bench floor after all, and the
+bench-to-bucket bracket sets listed under [Option C](#option-c--buckets) come
+back into play.
+
+Also note whether the bench's own **tracks** are still bolted down, or only the
+floor mounts — that decides how many tracks need sourcing.
 
 ### The two spacings that decide the job
 
@@ -105,18 +128,20 @@ Prix, Cutlass, El Camino.
 | Bucket seat track repair parts, 78-88 G-body | [Chicago Muscle Car Parts](https://www.chicagomusclecarparts.com/products/seat-track-repair-78-88-g-body) |
 | Slider leg mount plastic covers, LH & RH manual, 8pc | [GBodyParts #1323](https://gbodyparts.com/product_info.php?products_id=1323) |
 
-**Inner floor mounts — the missing link on a bench car.**
+**Inner floor mounts — not needed.** A split-bench car already has them. The
+bench-to-bucket bracket sets (Golden Star SB12-78BS, GBodyParts #769, Dixie
+DM00572, Corbeau and Procar OEM-bench adapters) are all **off the list** unless
+the floor check above comes back the other way. They are kept in
+[Option C](#option-c--buckets) for that case.
 
-| Part | Source | Price |
-|---|---|---|
-| 78-88 **inner** bucket & 55/45 bench seat track floor mounts, set of 4 — DM00572 | [Dixie](https://www.dixierestorationdepot.com/Product/Detail.aspx?s=DM00572) | confirm |
-| 78-88 G-body bucket seat track floor mount conversion bracket set (INNER) | [GBodyParts #769](https://gbodyparts.com/product_info.php?products_id=769) / [eBay](https://www.ebay.com/itm/313735442447) | ~$57.95 |
-| G-body main seat mount brackets w/ bucket brackets — replaces both inner track mounts, bench→bucket | [GBodyParts #2943](https://gbodyparts.com/product_info.php?products_id=2943) | confirm |
-| Golden Star **SB12-78BS** bench→bucket bracket set, El Camino/Caballero | [JEGS](https://www.jegs.com/i/Golden-Star/189/SB12-78BS/10002/-1) | $65.95 – $69.25 |
-| GMK4562507811S bench→bucket bracket set | [BC G-Body Parts (CA)](https://bcgbodyparts.com/products/gmk4562507811s) | confirm CAD |
-| Bucket seat brackets GK3023, 78-87 A/G body | [eBay](https://www.ebay.com/itm/388061843404) | confirm |
+**How many tracks to source.** Sources disagree and it is worth knowing before
+ordering: one says a split-bench car "has the four rails — two for each bucket",
+another that "only two of the four split bench seat tracks interchange for
+bucket seat use", a third that bucket and split-bench tracks are simply the
+same. Cheapest resolution is to try the ones in the car and buy only what does
+not fit — used G-body tracks are scrap-yard money either way.
 
-**Outer floor mounts.** These are **shared between a full bench and buckets** —
+**Outer floor mounts.** These are **shared across full bench, split bench and buckets** —
 Dixie describes DM00579 as "for factory bench seats, or the outboard mounts for
 buckets and 55/45 split bench." So the outer mounts already in this car are the
 right part. Replace only if rusted or missing.
