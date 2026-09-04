@@ -35,6 +35,19 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
 
+## Electrical
+
+| Issue | Severity | Status | Evidence |
+|---|---|---|---|
+| Oil pressure gauge moves when the hazard lights are switched on (key out, engine off) — needle drops to zero as the flashers come on | **Ground fault, not an oil pressure fault** — gauge readings not trustworthy until resolved | Open — priority | — |
+| Braided ground strap at the firewall bolted to a badly rusted screw | Prime suspect for the above; corroded bond, not a corroded braid | Open — trace both ends, clean the joint | — |
+| Grounds generally — battery negative to block, block to firewall/body, body to frame, lamp housings | Untested as a set; bad bonds also read as lighting faults at the SAAQ inspection | Open | — |
+
+Note on the gauge: the needle resting a quarter above zero with the key out is **not** a symptom — these
+gauges have no return spring and park wherever the last field left them. Only the movement in time with
+the flasher is diagnostic. Only the oil gauge visibly reacting does not narrow it to that circuit either:
+the fuel and temp gauges are damped by design and would not show a fast flicker even on a shared fault.
+
 ## Interior
 
 | Issue | Severity | Status | Evidence |
