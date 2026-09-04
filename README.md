@@ -24,6 +24,7 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  seats-sourcing.md       Front seat options (bench / bucket), vendors, install
 log/
   README.md               How to add a work-log entry
 photos/
