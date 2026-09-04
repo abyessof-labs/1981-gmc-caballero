@@ -6,3 +6,5 @@ date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes
 ,direct,paperwork,Vehicle appraisal,,,,pending,,Required by SAAQ; $80-150 remote or quote from GAA list
 ,direct,paperwork,SAAQ mechanical inspection,,,,pending,,Get quotes - no fixed rate
 ,direct,transport,U-Haul trailer rental,U-Haul,,300.00,pending,,
+2026-09-03,direct,purchase,Purchase Price for vehicle,Kijiji,,4200.00,paid,,
+2026-09-04,indirect,travel,U-Haul Trailer Rental,U-Haul,,152.36,paid,,
