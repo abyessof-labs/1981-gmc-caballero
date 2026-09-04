@@ -54,6 +54,68 @@ Groupe Mécamobile: **1-800-661-5921**. Advertises extended hours. **Confirm lig
 
 Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Dorval), 7044 Chemin Saint-François (Saint-Laurent).
 
+## Welded structural repairs and the mechanical inspection
+
+Relevant to the rotted body mounts and any frame or floor repair.
+
+**"As long as it's safe" is not the standard.** For welded structural repairs
+Quebec adds a paperwork requirement on top of the workmanship.
+
+This Caballero is **body-on-frame** (separate body and perimeter frame), so the
+"carrosserie et cadre séparés" rules apply rather than the monocoque ones.
+
+| Requirement | Detail |
+|---|---|
+| Where welding is allowed | On frame rails (longerons) and crossmembers (traverses) **in specific cases only** — not open-ended |
+| **Attestation** | A **competent welder must issue an attestation** certifying the work was done according to the rules of the art (*règles de l'art*) and the manufacturer's standards. Required for both monocoque and separate-frame vehicles |
+| At inspection | **No cracks** may be present in the welds or adjacent to them |
+| Method matters | Joint location, weld type, materials, **rust protection**, reinforcement plates — per the manufacturer's repair methods |
+| What inspectors look for | Non-factory welds on the frame are specifically flagged. A frame crack is an automatic fail |
+| Corrosion generally | Light surface rust is tolerated; disintegrating metal or perforation is not |
+
+**Age works in this car's favour.** For a vehicle 15+ years old coming from
+outside Quebec, the inspection applies the Canadian safety standards **in force
+at its date of manufacture** — 1981 standards, not current ones.
+
+### Read before welding
+
+| Document | URL |
+|---|---|
+| **Bulletin GVM 12 — Réparations et modifications des structures de véhicules** | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/Bulletin_GVM_12.pdf |
+| Guide de vérification mécanique des véhicules routiers (updated Aug 2024) | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/guide-verification-mecanique.pdf |
+| Road vehicle mechanical inspection guide (English) | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/mechanical-inspection-guide.pdf |
+| Bulletin GVM 11 | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/Bulletin_GVM_11.pdf |
+| Les véhicules modifiés ou de fabrication artisanale (2024) | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/vehicules-modifies-fabrication-artisanale.pdf |
+| Safety standards for road vehicles (SAAQ, English) | https://saaq.gouv.qc.ca/en/transportation-goods/mechanical-inspection-and-maintenance/safety-standards-road-vehicles |
+
+**Unverified.** These documents could not be opened from the research session —
+saaq.gouv.qc.ca is blocked by the egress policy, and separately sits behind a
+Radware bot check for automated clients. The requirements above come from
+search-result summaries of them. **GVM 12 is the governing document and has not
+been read** — in particular, whether a *body mount* repair falls under the
+structural-repair attestation rule or under ordinary corrosion repair is not
+established here.
+
+### Practical consequences
+
+1. **Read GVM 12 before any metal is cut.**
+2. **Have the welding done by someone who can issue the attestation.** Getting
+   one after the fact, from a welder who did not do the work, is a problem.
+   Prefer a shop that already does SAAQ work.
+3. **Talk to the mandataire before, not after** — see the agent list above. A
+   pre-inspection conversation about the planned repair is the cheapest
+   insurance available on this job.
+4. **Photograph before, during and after**, into `photos/evidence/`. Rot
+   extent, cut-back to clean metal, fit-up, finished welds, rust protection
+   applied.
+5. **Rust protection is part of the standard**, not an afterthought — cavity
+   wax and seam sealer on the repair.
+6. **Sequence structural work first.** Body mounts, frame and floor before
+   interior, seats, carpet and upholstery.
+
+This is a **one-time** inspection for out-of-province registration. Worth doing
+once, correctly.
+
 ## Shops
 
 | Shop | Where | For |
