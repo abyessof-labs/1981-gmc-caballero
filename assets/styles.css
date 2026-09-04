@@ -109,6 +109,7 @@ body {
 }
 
 .sync-chip[data-state="dirty"] { color: var(--accent); border-color: var(--accent); }
+.sync-chip[data-state="error"] { color: var(--danger); border-color: var(--danger); }
 .sync-chip[data-state="busy"] { opacity: .6; }
 
 /* ---------- layout ---------- */
@@ -233,6 +234,7 @@ select {
 .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .hint { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
 .hint.calc { color: var(--mileage); }
+.hint[data-state="error"] { color: var(--danger); }
 
 /* ---------- buttons ---------- */
 

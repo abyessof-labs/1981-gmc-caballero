@@ -17,21 +17,27 @@ saving an entry never needs one.
 ## Where the data actually lives
 
 A GitHub repo is not a database — it is a versioned filesystem, and Pages serves it as static files
-with no server-side code. So the app uses two layers:
+with no server-side code. So:
 
-1. **The browser.** Every entry is written to `localStorage` the moment you save it. This is the
-   real working store: instant, offline, no account. It is also per-device — entries logged on your
-   phone do not appear on your laptop until they reach the repo.
-2. **The repo.** With a token configured, the **pending** chip in the top-right appends the
-   unsynced rows to `costs.csv` and `mileage.csv` through the GitHub contents API and commits them.
-   That gives one shared, versioned, greppable copy that survives a lost phone or a cleared cache.
+**The repo's CSVs are the source of truth.** The app reads `costs.csv` and `mileage.csv` on open,
+on every refresh, and whenever the tab comes back to the foreground. Reading needs no token while
+the repo is public, so any device can open the URL and see the whole log immediately.
 
-The sync only ever appends and it only marks an entry as synced after GitHub confirms the commit,
-so a failed or half-finished sync re-sends the missing rows rather than duplicating the sent ones.
-If someone else commits to the same file mid-sync, the app re-reads the file and retries once.
+**localStorage holds only two things:** an outbox of entries not yet committed, and a cached copy of
+the CSVs so the app still shows the log with no connection. It is not a second database, which is
+what keeps the two devices from diverging.
 
-Deleting an entry in the app removes it from the device only. Rows already committed have to be
-removed from the CSV in the repo — that is the point of keeping the history in git.
+Each sync reads first, then pushes what the repo is missing. An entry leaves the outbox only once
+it comes back from the repo carrying its own `entry_id`. That ordering is what makes the sync safe
+to interrupt: if a push is cut off mid-commit — a reload, a backgrounded tab, a dropped connection —
+the next sync sees the row already present and drops its local copy instead of committing it again.
+If someone else commits to the same file mid-push, the app re-reads and retries once.
+
+Two consequences worth knowing:
+
+- **Deleting** works on queued entries only. Once a row is in the repo, remove it by editing the CSV
+  there — that is the point of keeping the history in git.
+- **A queued entry lives on one device.** Until you sync, it exists nowhere else.
 
 ## The token
 
@@ -73,7 +79,7 @@ CSV — the `cost_type` column is the only thing that changed.
 `costs.csv`
 
 ```
-date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes
+date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes,entry_id
 ```
 
 `cost_type` is `direct` or `indirect`; `status` is `paid`, `pending`, `quoted`, or `refunded`;
@@ -82,12 +88,20 @@ date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes
 `mileage.csv`
 
 ```
-date,odometer_km,trip_km,purpose,driver,notes
+date,odometer_km,trip_km,purpose,driver,notes,entry_id
 ```
 
 `trip_km` is computed from the previous reading when you save, and left blank if the new reading is
 lower than the last one (rolled-over five-digit odometer, a correction, or a typo — worth eyeballing
 rather than guessing at).
+
+`entry_id` is written by the app so an interrupted push can be recognised rather than repeated.
+Rows added by hand can leave it empty; both files parse fine without the column at all, which is why
+rows predating it still load. Do not reuse an id across two rows.
+
+Both files are ordinary CSV — quoted fields, doubled quotes inside them — and the app parses
+embedded commas, quotes, and newlines, so a hand-edited or spreadsheet-saved file loads correctly.
+Notes typed across several lines are collapsed onto one line when written, to keep one row per entry.
 
 ## Changing it
 
