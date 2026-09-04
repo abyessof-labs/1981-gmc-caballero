@@ -8,7 +8,7 @@ Purchase, repair, and restoration tracking for a 1981 GMC Caballero bought in Oa
 |---|---|
 | Year / Make / Model | 1981 GMC Caballero |
 | Colour | Black |
-| Odometer at purchase | 106,000 km |
+| Odometer at purchase | 207,000 km |
 | VIN (as photographed) | `1GTCW80H5BD502462` — **check digit does not validate; confirm against the permit, dash plate, and door jamb before treating this as final.** See [`docs/purchase-summary.md`](docs/purchase-summary.md). |
 | Engine | LG4 5.0L / 305 cu in four-barrel V8 — confirmed via VIN 8th character (`H`) |
 | Trim | Base Caballero (Z88) — confirmed by absence of Diablo/Amarillo markers; **pending final confirmation from the glove-box SPID sticker** |

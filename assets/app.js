@@ -31,7 +31,7 @@ const DEFAULT_CFG = {
   costsPath: 'costs.csv',
   mileagePath: 'mileage.csv',
   token: '',
-  baseOdometer: 106000
+  baseOdometer: 207000
 };
 
 /* ------------------------------------------------------------------ state */
@@ -217,6 +217,16 @@ function download(filename, text) {
 
 /* ----------------------------------------------------------------- totals */
 
+/**
+ * The odometer the car came with. It lives in the first row of mileage.csv, so
+ * every device agrees on it — a per-browser setting would drift between them.
+ * The setting is only the fallback for a mileage file with nothing in it yet.
+ */
+function baselineOdometer() {
+  const first = repoEntries.find(e => e.kind === 'mileage' && Number(e.odometer) > 0);
+  return first ? Number(first.odometer) : (Number(config.baseOdometer) || 0);
+}
+
 function totals() {
   const rows = allEntries();
   const sum = kind => rows
@@ -229,7 +239,7 @@ function totals() {
     .filter(n => Number.isFinite(n) && n > 0);
 
   const latest = readings.length ? Math.max(...readings) : null;
-  const base = Number(config.baseOdometer) || 0;
+  const base = baselineOdometer();
 
   return {
     direct: sum('direct'),
@@ -245,7 +255,7 @@ function lastOdometer() {
     .filter(e => e.kind === 'mileage')
     .map(e => Number(e.odometer))
     .filter(n => Number.isFinite(n) && n > 0);
-  return readings.length ? Math.max(...readings) : Number(config.baseOdometer) || null;
+  return readings.length ? Math.max(...readings) : baselineOdometer() || null;
 }
 
 /* ------------------------------------------------------------------ views */
@@ -290,7 +300,7 @@ function homeView() {
       </div>
     </div>
     <p class="hint" data-state="${loadState}">${esc(repoStatusLine())}</p>
-    ${t.odometer == null ? '' : `<p class="hint">Last odometer reading ${km(t.odometer)}, baseline ${km(config.baseOdometer)}.</p>`}
+    ${t.odometer == null ? '' : `<p class="hint">Last odometer reading ${km(t.odometer)}, baseline ${km(baselineOdometer())}.</p>`}
   `;
 }
 
@@ -380,7 +390,7 @@ function mileageForm() {
         <div class="field">
           <label for="odometer">Odometer (km)</label>
           <input type="number" id="odometer" name="odometer" inputmode="numeric" step="1" min="0"
-                 placeholder="${last ?? 106000}" required>
+                 placeholder="${last ?? DEFAULT_CFG.baseOdometer}" required>
         </div>
       </div>
       <p class="hint" id="tripHint">${last ? `Previous reading: ${km(last)}.` : 'No previous reading — this one sets the baseline.'}</p>
@@ -495,6 +505,9 @@ function settingsView() {
           <input type="number" id="baseOdometer" name="baseOdometer" step="1" min="0" value="${esc(config.baseOdometer)}">
         </div>
       </div>
+      <p class="hint">The baseline in use is ${km(baselineOdometer())}, taken from the first row of
+        <code>${esc(config.mileagePath)}</code> so every device agrees on it. Edit that row to change it —
+        the box above is only used while the mileage file is empty.</p>
 
       <div class="row">
         <div class="field">

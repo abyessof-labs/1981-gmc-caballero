@@ -95,6 +95,11 @@ date,odometer_km,trip_km,purpose,driver,notes,entry_id
 lower than the last one (rolled-over five-digit odometer, a correction, or a typo — worth eyeballing
 rather than guessing at).
 
+The **first row is the baseline** — the odometer the car came with — and "driven since purchase" is
+measured from it. It lives in the file rather than in each browser's settings so every device agrees
+on it; change the starting mileage by editing that row. The baseline box in the app's Settings is
+only a fallback for a mileage file with no rows at all.
+
 `entry_id` is written by the app so an interrupted push can be recognised rather than repeated.
 Rows added by hand can leave it empty; both files parse fine without the column at all, which is why
 rows predating it still load. Do not reuse an id across two rows.
