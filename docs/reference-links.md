@@ -80,5 +80,27 @@ Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Do
 - Transmission ID: 11 pan bolts = THM200C ("METRIC" stamped on pan); 13 = TH250C/350 family
 - Trim RPO codes: `Z88` base · `D91` Amarillo · `YE7` Diablo
 - Transmission RPO: `M31` = THM250C · `MV9` = THM200C
+- **Emissions RPO: `NM8` = Export/Canada/leaded fuel (no catalyst, no O2 sensor, no CCC) · `FE9` = US Federal · `YF5` = California**
 - Engine: VIN 8th char `H` = LG4 305 4-bbl
-- Quebec has **no** emissions testing for light passenger vehicles; EQA emissions-device requirement starts at 1985 models
+- **Platform: 1978–81 = GM A-body; renamed G-body for 1982–88. Identical structure — search "78-88 G-body" for parts**
+- **Body mounts: 6 per side. #3 is the middle one under the door, and installs the opposite way round to all the others**
+- Quebec has **no** emissions testing for light passenger vehicles; EQA emissions-device requirement starts at 1985 models. **But SAAQ 7.1(a) still names the catalyzer as an exhaust component** — see [`emissions-and-exhaust.md`](emissions-and-exhaust.md)
+
+## Manuals
+
+**Haynes 24020** — *Chevrolet Chevelle, Malibu & El Camino 1969–1987*; coverage explicitly includes **GMC Caballero**. ISBN 9781850103424.
+
+- [Amazon.ca](https://www.amazon.ca/Chevrolet-Chevelle-Malibu-El-Camino/dp/1850103429)
+- PartSource — ~$33.99 CAD. **Search part number 24020**, not 24017 (that's Camaro/Firebird)
+
+Factory literature: [1981 GMC Caballero US catalog](https://xr793.com/wp-content/uploads/2021/12/1981-GMC-Caballero.pdf) · [Canadian catalog](https://xr793.com/wp-content/uploads/2017/07/1981-GMC-Caballero-CN.pdf) · [1981 GMC full line](https://xr793.com/wp-content/uploads/2022/04/1981-GMC-Trucks-Full-Line.pdf)
+
+## Other docs in this repo
+
+| Doc | Covers |
+|---|---|
+| [`saaq-inspection-criteria.md`](saaq-inspection-criteria.md) | Clause-by-clause inspection standard mapped to this car, plus a pre-inspection checklist |
+| [`body-mount-repair.md`](body-mount-repair.md) | The priority defect — identification, repair method, cost, parts, reading list |
+| [`emissions-and-exhaust.md`](emissions-and-exhaust.md) | The catalytic converter question, resolved |
+| [`rust-repair-and-protection.md`](rust-repair-and-protection.md) | Bed and underbody plan, general rust technique, cleaning products |
+| [`parts-sources.md`](parts-sources.md) | Full sourcing map, Canada-first |

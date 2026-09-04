@@ -21,9 +21,14 @@ Purchase, repair, and restoration tracking for a 1981 GMC Caballero bought in Oa
 
 ```
 docs/
-  purchase-summary.md    VIN, trim, and engine identification reasoning
-  known-issues.md         Every defect found so far, with severity and status
-  reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  purchase-summary.md          VIN, trim, and engine identification reasoning
+  known-issues.md               Every defect found so far, with severity and status
+  saaq-inspection-criteria.md   Inspection clauses mapped to this car + pre-inspection checklist
+  body-mount-repair.md          The priority defect — identification, method, cost, parts
+  emissions-and-exhaust.md      The catalytic converter question, resolved
+  rust-repair-and-protection.md Bed and underbody plan, rust technique, cleaning products
+  parts-sources.md              Full sourcing map, Canada-first
+  reference-links.md            SAAQ / Ontario process, shops, appraisers, technical reference
 log/
   README.md               How to add a work-log entry
 photos/
@@ -33,6 +38,19 @@ photos/
 ## Status
 
 **Purchased.** Repairs not yet started. See [Issues](../../issues) for the tracked work backlog — each defect or task from `docs/known-issues.md` has a corresponding issue with labels for area (`rust`, `brakes`, `mechanical`, `interior`, `paperwork`) and severity.
+
+### Post-purchase condition
+
+**Mechanically sound and runs very well**, with almost no rust. Two things stand out:
+
+- ⚠ **The middle driver's side body mount is the one defect that will not pass the SAAQ inspection.** The reinforcement above it has rotted away — the mount is attached at the bottom only, not to the body. **The driver's lower seat belt anchor sits on the same piece of metal.** Verify that anchor before driving. See [`docs/body-mount-repair.md`](docs/body-mount-repair.md).
+- The **emergency/parking brake** is the remaining mechanical item.
+
+**The entire passenger floor is new** (replaced by a previous owner) — confirm how it was welded in, since SAAQ fails a repair that weakens the structure.
+
+### Canadian-market car — confirmed
+
+Bought new in 1981 and registered in Ontario, one owner until 2025. **Canada had no catalytic converter requirement until the 1988 model year**, so this car's missing cat is almost certainly factory configuration, not a deletion — nothing to add, nothing for SAAQ to flag. This also explains the engine bay reading as "emissions deleted": a Canadian 1981 never had CCC, an ECM, an O2 sensor, or a feedback carburetor. Look for RPO **`NM8`** on the SPID sticker to close it out. See [`docs/emissions-and-exhaust.md`](docs/emissions-and-exhaust.md).
 
 ## Source material
 

@@ -6,3 +6,15 @@ date,category,item,vendor,part_number,amount_cad,status,issue,notes
 ,paperwork,Vehicle appraisal,,,,pending,,Required by SAAQ; $80-150 remote or quote from GAA list
 ,paperwork,SAAQ mechanical inspection,,,,pending,,Get quotes - no fixed rate
 ,transport,U-Haul trailer rental,U-Haul,,300.00,pending,,
+,rust,Middle driver body mount reinforcement repair,,,,estimate,,"Est $1000-2500 CAD shop (8-15 hrs); central $1200-1800. DIY materials $100-250. Blocks SAAQ inspection - see docs/body-mount-repair.md"
+,rust,Body mount bushing + hardware kit,Muscle Cars & Classics / Chevelle Depot (CA),,,pending,,Replace while apart. OEM-style rubber not urethane
+,brakes,Emergency / parking brake repair,,,,pending,,Clarify parking brake cable vs hydraulic line
+,brakes,Master cylinder (check booster too),,,,pending,,"Corrosion at booster joint suggests rear-seal weep; SAAQ fails on damp alone"
+,brakes,Brake line replacement,,,,pending,,Seller-disclosed
+,glass,Windshield replacement,,,,pending,,"Crack in driver sweep - SAAQ 8.1 fail. Clifton Auto Centre has glass in-house"
+,mechanical,Oil leak onto exhaust manifold,,,,pending,,"SAAQ 7.1/s.92 named defect. Valve cover gasket likely source"
+,mechanical,Factory air cleaner assembly,,,,pending,,"Verify Canadian-spec fitment before ordering - see docs/emissions-and-exhaust.md"
+,interior,Door panels and armrests both doors,,,,pending,,$300-450
+,supplies,Underbody coating - cavity wax + Fluid Film/Waxoyl,,,,pending,,Reapply every 1-2 years
+,supplies,Bed liner - Rhino/Line-X pro or Raptor DIY,,,,pending,,"Pro $400-800; DIY kit $100-300"
+,supplies,Cleaning chemicals starter kit,Chemical Guys (Amazon.ca),,,pending,,"Degreaser needed BEFORE inspection - agent must refuse a dirty undercarriage"
