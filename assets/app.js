@@ -478,47 +478,25 @@ function entryRow(e) {
     </div>`;
 }
 
+/**
+ * Deliberately does not show the repo coordinates — owner, repo name, branch,
+ * file paths. They are fixed in DEFAULT_CFG and never rendered, so a screenshot
+ * of this screen, or someone glancing at the phone, gives away no account. The
+ * app still reads and writes exactly as before; only the display is gone.
+ */
 function settingsView() {
   return `
     <h1>Settings</h1>
-    <p class="lede">Which repo this reads and writes, and what the odometer counts from.</p>
+    <p class="lede">Your token, and what the odometer counts from.</p>
 
     <form class="card" id="cfgForm">
-      <div class="row">
-        <div class="field">
-          <label for="owner">Repo owner</label>
-          <input type="text" id="owner" name="owner" value="${esc(config.owner)}" autocapitalize="none" spellcheck="false">
-        </div>
-        <div class="field">
-          <label for="repo">Repo name</label>
-          <input type="text" id="repo" name="repo" value="${esc(config.repo)}" autocapitalize="none" spellcheck="false">
-        </div>
+      <div class="field">
+        <label for="baseOdometer">Baseline odometer (km)</label>
+        <input type="number" id="baseOdometer" name="baseOdometer" step="1" min="0" value="${esc(config.baseOdometer)}">
       </div>
-
-      <div class="row">
-        <div class="field">
-          <label for="branch">Branch</label>
-          <input type="text" id="branch" name="branch" value="${esc(config.branch)}" autocapitalize="none" spellcheck="false">
-        </div>
-        <div class="field">
-          <label for="baseOdometer">Baseline odometer (km)</label>
-          <input type="number" id="baseOdometer" name="baseOdometer" step="1" min="0" value="${esc(config.baseOdometer)}">
-        </div>
-      </div>
-      <p class="hint">The baseline in use is ${km(baselineOdometer())}, taken from the first row of
-        <code>${esc(config.mileagePath)}</code> so every device agrees on it. Edit that row to change it —
+      <p class="hint">The baseline in use is ${km(baselineOdometer())}, taken from the first row of the
+        mileage file so every device agrees on it. Edit that row to change it —
         the box above is only used while the mileage file is empty.</p>
-
-      <div class="row">
-        <div class="field">
-          <label for="costsPath">Costs file</label>
-          <input type="text" id="costsPath" name="costsPath" value="${esc(config.costsPath)}" autocapitalize="none" spellcheck="false">
-        </div>
-        <div class="field">
-          <label for="mileagePath">Mileage file</label>
-          <input type="text" id="mileagePath" name="mileagePath" value="${esc(config.mileagePath)}" autocapitalize="none" spellcheck="false">
-        </div>
-      </div>
 
       <div class="field">
         <label for="token">GitHub token <span class="opt">— only needed to log new entries</span></label>
@@ -532,8 +510,8 @@ function settingsView() {
 
     <div class="note">
       <b>Reading needs no token</b> while the repo is public — any device can open this and see the whole log.
-      A token is only needed to <em>write</em>: it commits your queued entries onto the end of
-      <code>${esc(config.costsPath)}</code> and <code>${esc(config.mileagePath)}</code>. Use a
+      A token is only needed to <em>write</em>: it commits your queued entries onto the end of the
+      cost and mileage files. Use a
       <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">fine-grained
       personal access token</a> scoped to this one repository with <b>Contents: read and write</b>, nothing else,
       and a short expiry.
@@ -703,15 +681,12 @@ function onEntrySubmit(event) {
   else toast('Saved on this device. Add a token in Settings to push it.', 'good');
 }
 
+// Only the two fields Settings still shows. The repo coordinates are not on the
+// form, so they keep whatever DEFAULT_CFG (or a previously saved config) holds.
 function onConfigSubmit(event) {
   event.preventDefault();
   const data = Object.fromEntries(new FormData(event.currentTarget).entries());
   config = Object.assign(config, {
-    owner: data.owner.trim(),
-    repo: data.repo.trim(),
-    branch: data.branch.trim() || 'main',
-    costsPath: data.costsPath.trim() || DEFAULT_CFG.costsPath,
-    mileagePath: data.mileagePath.trim() || DEFAULT_CFG.mileagePath,
     token: data.token.trim(),
     baseOdometer: Number(data.baseOdometer) || 0
   });
