@@ -1,0 +1,12 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Scratch
+*.tmp
+*.bak
+~$*
+
+# Large raw photo dumps — keep curated/annotated ones only
+photos/raw/
