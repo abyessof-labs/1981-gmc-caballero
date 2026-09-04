@@ -310,6 +310,79 @@ the inner holes it needs reinforcing.
   brokerage. A local used core off Kijiji or Marketplace, collected with the
   trailer, is usually the cheapest route to a Montréal driveway.
 
+## Reference threads and videos
+
+Collected while researching this job. **None of these could be opened from the
+research session** — the egress policy blocks YouTube and every forum — so the
+annotations come from search-result summaries, not from reading the pages.
+Treat them as leads to read, not as verified content.
+
+### Start here
+
+| Source | Why |
+|---|---|
+| [How I install aftermarket bucket seats in my Gbody](https://www.youtube.com/watch?v=fXx5l_VvN-w) (video, Mar 2025) | Closest thing to this exact job — 1980 El Camino / G-body, includes the welding |
+| [GBodyForum — Bench to bucket seat swap](https://gbodyforum.com/threads/bench-to-bucket-seat-swap.53750/) | Best writeup found on the inner mounts specifically |
+| [El Camino Central — 83 Camaro seats into my 84 El Camino](https://www.elcaminocentral.com/threads/83-camaro-seats-swap-into-my-84-el-camino.252691/) | Source of the 13-1/2" vs 14-1/2" seat-to-slider figures |
+| [Dixie — Bucket Seat Bracket Locations](https://www.dixierestorationdepot.com/Tech/Default.aspx?Id=166) | The measured factory bracket positions, with diagrams |
+
+### G-body (78-88) — the right generation
+
+- [GBodyForum — bench to bucket conversion](https://gbodyforum.com/threads/bench-to-bucket-coversion.32502/)
+- [GBodyForum — Bench to Bucket Seats](https://gbodyforum.com/threads/bench-to-bucket-seats.2851/)
+- [GBodyForum — bucket seats swap](https://gbodyforum.com/threads/bucket-seats-swap.3211/) — F-body seats on G-body tracks
+- [GBodyForum — Bucket Seat Applications](https://gbodyforum.com/threads/bucket-seat-applications.76252/) — what interchanges
+- [GBodyForum — 80 El Camino Bucket Seat Brackets](https://gbodyforum.com/threads/80-el-camino-bucket-seat-brackets.80285/)
+- [GBodyForum — seats in my el camino](https://gbodyforum.com/threads/seats-in-my-el-camino.42057/)
+- [GBodyForum — Reverting back to a bench seat](https://gbodyforum.com/threads/reverting-back-to-a-bench-seat.65297/) — same problem in reverse
+- [GBodyForum — Seat Swaps](https://gbodyforum.com/threads/seat-swaps.42714/)
+- [MalibuRacing — swapping from bench to bucket seats](https://maliburacing.com/forum/threads/swapping-from-bench-to-bucket-seats.106148/)
+
+### El Camino Central
+
+- [Bucket seat conversion](https://www.elcaminocentral.com/threads/bucket-seat-conversion.58995/)
+- [Bench to bucket conversion advice needed](https://www.elcaminocentral.com/threads/bench-to-bucket-conversion-advice-needed.249029/)
+- [Bench to Bucket seat conversion / seat belt](https://www.elcaminocentral.com/threads/bench-to-bucket-seat-conversion-seat-belt.200122/) — the belt half
+- [Which seats will bolt up to my 81 Camino](https://www.elcaminocentral.com/threads/which-seats-will-bolt-up-to-my-81-camino.30645/) — same year as this car
+- [Camaro Seat swap](https://www.elcaminocentral.com/threads/camaro-seat-swap.45435/)
+- [Calling all 5th gen bucket seat swaps](https://www.elcaminocentral.com/threads/calling-all-5th-gen-bucket-seat-swaps.21744/)
+- [Bucket Seats for a 1985 El Camino](https://www.elcaminocentral.com/threads/bucket-seats-for-a-1985-el-camino.55935/)
+- [Aftermarket buckets in your El Camino?](https://www.elcaminocentral.com/threads/aftermarket-buckets-in-your-el-camino.250914/)
+
+### Team Chevelle — older generation, but the best technique threads
+
+- [Bench to Bucket Conversion Diagram](https://www.chevelles.com/threads/bench-to-bucket-conversion-diagram.192782/)
+- [Bucket seat tracks & bench to bucket seat conversion](https://www.chevelles.com/threads/bucket-seat-tracks-bench-to-bucket-seat-conversion.1093602/)
+- [bench seat removal / bucket seat install](https://www.chevelles.com/threads/bench-seat-removal-bucket-seat-install.1148766/)
+- [Bucket Seats in an El Camino](https://www.chevelles.com/threads/bucket-seats-in-an-el-camino.283970/)
+- [bucket seat transplant — where to weld brackets?](https://www.chevelles.com/threads/bucket-seat-transplant-where-to-weld-brackets.4637/)
+
+### Other video
+
+- [Techtip: 1964-72 Bucket Seat Brackets](https://www.youtube.com/watch?v=MaScIWjATA4) — wrong generation, right principle
+- [How to Mount Seats (Cut & Weld Brackets)](https://www.youtube.com/watch?v=zfg7bLRNiRI) — generic technique
+- [PROCAR Seats by SCAT — Brackets and Mounting](https://www.youtube.com/watch?v=L38aw7gIhnY)
+- [Mustang seats in a 1983 El Camino](https://www.youtube.com/watch?v=yH6jsqty_bk) — non-GM seat test fit
+- [SS Monte Carlo / El Camino bucket seat upholstery install](https://www.youtube.com/watch?v=kufk-W4zoN4) — upholstery, not mounting
+- [1978 El Camino SS DIY bucket seat upholstery](https://www.youtube.com/watch?v=fGaWtuMqXE8) — upholstery, not mounting
+
+### What the threads agree on
+
+- A **60/40 or 45/55 split bench car is already set up for buckets** — the mounts
+  and rails are there. A plain "granny bench" car is not, and needs inner mounts.
+- The inner mounts are **spot-welded** in from the factory. Best practice is to
+  cut a set out of a donor car (drilling the spot welds is easy) and weld them
+  into the same positions, or buy the repro set.
+- **Firebird seats work with G-body adjusters** — the stated rule is that as long
+  as the underside of the seat is wide enough to take the G-body tracks, it
+  adapts as a bolt-in.
+- Mock-up procedure, repeated in nearly every thread: tracks in place, brackets
+  bolted loosely to the tracks, seats squared with a straight edge, tack the
+  brackets, pull the seats, weld out, reinstall and re-check.
+- One dissenting note worth knowing: some report re-drilling the **outer** track
+  holes 3/4"-1" inboard of the bench holes rather than reusing them. That is
+  Chevelle-generation advice — verify against this car before drilling anything.
+
 ## Canadian suppliers
 
 | Vendor | Why |
