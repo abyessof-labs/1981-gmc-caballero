@@ -1,17 +1,25 @@
 /* 1981 GMC Caballero — cost & mileage log.
  *
- * Static single-page app for GitHub Pages. Entries are written to localStorage
- * immediately (so the app works offline and with no account), and can then be
- * committed to this repo's CSV files through the GitHub contents API.
+ * Static single-page app for GitHub Pages.
+ *
+ * The repo's CSV files are the source of truth: the app reads them on open, so
+ * every device sees the same log. localStorage holds two things only — an
+ * outbox of entries not yet committed, and a cached copy of the CSVs so the app
+ * still shows the log with no connection. An entry leaves the outbox once its
+ * commit is confirmed, which is why nothing can end up logged twice.
  */
 
 'use strict';
 
-const STORE_KEY = 'caballero.entries.v1';
+const OUTBOX_KEY = 'caballero.entries.v1';
+const CACHE_KEY = 'caballero.cache.v1';
 const CFG_KEY = 'caballero.config.v1';
 
-const COST_HEADER = ['date', 'cost_type', 'category', 'item', 'vendor', 'part_number', 'amount_cad', 'status', 'issue', 'notes'];
-const MILEAGE_HEADER = ['date', 'odometer_km', 'trip_km', 'purpose', 'driver', 'notes'];
+// entry_id is last so the human-readable columns stay first, and rows written by
+// hand (with no id) remain valid. It is what stops an interrupted push — a
+// reload or a backgrounded tab mid-commit — from logging the same entry twice.
+const COST_HEADER = ['date', 'cost_type', 'category', 'item', 'vendor', 'part_number', 'amount_cad', 'status', 'issue', 'notes', 'entry_id'];
+const MILEAGE_HEADER = ['date', 'odometer_km', 'trip_km', 'purpose', 'driver', 'notes', 'entry_id'];
 
 const DIRECT_CATEGORIES = ['parts', 'labour', 'fluids', 'tires', 'bodywork', 'paint', 'rust repair', 'brakes', 'electrical', 'interior', 'paperwork', 'purchase', 'transport', 'other'];
 const INDIRECT_CATEGORIES = ['tools', 'shop supplies', 'consumables', 'storage', 'insurance', 'fuel', 'travel', 'manuals & software', 'shipping', 'other'];
@@ -48,20 +56,38 @@ function writeJSON(key, value) {
   }
 }
 
-let entries = readJSON(STORE_KEY, []);
+let outbox = readJSON(OUTBOX_KEY, []);
+let cache = Object.assign({ costs: '', mileage: '', fetchedAt: null }, readJSON(CACHE_KEY, {}));
 let config = Object.assign({}, DEFAULT_CFG, readJSON(CFG_KEY, {}));
 
-const saveEntries = () => writeJSON(STORE_KEY, entries);
+let repoEntries = [];   // parsed out of the cached CSVs
+let repoIds = new Set(); // entry_id values already in the repo
+let loadState = cache.fetchedAt ? 'stale' : 'empty';  // empty | stale | loading | ok | error
+let loadError = '';
+let busy = false;
+
+const saveOutbox = () => writeJSON(OUTBOX_KEY, outbox);
+const saveCache = () => writeJSON(CACHE_KEY, cache);
 const saveConfig = () => writeJSON(CFG_KEY, config);
 
-const pending = () => entries.filter(e => !e.synced);
+// The push-only version of this app kept committed entries in local storage
+// behind a `synced` flag. The repo is the source of truth now, and those rows
+// are already in it, so drop them rather than showing or pushing them twice.
+if (outbox.some(e => e.synced)) {
+  outbox = outbox.filter(e => !e.synced);
+  writeJSON(OUTBOX_KEY, outbox);
+}
+
+/** Everything to display: what the repo holds, plus what is still queued. */
+const allEntries = () => repoEntries.concat(outbox);
+const pending = () => outbox;
 
 function addEntry(entry) {
   entry.id = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
   entry.created_at = new Date().toISOString();
-  entry.synced = false;
-  entries.push(entry);
-  saveEntries();
+  entry.local = true;
+  outbox.push(entry);
+  saveOutbox();
 }
 
 /* ------------------------------------------------------------- formatting */
@@ -71,6 +97,18 @@ const money = n => cad.format(Number(n) || 0);
 const km = n => `${Math.round(Number(n) || 0).toLocaleString('en-CA')} km`;
 const today = () => new Date().toLocaleDateString('en-CA');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+/** Notes come from a textarea; keep every entry on one CSV line. */
+const oneLine = s => String(s ?? '').replace(/\s*[\r\n]+\s*/g, ' / ').trim();
+
+function ago(iso) {
+  if (!iso) return 'never';
+  const seconds = Math.round((Date.now() - new Date(iso).getTime()) / 1000);
+  if (seconds < 60) return 'just now';
+  if (seconds < 3600) return `${Math.round(seconds / 60)} min ago`;
+  if (seconds < 86400) return `${Math.round(seconds / 3600)} h ago`;
+  return new Date(iso).toLocaleDateString('en-CA');
+}
 
 function toast(message, tone = '') {
   const el = document.getElementById('toast');
@@ -90,32 +128,74 @@ function csvCell(value) {
 
 const csvRow = cells => cells.map(csvCell).join(',');
 
-/** Split one CSV line, honouring quoted fields. */
-function csvSplit(line) {
-  const out = [];
+/** Parse a whole CSV, honouring quoted fields (including embedded newlines). */
+function parseCSV(text) {
+  const rows = [];
+  let row = [];
   let cell = '';
   let quoted = false;
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i];
+
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
     if (quoted) {
-      if (ch === '"' && line[i + 1] === '"') { cell += '"'; i++; }
+      if (ch === '"' && text[i + 1] === '"') { cell += '"'; i++; }
       else if (ch === '"') quoted = false;
       else cell += ch;
     } else if (ch === '"') quoted = true;
-    else if (ch === ',') { out.push(cell); cell = ''; }
-    else cell += ch;
+    else if (ch === ',') { row.push(cell); cell = ''; }
+    else if (ch === '\n') { row.push(cell); rows.push(row); row = []; cell = ''; }
+    else if (ch !== '\r') cell += ch;
   }
-  out.push(cell);
-  return out;
+  if (cell !== '' || row.length) { row.push(cell); rows.push(row); }
+
+  return rows.filter(r => r.some(c => c.trim() !== ''));
 }
 
-function costRow(e) {
-  return csvRow([e.date, e.kind, e.category, e.item, e.vendor, e.part_number, e.amount, e.status, e.issue, e.notes]);
+/** Drop the header row, if the file has one. */
+const dataRows = rows => (rows.length && rows[0][0].trim().toLowerCase() === 'date' ? rows.slice(1) : rows);
+
+function parseCosts(text) {
+  return dataRows(parseCSV(text)).map((r, i) => ({
+    id: `repo-cost-${i}`,
+    eid: (r[10] || '').trim(),
+    kind: (r[1] || '').trim().toLowerCase() === 'indirect' ? 'indirect' : 'direct',
+    date: (r[0] || '').trim(),
+    category: (r[2] || '').trim(),
+    item: (r[3] || '').trim(),
+    vendor: (r[4] || '').trim(),
+    part_number: (r[5] || '').trim(),
+    amount: (r[6] || '').trim(),
+    status: (r[7] || '').trim(),
+    issue: (r[8] || '').trim(),
+    notes: (r[9] || '').trim(),
+    created_at: '',
+    local: false
+  }));
 }
 
-function mileageRow(e) {
-  return csvRow([e.date, e.odometer, e.trip, e.purpose, e.driver, e.notes]);
+function parseMileage(text) {
+  return dataRows(parseCSV(text)).map((r, i) => ({
+    id: `repo-mileage-${i}`,
+    eid: (r[6] || '').trim(),
+    kind: 'mileage',
+    date: (r[0] || '').trim(),
+    odometer: (r[1] || '').trim(),
+    trip: (r[2] || '').trim(),
+    purpose: (r[3] || '').trim(),
+    driver: (r[4] || '').trim(),
+    notes: (r[5] || '').trim(),
+    created_at: '',
+    local: false
+  }));
 }
+
+function reparse() {
+  repoEntries = parseCosts(cache.costs).concat(parseMileage(cache.mileage));
+  repoIds = new Set(repoEntries.map(e => e.eid).filter(Boolean));
+}
+
+const costRow = e => csvRow([e.date, e.kind, e.category, e.item, e.vendor, e.part_number, e.amount, e.status, e.issue, oneLine(e.notes), e.id]);
+const mileageRow = e => csvRow([e.date, e.odometer, e.trip, e.purpose, e.driver, oneLine(e.notes), e.id]);
 
 /** Append rows to an existing CSV body, adding the header if the file is new. */
 function appendRows(existing, header, rows) {
@@ -138,14 +218,15 @@ function download(filename, text) {
 /* ----------------------------------------------------------------- totals */
 
 function totals() {
-  const sum = kind => entries
+  const rows = allEntries();
+  const sum = kind => rows
     .filter(e => e.kind === kind)
     .reduce((acc, e) => acc + (Number(e.amount) || 0), 0);
 
-  const readings = entries
-    .filter(e => e.kind === 'mileage' && e.odometer !== '' && e.odometer != null)
+  const readings = rows
+    .filter(e => e.kind === 'mileage')
     .map(e => Number(e.odometer))
-    .filter(n => Number.isFinite(n));
+    .filter(n => Number.isFinite(n) && n > 0);
 
   const latest = readings.length ? Math.max(...readings) : null;
   const base = Number(config.baseOdometer) || 0;
@@ -158,21 +239,30 @@ function totals() {
   };
 }
 
-/** Most recent odometer reading, used to pre-compute trip distance. */
+/** Highest odometer reading on record, used to pre-compute trip distance. */
 function lastOdometer() {
-  const logs = entries
-    .filter(e => e.kind === 'mileage' && Number.isFinite(Number(e.odometer)))
-    .sort((a, b) => (a.date === b.date ? a.created_at.localeCompare(b.created_at) : a.date.localeCompare(b.date)));
-  return logs.length ? Number(logs[logs.length - 1].odometer) : Number(config.baseOdometer) || null;
+  const readings = allEntries()
+    .filter(e => e.kind === 'mileage')
+    .map(e => Number(e.odometer))
+    .filter(n => Number.isFinite(n) && n > 0);
+  return readings.length ? Math.max(...readings) : Number(config.baseOdometer) || null;
 }
 
 /* ------------------------------------------------------------------ views */
+
+function repoStatusLine() {
+  if (loadState === 'loading') return 'Loading from the repo…';
+  if (loadState === 'ok') return `Up to date with the repo, checked ${ago(cache.fetchedAt)}.`;
+  if (loadState === 'error') return `${loadError} Showing the copy saved ${ago(cache.fetchedAt)}.`;
+  if (loadState === 'stale') return `Showing the copy saved ${ago(cache.fetchedAt)}.`;
+  return 'Nothing loaded from the repo yet — tap the button up top to fetch it.';
+}
 
 function homeView() {
   const t = totals();
   return `
     <h1>What are you logging?</h1>
-    <p class="lede">Saved on this device right away. Push to the repo whenever you like.</p>
+    <p class="lede">Saved on this device right away, then committed to the repo so every device sees it.</p>
 
     <div class="actions">
       <a class="action" href="#/direct" data-tone="direct">
@@ -199,9 +289,8 @@ function homeView() {
         <div class="v">${t.driven == null ? '—' : km(t.driven)}</div>
       </div>
     </div>
-    <p class="hint">${t.odometer == null
-      ? `No odometer reading logged yet. Baseline is ${km(config.baseOdometer)}.`
-      : `Last odometer reading ${km(t.odometer)}, baseline ${km(config.baseOdometer)}.`}</p>
+    <p class="hint" data-state="${loadState}">${esc(repoStatusLine())}</p>
+    ${t.odometer == null ? '' : `<p class="hint">Last odometer reading ${km(t.odometer)}, baseline ${km(config.baseOdometer)}.</p>`}
   `;
 }
 
@@ -322,9 +411,9 @@ function mileageForm() {
 let entryFilter = 'all';
 
 function entriesView() {
-  const shown = entries
+  const shown = allEntries()
     .filter(e => entryFilter === 'all' || e.kind === entryFilter)
-    .sort((a, b) => (a.date === b.date ? b.created_at.localeCompare(a.created_at) : b.date.localeCompare(a.date)));
+    .sort((a, b) => ((b.date || '').localeCompare(a.date || '') || (b.created_at || '').localeCompare(a.created_at || '')));
 
   const filters = [['all', 'All'], ['direct', 'Direct'], ['indirect', 'Indirect'], ['mileage', 'Mileage']]
     .map(([key, label]) => `<button type="button" data-filter="${key}" aria-pressed="${entryFilter === key}">${label}</button>`)
@@ -333,9 +422,11 @@ function entriesView() {
   const list = shown.length ? shown.map(entryRow).join('') : `
     <div class="empty">Nothing logged${entryFilter === 'all' ? ' yet' : ` under “${entryFilter}”`}.</div>`;
 
+  const queued = pending().length;
   return `
     <h1>Entries</h1>
-    <p class="lede">${entries.length} logged on this device, ${pending().length} not yet in the repo.</p>
+    <p class="lede">${repoEntries.length} in the repo${queued ? `, ${queued} waiting to be pushed` : ''}.</p>
+    <p class="hint" data-state="${loadState}">${esc(repoStatusLine())}</p>
     <div class="filters">${filters}</div>
     ${list}
     <h2>Export</h2>
@@ -343,39 +434,44 @@ function entriesView() {
       <button class="btn ghost" type="button" data-export="costs">Costs CSV</button>
       <button class="btn ghost" type="button" data-export="mileage">Mileage CSV</button>
     </div>
-    <p class="hint">Downloads only the rows held on this device, ready to paste into the repo by hand.</p>
+    <p class="hint">Downloads everything shown above, repo rows included.</p>
   `;
 }
 
 function entryRow(e) {
-  const flag = e.synced ? '' : '<span class="dot" title="not yet synced"></span>';
+  const flag = e.local ? '<span class="dot" title="on this device, not yet pushed"></span>' : '';
+  const del = e.local
+    ? `<button class="del" type="button" data-del="${e.id}" aria-label="Delete entry">&times;</button>`
+    : '';
+
   if (e.kind === 'mileage') {
     const meta = [e.trip ? `${km(e.trip)} this trip` : null, e.purpose, e.driver, e.notes].filter(Boolean).join(' · ');
     return `
       <div class="entry" data-kind="mileage">
         <div class="body">
-          <div class="title">${km(e.odometer)}${flag}</div>
-          <div class="meta">${esc(e.date)}${meta ? ` · ${esc(meta)}` : ''}</div>
+          <div class="title">${e.odometer ? km(e.odometer) : '—'}${flag}</div>
+          <div class="meta">${esc(e.date || 'no date')}${meta ? ` · ${esc(meta)}` : ''}</div>
         </div>
-        <button class="del" type="button" data-del="${e.id}" aria-label="Delete entry">&times;</button>
+        ${del}
       </div>`;
   }
+
   const meta = [e.category, e.vendor, e.status, e.part_number, e.issue ? `#${e.issue}` : null, e.notes].filter(Boolean).join(' · ');
   return `
     <div class="entry" data-kind="${esc(e.kind)}">
       <div class="body">
         <div class="title">${esc(e.item)}${flag}</div>
-        <div class="meta">${esc(e.date)}${meta ? ` · ${esc(meta)}` : ''}</div>
+        <div class="meta">${esc(e.date || 'no date')}${meta ? ` · ${esc(meta)}` : ''}</div>
       </div>
-      <div class="amt">${money(e.amount)}</div>
-      <button class="del" type="button" data-del="${e.id}" aria-label="Delete entry">&times;</button>
+      <div class="amt">${e.amount === '' ? '—' : money(e.amount)}</div>
+      ${del}
     </div>`;
 }
 
 function settingsView() {
   return `
     <h1>Settings</h1>
-    <p class="lede">Where entries get committed, and what the odometer counts from.</p>
+    <p class="lede">Which repo this reads and writes, and what the odometer counts from.</p>
 
     <form class="card" id="cfgForm">
       <div class="row">
@@ -412,7 +508,7 @@ function settingsView() {
       </div>
 
       <div class="field">
-        <label for="token">GitHub token <span class="opt">— leave blank to stay device-only</span></label>
+        <label for="token">GitHub token <span class="opt">— only needed to log new entries</span></label>
         <input type="password" id="token" name="token" value="${esc(config.token)}" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="github_pat_…">
       </div>
 
@@ -422,11 +518,12 @@ function settingsView() {
     </form>
 
     <div class="note">
-      <b>About the token.</b> A GitHub repo is not a database — it is a filesystem with history — so “sync” means
-      committing rows onto the end of <code>${esc(config.costsPath)}</code> and <code>${esc(config.mileagePath)}</code>.
-      That needs a <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">fine-grained
-      personal access token</a> scoped to this one repository with <b>Contents: read and write</b>, and nothing else.
-      Give it a short expiry.
+      <b>Reading needs no token</b> while the repo is public — any device can open this and see the whole log.
+      A token is only needed to <em>write</em>: it commits your queued entries onto the end of
+      <code>${esc(config.costsPath)}</code> and <code>${esc(config.mileagePath)}</code>. Use a
+      <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">fine-grained
+      personal access token</a> scoped to this one repository with <b>Contents: read and write</b>, nothing else,
+      and a short expiry.
     </div>
 
     <div class="note">
@@ -437,9 +534,9 @@ function settingsView() {
 
     <h2>Danger zone</h2>
     <div class="btn-row" style="margin-top:0">
-      <button class="btn danger wide" type="button" id="wipeBtn">Delete all local entries</button>
+      <button class="btn danger wide" type="button" id="wipeBtn">Discard queued entries</button>
     </div>
-    <p class="hint">Only clears this device. Anything already committed stays in the repo.</p>
+    <p class="hint">Only clears what this device has not pushed yet. Anything already in the repo is untouched.</p>
   `;
 }
 
@@ -461,9 +558,9 @@ function route() {
   window.scrollTo(0, 0);
 
   document.querySelectorAll('.tabbar a').forEach(a => {
-    const active = a.dataset.tab === path || (path === '/direct' || path === '/indirect' || path === '/mileage') && a.dataset.tab === '/';
-    a.toggleAttribute('aria-current', Boolean(active));
-    if (active) a.setAttribute('aria-current', 'page');
+    const onForm = path === '/direct' || path === '/indirect' || path === '/mileage';
+    if (a.dataset.tab === path || (onForm && a.dataset.tab === '/')) a.setAttribute('aria-current', 'page');
+    else a.removeAttribute('aria-current');
   });
 
   wireView();
@@ -473,8 +570,14 @@ function route() {
 function refreshSyncChip() {
   const n = pending().length;
   const btn = document.getElementById('syncBtn');
-  document.getElementById('syncCount').textContent = n;
-  btn.dataset.state = n ? 'dirty' : 'clean';
+  const label = document.getElementById('syncLabel');
+  if (busy) {
+    btn.dataset.state = 'busy';
+    label.textContent = 'Syncing…';
+    return;
+  }
+  btn.dataset.state = n ? 'dirty' : (loadState === 'error' ? 'error' : 'clean');
+  label.textContent = n ? `${n} to push` : (loadState === 'error' ? 'Retry' : 'Refresh');
 }
 
 /* --------------------------------------------------------------- wiring */
@@ -493,13 +596,11 @@ function wireView() {
   const wipe = document.getElementById('wipeBtn');
   if (wipe) wipe.addEventListener('click', () => {
     const n = pending().length;
-    const warning = n
-      ? `Delete all ${entries.length} local entries? ${n} of them have never been committed and will be lost for good.`
-      : `Delete all ${entries.length} local entries?`;
-    if (!confirm(warning)) return;
-    entries = [];
-    saveEntries();
-    toast('Local entries cleared.');
+    if (!n) return toast('Nothing queued on this device.');
+    if (!confirm(`Discard ${n} queued ${n === 1 ? 'entry' : 'entries'}? ${n === 1 ? 'It has' : 'They have'} never been pushed, so ${n === 1 ? 'it is' : 'they are'} lost for good.`)) return;
+    outbox = [];
+    saveOutbox();
+    toast('Queued entries discarded.');
     route();
   });
 
@@ -509,12 +610,9 @@ function wireView() {
 
   document.querySelectorAll('[data-del]').forEach(btn => {
     btn.addEventListener('click', () => {
-      const entry = entries.find(e => e.id === btn.dataset.del);
-      if (!entry) return;
-      const note = entry.synced ? ' It stays in the repo — remove it there separately.' : '';
-      if (!confirm(`Delete this entry?${note}`)) return;
-      entries = entries.filter(e => e.id !== entry.id);
-      saveEntries();
+      if (!confirm('Delete this queued entry? It has not been pushed yet.')) return;
+      outbox = outbox.filter(e => e.id !== btn.dataset.del);
+      saveOutbox();
       route();
     });
   });
@@ -522,11 +620,11 @@ function wireView() {
   document.querySelectorAll('[data-export]').forEach(btn => {
     btn.addEventListener('click', () => {
       const costs = btn.dataset.export === 'costs';
-      const rows = entries.filter(e => (costs ? e.kind !== 'mileage' : e.kind === 'mileage'));
+      const rows = allEntries().filter(e => (costs ? e.kind !== 'mileage' : e.kind === 'mileage'));
       if (!rows.length) return toast('Nothing to export yet.');
       const header = costs ? COST_HEADER : MILEAGE_HEADER;
-      const body = rows.map(costs ? costRow : mileageRow);
-      download(costs ? 'costs-export.csv' : 'mileage-export.csv', appendRows('', header, body));
+      download(costs ? 'costs-export.csv' : 'mileage-export.csv',
+        appendRows('', header, rows.map(costs ? costRow : mileageRow)));
     });
   });
 }
@@ -585,9 +683,11 @@ function onEntrySubmit(event) {
     });
   }
 
-  toast('Saved.', 'good');
   if (location.hash === '#/') route(); // no hashchange to wait for
   else location.hash = '#/';
+
+  if (config.token) syncNow(false);
+  else toast('Saved on this device. Add a token in Settings to push it.', 'good');
 }
 
 function onConfigSubmit(event) {
@@ -605,9 +705,10 @@ function onConfigSubmit(event) {
   saveConfig();
   toast('Settings saved.', 'good');
   route();
+  syncNow(false);
 }
 
-/* -------------------------------------------------------- github syncing */
+/* -------------------------------------------------------- github traffic */
 
 const b64encode = text => {
   const bytes = new TextEncoder().encode(text);
@@ -622,14 +723,13 @@ const b64decode = text => {
 };
 
 async function gh(path, init = {}) {
-  const response = await fetch(`https://api.github.com/repos/${config.owner}/${config.repo}/contents/${path}`, Object.assign({
-    headers: {
-      Authorization: `Bearer ${config.token}`,
-      Accept: 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28'
-    }
-  }, init));
-  return response;
+  const headers = {
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+  if (config.token) headers.Authorization = `Bearer ${config.token}`;
+  return fetch(`https://api.github.com/repos/${config.owner}/${config.repo}/contents/${path}`,
+    Object.assign({ headers, cache: 'no-store' }, init));
 }
 
 /** Current content and blob sha of a repo file, or null if it does not exist. */
@@ -641,6 +741,13 @@ async function fetchFile(path) {
   return { sha: json.sha, text: b64decode(json.content || '') };
 }
 
+/** fetch() rejects with an opaque TypeError when the network is simply gone. */
+const offlineError = err => err instanceof TypeError || /failed to fetch|networkerror|load failed/i.test(err.message || '');
+
+const friendly = (err, queued) => (offlineError(err)
+  ? (queued ? 'No connection — your entry is queued and goes up next time you sync.' : 'No connection.')
+  : (err.message || 'Something went wrong talking to GitHub.'));
+
 async function describeError(response) {
   let detail = '';
   try {
@@ -648,74 +755,126 @@ async function describeError(response) {
     detail = json.message || '';
   } catch (err) { /* non-JSON error body */ }
   if (response.status === 401) return 'GitHub rejected the token (401). Check it has not expired.';
+  if (response.status === 403 && /rate limit/i.test(detail)) return 'GitHub rate limit reached. Wait a few minutes, or add a token in Settings to raise the limit.';
   if (response.status === 403) return `GitHub refused the request (403). The token likely lacks "Contents: read and write" on this repo. ${detail}`;
-  if (response.status === 404) return `Repo, branch, or path not found (404) — also what GitHub returns when the token cannot see the repo. ${detail}`;
+  if (response.status === 404) return `Repo, branch, or path not found (404) — also what GitHub returns when a token cannot see the repo. ${detail}`;
   return `GitHub error ${response.status}. ${detail}`;
 }
 
-/** Append the given entries to one CSV file and commit it. */
+/** Append rows to one CSV file and commit it. Returns the new file contents. */
 async function commitRows(path, header, rows, message) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const file = await fetchFile(path);
-    const body = {
-      message,
-      content: b64encode(appendRows(file ? file.text : '', header, rows)),
-      branch: config.branch
-    };
+    const text = appendRows(file ? file.text : '', header, rows);
+    const body = { message, content: b64encode(text), branch: config.branch };
     if (file) body.sha = file.sha;
 
     const response = await gh(path, { method: 'PUT', body: JSON.stringify(body) });
-    if (response.ok) return;
+    if (response.ok) return text;
     if (response.status === 409 && attempt === 0) continue; // someone else committed; re-read and retry
     throw new Error(await describeError(response));
   }
 }
 
-async function sync() {
-  const btn = document.getElementById('syncBtn');
-  if (btn.dataset.state === 'busy') return;
+/** Read both CSVs into the cache. */
+async function loadRepo() {
+  const [costs, mileage] = await Promise.all([fetchFile(config.costsPath), fetchFile(config.mileagePath)]);
+  cache = {
+    costs: costs ? costs.text : '',
+    mileage: mileage ? mileage.text : '',
+    fetchedAt: new Date().toISOString()
+  };
+  saveCache();
+  reparse();
+  dropCommitted();
+}
 
-  if (!config.token) {
-    toast('Add a GitHub token in Settings to commit to the repo.', 'bad');
-    location.hash = '#/settings';
+/** An entry the repo already carries no longer belongs in the outbox. */
+function dropCommitted() {
+  const done = outbox.filter(e => repoIds.has(e.id));
+  if (!done.length) return;
+  outbox = outbox.filter(e => !repoIds.has(e.id));
+  saveOutbox();
+}
+
+/**
+ * Read the repo, then push whatever it is still missing.
+ *
+ * Reading first is what makes this safe to interrupt: an entry committed by a
+ * page load that was reloaded or backgrounded mid-push comes back with its
+ * entry_id, so it is recognised and dropped instead of committed a second time.
+ */
+async function syncNow(userInitiated) {
+  if (busy) return;
+  busy = true;
+  loadState = 'loading';
+  refreshSyncChip();
+
+  let pushed = 0;
+  let failure = '';
+
+  try {
+    await loadRepo();
+    loadState = 'ok';
+    loadError = '';
+  } catch (err) {
+    loadState = 'error';
+    loadError = friendly(err, false);
+    busy = false;
+    route();
+    // Reading failed, so writing almost certainly would too — keep the queue and stop.
+    if (userInitiated || pending().length) toast(friendly(err, Boolean(pending().length)), 'bad');
     return;
   }
 
   const queued = pending();
-  if (!queued.length) return toast('Nothing pending — the repo is up to date.');
-
-  const costs = queued.filter(e => e.kind !== 'mileage');
-  const miles = queued.filter(e => e.kind === 'mileage');
-
-  btn.dataset.state = 'busy';
-  document.getElementById('syncCount').textContent = '…';
-
-  const committed = [];
   try {
-    if (costs.length) {
-      await commitRows(config.costsPath, COST_HEADER, costs.map(costRow),
-        `Log ${costs.length} cost ${costs.length === 1 ? 'entry' : 'entries'}`);
-      committed.push(...costs);
+    if (queued.length && !config.token) {
+      failure = 'Add a GitHub token in Settings to push these entries.';
+      if (userInitiated) location.hash = '#/settings';
+    } else if (queued.length) {
+      const costs = queued.filter(e => e.kind !== 'mileage');
+      const miles = queued.filter(e => e.kind === 'mileage');
+      if (costs.length) {
+        cache.costs = await commitRows(config.costsPath, COST_HEADER, costs.map(costRow),
+          `Log ${costs.length} cost ${costs.length === 1 ? 'entry' : 'entries'}`);
+        pushed += costs.length;
+      }
+      if (miles.length) {
+        cache.mileage = await commitRows(config.mileagePath, MILEAGE_HEADER, miles.map(mileageRow),
+          `Log ${miles.length} mileage ${miles.length === 1 ? 'reading' : 'readings'}`);
+        pushed += miles.length;
+      }
     }
-    if (miles.length) {
-      await commitRows(config.mileagePath, MILEAGE_HEADER, miles.map(mileageRow),
-        `Log ${miles.length} mileage ${miles.length === 1 ? 'reading' : 'readings'}`);
-      committed.push(...miles);
-    }
-    toast(`Committed ${committed.length} ${committed.length === 1 ? 'entry' : 'entries'} to ${config.owner}/${config.repo}.`, 'good');
   } catch (err) {
-    toast(err.message || 'Sync failed.', 'bad');
+    failure = friendly(err, true);
   } finally {
-    // Mark whatever made it in, so a partial failure never double-commits rows.
-    const done = new Set(committed.map(e => e.id));
-    entries.forEach(e => { if (done.has(e.id)) e.synced = true; });
-    saveEntries();
-    route();
+    // Rows that made it are in the committed text, so reparsing clears them from the queue.
+    cache.fetchedAt = new Date().toISOString();
+    saveCache();
+    reparse();
+    dropCommitted();
   }
+
+  busy = false;
+  route();
+
+  if (failure) toast(failure, 'bad');
+  else if (pushed) toast(`Pushed ${pushed} ${pushed === 1 ? 'entry' : 'entries'} to the repo.`, 'good');
+  else if (userInitiated) toast(`Up to date — ${repoEntries.length} ${repoEntries.length === 1 ? 'entry' : 'entries'} in the repo.`, 'good');
 }
 
 /* ------------------------------------------------------------------ boot */
 
-document.getElementById('syncBtn').addEventListener('click', sync);
+reparse();
+document.getElementById('syncBtn').addEventListener('click', () => syncNow(true));
 window.addEventListener('hashchange', route);
+
+// Come back to a foregrounded tab with fresh data — this is what makes a second
+// device pick up entries logged on the first.
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && loadState !== 'loading') syncNow(false);
+});
+
 route();
+syncNow(false);

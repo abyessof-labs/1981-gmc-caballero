@@ -41,11 +41,12 @@ photos/
 driveway. Three buttons on the home screen — **direct cost**, **indirect cost**, **mileage** — each
 open a short form; totals sit underneath.
 
-Entries save to the browser immediately, so the app works offline and needs no account. With a
-fine-grained GitHub token pasted into Settings, the **pending** chip commits those entries onto the
-end of `costs.csv` and `mileage.csv` in this repo — that is the closest thing to a database a static
-site gets, and it keeps the full history in git. Without a token the app stays device-only and
-exports CSV you can paste in by hand.
+`costs.csv` and `mileage.csv` in this repo are the source of truth. The app reads them on open, so
+any device that loads the URL sees the whole log — no token and no account needed while the repo is
+public. Saving an entry queues it on that device; a fine-grained GitHub token pasted into Settings
+lets the app commit the queue onto the end of those files, which is the closest thing to a database
+a static site gets and keeps the full history in git. Entries carry an `entry_id` so an interrupted
+push is never logged twice, and the last-loaded copy stays readable with no connection.
 
 To publish it: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**, which
 serves it at `https://abyessof-labs.github.io/1981-gmc-caballero/`. Full details, including the cost

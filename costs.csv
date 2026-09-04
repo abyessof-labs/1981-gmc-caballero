@@ -1,4 +1,4 @@
-date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes
+date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes,entry_id
 ,direct,purchase,1981 GMC Caballero,Private seller (Oakville ON),,,paid,,Purchase price
 ,direct,paperwork,QST 9.975% on purchase price,SAAQ,,,pending,,9.975% of actual price paid
 ,direct,paperwork,SAAQ registration transaction,SAAQ,,10.40,pending,,
