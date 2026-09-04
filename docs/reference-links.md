@@ -18,6 +18,10 @@ Note: SAAQ pages sit behind a Radware bot check for automated clients — they l
 
 **Insurance:** minimum **$50,000** property-damage liability from a private insurer, **in place before registration**. Bodily injury is covered by the public plan via the registration contribution. A plain liability policy suffices to register; agreed-value collector coverage is the later upgrade once roadworthy.
 
+**Plate class:** a "C" plate (véhicule à circulation restreinte / antique) does **not** avoid the
+mechanical inspection — that requirement comes from the car arriving from Ontario, not from the
+plate class. See [`plate-classes.md`](plate-classes.md).
+
 **QST:** 9.975% on the price actually paid (vehicle is over 14 years old, so book value does not apply).
 
 ## Appraisal (required by SAAQ for this vehicle)

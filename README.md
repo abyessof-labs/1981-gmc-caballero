@@ -28,6 +28,7 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  plate-classes.md        Promenade vs. "C" (circulation restreinte) registration
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry
