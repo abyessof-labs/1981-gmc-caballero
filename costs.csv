@@ -8,3 +8,5 @@ date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes
 ,direct,transport,U-Haul trailer rental,U-Haul,,300.00,pending,,
 2026-09-03,direct,purchase,Purchase Price for vehicle,Kijiji,,4200.00,paid,,
 2026-09-04,indirect,travel,U-Haul Trailer Rental,U-Haul,,152.36,paid,,
+2026-09-03,indirect,consumables,Car Washing/Detailing Items,Amazon,,357.00,paid,,
+2026-09-04,indirect,manuals & software,Haynes Manual,Amazon,,52.00,paid,,
