@@ -151,6 +151,74 @@ right part. Replace only if rusted or missing.
 | 78-88 outer seat track floor mounts — DM00579 | [Dixie](https://www.dixierestorationdepot.com/Product/Detail.aspx?s=DM00579) | $54.95 |
 | Outer seat mounts, set of 4, model 3183055 | [Chevelle Depot (CA)](https://www.chevelledepot.ca/interior/seats/seat-hardware/el-camino-outer-seat-mounts-factory-bucket-seats-45-55-bench) | confirm CAD |
 
+### Are the four rails already in the car the right ones?
+
+Maybe. It depends which of two styles the **inner** two are, and there is a
+clean visual tell.
+
+| Style | Inner track mounts | Interchanges with buckets? |
+|---|---|---|
+| **Early split bench** | Inner adjuster sits **on top of the transmission tunnel**, at the end of the longer half | **No** — only the outer two carry over |
+| **Later split bench** | Inner adjuster bolts **flat to the floor beside the tunnel**, same position as a bucket | **Yes** — all four carry over |
+
+GM standardised at some point mid-run, so a 1981 could be either. This is the
+origin of the "only two of the four interchange" claim that keeps appearing —
+it is true of the early style only. Reported alongside it: for El Caminos the
+bucket seat and 50/50 split bench track configuration are otherwise the same.
+
+**So: look at where the inner track sits.** On the tunnel = replace those two.
+Flat on the floor = you may need nothing at all.
+
+Second thing to establish while looking: are those four rails **tracks**
+(moving slides, release handle, two-piece) or **floor mounts** (fixed stamped
+pads bolted down)? The word "rails" fits both and they are different links in
+the chain.
+
+#### Identification marks
+
+| Feature | What it tells you |
+|---|---|
+| GM **20020722** | Driver side inner leg |
+| GM **20057618** | Passenger side inner leg |
+| Rear of track sits ~**1.75" higher** than the front | Genuine G-body track (W-body tracks are narrower and sit on one plane — a common wrong-part mixup) |
+
+#### Where to see photos
+
+These pages carry product images. **None could be opened from the research
+session** — the egress policy blocks them — so these are pointers, not
+descriptions of images anyone has verified.
+
+- [eBay — G-body bucket seat tracks](https://www.ebay.com/shop/g-body-bucket-seat-tracks?_nkw=g+body+bucket+seat+tracks) — best for seeing complete used assemblies
+- [Chicago Muscle Car Parts — 78-88 G-body seat parts](https://www.chicagomusclecarparts.com/collections/78-88-g-body-seat-parts) and [bucket seat track repair](https://www.chicagomusclecarparts.com/products/seat-track-repair-78-88-g-body) — individual legs, clearest for the inner/outer difference
+- [GBodyParts — outer track covers LH/RH](https://gbodyparts.com/product_info.php?products_id=3771), [passenger rear outer 20057618](https://gbodyparts.com/product_info.php?products_id=3774), [driver rear inner 20020722](https://gbodyparts.com/product_info.php?products_id=3775)
+- [Dixie — 78-87 El Camino seat components](https://www.dixierestorationdepot.com/Product/Browse.aspx?d=681&p=1)
+- [GBodyForum — need help with G-body bucket seat brackets](https://gbodyforum.com/threads/need-help-with-g-body-bucket-seat-brackets.62258/)
+- [El Camino Central — seat tracks: different for buckets and 60/40?](https://www.elcaminocentral.com/threads/question-about-seat-tracks-differnt-for-buckets-and-60-40.12543/)
+
+### Unresolved: 13-1/2" or 14-1/2"?
+
+The sources conflict, and it matters because it decides whether the seat frames
+need re-drilling at all.
+
+| Source | Claim |
+|---|---|
+| El Camino Central | El Camino seat-to-slider holes are **14-1/2"**; 3rd/4th-gen Camaro/Firebird are **13-1/2"** |
+| GBodyForum | GM manual bucket adjusters bolt at ~**13-1/2"**, and that is "the same bolt pattern on every manual adjust bucket seat GM has ever made" — later split benches included |
+
+If the second is right for this car, the Firebird seats bolt to G-body tracks
+with **no re-drill**. It is possible both are true and the 14-1/2" figure
+describes the bench/split-bench tracks rather than the bucket ones.
+
+Not resolvable from a search result. Settle it with a tape measure on the actual
+parts before ordering or drilling anything.
+
+#### Current prices
+
+| Part | Price |
+|---|---|
+| Dixie DM00579 outer seat track floor mounts | $64.95 |
+| Dixie DM00572 inner bucket & 55/45 bench floor mounts, set of 4 | $60.95 |
+
 ### Why they slump — diagnose before mounting
 
 "Slumped" is a symptom with four possible causes; sort out which before spending
