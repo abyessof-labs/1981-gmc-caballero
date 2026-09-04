@@ -1,11 +1,4 @@
 date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes,entry_id
-,direct,purchase,1981 GMC Caballero,Private seller (Oakville ON),,,paid,,Purchase price
-,direct,paperwork,QST 9.975% on purchase price,SAAQ,,,pending,,9.975% of actual price paid
-,direct,paperwork,SAAQ registration transaction,SAAQ,,10.40,pending,,
-,direct,paperwork,Licence plate,SAAQ,,2.65,pending,,
-,direct,paperwork,Vehicle appraisal,,,,pending,,Required by SAAQ; $80-150 remote or quote from GAA list
-,direct,paperwork,SAAQ mechanical inspection,,,,pending,,Get quotes - no fixed rate
-,direct,transport,U-Haul trailer rental,U-Haul,,300.00,pending,,
 2026-09-03,direct,purchase,Purchase Price for vehicle,Kijiji,,4200.00,paid,,
 2026-09-04,indirect,travel,U-Haul Trailer Rental,U-Haul,,152.36,paid,,
 2026-09-03,indirect,consumables,Car Washing/Detailing Items,Amazon,,357.00,paid,,
