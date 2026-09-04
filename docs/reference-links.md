@@ -66,8 +66,14 @@ Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Do
 
 ## Parts
 
+Vendor rankings, import-cost notes, and the door-panel identification traps are in
+[`parts-sourcing.md`](parts-sourcing.md).
+
 | Part | Source | Price |
 |---|---|---|
+| Upper door panels, pair, PUI `81AD70-P` black — **1981–87, not the 78–80 part** | Chevelle Depot (authorized PUI dealer; ask them to order it in) | ~$493 USD list |
+| Lower door panel — check speaker-opening variant first | Dixie Restoration Depot / Ecklers / OPGI | — |
+| Driver door panel recover (alternative to buying) | Automobilia Inc, Saint-Laurent · 514-342-8400 | quote |
 | Door window felt set, inners + outers, both doors | Chevelle Depot (CA, no brokerage) — model WFK 1411 78 | $332.99 CAD |
 | Door window belt weatherstrip | PartsGeek | $135.95 USD |
 | Window sweeps, outers only, LH+RH pair | Collectors Auto Supply / eBay | cheapest option |

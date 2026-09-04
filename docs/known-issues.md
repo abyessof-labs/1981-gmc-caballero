@@ -39,7 +39,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open |
+| Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open — sourcing researched, see [`parts-sourcing.md`](parts-sourcing.md). Next step: photograph the door trim in place and confirm which board (upper or lower) carries the torn armrest footprint, and whether the lower has a speaker opening |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
