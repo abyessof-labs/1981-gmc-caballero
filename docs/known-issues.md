@@ -19,7 +19,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| Rear window seal — visibly aged; this platform's rear windows are a known leak point that drains directly into the smuggler's box | Root cause of above rust risk | Open | — |
+| Rear window seal — visibly aged; this platform's rear windows are a known leak point that drains directly into the smuggler's box | Root cause of above rust risk | Open — full seal kit and install method in [`weatherstrip.md`](weatherstrip.md) | — |
 | Door beltline weatherstrip (outer window felt) — cracked through, segments missing | Lets water into door interior, contributes to rocker/lower-door rot | Open — scheduled into the combined door job, [`door-job-plan.md`](door-job-plan.md) | — |
 
 ## Mechanical
