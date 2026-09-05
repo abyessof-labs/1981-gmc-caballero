@@ -7,7 +7,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear quarter panel — through-hole with corroded, curled edge and surrounding blistering | **Confirmed perforated** | Open | [`rust-rear-quarter-hole.jpg`](../photos/evidence/rust-rear-quarter-hole.jpg) |
-| Rocker panel seam (driver side) — flange delaminating along a run, material gone in one section | Likely perforated, unconfirmed | Open — screwdriver test needed | [`rust-rocker-seam.jpg`](../photos/evidence/rust-rocker-seam.jpg) |
+| Rocker panel seam (driver side) — flange delaminating along a run, material gone in one section | **Structural — the inspection-critical rust item.** Rockers are on the SAAQ structural list; filler is not an accepted repair there | Open — screwdriver test needed, and it gates the whole repair scope. See [`rust-repair-inspection.md`](rust-repair-inspection.md) | [`rust-rocker-seam.jpg`](../photos/evidence/rust-rocker-seam.jpg) |
 | Bottom edge of outer body panel, ragged/eaten | Cosmetic, edge-only | Open | [`rust-lower-panel-edge.jpg`](../photos/evidence/rust-lower-panel-edge.jpg) |
 | Front frame, driver side (initially misread as perforated) | **Sound — factory formed holes, not rust-through** | Closed, no action | [`frame-front-sound-corrected.jpg`](../photos/evidence/frame-front-sound-corrected.jpg) |
 | Rear underbody frame (initially misread as perforated) | **Sound — factory formed holes** | Closed, no action | [`frame-rear-sound-corrected.jpg`](../photos/evidence/frame-rear-sound-corrected.jpg) |
