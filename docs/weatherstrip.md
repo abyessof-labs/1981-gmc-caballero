@@ -32,8 +32,17 @@ which is why older write-ups specify it; there is no performance reason to choos
 
 **[Dixie Restoration Depot `DM60338` — 78-87 Super Deluxe Weatherstrip Kit](https://www.dixierestorationdepot.com/Product/Detail.aspx?s=DM60338)**
 is the one that matches this request. It covers door, roof and lower/side tailgate weatherstrips,
-plus inner and outer door and lower quarter window mouldings with sealing strips — **and includes
-adhesive.**
+plus inner and outer door and lower quarter window mouldings with sealing strips.
+
+The listing says adhesive is included but **does not say which** — no brand, part number, colour or
+quantity, and the product page could not be opened to check further. Metro Moulded, a major
+weatherstrip manufacturer, sells and recommends 3M Black `08008` as their own adhesive (their
+`GL-11`), so that is the industry default, but whether Dixie boxes the same thing is unconfirmed.
+
+**Buy a tube of `08008` separately regardless.** A kit tube is typically small and a full car's
+worth of door, roof rail and tailgate seals will likely outrun it — and if the included tube turns
+out to be yellow or generic, it should be set aside rather than used on visible jambs. Worth asking
+Dixie when phoning them about the felt-set overlap below.
 
 Note this **overlaps the window felt set already priced** (Chevelle Depot WFK 1411 78, $332.99 CAD,
 in [`reference-links.md`](reference-links.md)). Check the kit contents against that order before
