@@ -59,6 +59,22 @@ the drains.
 Budget plastic sheeting and a roll of butyl tape. It is a ~$30 item that protects the most expensive
 problem on the car.
 
+**Adhesive: butyl tape, not weatherstrip adhesive.** The factory bedded the original shield in a
+sticky black butyl mastic, and butyl is right because it never fully cures — it seals against the
+door skin and still peels off for the next service. Do **not** use 3M `08008` here; that is a
+contact cement for bonding rubber to metal, and it does not bond well to polyethylene. Duct tape and
+packing tape dry out and let go.
+
+**Material:** door vapour barriers run **4–6 mil**. A trash bag is around 1 mil, contractor grade
+about 3, which tears on panel hardware and can sag into the regulator. A roll of **6-mil poly
+vapour barrier sheeting** from Rona or Home Depot costs a few dollars and is the same material the
+parts vendors sell as a "universal water shield" — worth picking up on the same trip as the butyl.
+
+**Technique:** one continuous unbroken bead of butyl around the entire perimeter, then press the
+plastic in working from the centre outward so no air pockets are trapped. Cut generously around the
+handle rods, lock rod and window switch opening, and seal every slit with butyl. A gap anywhere is
+where water gets past onto the inner rocker, which is the whole reason for doing this.
+
 ### While the door is open, clear the drain holes
 
 Bottom of each door. Poke them clear and flush with water. Blocked drains are the single most likely
