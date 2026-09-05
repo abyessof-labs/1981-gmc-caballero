@@ -20,7 +20,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear window seal — visibly aged; this platform's rear windows are a known leak point that drains directly into the smuggler's box | Root cause of above rust risk | Open | — |
-| Door beltline weatherstrip (outer window felt) — cracked through, segments missing | Lets water into door interior, contributes to rocker/lower-door rot | Open | — |
+| Door beltline weatherstrip (outer window felt) — cracked through, segments missing | Lets water into door interior, contributes to rocker/lower-door rot | Open — scheduled into the combined door job, [`door-job-plan.md`](door-job-plan.md) | — |
 
 ## Mechanical
 
@@ -43,7 +43,8 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
-| Power windows — presence unconfirmed; base Z88 so `A31` was optional | Informational | Open — check door for switch plate vs crank, and `A31` on the SPID sticker. Procedure and manuals researched in [`power-window-motor.md`](power-window-motor.md) |
+| Power windows — presence unconfirmed; base Z88 so `A31` was optional | Informational | Open — check door for switch plate vs crank, and `A31` on the SPID sticker. Procedure and manuals in [`power-window-motor.md`](power-window-motor.md) |
+| Window motors, both doors | Planned work | **Parts ordered — ~$70 CAD the pair.** Both doors done in one teardown with the weatherstrip and seals; see [`door-job-plan.md`](door-job-plan.md) |
 
 ## Trim / identification
 
