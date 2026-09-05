@@ -80,6 +80,32 @@ reason the rockers are going, and this is the one time they are easy to reach. C
 8. New vapour barrier, butyl-sealed all the way round.
 9. Panel on.
 
+## Driver's power window switch — not installed
+
+**This confirms the car has power windows (`A31`).** The presence question in
+[`power-window-motor.md`](power-window-motor.md) is settled; the SPID sticker is still worth finding
+for the transmission and axle ratio.
+
+The switch does not screw to the door panel. It is **retained by spring-steel clips — GM
+`3040658`, two per switch** — which grip the switch and lock it into the panel opening from behind.
+A switch sitting loose in the hole means those clips are missing, which is exactly what they are
+prone to.
+
+| Part | Source |
+|---|---|
+| **Power window switch clip, 1974–87, GM `3040658`** — 2 per switch | **[Chevelle Depot](https://www.chevelledepot.ca/electrical/switches/window-switch/el-camino-power-window-switch-clip-1974-1987)** (Canada) · [Ecklers, NOS GM](https://www.ecklers.com/1974-1987-el-camino-power-window-switch-clip-nos-original-gm-55-195029-1.html) · [OPGI, 78–88 G-body](https://www.opgi.com/window/window-hardware/power-window-switch-retainer-clip/retainer-clip-power-window-switch-1978-88-malibuel-caminomonte-carlo-l240078.html) · [GBodyParts](https://gbodyparts.com/product_info.php?products_id=4692) |
+| Switch + door panel retainer kit, 81–87 El Camino / Caballero | [eBay](https://www.ebay.com/itm/126320093194) — names the Caballero and the year range directly |
+
+**Check first — this may not be a clip problem.** The clips need sound panel board to bite against,
+and the driver's panel is already **torn around the missing armrest footprint**. If the switch
+opening sits in or near that tear, new clips will not hold and the real fix is the panel. Confirm
+whether the switch cutout is in intact board before ordering.
+
+Also confirm which piece is actually absent: the assembly is switch → two clips → retainer → panel
+opening. "Not installed" could be any of the three.
+
+Do this at the same teardown — the switch has to come out for the panel to come off anyway.
+
 ## Door panels are a separate, later step
 
 The driver's panel board is torn around the missing armrest and will be replaced or recovered — but

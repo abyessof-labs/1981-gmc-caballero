@@ -77,6 +77,19 @@ trim. They change appearance only and do nothing for a bezel that will not stay 
 
 ## Screws
 
-If the bosses are sound and screws are simply missing, match what is already in the other holes
-rather than guessing — GM used trim screws of a specific length here, and running a longer screw
-into a good boss is a fast way to split it and turn a $5 job into the hunt above.
+**Best buy: [Dixie Restoration Depot `DM00123` — 78–88 interior screw / fastener kit](https://www.dixierestorationdepot.com/product/Detail.aspx?s=DM00123).**
+152 pieces covering dash components through rear trim, headliner and kick panels — correct for
+78–87 El Camino, so correct for this car. It also covers the door and trim fasteners for the
+other jobs in progress, which makes it better value than chasing eight screws.
+
+Generic fallback: GM interior bezel and trim screws of this era are **#8 Phillips**, sold in
+chrome and black assortment kits that list A/G-body applications explicitly. Fine if the kit above
+is out of stock.
+
+**Not the right part:** OER/Classic Industries **`14242`** "Dash Bezel Screw Set" comes up first in
+searches and is **a 1973–91 Chevrolet/GMC C/K, R/V *truck* part**, not an El Camino one. Not
+confirmed to fit this dash — don't order it on the strength of the name.
+
+Whatever you buy, **pull one of the surviving screws and match length before running anything into
+a good boss.** Overlong screws split brittle 45-year-old plastic, which converts a $5 job into the
+hunt above.
