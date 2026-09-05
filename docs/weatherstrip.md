@@ -19,7 +19,7 @@ things:
 
 | Product | Colour | Note |
 |---|---|---|
-| **3M `08008` Super Weatherstrip Adhesive** | **Black** | The one to buy |
+| **3M `08008` Super Weatherstrip Adhesive** | **Black** | The one to buy — **[NAPA Canada](https://www.napacanada.com/en/p/MMM08008)**, same trip as the butyl tape. Also [Bumper to Bumper](https://www.bumpertobumper.ca/en/product-details/mmm-08008-3m-black-super-weatherstrip-and-gasket-adhesive-08008-black-5-fl-oz-14787-ml) (good QC coverage), [Grainger Canada](https://www.grainger.ca/en/product/ADHESIVE-SUPER-WEATHER-STRIP-147ML/p/MMM08008), [3M Canada's page](https://www.3mcanada.ca/3M/en_CA/p/d/v000087446/) for SKU confirmation |
 | 3M `08001` Super Weatherstrip and Gasket Adhesive | Yellow | Same glue, visible squeeze-out. The blue-labelled tube |
 | Permatex Super Black Weatherstrip Adhesive `81850` | Black | Equivalent, widely stocked |
 | Permatex Weatherstrip Adhesive (yellow) | Yellow | Equivalent to 3M 08001 |
