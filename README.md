@@ -31,6 +31,7 @@ docs/
   parts-sourcing.md       Where to buy in Canada, and the El Camino/Caballero part-number traps
   power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
   door-job-plan.md        Combined both-door teardown: motors, seals, vapour barrier, drains
+  cluster-bezel.md        Loose dash bezel: why it is screws not clips, and the 1981 year trap
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry

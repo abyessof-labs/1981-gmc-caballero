@@ -42,6 +42,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open — sourcing researched, see [`parts-sourcing.md`](parts-sourcing.md). Next step: photograph the door trim in place and confirm which board (upper or lower) carries the torn armrest footprint, and whether the lower has a speaker opening |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
+| Instrument cluster bezel — in place but loose | Cosmetic | Open — bezel is **screwed** on (~8 screws), not clipped. Pull it and check whether screws are missing or the plastic screw bosses have snapped. 1981 is close to a one-year part, so repair is preferred: [`cluster-bezel.md`](cluster-bezel.md) |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
 | Power windows — presence unconfirmed; base Z88 so `A31` was optional | Informational | Open — check door for switch plate vs crank, and `A31` on the SPID sticker. Procedure and manuals in [`power-window-motor.md`](power-window-motor.md) |
 | Window motors, both doors | Planned work | **Parts ordered — ~$70 CAD the pair.** Both doors done in one teardown with the weatherstrip and seals; see [`door-job-plan.md`](door-job-plan.md) |
