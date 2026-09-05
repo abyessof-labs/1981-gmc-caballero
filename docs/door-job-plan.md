@@ -70,6 +70,20 @@ about 3, which tears on panel hardware and can sag into the regulator. A roll of
 vapour barrier sheeting** from Rona or Home Depot costs a few dollars and is the same material the
 parts vendors sell as a "universal water shield" — worth picking up on the same trip as the butyl.
 
+**Gunnable alternative to the strips.** The door perimeter is an awkward shape and a caulking bead
+is easier to run than ribbon. **[LePage PL Acousti-Seal, 295 mL, black](https://www.homedepot.ca/product/lepage-pl-acousti-seal-sound-absorbing-vapor-barrier-adhesive-black-flexible-295ml/1000409509)**
+(Home Depot Canada; [825 mL size](https://www.homedepot.ca/product/lepage-pl-acousti-seal-sound-absorbing-vapor-barrier-adhesive-black-flexible-825ml/1000409510))
+is formulated to **bond polyethylene vapour barrier film to metal** — the exact application. It never
+dries, so the barrier stays peelable; it resists water under immersion; and it stays flexible at
+very low temperatures, which matters here. 295 mL covers both doors.
+
+Trade-off: never curing means permanently tacky, so it collects dirt — normal per the manufacturer,
+and the same bargain butyl tape makes. Keep it off the regulator and motor.
+
+Automotive equivalents in a tube: **Dicor gunnable butyl** (RV dealers) and **Tremco Acoustical
+Sealant** ([Crown Building Supplies](https://www.crownbuildingsupplies.ca/products/acoustical-sealant-850-ml-tremco),
+[IHL Canada](https://ihlcanada.com/products/tremco-93170x-850-ml-dark-grey-acoustical-sealant)).
+
 **Technique:** one continuous unbroken bead of butyl around the entire perimeter, then press the
 plastic in working from the centre outward so no air pockets are trapped. Cut generously around the
 handle rods, lock rod and window switch opening, and seal every slit with butyl. A gap anywhere is
