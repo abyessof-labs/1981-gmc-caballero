@@ -24,10 +24,26 @@ three weeks on a back-ordered seal is how water gets in and rockers rot.
 |---|---|---|
 | Window motors ×2 | **Ordered — ~$70 CAD** | 1979–87 G-body, 12-tooth. **Not** the 1978 part. |
 | Window felt set, inners + outers, both doors | Priced — Chevelle Depot WFK 1411 78, $332.99 CAD | Already covers both doors |
-| **Vapour barrier sheeting + butyl tape** | **Not yet sourced** | See below — easy to forget, and it matters on this car |
+| [Door panel water shields, Mylar, 1978–87](https://www.chevelledepot.ca/interior/door-window/door-insulators/el-camino-door-panel-water-shields-mylar-1978-1987) | **Sourced — Chevelle Depot** | Die-cut to shape. Mylar upgrade over the original paper-with-jute shields |
+| Butyl tape | **Sourced — [NAPA Canada](https://www.napacanada.com/en/search/paint-body/shop-supplies/glues-adhesives-sealants/butyl-tape/201806640)** | See the sourcing note below — Canadian Tire generally does *not* stock it |
+| [Lower door panel clips, 1978–87](https://www.chevelledepot.ca/interior/door-window/door-hardware/el-camino-lower-door-panel-clip-1978-1987) | **Sourced — Chevelle Depot** | "Christmas tree" style, 3/4" stem, 5/16" diameter. **8 per door → 16 for the pair, plus spares** |
 | Regulator rebuild kit ×2 | Optional | Recommended; re-greasing a 45-year-old regulator does more for window speed than the new motor |
 | Rivets or bolts to remount the regulator | If using the drill-the-rivets method | 1/4" bolts and nyloc nuts are the common substitute |
-| Door panel clips | Cheap, buy spares | The old ones break on removal, guaranteed |
+
+### Alternates
+
+- Water shields — [Muscle Cars & Classics](https://www.musclecarsandclassics.ca/interior/door-window/door-insulators/door-panel-water-shield-vapor-barrier-3083005) (Canada) sells a **universal 12-ft roll**, black plasticized film, if the die-cut set is out of stock. US: [Collectors Auto Supply](https://collectorsautosupply.com/water-shield-vapor-barrier-for-1978-87-chevrolet-malibu-el-camino-2dr-mylar/) — already the supplier for the window sweeps — plus [Ecklers](https://www.ecklers.com/el-camino-door-panel-water-shields-mylar-1978-1987-55-198929-1.html) and the [El Camino Store](https://www.elcaminostore.com/door-panel-water-shield-vapor-barrier-24003.html).
+- Clips — [Classic Headquarters 12-piece set H-119](https://www.chevelledepot.ca/interior/door-window/door-hardware/classic-headquarters-door-panel-installation-clip-set-12-pieces-h-119) at Chevelle Depot. [Ecklers lists the same clip explicitly for the Caballero](https://www.ecklers.com/el-camino-lower-door-panel-clip-1978-1987-55-195390-1.html).
+- Jute backing, if matching the original paper-and-jute construction rather than the Mylar upgrade: [Ecklers water shield jute insulation](https://www.ecklers.com/el-camino-door-panel-water-shield-jute-insulation-1978-1987-55-198931-1.html).
+
+**Clip caution:** two different GM clip styles get listed for this era. OER catalogues a generic
+1958–81 interior panel clip that is *not* the right one. Buy the clip whose listing explicitly says
+**78–87 El Camino / Caballero**, "Christmas tree" style.
+
+**Butyl tape in Canada:** Canadian Tire, Princess Auto and Rona are unreliable for it, and where
+Home Depot and Rona do stock it, it sits in the **siding** section, not with the tapes. NAPA Canada
+carries it as an automotive shop supply. An RV dealer or a windshield shop is the reliable
+walk-in fallback — roughly $15 a roll.
 
 ### The vapour barrier is not optional on this car
 

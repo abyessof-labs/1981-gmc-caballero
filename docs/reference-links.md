@@ -74,6 +74,9 @@ Vendor rankings, import-cost notes, and the door-panel identification traps are 
 | Upper door panels, pair, PUI `81AD70-P` black — **1981–87, not the 78–80 part** | Chevelle Depot (authorized PUI dealer; ask them to order it in) | ~$493 USD list |
 | Lower door panel — check speaker-opening variant first | Dixie Restoration Depot / Ecklers / OPGI | — |
 | Driver door panel recover (alternative to buying) | Automobilia Inc, Saint-Laurent · 514-342-8400 | quote |
+| Door panel water shields, Mylar, die-cut 78–87 | Chevelle Depot (CA) | — |
+| Lower door panel clips, 78–87 "Christmas tree" — 8 per door | Chevelle Depot (CA) | — |
+| Butyl tape for the water shields | NAPA Canada, or an RV/windshield shop | ~$15/roll |
 | Door window felt set, inners + outers, both doors | Chevelle Depot (CA, no brokerage) — model WFK 1411 78 | $332.99 CAD |
 | Door window belt weatherstrip | PartsGeek | $135.95 USD |
 | Window sweeps, outers only, LH+RH pair | Collectors Auto Supply / eBay | cheapest option |
