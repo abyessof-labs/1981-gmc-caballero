@@ -80,6 +80,25 @@ very low temperatures, which matters here. 295 mL covers both doors.
 Trade-off: never curing means permanently tacky, so it collects dirt — normal per the manufacturer,
 and the same bargain butyl tape makes. Keep it off the regulator and motor.
 
+### Why non-curing, and not something that dries
+
+Non-drying is the right choice here, not a compromise — the factory made the same call:
+
+- **The door moves.** Slamming and flex crack a rigid cured bond line at the stressed edges. A
+  non-curing sealant deforms and stays sealed.
+- **This door will be opened again** — motor, regulator, lock rods, switch. Non-curing peels and
+  re-seats; a dried adhesive means cutting the barrier out and scraping the flange every time.
+- **Cold.** −30 to +35 with solar gain on black paint. Cured adhesives embrittle; butyl and
+  acoustical sealant stay pliable, and the LePage is rated for it explicitly.
+- **The substrate is polyethylene** — low surface energy, so adhesives do not chemically bond to it.
+  Drying adhesives depend on that bond and are the *more* likely failure on poly sheet. Butyl and
+  acoustical work by permanent tack and mechanical grip instead.
+
+⚠ **Do not substitute silicone RTV or a urethane** (Sikaflex, Window-Weld) as a "stronger because it
+dries" option. Both cure permanently and neither bonds well to PE — and **silicone contamination
+causes fisheyes in fresh paint.** With rocker and quarter-panel bodywork still ahead on this car,
+silicone anywhere near those panels is a problem that surfaces months later at the body shop.
+
 Automotive equivalents in a tube: **Dicor gunnable butyl** (RV dealers) and **Tremco Acoustical
 Sealant** ([Crown Building Supplies](https://www.crownbuildingsupplies.ca/products/acoustical-sealant-850-ml-tremco),
 [IHL Canada](https://ihlcanada.com/products/tremco-93170x-850-ml-dark-grey-acoustical-sealant)).
