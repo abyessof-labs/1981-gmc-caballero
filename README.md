@@ -38,6 +38,7 @@ docs/
   power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
+  aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry
