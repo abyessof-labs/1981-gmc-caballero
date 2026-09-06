@@ -39,6 +39,7 @@ docs/
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
+  underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry
