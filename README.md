@@ -36,6 +36,7 @@ docs/
   weatherstrip.md         Door and frame seal kit, pin-then-glue install, and the adhesive to use
   rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
   power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
+  dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry

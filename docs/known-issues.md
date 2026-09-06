@@ -33,6 +33,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Windshield — crack in driver's sweep | Glazing — inspection-critical | Open |
 | Shift indicator cable unhooked at column (per seller) | Cosmetic — **confirmed display-only, not the neutral-safety interlock**. Still run the "foot on brake, try to crank in Drive/Reverse" test, which checks a different component | Open — reattach with the bezel off, see [`shift-indicator-cable.md`](shift-indicator-cable.md) |
 | Reverse lights — untested | Lighting — inspection item | Open |
+| Dash clock | Cosmetic, but a stalled points clock drains the battery and can overheat its feed wire | Open — see [`dash-clock.md`](dash-clock.md). Comes out with the cluster, so pair it with the bezel and shift-cable work |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
 
 ## Interior
