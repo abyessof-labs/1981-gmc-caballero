@@ -32,14 +32,41 @@ is **PS-2002**, the twin of HP-2002. Buy by engine, not by model year.
 | Thread | 13/16"-16 |
 | Height | 4.688 in |
 | Outside diameter | 3.69 in |
-| Anti-drain-back valve | Listed as **none** by several retailers — see caveat |
+| Anti-drain-back valve | None — **correct for this engine**, see below |
+| Bypass valve | None — the block adapter has it |
 | Replaces | ACDelco **PF25** (OE for the 1977–1981 305) |
 
-**Tall alternative — HP-3002.** Same 13/16"-16 thread and gasket, 5.7 in tall, ~3.69 in OD,
-listed *with* an anti-drain-back valve (Wix 51060 / Fram HP4 cross). This is the PF35-length
-filter: more media, more capacity, and it restores the drain-back valve the OE PF25 had. It fits
-anything the short one fits provided there is clearance at the rear of the block — worth a
-tape-measure check on this car before ordering, since the short filter is the safe default.
+**Tall alternative — HP-3002.** Same 13/16"-16 thread and gasket, 5.7 in tall, ~3.69 in OD
+(Wix 51060 / Fram HP4 cross). This is the PF35-length filter, and the only reason to fit it is
+more media and more capacity. It fits anything the short one fits provided there is clearance at
+the rear of the block — worth a tape-measure check before ordering, since the short filter is the
+OE-length default.
+
+### Why neither valve is missing
+
+A small-block Chevy filter is a deliberately plain filter. The block does the valving.
+
+**Anti-drain-back valve.** A rubber flap seated over the ring of inlet holes in the filter's
+baseplate. Running oil pressure pushes it open; at shutdown it seats and holds oil inside the
+filter instead of letting gravity empty it into the pan. Its whole purpose is to stop the pump
+having to refill half a quart of dead volume before pressure reaches the bearings on the next
+start. It only earns its keep when the filter is mounted horizontally or base-down, so gravity
+would drain it. On this engine the filter hangs off the lower rear of the block **base-up, dome
+down** — gravity holds the oil in by itself. That is why GM never put one in the PF25, and why
+HP-2002 not having one matches OE rather than falling short of it. A drain-back valve here adds a
+small flow restriction and buys nothing.
+
+The exception is a remote filter mount or an oil cooler plumbed *above* the filter, where oil can
+siphon back. Not this car unless someone added one.
+
+**Bypass (pressure-relief) valve.** The escape route that lets oil past a clogged or cold-thick
+filter rather than starving the engine. On a small-block Chevy it lives in the **filter adapter
+bolted to the block**, opening on a pressure differential across the media of roughly 5–6 psi. So
+the filter itself does not need one, and a filter sold for this engine will not have one.
+
+**Parts-counter note.** ACDelco superseded PF25 with **PF454** (same short filter). Sources
+disagree on whether PF454 added a drain-back valve; **PF454CL** definitely has one. Either works
+— the valve is simply irrelevant in this orientation.
 
 ## Oil — conventional, high-ZDDP, 10W-40
 
