@@ -90,13 +90,22 @@ but is a full synthetic.
 
 Prices are as-listed at the time of writing, in CAD, before tax.
 
+No Canadian retailer appears to stock HP-2002 on a shelf in Montréal. It is an order-in part here;
+the tall HP-3002 is the one that is actually walk-in available.
+
 | Source | Part | Note |
 |---|---|---|
-| [PartSource](https://partsource.ca/products/hp2002-k-n-performance-gold-oil-filter) | HP-2002 | ~$22.99, Montréal storefronts |
-| [PartsAvatar.ca](https://partsavatar.ca/k-n-engineering-premium-oil-filter-hp2002) | HP-2002 | Canadian warehouse, ships domestic |
-| [Amazon.ca](https://www.amazon.ca/PS2002-Pro-Oil-Filter/dp/B005T7QPLC) | PS-2002 | Pro Series version |
-| [Canadian Tire](https://www.canadiantire.ca/en/pdp/k-n-hp3002-performance-gold-oil-filter-0340208p.html) | HP-3002 | The tall option, if it clears |
+| [PartSource](https://partsource.ca/products/hp2002-k-n-performance-gold-oil-filter) | HP-2002 | ~$22.99. Ships, but **no Quebec stores** — the chain is NS/ON/MB/SK/AB |
+| [PartsAvatar.ca](https://partsavatar.ca/k-n-engineering-premium-oil-filter-hp2002) | HP-2002 | Canadian warehouse, domestic shipping |
 | [Northern Performance](https://www.northernperformance.ca/part/K&N/Engine+Oil+Filter/HP-2002/) | HP-2002 | Canadian speed shop |
+| [NAPA Canada](https://www.napacanada.com/en/search?text=K%26N%20HP2002) | HP-2002 | NAPA lists the part; many Montréal counters, order-in |
+| [Amazon.ca](https://www.amazon.ca/dp/B000C3XDAE) | HP-2002 | ASIN shared with the US listing — verify before ordering |
+| [Amazon.ca](https://www.amazon.ca/PS2002-Pro-Oil-Filter/dp/B005T7QPLC) | PS-2002 | Pro Series version of the same filter |
+| [Canadian Tire](https://www.canadiantire.ca/en/pdp/k-n-hp3002-performance-gold-oil-filter-0340208p.html) | **HP-3002** | The tall one. CT does not list HP-2002; this is the walk-in option |
+
+Canadian Tire's K&N range runs HP1001 / HP1002 / HP1009 / HP3002 — no HP2002. Since HP-3002 shares
+the 13/16"-16 thread and gasket and only differs in length, it is a legitimate substitute if it
+clears; measure from the filter boss before driving to the store.
 
 Avoid ordering from Summit or JEGS for a $20 filter — brokerage and duty on a single small part
 cost more than the filter.
