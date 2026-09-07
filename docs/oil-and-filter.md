@@ -20,9 +20,12 @@ Add roughly half a quart more if you fit the tall filter (see below).
 
 K&N's own application listing shows HP-2002 for the 1981 El Camino 5.0L V8 carburetted — the
 Caballero is the same G-body with the same LG4, so the same filter applies. Same filter in K&N's
-other product lines: `PS-2002` (Pro Series) / `SO-2002` (Select). Note that K&N's Caballero page
-also surfaces **PS-2001** as a 1981–1987 Caballero fit; if the counter cross-reference disagrees
-with HP-2002, that is the number to check against.
+other product lines: `PS-2002` (Pro Series) / `SO-2002` (Select).
+
+**On PS-2001.** K&N does list PS-2001 as a 1981–1987 Caballero fit, but the rest of that filter's
+application list is S10, S10 Blazer, Jimmy, Sonoma and Blazer — the GM compact-truck V6 family.
+It is the number for the Caballero's **3.8L V6**, not the 305. For this car the Pro Series number
+is **PS-2002**, the twin of HP-2002. Buy by engine, not by model year.
 
 | Spec | HP-2002 |
 |---|---|
@@ -55,6 +58,21 @@ Two that actually exist in 10W-40 with a high zinc package:
 Valvoline VR1 is the other name that comes up but no longer offers a 10W-40 — its conventional
 grades are 10W-30, 20W-50 and straight weights. AMSOIL Z-Rod 10W-40 is high-zinc and well regarded
 but is a full synthetic.
+
+## Where to buy in Canada
+
+Prices are as-listed at the time of writing, in CAD, before tax.
+
+| Source | Part | Note |
+|---|---|---|
+| [PartSource](https://partsource.ca/products/hp2002-k-n-performance-gold-oil-filter) | HP-2002 | ~$22.99, Montréal storefronts |
+| [PartsAvatar.ca](https://partsavatar.ca/k-n-engineering-premium-oil-filter-hp2002) | HP-2002 | Canadian warehouse, ships domestic |
+| [Amazon.ca](https://www.amazon.ca/PS2002-Pro-Oil-Filter/dp/B005T7QPLC) | PS-2002 | Pro Series version |
+| [Canadian Tire](https://www.canadiantire.ca/en/pdp/k-n-hp3002-performance-gold-oil-filter-0340208p.html) | HP-3002 | The tall option, if it clears |
+| [Northern Performance](https://www.northernperformance.ca/part/K&N/Engine+Oil+Filter/HP-2002/) | HP-2002 | Canadian speed shop |
+
+Avoid ordering from Summit or JEGS for a $20 filter — brokerage and duty on a single small part
+cost more than the filter.
 
 ### Caveats worth knowing before committing to this plan
 
