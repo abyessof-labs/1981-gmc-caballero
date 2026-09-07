@@ -136,6 +136,36 @@ cost more than the filter.
 Castrol GTX — ordinary API-licensed oils whose zinc is capped near 800 ppm, which is the whole
 problem being solved here. The Red Line 10W40 they list is a wet-clutch motorcycle oil, not this.
 
+### The plain-oil-plus-additive route
+
+A zinc-free conventional oil does not exist — every API oil carries ZDDP. What varies is how much,
+and the API phosphorus cap that gutted it applies only to **xW-30 and lighter** grades. 10W-40 and
+20W-50 are outside it. So an ordinary conventional 10W-40 already runs roughly 1,000–1,200 ppm
+zinc, against the 1,200–1,600 a stock-spring LG4 wants — most of the way there before any bottle
+is opened.
+
+Conventional 10W-40 available here:
+
+| Source | Product | Note |
+|---|---|---|
+| [Canadian Tire](https://www.canadiantire.ca/en/pdp/castrol-gtx-10w40-conventional-engine-motor-oil-5-l-0289206p.html) | Castrol GTX 10W-40, 5 L | Walk-in, one jug does the change |
+| [Canadian Tire](https://www.canadiantire.ca/en/pdp/quaker-state-10w40-advanced-durability-conventional-engine-oil-946-ml-0289002p.html) | Quaker State Advanced Durability 10W-40, 946 ml | Measured low on zinc — weakest starting point |
+| [PartSource](https://partsource.ca/collections/conventional-oil) | Castrol GTX 10W-40, 5 L, ~$39.99 | Mail-order only in Quebec |
+| [Pennzoil Canada](https://www.pennzoil.com/en_ca/products/blends-conventional-oils/motor-oil.html) | Pennzoil conventional 10W-40 | Tests better than Quaker State |
+| [NAPA Canada](https://www.napacanada.com/en/search?text=10W-40%20conventional) | Various | Same counters as the filter |
+
+Castrol GTX or Pennzoil are the picks. Figures above are from secondary sources — PQIA's own data
+pages could not be reached — so treat them as approximate.
+
+Two things to watch if supplementing:
+
+- **Count the bottle as oil.** A 350–475 ml additive in a 4.7 L sump is 7–10% of the fill. Put in
+  4.25 L plus the bottle, not 5 L plus the bottle, or the level reads over full.
+- **More is not better past a point.** A supplement is ZDDP in carrier oil with no detergent, so it
+  dilutes the finished oil's additive balance, and ZDDP competes with detergent for the same metal
+  surface. Past roughly 1,400–1,600 ppm the wear protection stops improving. One bottle, once —
+  not a bottle every change on top of an already-adequate oil.
+
 ### Caveats worth knowing before committing to this plan
 
 - **Zinc does not reduce oil consumption.** ZDDP is an anti-wear film for cam lobe/lifter contact.
