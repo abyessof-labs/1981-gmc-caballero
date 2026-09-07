@@ -170,6 +170,56 @@ Also: this is an additive, reversible modification if you take the no-drill pad-
 this car's condition file, keeping the dash pad unperforated is worth more than the tidier look of
 a flush mount.
 
+## Video references
+
+Found by search; **titles and channels only — none of these has been watched end to end**, so treat
+them as leads rather than vetted instructions. Where a video contradicts this document, check the
+factory manual before believing either.
+
+### The signal side, on an HEI specifically
+
+| Video | Why |
+|---|---|
+| [Simple Tach Install (HEI Distributor)](https://www.youtube.com/watch?v=4-MKsGInKIQ) — Vehicular Education | Closest match to this job: the cap terminal, the four wires |
+| [How to install / wire up a tach the right way, GM, for beginners](https://www.youtube.com/watch?v=DjpV2xvA-b4) | Same ground, beginner pace |
+| [How to install a tach on a 70s GM V8](https://www.youtube.com/watch?v=q0mfQ49YReY) | Same era and engine family |
+| [Tachometer Install on HEI Distributor](https://www.youtube.com/shorts/HcE9b1Q6uCg) | Short — quick look at the cap connector |
+| [How to wire up HEI modules — all five explained, 3/4/5/7 pin](https://www.youtube.com/watch?v=ploJQvvfmik) | **Use this for the open question above** — module pin counts are how you tell a plain HEI from a CCC/EST unit |
+
+### Generic gauge wiring and calibration
+
+| Video | Why |
+|---|---|
+| [Auto Meter — Basic Tach Installation](https://www.youtube.com/watch?v=FlweceqJ538) | Manufacturer's own walkthrough |
+| [Basic Tach Installation](https://www.youtube.com/watch?v=omxgOH-JngI) | Second pass at the same material |
+| [How to wire a swap-meet tachometer and set the number of cylinders](https://www.youtube.com/watch?v=HIm42pKi8Ew) | Covers the 4/6/8 selector directly — the one calibration step that matters here |
+| [How to Install a Tach (AnthonyJ350)](https://www.youtube.com/watch?v=PeMkO1XXIX0) | General install technique, crimps and routing |
+
+### This dash
+
+| Video | Why |
+|---|---|
+| [Monte Carlo / Malibu / El Camino gauge cluster removal](https://www.youtube.com/watch?v=c9sc4PYIHiM) | 78–88 bezel and cluster — how the trim comes off before you fish wires behind it |
+| [G-body dashboard removal](https://www.youtube.com/watch?v=pRs9bL6DP_0) | What is behind the pad, including the duct run |
+| ['78–'87 El Camino — install stock gauges, dash lights & fix tach](https://www.youtube.com/watch?v=_4hCp1wFdGk) | Same platform, includes the instrument-lamp circuit |
+| [1978 El Camino — install in-dash tachometer](https://www.youtube.com/watch?v=qK7QFeFN8c8) | The cluster-swap route, if the pod idea gets abandoned |
+| [G-body playlist — Cutlass, Monte Carlo, Regal, El Camino, Malibu](https://www.youtube.com/playlist?list=PL8_mSFjTzD2Jg4Bds0fwgZQxMYVuYPvye) | General platform reference |
+
+### If the needle misbehaves
+
+| Video | Why |
+|---|---|
+| [How to fix a bouncy tach needle](https://www.youtube.com/watch?v=-6j3glUtecY) | The common failure after a fresh install |
+| [Tachometer needle drifting — let's fix it](https://www.youtube.com/watch?v=P95k8u3p_Gg) | Grounding and signal quality |
+| [Electric tachometer needle bouncing fix](https://www.youtube.com/watch?v=Yl2_rv2YSjs) | Third angle on the same fault |
+
+**A warning about the written results on this topic.** Search turns up a lot of SEO content-farm
+pages on tach wiring, and at least two of them are wrong in ways that would cost money: one
+instructs you to land the signal wire's far end on chassis ground (that grounds the coil's switched
+side — the exact thing this document says never to do), and another claims HEI voltage requires a
+filter to protect the gauge (a filter fixes a *noisy* reading; it is not a damage-prevention part).
+Prefer the videos, the gauge manufacturer's own instruction sheet, and the factory manual.
+
 ## Open items
 
 - [ ] Determine CCC/EST vs plain HEI (see the table above)
