@@ -78,6 +78,43 @@ See [What counts as redline](#what-counts-as-redline-on-this-engine) — set any
 Tools: test light or multimeter, wire strippers/crimper, socket set (already logged in `costs.csv`),
 drill and step bit only if you commit to a drilled mount, a grommet for any firewall hole.
 
+## Specific parts — chrome pedestal, 6,000 RPM
+
+**The exact combination does not exist off the shelf.** Searching the mainstream brands, the split
+is consistent: **chrome pedestal tachs are all 0–8,000 RPM**, and the **0–6,000 chrome tachs are
+all in-dash**. AutoMeter's only 6,000 RPM Auto Gage pedestal unit is 2-3/4" in black-on-black.
+
+So either build it from two parts, or accept an 8,000 face.
+
+### Recommended — build it (chrome + pedestal + 6,000)
+
+| Part | What |
+|---|---|
+| AutoMeter **3-3/8" in-dash tachometer, 0–6,000 RPM, Traditional Chrome** | The right range and the right look |
+| AutoMeter **5203** | 3-3/8" chrome steel pedestal mounting cup, sold singly |
+
+Two boxes, but it is the only route to all three requirements at once, and the 0–6,000 face is the
+one that suits this engine — see the redline section below.
+
+### One-box alternatives, all 0–8,000
+
+| Part | Spec | Notes |
+|---|---|---|
+| AutoMeter **2304** | 3-3/4" pedestal, **white dial**, chrome case | Closest single-box match. Listed by **ShopEddies.ca**, a Canadian retailer |
+| AutoMeter Auto Gage 3-3/4" pedestal, **black dial**, chrome case | Same gauge, black face | Part number believed to be 2301 — **verify before ordering** |
+| Equus **E6078** | 3-3/8" chrome, black dial, pedestal hardware included | Adds an adjustable shift/redline indicator — set it to 4,500 — and white LED backlighting. Cheapest of the three. Canadian stock unconfirmed |
+
+**Watch the size.** The AutoMeter pedestal units are **3-3/4"**, not 3-3/8" — a 4-3/8" outer bezel.
+That is a large object on a G-body pad. Measure the space right of the cluster before committing.
+
+### Sourcing into Canada
+
+ShopEddies.ca is Canadian. Summit Racing ships to Canada with duties handled, Amazon.ca lists
+AutoMeter gauges, and Walmart.ca carries a tachometer category. **None of this is verified live
+stock** — the retail sites could not be opened from where this was researched, so everything here
+comes from search listings. Confirm availability and price before ordering, and log whatever is
+bought in `costs.csv` as a direct cost.
+
 ## What counts as redline on this engine
 
 **GM never printed one for this car.** The base Z88 cluster has no tach, so there is no factory red
