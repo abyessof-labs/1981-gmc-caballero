@@ -68,33 +68,35 @@ the filter itself does not need one, and a filter sold for this engine will not 
 disagree on whether PF454 added a drain-back valve; **PF454CL** definitely has one. Either works
 — the valve is simply irrelevant in this orientation.
 
-## Oil — conventional, high-ZDDP, 10W-40
+## Oil — conventional, high-ZDDP, 10W-30
 
-Two that actually exist in 10W-40 with a high zinc package:
+**Grade settled at 10W-30**, on advice taken outside this doc. Better cold cranking in a Montréal
+winter, and the factory-listed grade for this engine.
 
-1. **Lucas Hot Rod & Classic Car HP 10W-40** (`10683` — 5 qt jug, `10688` — 1 qt) — true
-   conventional (paraffinic base), ~2,100 ppm zinc plus moly and high phosphorus. Explicitly
-   marketed for pre-catalytic-converter engines with flat-tappet cams. Carried by NAPA, which
-   matters for getting it in Montréal. Independently sampled by the Petroleum Quality Institute of
-   America, which found it consistent with its labelled viscosity claims.
-2. **PennGrade 1 (ex-Brad Penn "the green oil") 10W-40** (`71440`) — 1,500 ppm zinc /
-   ~1,340–1,400 ppm phosphorus, Pennsylvania-grade base stock. Technically a *partial* synthetic
-   rather than a straight conventional. The long-standing default among engine builders and
-   machine shops for flat-tappet break-in and street use.
+One thing this changes: the API phosphorus cap applies to **xW-30 and lighter**, so unlike 10W-40
+you cannot lean on a grade exemption here. An ordinary shelf conventional 10W-30 will be near
+800 ppm zinc. The oil has to be a purpose-made high-zinc one — a racing or classic oil that skips
+API licensing on purpose.
 
-3. **Driven Racing Oil HR5 10W-40** (`03806`) — Joe Gibbs' hot-rod line, genuine petroleum base.
-   Driven does not publish a ppm figure and says so deliberately: their pitch is the *correct*
-   amount of fast-burn ZDDP for a street flat-tappet engine, not the largest. It also carries
-   US-military-spec corrosion inhibitors aimed at engines that sit — directly relevant to a car
-   that will be parked for a Montréal winter.
+| Oil | Zinc | Phosphorus | Base |
+|---|---|---|---|
+| Lucas Hot Rod & Classic 10W-30 (`10687`) | ~2,100 ppm | High, unpublished | Conventional |
+| **Valvoline VR1 conventional 10W-30** (silver bottle) | **1,472 ppm** | **1,544 ppm** | Conventional |
+| Valvoline VR1 full synthetic 10W-30 (black bottle) | 1,180 ppm | 1,112 ppm | Synthetic |
+| Driven HR-2 10W-30 (`02006`) | Unpublished by design | — | Conventional |
+| PennGrade 1 10W-30 (`7150P` / `71506`) | ~1,500 ppm | ~1,400 ppm | Partial synthetic |
 
-Valvoline VR1 is the other name that comes up but no longer offers a 10W-40 — its conventional
-grades are 10W-30, 20W-50 and straight weights. AMSOIL Z-Rod 10W-40 is high-zinc, storage-oriented
-and well regarded, but is a full synthetic. Champion Classic & Muscle is sold in Canada but only in
-10W-30, 20W-50 and 15W-50 — no 10W-40.
+**VR1 conventional is the best formulation match** — 1,472 ppm lands squarely in the 1,200–1,600
+band a stock-spring LG4 wants, without Lucas's excess. Watch the bottle colour: silver is the
+conventional, black is the synthetic, and Valvoline Canada's own catalogue page is for the
+*synthetic* 10W-30, so Canadian supply may default to black.
 
-For a stock LG4 any of the three work. Lucas is the highest zinc and the easiest to get locally;
-Driven HR5 and PennGrade are the more carefully engineered formulations.
+**Lucas is the one you can actually buy locally** and works fine; it is simply more zinc than this
+engine needs.
+
+Driven HR-2 carries US-military-spec corrosion inhibitors aimed at engines that sit — relevant for
+a car parked through a Montréal winter. AMSOIL Z-Rod 10W-30 is the synthetic option. Champion
+Classic & Muscle 10W-30 is a synthetic blend sold through Canadian classic-parts shops.
 
 ## Where to buy in Canada
 
@@ -124,54 +126,28 @@ cost more than the filter.
 
 | Source | Product | Note |
 |---|---|---|
-| [NAPA Canada](https://www.napacanada.com/en/p/NCB10688) | Lucas 10W-40, 946 ml (`NCB10688`) | **Local.** NAPA counters across the island |
-| [Auto Value / Bumper to Bumper](https://store.autovalueparts.ca/en/p/lucas-oil-products/10688/hot-rod-&-classic-car-hp-motor-oil-sae-10w-40/2034876) | Lucas 10W-40, 1 qt (`10688`) | **Local.** Uni-Select network, Quebec-based |
-| [PartsAvatar.ca](https://partsavatar.ca/lucas-oil-products-inc-engine-oil-10683) | Lucas 10W-40, 5 qt (`10683`) | The jug — one oil change in one box |
-| [Amazon.ca](https://www.amazon.ca/Driven-03806-Conventional-10W-40-Quart/dp/B00OJAG2EA) | Driven HR5 10W-40 (`03806`) | Sold by the quart; 5 needed |
-| [AMSOIL Canada](https://www.amsoil.ca/p/amsoil-z-rod-10w-40-100-synthetic-motor-oil-zrd/) | Z-ROD 10W-40 | Synthetic. Ships Mississauga/Edmonton, free over $130 |
-| [Performance Unlimited](https://performanceunlimited.ca/penngrade-motor-oil/) | PennGrade 1 10W-40 | London ON, ships Canada-wide. Call 519-453-4307 |
-| [Truck Part Superstore](https://www.truckpartsuperstore.ca/products/lucas-oil-products-10683-hot-rod-classic-car-hp-motor-oil-sae-10w-40) | Lucas 10W-40, 5 qt | Canadian backup source |
+| [NAPA Canada](https://www.napacanada.com/en/p/NCB10687) | Lucas 10W-30, 946 ml (`NCB10687`) | **Local.** NAPA counters across the island |
+| [Auto Value / Bumper to Bumper](https://store.autovalueparts.ca/en/p/lucas-oil-products/10687/hot-rod-&-classic-car-hp-motor-oil-sae-10w-30/9946504) | Lucas 10W-30 (`10687`) | **Local.** Uni-Select network, Quebec-based |
+| [Amazon.ca](https://www.amazon.ca/Lucas-Oil-10687-6PK-Classic-Performance/dp/B008RWAF1W) | Lucas 10W-30, 6-pack | One change plus a spare |
+| [Amazon.ca](https://www.amazon.ca/Valvoline-Racing-10W30-946ml-case/dp/B00DJ4FMK2) | Valvoline VR1 10W-30, case of 6 | **Confirm silver vs black bottle** before ordering |
+| [Amazon.ca](https://www.amazon.ca/Driven-Racing-Oil-Conventional-Protection/dp/B0964BHRYD) | Driven HR-2 10W-30, 12 qt case | Conventional; a case is more than one change |
+| [PartsEngine.ca](https://www.partsengine.ca/10687-vp-lucas-oil-products-666.aspx) | Lucas 10W-30 (`10687`) | Canadian, ships domestic |
+| [Truck Part Superstore](https://truckpartsuperstore.ca/products/lucas-oil-products-10687-hot-rod-classic-car-hp-motor-oil-sae-10w-30) | Lucas 10W-30 | Canadian backup source |
+| [Performance Unlimited](https://performanceunlimited.ca/penngrade-motor-oil/) | PennGrade 1 10W-30 | London ON, ships Canada-wide. 519-453-4307 |
+| [AMSOIL Canada](https://www.amsoil.ca/p/z-rod-10w-30-synthetic-motor-oil-zrt/) | Z-ROD 10W-30 | Synthetic. Free shipping over $130 |
 
-**Canadian Tire stocks nothing suitable.** Their 10W-40s are Quaker State Advanced Durability and
-Castrol GTX — ordinary API-licensed oils whose zinc is capped near 800 ppm, which is the whole
-problem being solved here. The Red Line 10W40 they list is a wet-clutch motorcycle oil, not this.
+**Canadian Tire is not a source for this.** They carry VR1, but the confirmed listing is 20W-50 —
+no 10W-30 in their assortment. Their conventional 10W-30s are ordinary API-licensed oils sitting
+under the phosphorus cap, which is the whole thing being avoided.
 
-### The plain-oil-plus-additive route
-
-A zinc-free conventional oil does not exist — every API oil carries ZDDP. What varies is how much,
-and the API phosphorus cap that gutted it applies only to **xW-30 and lighter** grades. 10W-40 and
-20W-50 are outside it. So an ordinary conventional 10W-40 already runs roughly 1,000–1,200 ppm
-zinc, against the 1,200–1,600 a stock-spring LG4 wants — most of the way there before any bottle
-is opened.
-
-Conventional 10W-40 available here:
-
-| Source | Product | Note |
-|---|---|---|
-| [Canadian Tire](https://www.canadiantire.ca/en/pdp/castrol-gtx-10w40-conventional-engine-motor-oil-5-l-0289206p.html) | Castrol GTX 10W-40, 5 L | Walk-in, one jug does the change |
-| [Canadian Tire](https://www.canadiantire.ca/en/pdp/quaker-state-10w40-advanced-durability-conventional-engine-oil-946-ml-0289002p.html) | Quaker State Advanced Durability 10W-40, 946 ml | Measured low on zinc — weakest starting point |
-| [PartSource](https://partsource.ca/collections/conventional-oil) | Castrol GTX 10W-40, 5 L, ~$39.99 | Mail-order only in Quebec |
-| [Pennzoil Canada](https://www.pennzoil.com/en_ca/products/blends-conventional-oils/motor-oil.html) | Pennzoil conventional 10W-40 | Tests better than Quaker State |
-| [NAPA Canada](https://www.napacanada.com/en/search?text=10W-40%20conventional) | Various | Same counters as the filter |
-
-Castrol GTX or Pennzoil are the picks. Figures above are from secondary sources — PQIA's own data
-pages could not be reached — so treat them as approximate.
-
-Two things to watch if supplementing:
-
-- **Count the bottle as oil.** A 350–475 ml additive in a 4.7 L sump is 7–10% of the fill. Put in
-  4.25 L plus the bottle, not 5 L plus the bottle, or the level reads over full.
-- **More is not better past a point.** A supplement is ZDDP in carrier oil with no detergent, so it
-  dilutes the finished oil's additive balance, and ZDDP competes with detergent for the same metal
-  surface. Past roughly 1,400–1,600 ppm the wear protection stops improving. One bottle, once —
-  not a bottle every change on top of an already-adequate oil.
+Five quarts (4.7 L) per change, so buy six if the bottles are 946 ml.
 
 ### Caveats worth knowing before committing to this plan
 
 - **Zinc does not reduce oil consumption.** ZDDP is an anti-wear film for cam lobe/lifter contact.
-  Burning oil on a 207,000 km engine is valve stem seals, guides, or rings. The 10W-40 (over a
-  10W-30) is the part of this that might slow consumption slightly, by being thicker at operating
-  temperature.
+  Burning oil on a 207,000 km engine is valve stem seals, guides, or rings. Nothing in the oil
+  aisle fixes that. A heavier grade can mask it slightly by being thicker when hot, which is the
+  one thing 10W-40 had going for it and 10W-30 gives up.
 - **Phosphorus kills catalytic converters.** The 1981 Caballero left the factory with one. The
   emissions hardware on this car is partly gone already (factory air cleaner missing, see
   `known-issues.md`), but confirm what is still under the car before running a 2,100 ppm oil.
@@ -180,5 +156,5 @@ Two things to watch if supplementing:
 - **A stock LG4 does not need 2,100 ppm.** That level is aimed at aggressive cams and stiff valve
   springs. With stock springs, 1,200–1,600 ppm is ample, which is why PennGrade's number is not a
   weakness. More zinc is not linearly better.
-- **Winter.** 10W-40 is fine for the driving season and was a factory-listed grade for this engine
-  in 1981. If the car ever gets started in a Montréal cold snap, 10W-30 cranks easier.
+- **Winter.** 10W-30 was a factory-listed grade for this engine in 1981 and cranks easier cold
+  than 10W-40 — the main argument for the grade change.
