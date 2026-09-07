@@ -82,9 +82,19 @@ Two that actually exist in 10W-40 with a high zinc package:
    rather than a straight conventional. The long-standing default among engine builders and
    machine shops for flat-tappet break-in and street use.
 
+3. **Driven Racing Oil HR5 10W-40** (`03806`) — Joe Gibbs' hot-rod line, genuine petroleum base.
+   Driven does not publish a ppm figure and says so deliberately: their pitch is the *correct*
+   amount of fast-burn ZDDP for a street flat-tappet engine, not the largest. It also carries
+   US-military-spec corrosion inhibitors aimed at engines that sit — directly relevant to a car
+   that will be parked for a Montréal winter.
+
 Valvoline VR1 is the other name that comes up but no longer offers a 10W-40 — its conventional
-grades are 10W-30, 20W-50 and straight weights. AMSOIL Z-Rod 10W-40 is high-zinc and well regarded
-but is a full synthetic.
+grades are 10W-30, 20W-50 and straight weights. AMSOIL Z-Rod 10W-40 is high-zinc, storage-oriented
+and well regarded, but is a full synthetic. Champion Classic & Muscle is sold in Canada but only in
+10W-30, 20W-50 and 15W-50 — no 10W-40.
+
+For a stock LG4 any of the three work. Lucas is the highest zinc and the easiest to get locally;
+Driven HR5 and PennGrade are the more carefully engineered formulations.
 
 ## Where to buy in Canada
 
@@ -109,6 +119,22 @@ clears; measure from the filter boss before driving to the store.
 
 Avoid ordering from Summit or JEGS for a $20 filter — brokerage and duty on a single small part
 cost more than the filter.
+
+### Oil
+
+| Source | Product | Note |
+|---|---|---|
+| [NAPA Canada](https://www.napacanada.com/en/p/NCB10688) | Lucas 10W-40, 946 ml (`NCB10688`) | **Local.** NAPA counters across the island |
+| [Auto Value / Bumper to Bumper](https://store.autovalueparts.ca/en/p/lucas-oil-products/10688/hot-rod-&-classic-car-hp-motor-oil-sae-10w-40/2034876) | Lucas 10W-40, 1 qt (`10688`) | **Local.** Uni-Select network, Quebec-based |
+| [PartsAvatar.ca](https://partsavatar.ca/lucas-oil-products-inc-engine-oil-10683) | Lucas 10W-40, 5 qt (`10683`) | The jug — one oil change in one box |
+| [Amazon.ca](https://www.amazon.ca/Driven-03806-Conventional-10W-40-Quart/dp/B00OJAG2EA) | Driven HR5 10W-40 (`03806`) | Sold by the quart; 5 needed |
+| [AMSOIL Canada](https://www.amsoil.ca/p/amsoil-z-rod-10w-40-100-synthetic-motor-oil-zrd/) | Z-ROD 10W-40 | Synthetic. Ships Mississauga/Edmonton, free over $130 |
+| [Performance Unlimited](https://performanceunlimited.ca/penngrade-motor-oil/) | PennGrade 1 10W-40 | London ON, ships Canada-wide. Call 519-453-4307 |
+| [Truck Part Superstore](https://www.truckpartsuperstore.ca/products/lucas-oil-products-10683-hot-rod-classic-car-hp-motor-oil-sae-10w-40) | Lucas 10W-40, 5 qt | Canadian backup source |
+
+**Canadian Tire stocks nothing suitable.** Their 10W-40s are Quaker State Advanced Durability and
+Castrol GTX — ordinary API-licensed oils whose zinc is capped near 800 ppm, which is the whole
+problem being solved here. The Red Line 10W40 they list is a wet-clutch motorcycle oil, not this.
 
 ### Caveats worth knowing before committing to this plan
 
