@@ -71,11 +71,41 @@ Two hard rules on that terminal:
 | Crimp terminals, heat-shrink, split loom, zip ties, rubber grommet | | $20 |
 | Ring terminal + star washer for the ground | | — |
 
-Range: a 0–6000 or 0–8000 RPM face is plenty. **A stock LG4 305 makes its power well under
-4500 RPM** — the tach is there to keep you honest about that, not to invite you past it.
+Range: **a 0–6000 face is right; 0–8000 wastes half the sweep** on RPM this engine will never see.
+See [What counts as redline](#what-counts-as-redline-on-this-engine) — set any shift light around
+4,500.
 
 Tools: test light or multimeter, wire strippers/crimper, socket set (already logged in `costs.csv`),
 drill and step bit only if you commit to a drilled mount, a grommet for any firewall hole.
+
+## What counts as redline on this engine
+
+**GM never printed one for this car.** The base Z88 cluster has no tach, so there is no factory red
+band to read off. The nearest documented figure for the same engine is the **5,200 RPM redline on
+the factory tachometer of the 1980 Corvette's LG4 305** — same engine family, different car, and
+the only GM-printed number that applies to an LG4 at all.
+
+That is a ceiling, not a target. What actually matters:
+
+| | |
+|---|---|
+| Peak power (1981 LG4) | ~150 hp at roughly 4,000 RPM |
+| Peak torque | Low — around 2,400 RPM |
+| Useful range | **Everything happens below 4,000.** Past that the engine is making noise, not power |
+| Documented factory redline (Corvette LG4) | 5,200 RPM |
+| Stock valvetrain limit | Hydraulic flat tappets on stock springs start floating somewhere around 5,000–5,500 |
+| Rev limiter | **None.** Neither the HEI nor a 1981 CCC ECM has one. Nothing will stop you |
+| Practical shift point | 4,000–4,500. The automatic upshifts well before that on its own anyway |
+
+**Set a shift light, if the gauge has one, at 4,500** — comfortably below float, well above anything
+useful.
+
+The more honest answer for *this* car: the spec-sheet redline is not the binding constraint. On a
+207,000 km engine of unknown service history, the limit is set by a 45-year-old timing chain (GM's
+nylon-toothed cam gears of this era shed teeth as they age), valve springs that have lost tension,
+and an oil pump and bearings nobody has inspected. Treat 4,500 as the ceiling until the engine's
+condition is actually known, and treat the tach's real job as watching idle quality and setting the
+carb — not as permission to explore the top of the tachometer.
 
 ## Mounting — to the right of the column
 
