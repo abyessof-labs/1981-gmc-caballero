@@ -66,7 +66,7 @@ Two hard rules on that terminal:
 | Tach, 3-3/8" (85 mm) | Full-size, classic look, easy to read. Autometer Sport-Comp / Pro-Comp, or an Equus/Sunpro for a fraction of the price | $80–260 |
 | Tach, 2-5/8" (66 mm) mini | If a 3-3/8" pod looks like a gun turret on the pad — measure first | $90–140 |
 | Single-gauge dash pod or chrome cup + bracket | Pod for pad-top, cup for under-dash | $25–70 |
-| Add-a-circuit fuse tap (ATO or the correct blade type for this fuse block — **verify**) + 3 A fuse | Powers the gauge without cutting a factory wire | $10 |
+| Inline fuse holder + 3 A fuse, or a glass-fuse tap adapter | **This block takes SFE glass cartridge fuses, not blade** — an ordinary ATO add-a-circuit will not fit. See [Power](#power-which-fuse) | $10–25 |
 | 18 AWG stranded primary wire, three colours | Red power, black ground, a third for signal | $15 |
 | Crimp terminals, heat-shrink, split loom, zip ties, rubber grommet | | $20 |
 | Ring terminal + star washer for the ground | | — |
@@ -108,15 +108,14 @@ Battery negative disconnected before any of this.
 | Wire | Goes to | Why |
 |---|---|---|
 | **Signal** (often white/green) | `TACH` terminal on the HEI cap connector | The pulse source, above |
-| **Power** (red) | Ignition-switched 12 V, via a fuse tap at the fuse block, 3 A fuse | Must die with the key or the gauge drains the battery |
+| **Power** (red) | Ignition-switched 12 V at the fuse block — `ACC` or `GAUGES`, through a 3 A inline fuse. See [Power](#power-which-fuse) | Must die with the key or the gauge drains the battery |
 | **Ground** (black) | Clean bare chassis metal under the dash, ring terminal + star washer | Shared reference with the signal |
-| **Illumination** (usually white) | Instrument-panel lamp feed — the **grey** wire in GM harnesses of this era | Dims with the factory rheostat instead of glowing full-bright at night |
+| **Illumination** (usually white) | A **grey** dimmer-fed wire — easiest at the radio's illumination lead behind the centre bezel. See [Illumination](#illumination-where-to-pick-up-the-dash-lights) | Dims with the factory rheostat instead of glowing full-bright at night |
 
 Notes that matter more than the table:
 
-- **Power source.** Use an add-a-circuit at the fuse block on an ignition-switched circuit —
-  gauges or accessory. Do not splice into the wiper or any brake-related circuit, and do not feed
-  the tach from the `BAT` terminal at the distributor.
+- **Power source.** Ignition-switched only, and never the `BAT` terminal at the distributor. The
+  fuse block deserves its own section — see below.
 - **Firewall crossing.** Use the existing main harness grommet on the driver's side, or an unused
   blanking grommet. If you must drill, deburr it and fit a rubber grommet. A signal wire chafing
   through on a raw steel edge is how a tach install becomes an electrical fire.
@@ -128,6 +127,80 @@ Notes that matter more than the table:
 - Loom and zip-tie everything away from the exhaust manifolds — which this car's known-issues list
   already flags as heavily corroded — and away from the throttle linkage.
 
+## Power — which fuse
+
+The fuse block sits **under the dash on the driver's side, left of the steering column**, worked on
+from the footwell looking up.
+
+**It takes SFE glass cartridge fuses, not blade fuses.** This corrects an earlier assumption in
+this document: an off-the-shelf ATO add-a-circuit will not clip into it. Glass-to-blade adapters
+exist (FlexFuse and similar) if you want a modern tap, but for a single gauge an inline fuse holder
+on a spade terminal is simpler and reversible. **Confirm by looking** — a previous owner may have
+converted the block.
+
+Positions reported for the 78–81 El Camino/Caballero block: `C/H HAZARD`, `INST LPS`, `WDO`, `IGN`,
+`A/C`, `ECM`, `LPS`, `WIPER`, `ACC`, `STOP-HAZ`, `GAUGES`, `TAIL LPS`, `RADIO`, `TURN B/U`,
+`CTSY-CLK`, `PWR ACCY`, `VAC PUMP`, `BAT`. `GAUGES` is a 10 A position.
+
+**Note the `ECM` position.** Whether it is populated is a second, easier read on the open CCC/EST
+question at the top of this document — no ECM fuse, probably no computer.
+
+| Candidate | Verdict |
+|---|---|
+| **`ACC`** | **First choice.** Ignition-switched, no safety-critical or computer load sharing the circuit. Drops out while cranking, which for a tach is harmless |
+| **`GAUGES`** (10 A) | Electrically the tidiest home — same circuit as the factory gauges. **But** on this platform that circuit is reported to also carry cruise, warning lamps, buzzers and, on CCC cars, the ECM. Only use it if you have confirmed the ECM is not on it |
+| `RADIO` | Convenient — it is right behind where the gauge is going. Verify it is actually key-switched before trusting it |
+| `BAT`, `CTSY-CLK`, `LPS`, `TAIL LPS` | **No.** Always hot. The gauge would stay live with the key out and flatten the battery |
+| `WIPER`, `STOP-HAZ` | **No.** Do not hang anything off wiper or brake-lamp circuits |
+| `ECM` | **Never.** |
+
+**Do not trust the label — measure.** Probe each candidate with a test light: key off (want dead),
+key in RUN (want live), key in ACC. Labels on a 45-year-old block are worn, and previous owners
+rearrange things.
+
+**Which side of the fuse clip.** Pull the fuse and probe both clips with the key on: the live one
+is the feed side. Land your tap on the **feed** side with the 3 A inline fuse mounted within a few
+inches of the tap, so your branch has its own protection and a fault in your wiring does not blow
+the factory fuse and take the gauges (or the ECM) down with it.
+
+If this car ends up with more added electrics — and given the work backlog it probably will — a
+small auxiliary fuse block fed through a relay from a switched source is the better long-term
+answer than repeatedly tapping the factory block.
+
+## Illumination — where to pick up the dash lights
+
+**The target is a grey wire.** In GM harnesses of this era **grey is the instrument-panel lamp
+feed**, downstream of the rheostat built into the headlight switch, so it dims with the dash lights.
+**Brown is park/tail lamps** — full brightness whenever the lights are on, no dimming. Do not
+confuse the two.
+
+Tap points, best first:
+
+| Where | Notes |
+|---|---|
+| **Radio illumination lead, behind the centre bezel** | **Best for this install.** The `INST LPS` circuit feeds the factory radio light on a grey wire that dims with the headlight switch — and the bezel is inches from where the gauge is going |
+| Headlight switch connector, left of the column | The grey wire leaving the switch. Also fine, longer run |
+| `INST LPS` fuse | Convenient, but **check whether it sits upstream or downstream of the rheostat** — tap the wrong side and the gauge lamp glows full-bright regardless of the dimmer |
+| Cluster printed-circuit connector | Last resort. Do not pierce the printed circuit |
+
+**The test that settles it:** probe your chosen point with a meter while rotating the dimmer thumb
+wheel. If the voltage swings, you are downstream of the rheostat and the gauge will dim with
+everything else. If it sits fixed at battery voltage, you are upstream — move.
+
+Three cautions:
+
+- **The lamp needs a ground**, not just a feed. Take it to the same chassis point as the gauge.
+- **The rheostat is a known weak point at this age** — a wire-wound resistor in the headlight
+  switch that runs hot and fails. One gauge lamp is a negligible load, but if the dash lights are
+  *already* dim, flickering, or dead, fix that before adding to it.
+- **LED-lit gauges do not always dim gracefully** on an old resistive rheostat — flicker, or an
+  abrupt cut to off near the bottom of the sweep. That is the rheostat's characteristic meeting a
+  load it was never designed for, not a faulty gauge.
+
+**Splice method matters here.** No scotch-locks or vampire taps: they sever strands and invite
+corrosion, and the insulation on a 45-year-old harness is brittle enough already. Solder and
+adhesive-lined heat shrink, or a quality T-tap.
+
 ## Procedure
 
 1. Disconnect the battery negative.
@@ -138,8 +211,8 @@ Notes that matter more than the table:
 5. Run the signal wire from the cap, through the firewall grommet, to the gauge. Loom it, secure
    it, keep it off the plug wires.
 6. Land the ground on clean bare metal.
-7. Tap ignition-switched 12 V at the fuse block through the add-a-circuit with a 3 A fuse.
-8. Tap the grey instrument-lamp wire for illumination; ground the lamp.
+7. Tap ignition-switched 12 V at the fuse block through a 3 A inline fuse — see [Power](#power-which-fuse).
+8. Tap a grey dimmer-fed wire for illumination and ground the lamp — see [Illumination](#illumination-where-to-pick-up-the-dash-lights).
 9. Reconnect the battery. Key on, engine off: needle should sit at zero and the lamp should light
    with the headlights and dim with the rheostat.
 10. Start it. Idle should read in the ballpark of 600–750 RPM in gear for a stock LG4 — **verify
@@ -224,6 +297,7 @@ Prefer the videos, the gauge manufacturer's own instruction sheet, and the facto
 
 - [ ] Determine CCC/EST vs plain HEI (see the table above)
 - [ ] Read the underhood emissions label for the actual idle speed spec
-- [ ] Confirm the fuse block's blade type before buying an add-a-circuit
+- [ ] Eyeball the fuse block to confirm it is still original SFE glass and has not been converted
+- [ ] Check whether the `ECM` fuse position is populated — a second read on the CCC question
 - [ ] Measure the pad space right of the cluster to choose 3-3/8" vs 2-5/8"
 - [ ] Confirm the engine-to-body ground strap is sound before wiring anything
