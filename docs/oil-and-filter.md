@@ -98,6 +98,40 @@ Driven HR-2 carries US-military-spec corrosion inhibitors aimed at engines that 
 a car parked through a Montréal winter. AMSOIL Z-Rod 10W-30 is the synthetic option. Champion
 Classic & Muscle 10W-30 is a synthetic blend sold through Canadian classic-parts shops.
 
+## Interval
+
+**Every 5,000 km or once a year, whichever comes first — and time will come first.**
+
+At a few thousand km a year, distance is not what degrades this oil. Three things do:
+
+- **Short trips.** A classic's typical outing never gets the oil hot enough for long enough to boil
+  off the water and raw fuel that condense into it. That is textbook severe service, whatever the
+  odometer says.
+- **A carburettor and 207,000 km of wear.** Richer mixture than any injected engine plus more
+  blow-by past worn rings means more fuel dilution and more acidic byproducts in the sump.
+- **The oils themselves.** VR1 is a racing oil — the commonly cited street interval is 3,000 miles
+  (~5,000 km), and sources disagree on how much detergent it carries relative to a street oil, so
+  the short reading is the safe one. Lucas Hot Rod & Classic is non-API and likewise not a
+  long-drain oil. Neither is meant to sit in an engine for 10,000 km.
+
+**Change it in the fall, before storage — not in the spring.** The point is to have fresh oil with
+an intact additive package sitting in the engine through the months it is parked, instead of used
+oil carrying acids and moisture against the bearings. After the change, run it 15–20 minutes to
+temperature so the new oil circulates and any moisture introduced during the change boils off.
+Then park it.
+
+**Topping up is not changing.** This engine burns oil, so check the dipstick every fill-up and keep
+it up. Fresh oil added does dilute what is in there, but the fuel dilution and acids stay — the
+clock keeps running.
+
+**Do the first change now, whatever the seller said.** History is unknown, and it doubles as the
+cheapest diagnostic available: look at what comes out and cut the old filter open. Milky or
+mayonnaise-coloured means coolant. Metallic glitter means bearing or cam material. Either finding
+is worth knowing before spending money on the rest of the list.
+
+The factory schedule for this era was roughly 3,000 miles severe / 7,500 miles normal, but I could
+not verify the exact 1981 table — the Haynes manual already bought for this car has it.
+
 ## Where to buy in Canada
 
 Prices are as-listed at the time of writing, in CAD, before tax.
