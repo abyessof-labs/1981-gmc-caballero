@@ -26,12 +26,20 @@ alternator is not doing its job, **or** the gauge is lying.
 
 ## Read it with a meter before chasing anything
 
-The factory cluster voltmeter does not sense at the battery. It sees whatever survives the
-bulkhead connector, the ignition switch, and the printed circuit behind the cluster — 45 years of
-accumulated resistance in that path. **A tired instrument feed commonly reads 0.5–1.0 V low with a
-perfectly healthy alternator.**
+The factory cluster voltmeter does not sense at the battery. It is wired between an
+ignition-switched feed and ground *at the cluster*, so it reads battery voltage minus everything
+lost getting there — through the bulkhead connector pins, the ignition switch contacts, and the
+printed-circuit traces. The needle is not miscalibrated; it is honestly reporting a voltage that
+genuinely is lower at that point in the harness. A weak cluster ground shifts it further.
 
-Meter across the battery posts, engine warm, ~1500–2000 rpm, everything off:
+**A tired instrument feed commonly reads 0.3–0.7 V low with a perfectly healthy alternator.** More
+than about 1 V of discrepancy is possible but means the feed path itself is badly degraded — worth
+chasing on its own, since the G-body bulkhead connector is a known trouble spot.
+
+Meter across the battery posts, engine warm, ~1500–2000 rpm, everything off. **Rpm matters:** a
+stock 10SI makes poor output at low speed, so sagging into the 13s at a 600–700 rpm idle with the
+blower and headlights on is normal and proves nothing. Bring the revs up before concluding
+anything.
 
 - **13.8–14.8 V** → charging system is fine, the *gauge* (or its feed) is the fault. Stop here and
   move to the cluster/bulkhead connector.
