@@ -106,17 +106,24 @@ push a needle (not an ice pick) through the upholstery either side of the head r
 holes, start the top screw halfway, then the bottom one. If a previous upholsterer removed that arm,
 it has to go back in first — it is held by a few sheet-metal screws.
 
-*Buckle half (the short stalk beside the seat, GM-stamped push-button release)* — worn webbing on both
-sides. Two routes, and only the first keeps the original GM-lettered release button:
+*Buckle half — the short stalk beside the seat with the GM-stamped push-button release.* Webbing worn
+on both sides. **Decision: buy the part, do not pay for rewebbing** — restoration services run past the
+cost of the part. Nobody catalogues a bare buckle end as a web SKU, so it is one of these three:
 
-| Route | Source | Notes |
-|---|---|---|
-| **Reweb the originals** — Canadian, no border | My Seat Belt Guy — classic service for 2001-and-older | +$25/belt for metal covers or metal side housings |
-| Reweb — Canadian | Safe and Smart Drive Canada Ltd | Full classic restoration service |
-| Reweb — US | Ssnake-Oyl Products, Tyler TX | Re-plates/re-chromes original hardware, show-quality |
-| Reweb — US | Safety Restore, Westfield MA | 24 h turnaround, ships to Canada |
-| Reweb — US | Seatbelt Planet | Reweb service, many colours |
-| **Replace with new repro pair** | Seatbelt Planet 78–87 El Camino **bucket** kit · OPGI `L240541` · SeatbeltsPlus `78872_Bucket` · SS396 | 3-point retractable, metal push-button — **starburst** logo, not the GM-lettered button |
+| Route | Source | Price | Notes |
+|---|---|---|---|
+| **Custom-built buckle end** — closest to exactly what is needed | Seatbelt Solutions — *Components* → Buckles & Tongues, Anchors, Buckle Sleeves. US manufacturer, supplies several of the resellers below | quote | Builds any length, **58 webbing colours**. Phone order — specify buckle end only, beige, cut to the original stalk length |
+| **Buy a 2-point lap belt, use the buckle half** — cheapest catalogued route | Seatbelt Planet, 2-point push-button lap belt | **$25.95 USD** | 32 colours incl. **Medium Beige** and **Camel**, tan plastic components. Fixed (buckle) side is configurable — 74″ = 50″ adjustable + 24″ fixed |
+| Same idea, GM-lettered button | SeatbeltsPlus `1205-Desert-Tan` / `1205-Tan` — GM logo metal push button | — | 60 / 74 / 90″. Remanufactured buckle, new everything else |
+| Used original, GM-lettered button | eBay / GBodyParts / Chicago Muscle Car Parts, 78–87 G-body beige | — | Keeps the correct button, but the webbing is 45 years old — which is the thing being replaced |
+
+**Check before ordering: the buckle and its tongue are a matched pair.** An aftermarket buckle end may
+not accept the original GM retractor's latch plate, or may false-latch in it. Measure the latch plate
+width on the existing pillar belt and confirm with the vendor, or buy buckle and tongue from the same
+maker. Never mix an aftermarket tongue with an OE buckle.
+
+**Colour:** GM beige of this era splits into Tan, Desert Tan, Medium Beige, Camel and Doeskin, which
+are not interchangeable to the eye. Get swatches before committing to two belts.
 
 ## Technical reference
 
