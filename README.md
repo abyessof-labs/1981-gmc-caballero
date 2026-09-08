@@ -28,6 +28,8 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  parts-door-panel-window-switch.md
+                          Clips, retainers, and part numbers for the door panels and window switches
   logger-app.md           How the logger app works and how to host it
 log/
   README.md               How to add a work-log entry
