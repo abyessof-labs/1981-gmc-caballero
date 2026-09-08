@@ -31,7 +31,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Transmission identity unknown (THM250C vs THM200C) | Informational, affects value | Open — count pan bolts or read SPID `M` code |
 | Factory air cleaner assembly missing, replaced with aftermarket open element | Cosmetic + likely emissions-system deletion; will not fail SAAQ inspection | Open |
 | Windshield — crack in driver's sweep | Glazing — inspection-critical | Open |
-| Shift indicator cable unhooked at column (per seller) | Confirm not the neutral-safety interlock — test "foot on brake, try to crank in Drive/Reverse" | Open |
+| Shift indicator cable unhooked at column (per seller) | Confirm not the neutral-safety interlock — test "foot on brake, try to crank in Drive/Reverse" | Open — access procedure in [`shift-indicator-cable.md`](shift-indicator-cable.md) |
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
 
