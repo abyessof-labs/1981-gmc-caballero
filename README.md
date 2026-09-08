@@ -37,6 +37,8 @@ docs/
   parts-door-panel-window-switch.md
                           Clips, retainers, and part numbers for the door panels and window switches
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
+  shift-indicator-cable.md
+                          Column shift indicator: access, reattachment, adjustment
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
   welding/                Doing the rust repair in-house — equipment, process, safety
