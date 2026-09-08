@@ -75,6 +75,49 @@ Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Do
 | Bed rail moulding kit | Ecklers — generic El Camino/Caballero 78–87 | — |
 | Tonneau cover, hatch style | Chevelle Depot | $1,109.99 CAD |
 
+### Seat belt hardware
+
+**Open question before ordering:** the front seats are reported to be **1982 Ford Thunderbird buckets**
+(Fox platform), while the belts in the car are **GM**. The seat-back guide loop is a *seat* part, so the
+correct one depends on which seat it is screwing into — confirm the seat before buying. The buckle
+halves are GM regardless. See `docs/known-issues.md` → Interior.
+
+*Shoulder belt guide loop* — the plastic loop screwed to the outboard shoulder of the seat back that
+routes the shoulder belt. GM calls it a **shoulder belt guide** (the trim ring it snaps through is the
+**guide escutcheon**); Ford calls it a **seat belt shoulder guide**.
+
+| Part | Source | Price |
+|---|---|---|
+| Shoulder belt guide, 78–88 A/G-body bucket seats — GM `20552386` (LH) / `20552387` (RH) | GBodyParts.com product 1700 — molded colours, **sold in sets only** | — |
+| Same guide, black, 78–87 A/G-body — `GBS1028` | GM Classic Parts | — |
+| Same guide, grey, 82–87 — `GBS1029` | GM Classic Parts / eBay | — |
+| Seat belt guides, 78–88 G-body, closed loop — `L240904` | OPGI | — |
+| Seat belt guides, pair, grey — `IBG-7245` (El Camino) · `IBG-7242` (Monte Carlo, blue) | SS396 / Ground Up | — |
+| Bucket seat belt guides, pair, black — `DM00166 BLACK` | Dixie Restoration Depot | — |
+| Shoulder seat belt guide, **LH and RH sold separately**, 78–88 G-body | Chicago Muscle Car Parts | — |
+| Shoulder harness loop guide, 73–81 GM bucket seats — GM `1708119` | Inline Tube `INL15349` | — |
+| Shoulder belt guide **escutcheon**, 74–80 GM, black | OER `9691094` | — |
+| Ford Fox-platform seat belt shoulder guide kit, pair + 4 screws — `LRS-15676AK` | LMR (5.0 Resto) — catalogued for 85–89 sport seats, **not** a listed 80–82 Thunderbird fit | $19.99 USD |
+| 80–82 Thunderbird seat guide, factory | No repro found — Ford catalogue group *Seat Belt and Shoulder Harness Installation – Bucket*; NOS/used only | — |
+
+Two different guide styles were used on early 78–81 GM bucket seats, so match the shape to the seat
+before ordering. The guide screws into a **steel arm inside the seat back**, not into the foam:
+push a needle (not an ice pick) through the upholstery either side of the head rest to find the two
+holes, start the top screw halfway, then the bottom one. If a previous upholsterer removed that arm,
+it has to go back in first — it is held by a few sheet-metal screws.
+
+*Buckle half (the short stalk beside the seat, GM-stamped push-button release)* — worn webbing on both
+sides. Two routes, and only the first keeps the original GM-lettered release button:
+
+| Route | Source | Notes |
+|---|---|---|
+| **Reweb the originals** — Canadian, no border | My Seat Belt Guy — classic service for 2001-and-older | +$25/belt for metal covers or metal side housings |
+| Reweb — Canadian | Safe and Smart Drive Canada Ltd | Full classic restoration service |
+| Reweb — US | Ssnake-Oyl Products, Tyler TX | Re-plates/re-chromes original hardware, show-quality |
+| Reweb — US | Safety Restore, Westfield MA | 24 h turnaround, ships to Canada |
+| Reweb — US | Seatbelt Planet | Reweb service, many colours |
+| **Replace with new repro pair** | Seatbelt Planet 78–87 El Camino **bucket** kit · OPGI `L240541` · SeatbeltsPlus `78872_Bucket` · SS396 | 3-point retractable, metal push-button — **starburst** logo, not the GM-lettered button |
+
 ## Technical reference
 
 - Transmission ID: 11 pan bolts = THM200C ("METRIC" stamped on pan); 13 = TH250C/350 family
