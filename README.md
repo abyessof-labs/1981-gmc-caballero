@@ -27,6 +27,7 @@ mileage.csv              Odometer readings
 docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
+  radio-delete.md        Radio harness wire map, cut/cap procedure, dash blanking
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   logger-app.md           How the logger app works and how to host it
 log/
