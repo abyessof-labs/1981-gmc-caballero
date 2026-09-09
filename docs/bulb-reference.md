@@ -25,13 +25,48 @@ sell you the wrong headlamps. Buy 1978–1981-specific, or buy by lamp size.
 
 | Position | Qty | Bulb | Notes |
 |---|---|---|---|
-| Dome lamp | 1 | **1004** | Single-contact bayonet, ~15 cp. |
+| Dome lamp | 1 | **1004** | 12.8 V, 0.94 A, 12 W, 15 cp. **BA15d double-contact bayonet**, B6 glass, 44.5 mm long. See the LED section below. |
 | Instrument panel illumination | 4–6 | **194** | Grey twist-lock sockets in the back of the cluster. **168** is the same bulb with more wattage — brighter, hotter, and it can distort the plastic lens on a 45-year-old cluster. |
 | Indicator lamps (turn arrows, high beam, brake, oil, temp, ALT) | as fitted | **194** / **161** | Twist-lock, same sockets as above. |
 | Glove box lamp (if fitted) | 1 | **194**-class | Verify — see below. |
 | Ashtray / lighter / heater control illumination | as fitted | **1445**-class | Verify — see below. |
 | Radio dial | 1 | **1893**-class | Delco unit. Verify — see below. |
 | Under-hood lamp (if fitted) | 1 | **93** | Rarely still present. |
+
+## Dome lamp — LED conversion
+
+**Electrical spec of the original #1004:** 12.8 V nominal, 0.94 A, 12 W, 15 candlepower, ~130–150
+lumens, 200-hour rated life. Glass is B6 shape, 19 mm diameter, 44.5 mm overall length. On a
+running engine the system sits at 13.8–14.4 V, so real draw is closer to 1.0 A / 14 W.
+
+An LED replacement of similar output pulls **1–2 W, roughly 0.08–0.15 A** — about a tenth of the
+load, and far less heat against a 45-year-old plastic lens.
+
+**The base is the part to get right: BA15d, double contact.** Two pips on the bottom of the base,
+not one. This is not the same base as the 1156/1141 exterior bulbs (BA15s, single contact), and a
+single-contact LED will not work here. GM used a double-contact bulb because the dome circuit is
+**switched on the ground side** — the lamp is hot at all times from the fuse block, and the door
+jamb switches complete the circuit to ground. Both sides of the filament therefore run through the
+bulb base; there is no chassis ground through the roof to fall back on.
+
+What to buy:
+
+- Search **"1004 LED"** or **"BA15d LED"**. The cross-reference family is 94 / 1004 / 1142 / 1076.
+- **Polarity.** A BA15d base seats two ways round, and most LEDs only conduct one way. If it
+  doesn't light, pull it and rotate 180° before assuming it's dead. Better: buy one advertised as
+  *non-polarized* or *polarity-free* (it has an internal bridge rectifier) and skip the problem.
+- **Voltage range.** Take one rated 12–24 V or 9–30 V, not bare "12 V" — charging voltage is 14.4 V
+  and cheap fixed-12 V LEDs die early on it.
+- **Colour temperature.** 3000–4000 K warm white looks period-correct against a black interior.
+  6000 K reads blue and modern, and makes the interior look worse, not brighter.
+- **Beam pattern.** Choose an omnidirectional "tower" or multi-face SMD bulb, not a single
+  high-power emitter firing one direction — a directional LED puts a bright spot on the lens and
+  leaves the cab dark. 150–250 lumens is plenty; chasing 500+ just creates glare in the mirror.
+
+Two things to check before ordering: pull the lens and confirm the car actually still has a 1004
+in there (a previous owner may have improvised), and note that because an LED draws so little
+current, a marginal ground or a leaky door jamb switch can leave it glowing faintly when it should
+be off. That's a switch or ground fault the incandescent bulb was masking, not a bad LED.
 
 ## Verify at the socket
 
