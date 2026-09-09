@@ -89,6 +89,33 @@ handful.
 The SPID sticker in the glove box (still unread — see
 [`purchase-summary.md`](purchase-summary.md)) settles which lamps this car left Doraville with.
 
+## Where these numbers come from
+
+**None of this is read off GM documentation.** It is compiled from aftermarket catalogue data
+(Sylvania's application guide and equivalents) plus standard GM A/G-body practice. Aftermarket
+catalogues are usually right, but they collapse year ranges and they do carry errors — the
+1977–81 vs 1982–87 headlamp split at the top of this file is exactly the kind of thing they get
+wrong.
+
+Worth knowing: for miniature bulbs GM never specified a proprietary part. The factory charts list
+**industry ANSI trade numbers** — the same 93, 194, 1156, 1157 sold by everyone — so "the OEM spec"
+and "the trade number" are the same thing, and an AC Delco bulb is that trade number in a GM box.
+The open question is only *which* number GM listed for each position.
+
+Three primary sources settle it, in rough order of convenience:
+
+1. **The bulb already in the car.** Original GM bulbs are stamped with the trade number on the base
+   or the crown of the glass. On a car this original, that stamp *is* the factory answer, free.
+2. **1981 owner's manual**, replacement-bulb chart in the back. Reprints are sold by Dixie
+   Restoration Depot (`DM80118-1981`) and on Amazon, ~$20.
+3. **1981 factory service manual**, chassis electrical section, "bulb usage" chart. The Caballero
+   is a GMC light-duty truck by VIN and title, so check the GMC light-duty truck manual as well as
+   the Chevrolet A/G-body (Malibu / Monte Carlo / El Camino) volume — the car is mechanically the
+   El Camino, but GMC published its own literature.
+
+The dome lamp is the one entry where sources actively disagree — see that section above. Everything
+else on this page is consistent across the catalogues checked.
+
 ## Buying notes
 
 - **Trade numbers are universal.** A "1157" is a 1157 from any brand; there is no GM-specific
