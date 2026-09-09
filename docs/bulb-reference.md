@@ -25,7 +25,7 @@ sell you the wrong headlamps. Buy 1978–1981-specific, or buy by lamp size.
 
 | Position | Qty | Bulb | Notes |
 |---|---|---|---|
-| Dome lamp | 1 | **93** | 12.8 V, 1.04 A, 13.3 W, 15 cp, 188 lm. **BA15s single-contact bayonet**. Some GM dome lamps of this era instead take the double-contact **1004** — confirm at the socket. See below. |
+| Dome lamp | 1 | **211-2** / **561** | 12.8 V, 0.97 A, 12.4 W. **Festoon** (~41–44 mm, SV8.5-8 end caps) — a tube with a metal cap at each end, *not* a bayonet bulb. See below. |
 | Instrument panel illumination | 4–6 | **194** | Grey twist-lock sockets in the back of the cluster. **168** is the same bulb with more wattage — brighter, hotter, and it can distort the plastic lens on a 45-year-old cluster. |
 | Indicator lamps (turn arrows, high beam, brake, oil, temp, ALT) | as fitted | **194** / **161** | Twist-lock, same sockets as above. |
 | Glove box lamp (if fitted) | 1 | **194**-class | Verify — see below. |
@@ -33,61 +33,56 @@ sell you the wrong headlamps. Buy 1978–1981-specific, or buy by lamp size.
 | Radio dial | 1 | **1893**-class | Delco unit. Verify — see below. |
 | Under-hood lamp (if fitted) | 1 | **93** | Rarely still present. |
 
-## Dome lamp — LED conversion
+## Dome lamp — festoon, not bayonet
 
-**The #93 (Sylvania's listing for this car):** 12.8 V, 1.04 A, 13.3 W, 15 candlepower, 188 lumens,
-2800 K, ~500 h rated life. **BA15s single-contact bayonet**, S-8 glass, ~25 mm diameter, ~51 mm
-long. On a running engine the system sits at 13.8–14.4 V, so real draw is a little above 1.0 A.
+The dome lamp housing in the roof is shared across **1968–87 El Camino, 1971–77 Sprint and 1978–87
+Caballero** — one part for the whole run — and it takes a **festoon** bulb: a glass tube with a
+metal cap at each end, held between two spring contacts. It is not a bayonet bulb of any kind.
 
-The near-identical **#1004** — 12.8 V, 0.94 A, 12 W, 15 cp — is the same bulb on a **BA15d
-double-contact** base, and is what a number of GM dome lamps of this era use. Same light, different
-base.
+**Spec:** 12.8 V, 0.97 A, 12.4 W, ~41–44 mm long, SV8.5-8 end caps, ~1000 h rated life.
 
-**Check the socket before ordering.** The two are not interchangeable, and guessing is the one way
-to waste the order:
+Trade numbers in this family physically interchange; they differ only in current draw and rated
+life. Any of these fits:
 
-- **One contact pip** on the bottom of the bulb base → **93** (BA15s, single contact).
-- **Two contact pips** → **1004** (BA15d, double contact).
+| Number | Volts | Amps |
+|---|---|---|
+| **211-2** | 12.8 | 0.97 |
+| **561** | 12.8 | 0.97 |
+| **578** | 12.8 | 0.80 |
+| 212-2 | 13.5 | 0.74 |
+| 214-2 | 13.5 | 0.52 |
 
-A single-contact bulb dropped into a double-contact socket can bridge both contacts and short the
-circuit; a double-contact bulb in a single-contact socket simply won't light.
+**Measure the gap between the socket contacts before ordering.** The family spans roughly 38–44 mm
+and a bulb that's too long will not seat.
 
-An LED replacement of either draws **1–2 W, roughly 0.08–0.15 A** — about a tenth of the load, and
-far less heat against a 45-year-old plastic lens.
+### LED replacement
 
-What to buy:
+Search **"561 LED festoon"**, **"211-2 LED"** or **"44 mm festoon LED"**. An LED of comparable
+output draws **1–2 W** against the original's 12.4 W, and runs cool — worth something in an
+enclosed housing with a 45-year-old plastic lens, where the incandescent's heat is the usual reason
+these burn out.
 
-- Search **"93 LED"** / **"BA15s LED"** (cross-reference family 93 / 1003 / 1141 / 1156) or
-  **"1004 LED"** / **"BA15d LED"** (family 94 / 1004 / 1142 / 1076), per what the socket takes.
-- **Buy a non-polarized LED.** GM switches the dome circuit on the ground side — the lamp is hot at
-  all times from the fuse block and the door jamb switches complete the path to ground — so the
-  socket's centre contact is not reliably the positive one. On a single-contact base you cannot fix
-  that by rotating the bulb the way you can on a double-contact base; a polarity-free LED (internal
-  bridge rectifier) removes the problem either way. Failing that, check the socket with a meter
-  before ordering.
-- **Voltage range.** Take one rated 12–24 V or 9–30 V, not bare "12 V" — charging voltage is 14.4 V
-  and cheap fixed-12 V LEDs die early on it.
-- **Colour temperature.** 3000–4000 K warm white looks period-correct against a black interior.
-  6000 K reads blue and modern, and makes the interior look worse, not brighter.
-- **Beam pattern.** Choose an omnidirectional "tower" or multi-face SMD bulb, not a single
-  high-power emitter firing one direction — a directional LED puts a bright spot on the lens and
-  leaves the cab dark. The original puts out 188 lm, so 200–300 lm is plenty; chasing 500+ just
-  creates glare in the mirror.
+- **Length.** Match what you measured. 41 mm and 44 mm are both sold; they are not interchangeable
+  in a tight holder.
+- **Polarity is a non-problem here.** Festoon LEDs are polarity-sensitive, but a festoon drops into
+  its holder either way round — if it doesn't light, flip it end for end.
+- **Voltage range.** Take one rated 9–30 V or 12–24 V, not bare "12 V". Charging voltage is 14.4 V.
+- **Colour temperature.** 3000–4000 K warm white suits a black interior. 6000 K reads blue and
+  modern.
+- **Output.** The original is ~150 lm. Anything in the 200–300 lm range is a real improvement;
+  chasing 500+ just puts glare in the mirror. Prefer a multi-face SMD board over a single emitter.
+- Ignore "CANbus" versions — nothing on a 1981 needs them, and they cost more.
 
-One thing to expect afterwards: because an LED draws so little current, a marginal ground or a
-slightly leaky door jamb switch can leave it glowing faintly when it should be off. That's a switch
-or ground fault the 1 A incandescent was masking, not a bad LED.
+One thing to expect: because an LED draws so little current, a marginal ground or a slightly leaky
+door jamb switch can leave it glowing faintly when it should be off. That's a fault the 1 A
+incandescent was masking, not a bad LED.
 
-## Verify at the socket
+### What the #93 is
 
-The exterior list and the dome/cluster bulbs above are the standard GM A/G-body applications and
-are safe to order. The small interior illumination bulbs — glove box, ashtray, lighter, heater
-control, radio dial — varied by option package and are the ones most likely to have been swapped
-by a previous owner over four decades. Pull one and read the number off the base before ordering a
-handful.
-
-The SPID sticker in the glove box (still unread — see
-[`purchase-summary.md`](purchase-summary.md)) settles which lamps this car left Doraville with.
+The **93** (12.8 V, 1.04 A, BA15s single-contact bayonet) is a real bulb on this car — it is the
+**under-hood lamp**, and O'Reilly catalogues it against the El Camino under exactly that heading.
+It is not the dome bulb, and it will not fit the dome housing. A parts site showing "93" beside an
+El Camino is easy to misread as the dome application.
 
 ## Where these numbers come from
 
@@ -113,8 +108,10 @@ Three primary sources settle it, in rough order of convenience:
    the Chevrolet A/G-body (Malibu / Monte Carlo / El Camino) volume — the car is mechanically the
    El Camino, but GMC published its own literature.
 
-The dome lamp is the one entry where sources actively disagree — see that section above. Everything
-else on this page is consistent across the catalogues checked.
+The dome lamp entry was wrong twice before it was right: first **1004**, then **93**, both bayonet
+bulbs, before a wider search established that the housing takes a **festoon**. Treat that as the
+health warning for this whole page — it is compiled, not verified. Everything else here is at least
+consistent across the catalogues checked, which the dome entry never was.
 
 ## Buying notes
 
