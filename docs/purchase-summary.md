@@ -2,27 +2,38 @@
 
 ## VIN
 
-Photographed on the door jamb plate: `1GTCW80H5BD502462`
+**`1GTCW80H5BD502482`** — check digit validates.
 
 | Position | Value | Decodes to |
 |---|---|---|
 | 1–3 | `1GT` | GMC Truck, USA |
 | 4–7 | `CW80` | Caballero, ½-ton |
 | 8 | `H` | **LG4 305 cu in four-barrel V8** |
-| 9 | `5` | Check digit — **does not validate** (computes to `X`) |
+| 9 | `5` | Check digit — **validates** (computes to `5`) |
 | 10 | `B` | **1981** |
 | 11 | `D` | Assembly plant — Doraville, GA |
-| 12–17 | `502462` | Sequence number |
+| 12–17 | `502482` | Sequence number |
 
-**The check-digit failure means at least one character in this read is wrong.** Most plausible single-character corrections that restore a valid check digit:
+### How this was resolved
 
-- Position 11: `D` → `B` (plant code — most likely candidate; the plate is rust-pitted and B/D are easy to confuse on shallow stamping)
-- Position 16: `6` → `8`
-- Position 9 itself: `5` → `X`
+The original door-jamb photo was read as `1GTCW80H5BD502462`, which failed the check digit
+(computed `X` against a stamped `5`). Three single-character corrections were listed as candidates:
+position 11 `D` → `B`, position 16 `6` → `8`, or the check digit itself `5` → `X`.
 
-**Positions 8 and 10 are unaffected by any of these candidates** — the 305 four-barrel engine and the 1981 model year are solid regardless of which correction (if any) is right.
+The SAAQ mechanical inspection report (#1002981283, 2026-09-10) records the VIN as
+`1GTCW80H5BD502482` — **candidate #2, position 16 `6` → `8`.** That value computes to a check
+digit of `5`, matching the stamped character, so the transcription and the check digit now agree.
 
-**Action:** read the VIN off the green Ontario permit and cross-check against the dash plate and door jamb. Update this file once confirmed.
+Note that candidate #1 (`1GTCW80H5BB502462`, plant `B`) **also** produces a valid check digit, so
+the arithmetic alone does not choose between them. What decides it is that the inspector
+independently transcribed position 11 as `D` and position 16 as `8`. The earlier note had flagged
+the plant code as the *most* likely error; on the evidence now available it was the sequence number
+instead.
+
+**Still worth doing:** cross-check against the green Ontario permit and the dash plate. A valid
+check digit proves the string is internally consistent, not that it is this car's VIN — the
+inspector was transcribing from the same rust-pitted plate. Two independent reads now agree,
+which is good but not conclusive.
 
 ## Trim identification — base Caballero (Z88)
 
