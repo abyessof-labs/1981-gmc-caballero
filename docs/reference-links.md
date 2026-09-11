@@ -15,6 +15,7 @@ Note: SAAQ pages sit behind a Radware bot check for automated clients — they l
 | Temporary registration certificates (4-day, free 12-hour) | https://saaq.gouv.qc.ca/en/vehicle-registration/temporary-registration |
 | Registration fees | https://saaq.gouv.qc.ca/en/saaq/rates-fines/vehicle-registration/fees |
 | Liability insurance publication (PDF, not bot-blocked) | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/property-damage-liability-insurance.pdf |
+| **Guide de vérification mécanique** (PDF) — the authoritative defect criteria, incl. *chauffage et dégivrage* | https://saaq.gouv.qc.ca/blob/saaq/documents/publications/guide-verification-mecanique.pdf |
 
 **Insurance:** minimum **$50,000** property-damage liability from a private insurer, **in place before registration**. Bodily injury is covered by the public plan via the registration contribution. A plain liability policy suffices to register; agreed-value collector coverage is the later upgrade once roadworthy.
 

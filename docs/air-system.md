@@ -1,7 +1,8 @@
 # Air system — cabin filter, odour, and dash bezel
 
-Research notes for three related complaints: a suspected cabin filter, a foul smell when the air is
-switched on, and the broken/modified bezel that carries the radio and the heater controls.
+Research notes for four related complaints: a suspected cabin filter, a foul smell when the air is
+switched on, controls that are seized or dead, and the broken/modified bezel that carries the radio
+and the heater controls.
 
 Two facts, both confirmed by the owner at the car rather than from paperwork, drive everything
 below:
@@ -137,7 +138,101 @@ Fixing the documented water intrusion helps too — damp interiors attract nesti
 
 ---
 
-## 3. Dash bezel with the woodgrain applique
+## 3. Controls — seized mode lever, loose/dead vent levers
+
+### How this system actually works
+
+Worth knowing before touching it, because two of the three controls work in completely different
+ways:
+
+| Control | Actuation |
+|---|---|
+| **Mode** — where the air blows (floor / vent / defrost) | **Vacuum.** The lever moves a selector valve inside the control head, which routes engine vacuum to actuators on the heater case that push the doors |
+| **Temperature** — the blend door | **Cable**, direct from the lever to a pivot arm on the case |
+| **Kick-panel fresh air vents** | **Cable**, knob to a flapper door |
+
+### The one diagnostic that splits this fast
+
+**The mode doors are spring-loaded so that losing vacuum defaults them to floor + defrost.** That
+gives a free first test — engine running, work the mode lever end to end and listen:
+
+- **Air only ever comes from floor and defrost, whatever the lever does** → vacuum loss. Cheapest
+  and most likely outcome.
+- **Air comes from the wrong place but not floor/defrost** → one specific line or actuator.
+- **The lever physically will not move** → mechanical, inside the control head or a seized cable.
+  Not a vacuum problem at all.
+
+You described the mode lever as *seized*, which points at the third case — but confirm which,
+because it changes the entire repair.
+
+### Likely causes, in order
+
+1. **Mice chewed the vacuum hoses.** Rubber vacuum line is favourite chewing material and the nest
+   is sitting right in this area. Given section 2, this is the most probable single explanation and
+   it ties both faults to one root cause. **Inspect every vacuum line while the blower motor is
+   out** — you will already be in there.
+2. **Broken plastic rivet in the control head's vacuum selector.** Notorious on G-bodies: the rubber
+   selector plate is held by a small plastic rivet that crumbles with age, and the selector stops
+   sealing or binds. **The known fix is to replace the rivet with a small screw** — effectively free.
+3. **Seized temperature cable or a snapped blend-door pivot arm.** The plastic lever arm is a known
+   breakage and is reproduced — search "Heater A/C door cable pivot point / air temp blend door
+   lever arm, 1978–1988 G-body Malibu/Caballero".
+4. **A door seized in the case** from rust, debris, or nest material physically jamming it.
+5. **Vacuum supply itself** — the source line off the manifold, and any check valve or reservoir.
+
+### Test procedure
+
+1. Engine running, work each lever, listen for the doors thunking over.
+2. **Pull the control head partway out of the dash** and work the levers in hand. Different behaviour
+   out of the dash means the fault is at the head. Easy here, since the bezel is already broken.
+3. **Hand vacuum pump on individual actuator lines.** This is the step that separates "the door is
+   seized" from "no vacuum is reaching it" — pump each actuator directly and see if its door moves.
+
+### The two "vent" levers
+
+Most likely these are the **cable-operated fresh-air vent controls**: a knob and cable running to a
+flapper door. Typical failures are the cable's Z-end popping off the door arm, the cable housing
+coming loose from its bracket, or the plastic lever snapping. Repro cables exist for earlier
+Chevelle/El Camino years; for 78–88 expect a used part or a generic cable adapted.
+
+**Two caveats, and the second one matters:**
+
+- Levers under the steering column is not where I would expect kick-panel vent controls, which
+  normally sit out at the kick panels themselves. **Send a photo before buying anything** — this is
+  a five-second visual identification and a wrong guess wastes real money.
+- **The bezel is already broken and modified (section 4).** A control head that is no longer bolted
+  down solidly makes *every* lever attached to it feel loose and vague. Before condemning the
+  levers, check whether the head and the levers are actually anchored to anything. This may be one
+  fault, not three — and fixing the bezel mounting may fix the feel.
+
+### ⚠️ This is probably not cosmetic — SAAQ
+
+The SAAQ mechanical inspection treats **heating and defrosting** as a defect category: insufficient
+air delivered to the windshield at the manufacturer's intended outlets, or a defrost system not
+working properly, is listed as a *défectuosité*.
+
+The nuance that cuts both ways: because the doors **default to floor + defrost when vacuum is
+lost**, a car with a completely dead vacuum system may still blow at the windshield and pass. But a
+**lever seized such that defrost cannot be selected, or a door jammed away from defrost, is a
+plausible fail.**
+
+**Verify this before assuming either way.** The authoritative source is the SAAQ *Guide de
+vérification mécanique* (linked in `reference-links.md`); it is bot-blocked to automated clients, so
+it needs opening in a browser. Until then this is carried as inspection-relevant rather than
+cosmetic.
+
+### To check
+
+- Engine running: does air come out of floor/defrost only, or somewhere wrong?
+- Does the mode lever physically move, or is it jammed?
+- **Photograph the two vent levers** so they can be identified properly.
+- Is the control head actually bolted to anything, or floating in a broken bezel?
+- Inspect all vacuum lines for chew damage while the blower is out.
+- Confirm the defrost criteria in the SAAQ guide in a browser.
+
+---
+
+## 4. Dash bezel with the woodgrain applique
 
 ### What the part is
 
@@ -243,6 +338,10 @@ plate. Match the bezel to the radio plan, not the other way round.
 - Disinfecting the duct path from the intake side, enzyme treatment for carpet — [Consumer Reports](https://www.consumerreports.org/cars/car-maintenance/get-rid-of-musty-smell-from-cars-air-conditioner-a2986616934/) · [Chemical Guys](https://www.chemicalguys.com/blogs/interior-how-tos/musty-smell-in-car) · [Apex Auto Pros](https://apexautopros.com/how-to-remove-musty-or-moldy-smells-from-your-car/)
 - **Rodent cleanup safety — do not vacuum or sweep; wet-clean, bleach, P100** — [CDC guidance, cleaning up after rodents (PDF)](https://www.csuci.edu/vpbfa/ehs/cdc-reference-cleaningupafter-rodents.pdf) · [San Diego County, wet cleaning method](https://www.sandiegocounty.gov/content/sdc/deh/pests/hantavirus/wet_cleaning_method.html) · [Public Health Agency of Canada, preventing hantavirus infection](https://www.canada.ca/en/public-health/services/diseases/hantaviruses/prevention-hantavirus-infection.html) · [PK Safety, respirator selection for hantavirus cleanup](https://pksafety.com/blogs/pk-safety-blog/what-you-need-to-protect-yourself-from-the-hantavirus)
 - Mice dying on the blower squirrel cage; blower-first search order; ozone as last step — [GM Volt Forum, "Dead animal in ventilation system?"](https://www.gm-volt.com/threads/dead-animal-in-ventilation-system-how-do-i-get-it-out-smells-bad.197858/) · [Mustang6G, "Dead mouse in blower motor"](https://www.mustang6g.com/forums/threads/dead-mouse-in-blower-motor-questions.142930/) · [BobIsTheOilGuy, "AC blows dead animal smell with a huge vibration"](https://bobistheoilguy.com/forums/threads/ac-blows-dead-animal-smell-with-a-huge-vibration.258394/)
+- **Mode doors are vacuum-operated; vacuum loss defaults to floor + defrost; selector rivet failure and the screw fix** — [GBodyForum, "Vacuum for ac/heater blend doors"](https://gbodyforum.com/threads/vacuum-for-ac-heater-blend-doors.71729/) · [GBodyForum, "A/C & heater control vacuum line info"](https://gbodyforum.com/threads/a-c-heater-control-vacuum-line-info.64997/) · [GBodyForum, "Vacuum Controllers (HVAC Controls)"](https://gbodyforum.com/threads/vacuum-controllers-hvac-controls.71372/) · [GBodyForum, "Heater/ac control issue"](https://gbodyforum.com/threads/heater-ac-control-issue.38689/)
+- Blend-door cable pivot arm is a reproduced part for 78–88 G-body — [LOSTAR air temp blend door lever arm](https://www.amazon.com/HEA-TER-1978-1988-G-Body-Caballero-Century/dp/B0CR3YHYBX)
+- Kick-panel vent knob-and-cable arrangement — [Ausley's Chevelle Parts, kick panel vent pull cable](https://chevelle.com/1969-72-chevelle-el-camino-12-vent-pull-cable-in-kick-panel-ea/) · [Chevelle Depot, kick panel vent cable Z-end](https://www.chevelledepot.ca/interior/dash/ac-heater-controls/heater-cables/el-camino-kick-panel-vent-cable-z-end-1969-1972)
+- SAAQ defrost/heating defect category — [Guide de vérification mécanique (PDF, bot-blocked to automated clients)](https://saaq.gouv.qc.ca/blob/saaq/documents/publications/guide-verification-mecanique.pdf) — **not yet read; confirm in a browser**
 - Bezel year grouping 81–83 — [Ecklers passenger dash bezel retainer](https://www.ecklers.com/el-camino-passenger-dash-bezel-retainer-1981-1987-55-376142-1.html)
 - 1981 dash differences — [El Camino Central, "'81 Instrument Cluster panel"](https://www.elcaminocentral.com/threads/81-instrument-cluster-panel.246582/)
 - Woodgrain is a plastic applique; re-skin and wrap options — [GBodyForum, "Dash Bezel sticker kits"](https://gbodyforum.com/threads/dash-bezel-sticker-kits.62598/)

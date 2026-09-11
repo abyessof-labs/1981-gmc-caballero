@@ -50,6 +50,10 @@ condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full re
 | Wet carpet / jute padding — three documented water paths into this cab (rear window seal, cab back panel staining, beltline weatherstrip) | Contributory: damp interiors attract nesting | Open — lift a carpet corner and feel the padding | — |
 | Heater core seepage | **Ruled out by smell** — would be sweet/syrupy with a film on the windshield, not rotting | Closed unless symptoms change | — |
 | Cabin air filter | **Does not exist on this car** — no factory provision, no aftermarket retrofit worth fitting | Closed, no action | — |
+| Mode lever (air direction) seized — mode doors are **vacuum**-operated on this platform | **Possibly inspection-relevant, not cosmetic** — SAAQ treats heating/defrosting as a defect category; a lever that cannot select defrost is a plausible fail | Open — confirm the criteria in the SAAQ guide, then test | — |
+| Vacuum lines — prime suspect, and rubber vacuum hose is favourite rodent chewing material | Likely shared root cause with the smell | Open — inspect all lines while the blower motor is out | — |
+| Control head vacuum selector — plastic rivet crumbles with age, a documented G-body failure | Cheap: the known fix is a small screw in place of the rivet | Open | — |
+| Two "vent" levers under the column — loose, broken, doing nothing | Unidentified | Open — **photograph before buying parts**; check first whether the control head is still anchored, since the broken bezel may be making everything feel loose | — |
 | A/C — whether the car was built without it (`C60` absent) or had it stripped | Informational; decides which control head and dash bezel to shop for | Open — check glove box size, compressor bracket, SPID sticker | — |
 
 ## Interior
