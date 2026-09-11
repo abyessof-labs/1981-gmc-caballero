@@ -42,10 +42,13 @@ condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full re
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| Foul/musty smell from the vents when the blower runs | Cosmetic, but a mould source in an enclosed cabin | Open — first split musty (dirt/mould) from sweet (heater core) | — |
-| Cowl plenum debris and drains — never inspected; the air path has **no cabin filter** on this platform, so anything decaying in the plenum blows straight into the cabin | Root cause candidate #1 for the smell | Open — priority, free to check | — |
-| Wet carpet / jute padding under the front floor — three documented water paths into this cab (rear window seal, cab back panel staining, beltline weatherstrip) | Root cause candidate #2, and the expensive one | Open — lift a carpet corner and feel the padding | — |
-| Heater core seepage — the only coil in the box, and the box has no drain | Would present as a *sweet* smell + film on the windshield + coolant loss | Open — rule in or out by smell before any cleaning work | — |
+| **Rotting / faecal / dead-animal smell from the vents when the blower runs** — decomposition, not mould | **Health — rodent-contaminated air path, see the PPE warning in `air-system.md` before opening anything** | Open — priority | — |
+| Rodent nest and/or carcass in the blower squirrel cage, cowl plenum, or heater case — the working diagnosis for the smell | Must be physically removed; no spray or ozone fixes a body in a duct | Open — pull the blower motor from the engine bay first, no dash removal needed | — |
+| Wiring chew damage — a nest in the HVAC case usually comes with it; may explain the untested reverse lights or other gremlins | Electrical, possibly inspection-relevant | Open — inspect the firewall harness while the blower is out | — |
+| Other likely nesting sites on this car: aftermarket open-element air cleaner, smuggler's box, under carpet/seats, bed corners | — | Open — check the same afternoon | — |
+| Cowl plenum debris and drains — never inspected; the air path has **no cabin filter** on this platform, so anything in the plenum blows straight into the cabin | Entry route for the rodents, and a smell source in its own right | Open — wet-clean only, **do not vacuum dry** | — |
+| Wet carpet / jute padding — three documented water paths into this cab (rear window seal, cab back panel staining, beltline weatherstrip) | Contributory: damp interiors attract nesting | Open — lift a carpet corner and feel the padding | — |
+| Heater core seepage | **Ruled out by smell** — would be sweet/syrupy with a film on the windshield, not rotting | Closed unless symptoms change | — |
 | Cabin air filter | **Does not exist on this car** — no factory provision, no aftermarket retrofit worth fitting | Closed, no action | — |
 | A/C — whether the car was built without it (`C60` absent) or had it stripped | Informational; decides which control head and dash bezel to shop for | Open — check glove box size, compressor bracket, SPID sticker | — |
 

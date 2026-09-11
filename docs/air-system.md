@@ -3,9 +3,14 @@
 Research notes for three related complaints: a suspected cabin filter, a foul smell when the air is
 switched on, and the broken/modified bezel that carries the radio and the heater controls.
 
-**This car has no air conditioning** — heater, vent and defrost only. That is confirmed by the owner
-at the car, not from paperwork, and it changes the odour diagnosis substantially: with no
-evaporator there is no cold wet coil, no condensate, and no drain tube. See section 2.
+Two facts, both confirmed by the owner at the car rather than from paperwork, drive everything
+below:
+
+- **No air conditioning** — heater, vent and defrost only. No evaporator, no condensate, no
+  refrigerant.
+- **The smell is rotting/faecal, not musty** — decomposition rather than mould. Section 2 is a
+  rodent-and-carcass procedure, and it carries a health warning worth reading before you open
+  anything.
 
 Nothing else here has been verified against the car yet. Each section ends with what to check in the
 driveway.
@@ -36,104 +41,99 @@ margin to spare and creates a new wet-debris trap. Not recommended.
 
 ---
 
-## 2. Foul smell when the air comes on
+## 2. Rotting / dead-animal smell when the air comes on
 
-Most published advice about musty vent smells assumes an evaporator core growing mould on its
-condensate. **None of that applies here.** With no A/C there is no cold surface to condense water
-on, which means:
+**The smell is described as rotting or faecal, like a dead animal — not musty or mildewy.** That is
+decomposition, not mould, and it narrows the diagnosis sharply. Mould and wet-carpet theories are
+demoted; a **rodent nest and/or a dead mouse in the air path** is now the working diagnosis.
 
-- there is no evaporator to foam-clean, and no condensate drain tube to inject cleaner into
-- there is no refrigerant, so no R-12 problem and nothing a shop needs to recover
-- **any water found inside the heater case or on the floor is leak water, not condensate** — on an
-  A/C car a wet box is normal, here it is itself the fault
+Some context that no longer applies: with no A/C there is no evaporator, so the usual musty-vent
+playbook (mould on a cold wet coil, foam through the condensate drain) is irrelevant here, and there
+is no refrigerant to recover if the box has to come apart. **Any water found in the heater case or
+on the floor is leak water, not condensate** — a fault in itself.
 
-So the smell is coming from wet or decaying material somewhere in the air path or the cabin. Ranked
-for this car:
+### ⚠️ Read this before touching anything
 
-### 2a. Cowl plenum packed with decayed leaves — check this first
+**Do not vacuum, sweep, or blow out rodent droppings, urine-stained material, or nesting debris.**
+Dry-disturbing it aerosolizes the particles, and that inhalation route is the leading cause of
+hantavirus pulmonary syndrome. Deer mice are the North American carrier and are present across
+Canada. Leptospirosis and salmonella ride along in the same material.
 
-Outside air enters through the **intake slots on top of the cowl, just ahead of the windshield**,
-feeds a plenum that runs across the top of the dash, and exits at the kick-panel vents and the
-heater case. The plenum floor is bare, unpainted, impossible to reach, and drains through small
-holes that clog with leaves and pine needles. Decaying organic matter sitting in there is a textbook
-musty-smell source, and every bit of air the blower moves passes over it.
+*(An earlier draft of this file said to vacuum out the cowl plenum. That was written before the
+smell was identified as decomposition. Do not do it.)*
 
-On a car of this age with this car's documented water history, assume it is full until proven
-otherwise. This is now the leading candidate by a wide margin, and it costs nothing to check.
+The public-health method is **wet cleaning**:
 
-### 2b. Wet carpet and jute padding — the repo already predicts this
+1. Open the doors and air the car out for 30 minutes before starting, and work outdoors.
+2. Wear rubber or nitrile gloves and a respirator. An N95 is the floor; for an actual nest, a dead
+   animal, or urine-soaked material in a confined space, CDC calls for **N100/P100** — a half-face
+   cartridge respirator. A dash cavity is a confined space.
+3. **Soak** the nest, droppings and surrounding area with disinfectant — 1 cup household bleach to
+   10 cups water, or any virucidal household disinfectant — and let it sit **5 minutes** before
+   touching it.
+4. Pick it up wet with paper towels. Double-bag it and bin it.
+5. Wipe the whole area down again with disinfectant, then wash your hands.
 
-`known-issues.md` documents three separate water paths into this cab:
+This adds maybe $40 of gloves, bleach and a respirator cartridge to the job. Cheap against the
+alternative.
 
-- rear window seal visibly aged, a known leak point on this platform
-- water-trail rust staining down the cab back panel, already photographed
-- door beltline weatherstrip cracked through, segments missing
+### Where to look, in order
 
-Soaked jute padding under the carpet moulders, and the blower simply stirs that air around the
-cabin. On an A/C car you could blame the evaporator; here you cannot, which promotes this from
-third place to joint first.
+The smell will not go away until the carcass and the nest physically come out. No amount of
+spraying, ozone, or air freshener fixes a body in a duct.
 
-It is also the only cause on this list that gets worse rather than better if you clean the air path
-and stop there.
+1. **The blower motor and its squirrel cage — check here first.** This is the single most common
+   spot: mice come in through the cowl, get drawn against the fan, and die there. On this platform
+   the blower is in the case on the **firewall, passenger side, and comes out from the engine bay**
+   — no dash removal. The cage usually comes out with the motor, so you get eyes and hands on the
+   worst of it in under an hour. Vibration or a rattle/whirr from the blower is a strong tell.
+2. **The cowl plenum**, through the vent screen ahead of the windshield. This is the entry route and
+   often holds the nest proper. Wet-clean it, then flush with a hose and confirm the drains run.
+3. **The heater case and the vent ducts** behind the dash, if 1 and 2 come up empty.
+4. **The rest of the car.** A car that has sat gets colonised in more than one place, and this one
+   has several known attractions already in `known-issues.md`:
+   - the **aftermarket open-element air cleaner** — these are a classic mouse condo
+   - the **smuggler's box behind the seats**, already flagged as damp and unphotographed
+   - under the carpet and jute, under and behind the seats
+   - the bed corners, where standing water was noted in the listing photos
 
-### 2c. Rodent nest
+### While you are in there: check the wiring
 
-A car that has sat is a candidate. Nests turn up in the blower housing, the plenum, and the heater
-case. This smells of ammonia and decay rather than mildew, and it is often accompanied by shredded
-insulation blowing out of the vents on first start.
+Rodents chew insulation, and a nest in the HVAC case very often comes with damaged harness nearby.
+This car already has **untested reverse lights** and a **shift indicator cable unhooked at the
+column** on the open list. Inspect the blower feed, the harness running along the firewall, and
+anything passing through the cowl area while it is exposed — it may explain an electrical gremlin
+for free.
 
-### 2d. Heater core seepage — more likely here than on an A/C car
+### After the source is out
 
-The heater core is now the **only** coil in the box, and a weeping core puts coolant into a case
-that has no drain. Distinguishing symptoms: a **sweet, syrupy** smell rather than a musty one, an
-oily film on the inside of the windshield, damp passenger carpet, and unexplained coolant loss.
-
-If the smell is sweet rather than mouldy, skip the rest of this section — that is a heater core job,
-not a cleaning job.
-
-### Cleaning procedure, cheapest and least invasive first
-
-Nothing here requires a shop.
-
-1. **Clear the cowl.** Pull the cowl vent screen ahead of the windshield. Vacuum out the plenum,
-   then flush with a hose and confirm the water runs out the drains rather than pooling. Pull the
-   kick-panel vents and clear those too. Free, and the most likely fix.
-
-2. **Pull the carpet and the jute.** Lift the front carpet and the padding underneath and check for
-   damp. Wet jute does not dry in place — it has to come out. Fix the water source (rear window
-   seal, beltline weatherstrip) before anything goes back in, or it will do the same thing again.
-   Enzyme cleaner on the floor pan kills what is left; blot, wet-vac, then run the blower on high
-   with the windows cracked to dry it out.
-
-3. **Disinfect the duct path from the intake side.** With the engine running and the blower on high
-   drawing air in, spray a disinfectant or enzyme treatment generously into the **cowl intake**, and
-   let the fan pull it through the case and ducts. This is the heater-only equivalent of the
-   evaporator foam trick — the intake is the access point, since there is no drain tube.
-
-4. **Pull the blower motor and look inside.** On this platform the blower sits in the case on the
-   firewall and comes out from the engine bay, which gets you eyes and a vacuum hose into the case
-   without dismantling the dash. This is where a rodent nest or a pile of wet leaf mulch shows up.
-
-5. **Last resort: pull the heater box.** It unbolts from the firewall — roughly 11 M6/10mm bolts,
-   often buried in seam sealer, and the wipers and lower windshield trim have to come off first.
-   Easiest with the dash out so the vent ducts disconnect without breaking. A real job, but on a
-   heater-only car it is just sheet metal and plastic: no refrigerant to discharge, nothing to
-   recover, no licensed shop required. That is one genuine advantage of not having A/C.
+1. Wet-wipe every surface the air touches that you can reach — case interior, cage, duct mouths.
+2. **Enzyme cleaner**, not perfume. Enzyme treatments digest the residue that causes the smell;
+   air fresheners only mask it and fail within days. Get it into the ducts from the **cowl intake**
+   with the engine running and the blower on high, so the fan pulls it through the case.
+3. Pull the carpet and jute if any of it is soiled or damp — it will not dry or deodorise in place.
+4. If a faint smell survives all of the above, an **ozone treatment** is the recognised last step.
+   Source removal first, always; ozone on an occupied duct is money wasted.
+5. **Last resort: pull the heater box.** Roughly 11 M6/10mm bolts on the firewall, often buried in
+   seam sealer, with the wipers and lower windshield trim off first; easiest with the dash out so
+   the vent ducts disconnect without breaking. A real job, but on a heater-only car it is just sheet
+   metal and plastic — no refrigerant to discharge, no licensed shop. One genuine advantage of not
+   having A/C.
 
 ### Prevention
 
-The usual advice — run the blower with the compressor off before parking to dry the evaporator —
-is meaningless on this car. There is nothing to dry. Here prevention is simply: **fix the water
-getting in**, keep the cowl and its drains clear, and don't let the cab sit damp and sealed.
+The car sitting is the root cause. Screen the cowl intake, keep bait or traps in the cab and engine
+bay over any storage period, and don't leave the open-element air cleaner as an open invitation.
+Fixing the documented water intrusion helps too — damp interiors attract nesting.
 
 ### To check
 
-- **Is the smell musty or sweet?** Sweet means heater core, and the rest of this section is moot.
-- Does it smell with the blower **off**, just sitting in the car? → carpet/cabin, not the air path.
-- Does it only appear once the blower runs? → cowl plenum or heater case.
-- Lift a corner of the front carpet and feel the jute. This takes two minutes and rules in or out
-  the single most expensive cause.
-- Look in the cowl with a flashlight before buying anything at all.
+- Pull the blower motor. That is the whole first move, and it is an engine-bay job.
+- Listen for vibration, rattle or an out-of-balance whirr from the blower — strong nest indicator.
+- Look in the cowl with a flashlight **before** disturbing anything, so you know what you are
+  dealing with and can wet it down first.
+- Check the air cleaner and the smuggler's box the same afternoon.
+- Inspect exposed wiring for chew damage while the blower is out.
 
 ---
 
@@ -241,6 +241,8 @@ plate. Match the bezel to the radio plan, not the other way round.
 - Cowl plenum layout and debris — [Team Chevelle, "fresh air cowl vent on an El Camino??"](https://www.chevelles.com/threads/fresh-air-cowl-vent-on-an-el-camino-ever.721025/) · [El Camino Central, "Leak at kick panel vent"](https://www.elcaminocentral.com/threads/leak-at-kick-panel-vent.48366/)
 - Heater box removal, bolt count, non-A/C differences, smaller heater-only glove box — [GBodyForum, "Heater box removal HELP?!"](https://gbodyforum.com/threads/heater-box-removal-help.5456/) · [GBodyForum, "How do I remove my A/C heater box?"](https://gbodyforum.com/threads/how-do-i-remove-my-a-c-heater-box.31800/) · [MalibuRacing, "Non A/C Heater Box What Is Missing"](https://maliburacing.com/forum/threads/non-a-c-heater-box-what-is-missing.116295/)
 - Disinfecting the duct path from the intake side, enzyme treatment for carpet — [Consumer Reports](https://www.consumerreports.org/cars/car-maintenance/get-rid-of-musty-smell-from-cars-air-conditioner-a2986616934/) · [Chemical Guys](https://www.chemicalguys.com/blogs/interior-how-tos/musty-smell-in-car) · [Apex Auto Pros](https://apexautopros.com/how-to-remove-musty-or-moldy-smells-from-your-car/)
+- **Rodent cleanup safety — do not vacuum or sweep; wet-clean, bleach, P100** — [CDC guidance, cleaning up after rodents (PDF)](https://www.csuci.edu/vpbfa/ehs/cdc-reference-cleaningupafter-rodents.pdf) · [San Diego County, wet cleaning method](https://www.sandiegocounty.gov/content/sdc/deh/pests/hantavirus/wet_cleaning_method.html) · [Public Health Agency of Canada, preventing hantavirus infection](https://www.canada.ca/en/public-health/services/diseases/hantaviruses/prevention-hantavirus-infection.html) · [PK Safety, respirator selection for hantavirus cleanup](https://pksafety.com/blogs/pk-safety-blog/what-you-need-to-protect-yourself-from-the-hantavirus)
+- Mice dying on the blower squirrel cage; blower-first search order; ozone as last step — [GM Volt Forum, "Dead animal in ventilation system?"](https://www.gm-volt.com/threads/dead-animal-in-ventilation-system-how-do-i-get-it-out-smells-bad.197858/) · [Mustang6G, "Dead mouse in blower motor"](https://www.mustang6g.com/forums/threads/dead-mouse-in-blower-motor-questions.142930/) · [BobIsTheOilGuy, "AC blows dead animal smell with a huge vibration"](https://bobistheoilguy.com/forums/threads/ac-blows-dead-animal-smell-with-a-huge-vibration.258394/)
 - Bezel year grouping 81–83 — [Ecklers passenger dash bezel retainer](https://www.ecklers.com/el-camino-passenger-dash-bezel-retainer-1981-1987-55-376142-1.html)
 - 1981 dash differences — [El Camino Central, "'81 Instrument Cluster panel"](https://www.elcaminocentral.com/threads/81-instrument-cluster-panel.246582/)
 - Woodgrain is a plastic applique; re-skin and wrap options — [GBodyForum, "Dash Bezel sticker kits"](https://gbodyforum.com/threads/dash-bezel-sticker-kits.62598/)
