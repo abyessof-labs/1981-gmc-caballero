@@ -35,10 +35,23 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
 
+## HVAC / air system
+
+See [`air-system.md`](air-system.md) for the full research notes on all three.
+
+| Issue | Severity | Status | Evidence |
+|---|---|---|---|
+| Foul/musty smell from the vents when the air is switched on | Cosmetic, but a mould source in an enclosed cabin | Open — diagnose blower-on-A/C-off vs. A/C-selected to split carpet/plenum from evaporator | — |
+| Cowl plenum debris and drains — never inspected; the air path has **no cabin filter** on this platform, so anything decaying in the plenum blows straight into the cabin | Root cause candidate #1 for the smell | Open — priority, free to check | — |
+| Evaporator condensate drain tube (passenger side firewall) — unverified, likely plugged | Root cause candidate #2 | Open — check for water under the footwell after running A/C | — |
+| A/C refrigerant — if the system still holds a charge it is **R-12**; recovery requires a licensed shop | Informational, constrains any repair that opens the circuit | Open — confirm `C60` on the SPID sticker and whether the system holds pressure at all | — |
+| Cabin air filter | **Does not exist on this car** — no factory provision, no aftermarket retrofit worth fitting | Closed, no action | — |
+
 ## Interior
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
+| Instrument panel centre bezel (radio + heater/A/C controls) — broken, and cut/modified for a non-factory radio | Cosmetic | Open — used/NOS hunt, no reproduction exists; see [`air-system.md`](air-system.md) | — |
 | Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |

@@ -27,6 +27,7 @@ mileage.csv              Odometer readings
 docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
+  air-system.md           Cabin filter, vent odour, and dash bezel research
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   logger-app.md           How the logger app works and how to host it
 log/
