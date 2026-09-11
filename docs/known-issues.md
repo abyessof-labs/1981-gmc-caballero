@@ -37,21 +37,23 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 ## HVAC / air system
 
-See [`air-system.md`](air-system.md) for the full research notes on all three.
+**Car is heater/vent/defrost only — no air conditioning** (confirmed at the car). No evaporator, no
+condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full research notes.
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| Foul/musty smell from the vents when the air is switched on | Cosmetic, but a mould source in an enclosed cabin | Open — diagnose blower-on-A/C-off vs. A/C-selected to split carpet/plenum from evaporator | — |
+| Foul/musty smell from the vents when the blower runs | Cosmetic, but a mould source in an enclosed cabin | Open — first split musty (dirt/mould) from sweet (heater core) | — |
 | Cowl plenum debris and drains — never inspected; the air path has **no cabin filter** on this platform, so anything decaying in the plenum blows straight into the cabin | Root cause candidate #1 for the smell | Open — priority, free to check | — |
-| Evaporator condensate drain tube (passenger side firewall) — unverified, likely plugged | Root cause candidate #2 | Open — check for water under the footwell after running A/C | — |
-| A/C refrigerant — if the system still holds a charge it is **R-12**; recovery requires a licensed shop | Informational, constrains any repair that opens the circuit | Open — confirm `C60` on the SPID sticker and whether the system holds pressure at all | — |
+| Wet carpet / jute padding under the front floor — three documented water paths into this cab (rear window seal, cab back panel staining, beltline weatherstrip) | Root cause candidate #2, and the expensive one | Open — lift a carpet corner and feel the padding | — |
+| Heater core seepage — the only coil in the box, and the box has no drain | Would present as a *sweet* smell + film on the windshield + coolant loss | Open — rule in or out by smell before any cleaning work | — |
 | Cabin air filter | **Does not exist on this car** — no factory provision, no aftermarket retrofit worth fitting | Closed, no action | — |
+| A/C — whether the car was built without it (`C60` absent) or had it stripped | Informational; decides which control head and dash bezel to shop for | Open — check glove box size, compressor bracket, SPID sticker | — |
 
 ## Interior
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| Instrument panel centre bezel (radio + heater/A/C controls) — broken, and cut/modified for a non-factory radio | Cosmetic | Open — used/NOS hunt, no reproduction exists; see [`air-system.md`](air-system.md) | — |
+| Instrument panel centre bezel (radio + heater controls) — broken, and cut/modified for a non-factory radio | Cosmetic | Open — used/NOS hunt, no reproduction exists; buy a non-A/C bezel or verify the control opening. See [`air-system.md`](air-system.md) | — |
 | Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
