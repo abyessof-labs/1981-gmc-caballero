@@ -11,3 +11,4 @@ date,cost_type,category,item,vendor,part_number,amount_cad,status,issue,notes,en
 2026-09-08,direct,parts,K&N Oil Filter,Amazon,,23.00,paid,,,mtsov833-2guku
 2026-09-11,indirect,tools,Value Appraisal Service Fee,GDB Dorval,,275.00,paid,,,mtx28ubp-clb0m
 2026-09-11,indirect,other,SAAQ Safety Inspection #1,Mecamobile Vaudreuil,,201.20,paid,,,mtx2a0v0-7lby6
+2026-09-10,indirect,travel,U-Haul Trailer Rental,U-Haul,,91.93,paid,,,mtx2bbs3-q2fw3
