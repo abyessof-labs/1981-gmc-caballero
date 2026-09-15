@@ -30,6 +30,9 @@ docs/
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  bulb-reference.md       Every lamp on the car and the bulb number to buy
+  parts-door-panel-window-switch.md
+                          Clips, retainers, and part numbers for the door panels and window switches
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
 log/
