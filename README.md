@@ -28,6 +28,7 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
+  charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
