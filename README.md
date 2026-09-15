@@ -20,6 +20,9 @@ Purchase, repair, and restoration tracking for a 1981 GMC Caballero bought in Oa
 ## Repo layout
 
 ```
+CLAUDE.md                Standing rules for AI threads working in this repo
+.claude/skills/
+  research-writeup/      How research findings get written up, cross-linked, and landed on main
 index.html               Cost & mileage logger (GitHub Pages app) — see below
 assets/                  Stylesheet and script for that app
 costs.csv                Running spend, direct and indirect
