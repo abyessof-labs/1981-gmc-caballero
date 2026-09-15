@@ -36,6 +36,7 @@ docs/
                           Clips, retainers, and part numbers for the door panels and window switches
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
+  welding/                Doing the rust repair in-house — equipment, process, safety
 log/
   README.md               How to add a work-log entry
 photos/
@@ -67,6 +68,9 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
+- [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
+  smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety,
+  and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.
 
 ## Status
 
