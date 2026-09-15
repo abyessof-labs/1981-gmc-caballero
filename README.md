@@ -27,20 +27,23 @@ mileage.csv              Odometer readings
 docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
+  air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  bulb-reference.md       Every lamp on the car and the bulb number to buy
   parts-sourcing.md       Where to buy in Canada, and the El Camino/Caballero part-number traps
   power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
+  power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
   door-job-plan.md        Combined both-door teardown: motors, seals, vapour barrier, drains
+  weatherstrip.md         Door and frame seal kit, pin-then-glue install, and the adhesive to use
   cluster-bezel.md        Loose dash bezel: why it is screws not clips, and the 1981 year trap
   shift-indicator-cable.md  Reattaching the PRNDL cable at the column, and the variants to match
-  weatherstrip.md         Door and frame seal kit, pin-then-glue install, and the adhesive to use
-  rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
-  power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
+  rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
   underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
   logger-app.md           How the logger app works and how to host it
+  tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
 log/
   README.md               How to add a work-log entry
 photos/
@@ -63,6 +66,15 @@ push is never logged twice, and the last-loaded copy stays readable with no conn
 To publish it: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**, which
 serves it at `https://abyessof-labs.github.io/1981-gmc-caballero/`. Full details, including the cost
 classification and the token's security trade-off, are in [`docs/logger-app.md`](docs/logger-app.md).
+
+## Tools
+
+Tool research for the repair work, with Canadian purchase links, lives in `docs/`. So far:
+
+- [`docs/tools-angle-grinder.md`](docs/tools-angle-grinder.md) — DEWALT angle grinder lineup compared
+  for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
+  version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
+  standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
 
 ## Status
 
