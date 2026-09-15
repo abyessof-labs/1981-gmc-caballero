@@ -135,10 +135,19 @@ reason the rockers are going, and this is the one time they are easy to reach. C
 [`power-window-motor.md`](power-window-motor.md) is settled; the SPID sticker is still worth finding
 for the transmission and axle ratio.
 
-The switch does not screw to the door panel. It is **retained by spring-steel clips — GM
-`3040658`, two per switch** — which grip the switch and lock it into the panel opening from behind.
-A switch sitting loose in the hole means those clips are missing, which is exactly what they are
-prone to.
+The switch does not screw to the door panel — it is retained by sprung steel. **Which kind is
+disputed, and the dispute is unresolved.**
+
+⚠ **Conflicting research, settle it on the car before ordering.**
+[`parts-door-panel-window-switch.md`](parts-door-panel-window-switch.md) concludes that a 1981
+G-body uses a **stamped-steel retainer frame** (1964–87) that surrounds the switch and grips both
+the panel and the switch — and that the loose-clip system belongs to 1988–2002 cars. The notes
+below came from vendor listings for a clip (GM `3040658`, "1974–87, 2 per switch") rather than the
+frame. Both sides are vendor catalogue data, and that doc documents real disagreement between
+Classic Industries, OPGI, Dorman and GM on the fitment years.
+
+**The decisive test costs nothing:** pull the intact **passenger** switch and look at the back. A
+frame around the switch, or two clips on its sides. Buy only after that.
 
 | Part | Source |
 |---|---|

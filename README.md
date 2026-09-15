@@ -28,22 +28,33 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
+  oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
+  charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
   parts-sourcing.md       Where to buy in Canada, and the El Camino/Caballero part-number traps
+  parts-door-panel-window-switch.md
+                          Clips, retainers, and part numbers for the door panels and window switches
+  door-job-plan.md        Combined both-door teardown: motors, seals, vapour barrier, drains
   power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
   power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
-  door-job-plan.md        Combined both-door teardown: motors, seals, vapour barrier, drains
   weatherstrip.md         Door and frame seal kit, pin-then-glue install, and the adhesive to use
   cluster-bezel.md        Loose dash bezel: why it is screws not clips, and the 1981 year trap
   shift-indicator-cable.md  Reattaching the PRNDL cable at the column, and the variants to match
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
+  tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
+  oil-and-filter.md       Oil grade, filter, interval, and Canadian sourcing for the 305
+  fuel-and-tuning.md      Fuel grade and ignition timing for the 305
+  charging-system-check.md  Low charging voltage and how to diagnose it
   rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
   underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
+  community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
+  welding/                Doing the rust repair in-house — equipment, process, safety
 log/
   README.md               How to add a work-log entry
 photos/
@@ -75,6 +86,9 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
+- [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
+  smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety,
+  and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.
 
 ## Status
 

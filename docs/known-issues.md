@@ -4,6 +4,8 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 ## Structural / rust
 
+Equipment, process and safety research for repairing these in-house is in [`docs/welding/`](welding/README.md).
+
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear quarter panel — through-hole with corroded, curled edge and surrounding blistering | **Confirmed perforated** | Open | [`rust-rear-quarter-hole.jpg`](../photos/evidence/rust-rear-quarter-hole.jpg) |
@@ -35,6 +37,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Dash clock | Cosmetic, but a stalled points clock drains the battery and can overheat its feed wire | Open — see [`dash-clock.md`](dash-clock.md). Comes out with the cluster, so pair it with the bezel and shift-cable work |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
+| Charging voltage low — dash gauge reads ~12 V running (just under the 13 V mark), should be 13.8–14.8 V, despite new alternator and recent battery | Electrical — strands the car if real | Open — confirm at the battery posts with a meter before chasing; see [`charging-system-check.md`](charging-system-check.md) |
 
 ## HVAC / air system
 
