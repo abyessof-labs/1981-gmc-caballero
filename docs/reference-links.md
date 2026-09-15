@@ -76,6 +76,56 @@ Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Do
 | Bed rail moulding kit | Ecklers — generic El Camino/Caballero 78–87 | — |
 | Tonneau cover, hatch style | Chevelle Depot | $1,109.99 CAD |
 
+### Seat belt hardware
+
+**Open question before ordering:** the front seats are reported to be **1982 Ford Thunderbird buckets**
+(Fox platform), while the belts in the car are **GM**. The seat-back guide loop is a *seat* part, so the
+correct one depends on which seat it is screwing into — confirm the seat before buying. The buckle
+halves are GM regardless. See `docs/known-issues.md` → Interior.
+
+*Shoulder belt guide loop* — the plastic loop screwed to the outboard shoulder of the seat back that
+routes the shoulder belt. GM calls it a **shoulder belt guide** (the trim ring it snaps through is the
+**guide escutcheon**); Ford calls it a **seat belt shoulder guide**.
+
+| Part | Source | Price |
+|---|---|---|
+| Shoulder belt guide, 78–88 A/G-body bucket seats — GM `20552386` (LH) / `20552387` (RH) | GBodyParts.com product 1700 — molded colours, **sold in sets only** | — |
+| Same guide, black, 78–87 A/G-body — `GBS1028` | GM Classic Parts | — |
+| Same guide, grey, 82–87 — `GBS1029` | GM Classic Parts / eBay | — |
+| Seat belt guides, 78–88 G-body, closed loop — `L240904` | OPGI | — |
+| Seat belt guides, pair, grey — `IBG-7245` (El Camino) · `IBG-7242` (Monte Carlo, blue) | SS396 / Ground Up | — |
+| Bucket seat belt guides, pair, black — `DM00166 BLACK` | Dixie Restoration Depot | — |
+| Shoulder seat belt guide, **LH and RH sold separately**, 78–88 G-body | Chicago Muscle Car Parts | — |
+| Shoulder harness loop guide, 73–81 GM bucket seats — GM `1708119` | Inline Tube `INL15349` | — |
+| Shoulder belt guide **escutcheon**, 74–80 GM, black | OER `9691094` | — |
+| Ford Fox-platform seat belt shoulder guide kit, pair + 4 screws — `LRS-15676AK` | LMR (5.0 Resto) — catalogued for 85–89 sport seats, **not** a listed 80–82 Thunderbird fit | $19.99 USD |
+| 80–82 Thunderbird seat guide, factory | No repro found — Ford catalogue group *Seat Belt and Shoulder Harness Installation – Bucket*; NOS/used only | — |
+
+Two different guide styles were used on early 78–81 GM bucket seats, so match the shape to the seat
+before ordering. The guide screws into a **steel arm inside the seat back**, not into the foam:
+push a needle (not an ice pick) through the upholstery either side of the head rest to find the two
+holes, start the top screw halfway, then the bottom one. If a previous upholsterer removed that arm,
+it has to go back in first — it is held by a few sheet-metal screws.
+
+*Buckle half — the short stalk beside the seat with the GM-stamped push-button release.* Webbing worn
+on both sides. **Decision: buy the part, do not pay for rewebbing** — restoration services run past the
+cost of the part. Nobody catalogues a bare buckle end as a web SKU, so it is one of these three:
+
+| Route | Source | Price | Notes |
+|---|---|---|---|
+| **Custom-built buckle end** — closest to exactly what is needed | Seatbelt Solutions — *Components* → Buckles & Tongues, Anchors, Buckle Sleeves. US manufacturer, supplies several of the resellers below | quote | Builds any length, **58 webbing colours**. Phone order — specify buckle end only, beige, cut to the original stalk length |
+| **Buy a 2-point lap belt, use the buckle half** — cheapest catalogued route | Seatbelt Planet, 2-point push-button lap belt | **$25.95 USD** | 32 colours incl. **Medium Beige** and **Camel**, tan plastic components. Fixed (buckle) side is configurable — 74″ = 50″ adjustable + 24″ fixed |
+| Same idea, GM-lettered button | SeatbeltsPlus `1205-Desert-Tan` / `1205-Tan` — GM logo metal push button | — | 60 / 74 / 90″. Remanufactured buckle, new everything else |
+| Used original, GM-lettered button | eBay / GBodyParts / Chicago Muscle Car Parts, 78–87 G-body beige | — | Keeps the correct button, but the webbing is 45 years old — which is the thing being replaced |
+
+**Check before ordering: the buckle and its tongue are a matched pair.** An aftermarket buckle end may
+not accept the original GM retractor's latch plate, or may false-latch in it. Measure the latch plate
+width on the existing pillar belt and confirm with the vendor, or buy buckle and tongue from the same
+maker. Never mix an aftermarket tongue with an OE buckle.
+
+**Colour:** GM beige of this era splits into Tan, Desert Tan, Medium Beige, Camel and Doeskin, which
+are not interchangeable to the eye. Get swatches before committing to two belts.
+
 ## Technical reference
 
 - Transmission ID: 11 pan bolts = THM200C ("METRIC" stamped on pan); 13 = TH250C/350 family
