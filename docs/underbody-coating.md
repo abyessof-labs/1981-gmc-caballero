@@ -39,12 +39,15 @@ This car already has electrical work pending — mask every ground point and eve
 **2. Stamped identification.** Do not obscure the **frame VIN stamping**, the body tag, or any
 stamped ID.
 
-This one is specific and important here: the photographed VIN
-(`1GTCW80H5BD502462`) **does not validate its check digit**, and
-[`purchase-summary.md`](purchase-summary.md) already calls for confirming it against the permit,
-dash plate and door jamb. SAAQ registration and the required appraisal both depend on readable
-identification. **Confirm and photograph every stamping before any paint goes near the underbody** —
-painting over a number you have not yet verified is a self-inflicted paperwork problem.
+Still worth care here even though the VIN question is now settled. The correct VIN is
+**`1GTCW80H5BD502482`**, confirmed against the SAAQ inspection report and validating its check digit
+— the earlier photo read of `…02462` had position 16 wrong. See
+[`purchase-summary.md`](purchase-summary.md), which notes that a valid check digit proves the string
+is internally consistent, not that it belongs to this car.
+
+That residual doubt is the reason to keep the stampings readable: SAAQ registration and the required
+appraisal both depend on legible identification, and the frame stamping is the physical evidence.
+**Photograph every stamping before any paint goes near the underbody**, and mask them.
 
 ## Also worth masking
 

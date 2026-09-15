@@ -14,6 +14,56 @@ year/make/model before buying a case.
 
 Add roughly half a quart more if you fit the tall filter (see below).
 
+## Where the oil goes in
+
+**The breather cap on the passenger-side (right) valve cover.** There is no separate oil filler
+tube — that left the small block in 1968, and since then the fill point has been a hole in a valve
+cover.
+
+The factory closed-PCV layout puts one hole in each cover:
+
+| Valve cover | What sits in it | |
+|---|---|---|
+| **Passenger (right)** | Filler cap, doubling as the fresh-air breather. Originally hosed to the air cleaner. | **Fill here** |
+| Driver (left) | PCV valve in a rubber grommet, hosed to the carburettor base | Not the fill point |
+
+**Confirm the side before pouring, because this car's crankcase ventilation has already been
+altered.** `known-issues.md` records the factory air cleaner assembly missing, replaced with an
+aftermarket open element — so the hose that ran from the filler cap to the air cleaner is probably
+gone, and whoever did that put a push-in chrome breather wherever suited them. Do not trust the
+diagram over what is actually on the engine.
+
+Two checks settle it:
+
+1. **The fill hole's cap has no hose** running to the carburettor or intake. The PCV is the small
+   valve that rattles when shaken, with a hose off the carb base.
+2. **Pull the cap and look down the hole.** The designed filler has a baffle plate under it to keep
+   splash off the cap.
+
+Getting this wrong is messy rather than damaging — both holes drain into the heads and down to the
+pan either way.
+
+**Pour slowly, through a long-neck funnel.** The hole sits directly over the rocker arms and valve
+springs. Dump it in fast and it backs up and runs down the side of the block.
+
+## Reading the level after a change
+
+**Wait 5–10 minutes between pouring and reading the dipstick.** Oil poured into a valve cover takes
+time to work down past the heads into the pan. The standard way to overfill this engine is to pour
+five quarts, read the stick immediately, see it low, and add more.
+
+The dipstick is on the driver's side of the block, low down near the pan.
+
+Sequence worth following:
+
+1. Pour **4.5 L**, short of the 4.7 L full figure.
+2. Wait, then read the stick and bring it to the full mark. It is far easier to add than remove.
+3. Run it a few minutes and check the filter gasket and drain plug for seepage.
+4. Shut off, wait again, re-check. The filter has just taken its share.
+
+**To record on the first change:** drain plug size and the pan's exact drain position, so the next
+one needs no hunting. Both go in the work log.
+
 ## Filter — K&N
 
 **HP-2002** (Performance Gold, chrome body, 1" welded hex nut for wrench removal).

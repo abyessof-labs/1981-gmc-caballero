@@ -9,7 +9,7 @@ Purchase, repair, and restoration tracking for a 1981 GMC Caballero bought in Oa
 | Year / Make / Model | 1981 GMC Caballero |
 | Colour | Black |
 | Odometer at purchase | 207,000 km |
-| VIN (as photographed) | `1GTCW80H5BD502462` — **check digit does not validate; confirm against the permit, dash plate, and door jamb before treating this as final.** See [`docs/purchase-summary.md`](docs/purchase-summary.md). |
+| VIN | `1GTCW80H5BD502482` — **check digit validates.** Corrected 2026-09-10 from the SAAQ inspection report; the earlier photo read (`…02462`) had position 16 wrong. See [`docs/purchase-summary.md`](docs/purchase-summary.md). |
 | Engine | LG4 5.0L / 305 cu in four-barrel V8 — confirmed via VIN 8th character (`H`) |
 | Trim | Base Caballero (Z88) — confirmed by absence of Diablo/Amarillo markers; **pending final confirmation from the glove-box SPID sticker** |
 | Transmission | Automatic, THM250C or THM200C — undetermined, settle by pan bolt count (11 = 200C, 13 = 250C) or SPID `M` code |
@@ -29,7 +29,7 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   radio-delete.md         Radio harness wire map, cut/cap procedure, dash blanking
-  oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  oil-and-filter.md       Oil grade, change interval, filter number, and where the oil goes in
   fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
