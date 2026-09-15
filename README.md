@@ -30,6 +30,7 @@ docs/
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
+  tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
 log/
