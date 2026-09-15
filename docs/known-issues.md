@@ -4,6 +4,8 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 ## Structural / rust
 
+Equipment, process and safety research for repairing these in-house is in [`docs/welding/`](welding/README.md).
+
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear quarter panel — through-hole with corroded, curled edge and surrounding blistering | **Confirmed perforated** | Open | [`rust-rear-quarter-hole.jpg`](../photos/evidence/rust-rear-quarter-hole.jpg) |
