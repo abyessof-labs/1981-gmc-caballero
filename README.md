@@ -29,6 +29,7 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   logger-app.md           How the logger app works and how to host it
+  tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
 log/
   README.md               How to add a work-log entry
 photos/
@@ -51,6 +52,15 @@ push is never logged twice, and the last-loaded copy stays readable with no conn
 To publish it: **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**, which
 serves it at `https://abyessof-labs.github.io/1981-gmc-caballero/`. Full details, including the cost
 classification and the token's security trade-off, are in [`docs/logger-app.md`](docs/logger-app.md).
+
+## Tools
+
+Tool research for the repair work, with Canadian purchase links, lives in `docs/`. So far:
+
+- [`docs/tools-angle-grinder.md`](docs/tools-angle-grinder.md) — DEWALT angle grinder lineup compared
+  for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
+  version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
+  standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
 
 ## Status
 
