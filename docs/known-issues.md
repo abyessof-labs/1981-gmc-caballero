@@ -33,7 +33,7 @@ Equipment, process and safety research for repairing these in-house is in [`docs
 | Transmission identity unknown (THM250C vs THM200C) | Informational, affects value | Open — count pan bolts or read SPID `M` code |
 | Factory air cleaner assembly missing, replaced with aftermarket open element | Cosmetic + likely emissions-system deletion; will not fail SAAQ inspection | Open |
 | Windshield — crack in driver's sweep | Glazing — inspection-critical | Open |
-| Shift indicator cable unhooked at column (per seller) | Cosmetic — **confirmed display-only, not the neutral-safety interlock**. Still run the "foot on brake, try to crank in Drive/Reverse" test, which checks a different component | Open — reattach with the bezel off, see [`shift-indicator-cable.md`](shift-indicator-cable.md) |
+| Shift indicator cable unhooked at column (per seller) | Cosmetic — **the cable itself is display-only, not the neutral-safety interlock**. Still run the "foot on brake, try to crank in Drive/Reverse" test, which checks a different component on the same column | Open — access and adjustment procedure in [`shift-indicator-cable.md`](shift-indicator-cable.md) |
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Dash clock | Cosmetic, but a stalled points clock drains the battery and can overheat its feed wire | Open — see [`dash-clock.md`](dash-clock.md). Comes out with the cluster, so pair it with the bezel and shift-cable work |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
@@ -76,6 +76,7 @@ condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full re
 | Front seat belt buckle halves (the short stalk beside the seat, GM-stamped push-button release) — webbing worn, **both driver and passenger** | **Safety — inspection-critical** | Open — replace the buckle end, both sides; rewebbing costs more than the part. Sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
 | Shoulder belt guide loops missing/broken on both front seat backs | **Safety-adjacent** — belt does not route over the shoulder correctly | Open — sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
 | Front seats reported as **1982 Ford Thunderbird buckets** (Fox platform), not GM | Informational, but decides which guide loop fits and whether the GM buckle anchors reach | Open — confirm seat identity before ordering guides |
+| Radio inoperative; loose unidentified wiring hanging behind the dash, likely a previous aftermarket install cut out | Cosmetic — but the constant-hot feed is a fire risk while it hangs loose | Open — deleting the radio, see [`radio-delete.md`](radio-delete.md) |
 
 ## Trim / identification
 

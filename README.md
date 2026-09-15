@@ -28,6 +28,7 @@ docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
+  radio-delete.md         Radio harness wire map, cut/cap procedure, dash blanking
   oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
   fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
@@ -46,9 +47,6 @@ docs/
   tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
-  oil-and-filter.md       Oil grade, filter, interval, and Canadian sourcing for the 305
-  fuel-and-tuning.md      Fuel grade and ignition timing for the 305
-  charging-system-check.md  Low charging voltage and how to diagnose it
   rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
   underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
