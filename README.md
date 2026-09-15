@@ -30,6 +30,7 @@ docs/
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   radio-delete.md         Radio harness wire map, cut/cap procedure, dash blanking
   oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
@@ -37,6 +38,8 @@ docs/
   parts-door-panel-window-switch.md
                           Clips, retainers, and part numbers for the door panels and window switches
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
+  shift-indicator-cable.md
+                          Column shift indicator: access, reattachment, adjustment
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
   welding/                Doing the rust repair in-house — equipment, process, safety
