@@ -98,8 +98,7 @@ strap before condemning the alternator.
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | **Windshield — intersecting cracks inside the wiper sweep.** SAAQ `01 / 256`, code `Q` — *"intersection de fissures dans la zone couverte par les essuie-glaces"* | **SAAQ minor** | Open | Inspection report |
-| **Driver's window does not work.** SAAQ `06 / 259`, code `GG` — *"vitre chauffeur ne fonctionne pas"* | **SAAQ minor** | Open | Inspection report |
->>>>>>> origin/main
+| **Driver's window does not work.** SAAQ `06 / 259`, code `GG` — *"vitre chauffeur ne fonctionne pas"* | **SAAQ minor** | Open — motors bought, diagnosis and teardown plan in [`door-job-plan.md`](door-job-plan.md) and [`power-window-circuit.md`](power-window-circuit.md) | Inspection report |
 
 ## HVAC / air system
 
@@ -135,27 +134,17 @@ differently, the answer could change. Still worth fixing on its own merits.
 |---|---|---|---|
 | **Both front seats are not properly fastened.** SAAQ `15 / 333`, code `CC` — *"les 2 sièges avant ne sont fixés correctement"* | **SAAQ minor** | Open — check whether the mounting floor is sound, not just the bolts | Inspection report |
 | Instrument panel centre bezel (radio + heater controls) — broken, and cut/modified for a non-factory radio | Cosmetic | Open — used/NOS hunt, no reproduction exists; buy a non-A/C bezel or verify the control opening. See [`air-system.md`](air-system.md) | — |
-<<<<<<< HEAD
-| Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open — sourcing researched, see [`parts-sourcing.md`](parts-sourcing.md). Next step: photograph the door trim in place and confirm which board (upper or lower) carries the torn armrest footprint, and whether the lower has a speaker opening |
-| Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
-| Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
-| Instrument cluster bezel — in place but loose | Cosmetic | Open — bezel is **screwed** on (~8 screws), not clipped. Pull it and check whether screws are missing or the plastic screw bosses have snapped. 1981 is close to a one-year part, so repair is preferred: [`cluster-bezel.md`](cluster-bezel.md) |
-| Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
-| Power windows — **confirmed present** (`A31`), by the presence of a driver's door switch | Informational | Resolved |
-| Driver's power window switch — loose, not installed in the door card | Cosmetic / function | Open — retained by spring-steel clips, GM `3040658`, 2 per switch, **not** screws. Check the switch cutout is in sound board and not in the armrest tear first. See [`door-job-plan.md`](door-job-plan.md) |
-| Window motors, both doors | Planned work | **Parts ordered — ~$70 CAD the pair.** Both doors done in one teardown with the weatherstrip and seals; see [`door-job-plan.md`](door-job-plan.md) |
-| Front seat belt buckle halves (the short stalk beside the seat, GM-stamped push-button release) — webbing worn, **both driver and passenger** | **Safety — inspection-critical** | Open — replace the buckle end, both sides; rewebbing costs more than the part. Sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
-| Shoulder belt guide loops missing/broken on both front seat backs | **Safety-adjacent** — belt does not route over the shoulder correctly | Open — sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
-| Front seats reported as **1982 Ford Thunderbird buckets** (Fox platform), not GM | Informational, but decides which guide loop fits and whether the GM buckle anchors reach | Open — confirm seat identity before ordering guides |
-| Radio inoperative; loose unidentified wiring hanging behind the dash, likely a previous aftermarket install cut out | Cosmetic — but the constant-hot feed is a fire risk while it hangs loose | Open — deleting the radio, see [`radio-delete.md`](radio-delete.md) |
-=======
 | Front seats reported as **1982 Ford Thunderbird buckets** (Fox platform), not GM | Informational, but decides which guide loop fits and whether the GM buckle anchors reach — **and is the likely reason the `15 / 333` seat mounting failed** | Open — confirm seat identity before ordering guides | — |
 | Front seat belt buckle halves (the short stalk beside the seat, GM-stamped push-button release) — webbing worn, **both driver and passenger** | **Safety — inspection-critical** | Open — replace the buckle end, both sides; rewebbing costs more than the part. Sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) | — |
 | Shoulder belt guide loops missing/broken on both front seat backs | **Safety-adjacent** — belt does not route over the shoulder correctly | Open — sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) | — |
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety** | Open — **not** flagged; `324 ceinture de sécurité` passed | — |
-| Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open | — |
+| Driver door armrest pad and base both missing; panel board torn around the footprint | Cosmetic | Open — sourcing in [`parts-sourcing.md`](parts-sourcing.md). Next step: photograph the trim in place and confirm which board carries the torn footprint, and whether the lower has a speaker opening | — |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists | — |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller | — |
+| Power windows — **confirmed present** (`A31`), by the presence of a driver's door switch | Informational | Resolved | — |
+| Driver's power window switch — loose, not installed in the door card | Cosmetic / function | Open — held by sprung steel, **not** screws, but frame-vs-clips is disputed between [`parts-door-panel-window-switch.md`](parts-door-panel-window-switch.md) and [`door-job-plan.md`](door-job-plan.md). Settle it by pulling the intact passenger switch and looking. Also check the cutout is in sound board, not in the armrest tear | — |
+| Window motors, both doors | Planned work | **Parts bought — ~$70 CAD the pair.** Both doors in one teardown with the weatherstrip and seals; see [`door-job-plan.md`](door-job-plan.md). Addresses the `06 / 259` glazing defect above | — |
+| Instrument cluster bezel — in place but loose | Cosmetic | Open — **screwed** on (~8 screws), not clipped. Check whether screws are missing or the plastic bosses have snapped; 1981 is close to a one-year part, so repair beats replacement: [`cluster-bezel.md`](cluster-bezel.md) | — |
 | Radio inoperative; loose unidentified wiring hanging behind the dash, likely a previous aftermarket install cut out | Cosmetic — but the constant-hot feed is a fire risk while it hangs loose | Open — deleting the radio, see [`radio-delete.md`](radio-delete.md) | — |
 
 **The Thunderbird seats and the `15 / 333` failure are almost certainly the same problem.** The
@@ -172,7 +161,6 @@ flag them.
 
 The loose seats and the loose rear belt anchor are worth investigating together. Both are fasteners
 into the cab floor, and a floor that won't hold one may not hold the other.
->>>>>>> origin/main
 
 ## Trim / identification
 
