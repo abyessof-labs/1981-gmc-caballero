@@ -27,7 +27,7 @@ mileage.csv              Odometer readings
 docs/
   purchase-summary.md    VIN, trim, and engine identification reasoning
   known-issues.md         Every defect found so far, with severity and status
-  air-system.md           Cabin filter, vent odour, and dash bezel research
+  air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
