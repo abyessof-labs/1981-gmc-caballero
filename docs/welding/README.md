@@ -42,6 +42,7 @@ wire-feed smoothness are what matter.
 | 240 V in the garage | Open — **potentially 120 V only**, which is adequate for this work |
 | Gas bottle | Open — not purchased. Required for TIG later regardless |
 | Helmet | Open |
+| Respirator | **Decided — P100, and two masks.** Model leaning 3M 6800 + half mask; see [`../tools-respirator.md`](../tools-respirator.md) |
 
 ## Budget
 
@@ -52,7 +53,7 @@ Rough, unverified — see the sourcing caveat below.
 | Multi-process welder | $160–800 USD | Wide range by tier; see `machine-selection.md` |
 | Auto-darkening helmet | $35–300 USD | $35 tier is genuinely adequate for MIG |
 | Gas bottle + flowmeter (C25) | $250–400 | Deferred under the gasless plan; required for TIG |
-| Respirator (P100) + box fan | ~$60 | **Not optional** — see `safety.md` |
+| Respirator (P100) + box fan | $150–300 | **Not optional.** Two masks: half mask under the hood, full facepiece for grinding — see `safety.md` and [`../tools-respirator.md`](../tools-respirator.md) |
 | Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md) |
 | 240 V outlet install | $200–600 | **Deferrable.** Not needed at this amperage |
 

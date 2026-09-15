@@ -79,6 +79,13 @@ mild breeze disrupts the gas cloud. A box fan cannot simply be pointed at the wo
 **P100 half-mask.** 3M 2097 filters are the common standard. N95 is entry-level for clean mild
 steel; P100 is appropriate given the coatings on a car.
 
+**Grinding needs a different mask from welding.** A full facepiece respirator does not fit under a
+welding helmet, so the rust job takes two: a **half mask under the hood for welding**, and a **full
+facepiece for grinding**, where it doubles as impact-rated eye protection. Buy both in the same
+3M 6000-series bayonet family and the filters interchange. Full selection, the lead-paint reason
+P100 is not negotiable here, and Canadian sourcing are in
+[`../tools-respirator.md`](../tools-respirator.md).
+
 Three things that catch people out:
 
 1. **The welding helmet provides zero respiratory protection.** It is a face shield, not a
@@ -106,12 +113,13 @@ where sparks are landing *before* striking — hot slag travels further than exp
 1. Non-chlorinated cleaner only; chlorinated solvents out of the garage
 2. Grind to bright metal before every weld
 3. Box fan in the doorway facing **out**, second opening for cross-flow
-4. P100 half-mask under the helmet
+4. P100 half-mask under the helmet; full facepiece when grinding instead of welding
 5. Head out of the plume
 6. Extinguisher and welding blanket in reach
 
-Roughly $60 of respirator and fan on top of the equipment budget. The items it addresses are
-the cumulative and irreversible ones.
+Respirator and fan on top of the equipment budget — call it **$150–300** once the grinding mask
+is included, not the $60 a half mask alone would cost. The items it addresses are the cumulative
+and irreversible ones.
 
 ## Sources
 
