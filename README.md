@@ -29,9 +29,17 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   radio-delete.md         Radio harness wire map, cut/cap procedure, dash blanking
+  oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
+  bulb-reference.md       Every lamp on the car and the bulb number to buy
+  tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting
+  parts-door-panel-window-switch.md
+                          Clips, retainers, and part numbers for the door panels and window switches
+  community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
+  welding/                Doing the rust repair in-house — equipment, process, safety
 log/
   README.md               How to add a work-log entry
 photos/
@@ -63,6 +71,9 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
+- [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
+  smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety,
+  and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.
 
 ## Status
 

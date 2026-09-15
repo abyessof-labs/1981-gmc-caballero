@@ -4,6 +4,8 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 
 ## Structural / rust
 
+Equipment, process and safety research for repairing these in-house is in [`docs/welding/`](welding/README.md).
+
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear quarter panel — through-hole with corroded, curled edge and surrounding blistering | **Confirmed perforated** | Open | [`rust-rear-quarter-hole.jpg`](../photos/evidence/rust-rear-quarter-hole.jpg) |
@@ -34,6 +36,7 @@ Compiled from photo review at purchase time. Severity reflects the SAAQ mechanic
 | Shift indicator cable unhooked at column (per seller) | Confirm not the neutral-safety interlock — test "foot on brake, try to crank in Drive/Reverse" | Open |
 | Reverse lights — untested | Lighting — inspection item | Open |
 | Exhaust — manifolds and crossover heavily corroded in photos | Exhaust integrity — inspection item | Open |
+| Charging voltage low — dash gauge reads ~12 V running (just under the 13 V mark), should be 13.8–14.8 V, despite new alternator and recent battery | Electrical — strands the car if real | Open — confirm at the battery posts with a meter before chasing; see [`charging-system-check.md`](charging-system-check.md) |
 
 ## HVAC / air system
 
@@ -65,6 +68,9 @@ condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full re
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
+| Front seat belt buckle halves (the short stalk beside the seat, GM-stamped push-button release) — webbing worn, **both driver and passenger** | **Safety — inspection-critical** | Open — replace the buckle end, both sides; rewebbing costs more than the part. Sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
+| Shoulder belt guide loops missing/broken on both front seat backs | **Safety-adjacent** — belt does not route over the shoulder correctly | Open — sources in [`reference-links.md`](reference-links.md#seat-belt-hardware) |
+| Front seats reported as **1982 Ford Thunderbird buckets** (Fox platform), not GM | Informational, but decides which guide loop fits and whether the GM buckle anchors reach | Open — confirm seat identity before ordering guides |
 | Radio inoperative; loose unidentified wiring hanging behind the dash, likely a previous aftermarket install cut out | Cosmetic — but the constant-hot feed is a fire risk while it hangs loose | Open — deleting the radio, see [`radio-delete.md`](radio-delete.md) |
 
 ## Trim / identification

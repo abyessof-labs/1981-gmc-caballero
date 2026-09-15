@@ -88,6 +88,19 @@ fuse block regardless of the key.**
   pedal box, the steering column, and any sharp bracket edge. Nothing should dangle where a foot or a
   knee can reach it.
 
+### Leave the gray and yellow stubs long
+
+[`tachometer-install.md`](tachometer-install.md) picks **the radio's gray illumination lead as the
+best lamp feed for the dash tach** — it is dimmer-fed and inches from where that gauge mounts — and
+lists the `RADIO` fuse as a candidate switched supply. So if the tach is still on the cards, do not
+trim those two stubs back:
+
+- **Gray (`ILL`)** — leave it at full length, cap it, and label it for reuse. It is the tach's lamp feed.
+- **Yellow (`SW`)** — same. It is the most convenient key-switched accessory tap behind that bezel.
+
+Cap both regardless. The point is only that these two want reusable length, not the short tidy stub
+the other wires get.
+
 ## Mark
 
 Sharpie on wire insulation is unreadable within a year in a hot dash. Use **printed heat-shrink
