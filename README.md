@@ -29,6 +29,7 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
