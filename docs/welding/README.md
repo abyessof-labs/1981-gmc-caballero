@@ -53,7 +53,7 @@ Rough, unverified — see the sourcing caveat below.
 | Auto-darkening helmet | $35–300 USD | $35 tier is genuinely adequate for MIG |
 | Gas bottle + flowmeter (C25) | $250–400 | Deferred under the gasless plan; required for TIG |
 | Respirator (P100) + box fan | ~$60 | **Not optional** — see `safety.md` |
-| Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md) |
+| Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md); discs and wheels in [`docs/tools-abrasives.md`](../tools-abrasives.md) (disc share ≈ $60–110) |
 | 240 V outlet install | $200–600 | **Deferrable.** Not needed at this amperage |
 
 ## Sourcing caveat

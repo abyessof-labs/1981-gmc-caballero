@@ -55,6 +55,7 @@ docs/
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
+  tools-abrasives.md      Which discs and wheels to fit: cutting, weld dressing, rust, cleaning
   welding/                Doing the rust repair in-house — equipment, process, safety
 log/
   README.md               How to add a work-log entry
@@ -87,6 +88,11 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
+- [`docs/tools-abrasives.md`](docs/tools-abrasives.md) — the discs and wheels that go on that grinder,
+  job by job. Short version: **0.045" Type 1 cut-off wheels** to cut the rot out, **60- then 80-grit
+  flap discs** to dress and blend the patch welds, a **purple nylon-web Clean & Strip disc** to take
+  paint and surface rust off without thinning the panel, and a **knotted wire cup** for underbody
+  scale only. No hard Type 27 grinding wheel anywhere near a body panel.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety,
   and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.

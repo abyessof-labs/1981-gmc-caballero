@@ -32,6 +32,9 @@ enough for this work. See the power note below.
 Worth owning alongside it: a **3" cut-off tool** beats any angle grinder for cutting out spot welds
 and panel seams in tight spots (inside the wheel arch, behind the rocker).
 
+**What to put on it** — cut-off wheels, flap discs, strip discs, wire brushes, grits and Canadian
+sources — is a document of its own: [`tools-abrasives.md`](tools-abrasives.md).
+
 ## Is 850 MWO enough for body work?
 
 Yes. 850 MWO is roughly a 7–7.5 A corded grinder. Cutting 18–22 gauge sheet with a 0.045"/1 mm wheel
@@ -42,6 +45,7 @@ What actually limits the small tools:
 - **Runtime, not power.** Cutting a quarter panel off chews batteries. Run 5.0 Ah or larger; small
   2.0 Ah packs sag under load and make the tool feel weaker than it is.
 - **Heat and warping** — the real enemy. Use flap discs (40–80 grit), not hard type 27 grinding wheels.
+  Full disc and wheel selection is in [`tools-abrasives.md`](tools-abrasives.md).
 - **Access.** A 4-1/2" body is bulky inside a wheel arch. The 4" ATOMIC DCG400B is the compact option.
 
 850 MWO would fall short on sustained removal from 1/4"+ plate, 5–6" wheels, or wire cup brushes over
