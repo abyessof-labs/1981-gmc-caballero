@@ -65,6 +65,7 @@ condensate, no refrigerant. See [`air-system.md`](air-system.md) for the full re
 | Seat belt anchor bolt (rear, driver side) — bright/recently-worked bolt, not fully seated, belt anchor loose | **Safety — inspection-critical** | Open |
 | Rear cab trim/kick panel — appears removed or missing behind the seats | Cosmetic | Open — ask seller if panel exists |
 | Passenger seat belt presence — unconfirmed from photos | Open — ask seller |
+| Radio inoperative; loose unidentified wiring hanging behind the dash, likely a previous aftermarket install cut out | Cosmetic — but the constant-hot feed is a fire risk while it hangs loose | Open — deleting the radio, see [`radio-delete.md`](radio-delete.md) |
 
 ## Trim / identification
 
