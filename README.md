@@ -29,8 +29,11 @@ docs/
   known-issues.md         Every defect found so far, with severity and status
   air-system.md           Cabin filter, vent odour, HVAC controls, dash bezel
   oil-and-filter.md       Oil grade, change interval, and K&N filter number for the 305
+  charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
+  parts-door-panel-window-switch.md
+                          Clips, retainers, and part numbers for the door panels and window switches
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
 log/
