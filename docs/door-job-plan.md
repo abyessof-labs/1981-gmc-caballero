@@ -164,6 +164,16 @@ opening. "Not installed" could be any of the three.
 
 Do this at the same teardown — the switch has to come out for the panel to come off anyway.
 
+## Driver's remote mirror control — check while the panel is off
+
+The driver's door trim has an **empty hole where the remote mirror joystick belongs**. With the
+panel off, look for the knob and its cable sheath lying inside the door: if they are there, the car
+needs a **$35 bezel** and nothing more; if they are gone, the cable only comes attached to a whole
+mirror. Full parts list, prices and the wrong-mirror trap in [`remote-mirror.md`](remote-mirror.md).
+
+Do the looking at this teardown even if the mirror is not being fixed now — it is the difference
+between a $35 order and a $180 one, and the panel will not be off again for a while.
+
 ## Door panels are a separate, later step
 
 The driver's panel board is torn around the missing armrest and will be replaced or recovered — but

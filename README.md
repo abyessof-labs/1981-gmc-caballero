@@ -44,6 +44,8 @@ docs/
   power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
   power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test
   weatherstrip.md         Door and frame seal kit, pin-then-glue install, and the adhesive to use
+  remote-mirror.md        Empty hole in the driver's door panel: the cable-remote mirror, and why
+                          the cable only comes attached to a whole mirror
   cluster-bezel.md        Loose dash bezel: why it is screws not clips, and the 1981 year trap
   shift-indicator-cable.md  Reattaching the PRNDL cable at the column, and the variants to match
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
