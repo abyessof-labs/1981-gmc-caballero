@@ -72,35 +72,50 @@ exist:
 
 ## What to buy
 
-### Complete LH remote mirror, reproduction
+Links go to the product page. Nothing here was opened directly (proxy-blocked, see the caveat at the
+top) — the URLs come from the search index, so confirm the part number on the page before paying.
+
+### Complete LH remote mirror, new reproduction
 
 | Part | Vendor | Price | Notes |
 |---|---|---|---|
-| **`MK-870`** — 1978–88 GM remote bullet mirror, LH | Ground Up / SS396 | **$139.99**, listed at **$179.99** on a second page of the same site | Described as paintable shell, **correct-length cable**, glass, assembled, mounting hardware included. Fitment copy names El Camino, Malibu, Monte Carlo, Grand Prix |
-| **`KM01058`** — Mirror, Outside 1978–88 G-Body, "Sport" Remote LH | OPGI | Not retrievable (page blocked) | Copy states the mechanism is correctly tooled "with original style knob for mirror control" — i.e. the knob ships with it |
+| [**`MK-870`** — 1978–88 GM remote bullet mirror, LH](https://www.ss396.com/part/MK-870.html) | Ground Up / SS396 | **$179.99** — a second page of the same site shows **$139.99**, so ask | Manufacturer number **`20239651`**. Paintable shell, **correct-length cable**, glass, assembled, mounting hardware included. Fitment names El Camino, Malibu, Monte Carlo, Grand Prix |
+| [**`KM01058`** — Mirror, Outside 1978–88 G-Body, "Sport" Remote LH](https://www.opgi.com/mirrors-hardware/outside-mirrors/outside-mirrors/mirror-outside-1978-88-g-body-sport-remote-lh-KM01058.html) | OPGI | Not retrievable | Copy says the mechanism is correctly tooled "with original style knob for mirror control" — the knob ships with it |
+| [Ground Up's El Camino remote mirror category](https://www.ss396.com/category/elcamino-mirrorsremote.html) | Ground Up / SS396 | — | Whole remote-mirror section filtered to the El Camino, if `MK-870` has moved |
 
 ### Complete LH remote mirror, used
 
-| Source | Price seen | Notes |
-|---|---|---|
-| Chicago Muscle Car Parts | ~$150 (LH remote sport, listed 86–88); $165 (RH remote, 78–88) | Also lists a used **"remote mirror bezel, left, square chrome, 78–88 G-body"** |
-| eBay | $50–150 | Search "78-88 G body LH sport mirror remote bullet". **Confirm the cable and knob are in the photo** — used mirrors are routinely sold with the cable cut off |
+| Part | Vendor | Price | Notes |
+|---|---|---|---|
+| **`396512`** — door mirror, **left** remote, used, 78–88 G-body | [Chicago Muscle Car Parts, 78-88 G-body door parts](https://www.chicagomusclecarparts.com/collections/78-88-g-body-door-parts) | **$145** | Their direct product URLs are the stock number (e.g. `/products/775972`); the one for `396512` was not confirmable, so go in through the collection page and find it by name |
+| [Door mirror, **right** remote, painted, used](https://www.chicagomusclecarparts.com/products/copy-of-door-mirror-left-remote-painted-used-78-88-g-body) | Chicago Muscle Car Parts | $165 | Only if the passenger side turns out to be remote too |
+| [78-88 GM G-body LH sport mirror, driver side, remote bullet](https://www.ebay.com/itm/227103183413) | eBay | $49.99 at time of writing | **Confirm the cable and knob are in the photos** — used remote mirrors are routinely sold with the cable cut off. eBay listings expire; if it is gone, search "78-88 G body LH sport mirror remote bullet" |
+| [Sport mirror gaskets, pair, new, 78–85 G-body](https://www.chicagomusclecarparts.com/products/door-sport-mirror-gaskets-pair-new-78-88-g-body) | Chicago Muscle Car Parts | — | The foam/rubber gasket between mirror base and door skin. Order with any mirror — the old one will be flat, and it is what keeps water out of the door at the mirror studs |
 
 ### The inner door bezel
 
+Same part, several sellers. The OE GM number and the reproduction number are the same string, which
+makes it easy to cross-shop:
+
 | Part | Vendor | Price |
 |---|---|---|
-| **`20086901`** — 1978–88 GM remote mirror inner door bezel, die-cast zinc | OER / Classic Industries / JEGS / GBodyParts | **$34.99** |
-| **`DM30125`** — same part | Dixie Restoration Depot | **$39.95** |
-| NOS GM `20086901` | eBay | Varies — the OE number and the reproduction number are the same string |
+| [**`20086901`** — 1978–88 GM remote mirror inner door bezel, die-cast zinc](https://www.oerparts.com/product/20086901.html) | OER | **$34.99** |
+| [`20086901`, same part](https://www.classicindustries.com/product/20086901.html) | Classic Industries | $34.99 |
+| [`G00-AIN-O91-RMB`, same part — search their catalogue for "bezel"](https://gbodyparts.com/advanced_search_result.php?keywords=bezel) | GBodyParts.com | $34.95 |
+| [**`DM30125`**, same part](https://www.dixierestorationdepot.com/product/Detail.aspx?s=DM30125) | Dixie Restoration Depot | $39.95 |
+| [NOS GM `20086901`](https://www.ebay.com/itm/286822654108) · [used chrome remote bezel, 78–88 G-body](https://www.ebay.com/itm/117206503976) | eBay | Varies |
+| [Remote mirror bezel, left, square chrome, used](https://www.chicagomusclecarparts.com/products/775972) | Chicago Muscle Car Parts | — |
 
 ---
 
 ## The trap: the mirror the Canadian vendors stock is the wrong one
 
-Both Tier-1 Canadian sources in [`parts-sourcing.md`](parts-sourcing.md) — **Chevelle Depot** and
-**Muscle Cars & Classics** — list OER **`9865801`, "1970-81 GM Remote Outer Bullet Mirror, LH"**
-(~$170–190 list). It is tempting: right side, right style, cable included, in Canada, and the year
+Both Tier-1 Canadian sources in [`parts-sourcing.md`](parts-sourcing.md) —
+[**Chevelle Depot**](https://www.chevelledepot.ca/exterior/mirrors/left-hand-mirror/camaro-outside-bullet-door-mirror-remote-left-1970-1981)
+and [**Muscle Cars & Classics**](https://www.musclecarsandclassics.ca/exterior/mirrors/left-hand-mirror/camaro-outside-bullet-door-mirror-remote-left-1970-1981)
+— list OER [**`9865801`, "1970-81 GM Remote Outer Bullet Mirror, LH"**](https://www.oerparts.com/product/9865801.html)
+(~$170–190 list; [Speedway Motors](https://www.speedwaymotors.com/OER-9865801-1970-81-GM-Remote-Outer-Bullet-Mirror-LH,121595.html)
+carries it too). It is tempting: right side, right style, cable included, in Canada, and the year
 range ends in 1981.
 
 **OER's own fitment for `9865801` does not include the G-body.** It reads: Camaro 70–81, Firebird /
