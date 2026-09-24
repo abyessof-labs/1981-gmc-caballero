@@ -80,6 +80,7 @@ top) — the URLs come from the search index, so confirm the part number on the 
 | Part | Vendor | Price | Notes |
 |---|---|---|---|
 | [**`MK-870`** — 1978–88 GM remote bullet mirror, LH](https://www.ss396.com/part/MK-870.html) | Ground Up / SS396 | **$179.99** — a second page of the same site shows **$139.99**, so ask | Manufacturer number **`20239651`**. Paintable shell, **correct-length cable**, glass, assembled, mounting hardware included. Fitment names El Camino, Malibu, Monte Carlo, Grand Prix |
+| [**`20239651`** — the same casting, direct from the maker](https://www.oerparts.com/product/20239651.html) | OER | Not retrievable | OER titles it *"1981-87 Regal, Cutlass; Bullet Style Remote Outer Door Mirror; **with Interior Door Bezel, Cable & Knob**; LH Drivers Side"* — and the copy adds mounting hardware and a moulded base gasket. **If this is what gets bought, the separate bezel and gasket below are not needed.** Confirm at the order, because it is a ~$75 difference |
 | [**`KM01058`** — Mirror, Outside 1978–88 G-Body, "Sport" Remote LH](https://www.opgi.com/mirrors-hardware/outside-mirrors/outside-mirrors/mirror-outside-1978-88-g-body-sport-remote-lh-KM01058.html) | OPGI | Not retrievable | Copy says the mechanism is correctly tooled "with original style knob for mirror control" — the knob ships with it |
 | [Ground Up's El Camino remote mirror category](https://www.ss396.com/category/elcamino-mirrorsremote.html) | Ground Up / SS396 | — | Whole remote-mirror section filtered to the El Camino, if `MK-870` has moved |
 
@@ -90,9 +91,12 @@ top) — the URLs come from the search index, so confirm the part number on the 
 | **`396512`** — door mirror, **left** remote, used, 78–88 G-body | [Chicago Muscle Car Parts, 78-88 G-body door parts](https://www.chicagomusclecarparts.com/collections/78-88-g-body-door-parts) | **$145** | Their direct product URLs are the stock number (e.g. `/products/775972`); the one for `396512` was not confirmable, so go in through the collection page and find it by name |
 | [Door mirror, **right** remote, painted, used](https://www.chicagomusclecarparts.com/products/copy-of-door-mirror-left-remote-painted-used-78-88-g-body) | Chicago Muscle Car Parts | $165 | Only if the passenger side turns out to be remote too |
 | [78-88 GM G-body LH sport mirror, driver side, remote bullet](https://www.ebay.com/itm/227103183413) | eBay | $49.99 at time of writing | **Confirm the cable and knob are in the photos** — used remote mirrors are routinely sold with the cable cut off. eBay listings expire; if it is gone, search "78-88 G body LH sport mirror remote bullet" |
-| [Sport mirror gaskets, pair, new, 78–85 G-body](https://www.chicagomusclecarparts.com/products/door-sport-mirror-gaskets-pair-new-78-88-g-body) | Chicago Muscle Car Parts | — | The foam/rubber gasket between mirror base and door skin. Order with any mirror — the old one will be flat, and it is what keeps water out of the door at the mirror studs |
+| [Sport mirror gaskets, pair, new, 78–85 G-body](https://www.chicagomusclecarparts.com/products/door-sport-mirror-gaskets-pair-new-78-88-g-body) | Chicago Muscle Car Parts | — | The foam/rubber gasket between mirror base and door skin. Order it with a **used** mirror — the old one will be flat, and it is what keeps water out of the door at the mirror studs. A new OER mirror includes one |
 
 ### The inner door bezel
+
+**Skip this table if a complete new OER mirror is being ordered** — `20239651` ships with the bezel,
+cable and knob in the box. This is for the bezel-only case, or to go with a used mirror.
 
 Same part, several sellers. The OE GM number and the reproduction number are the same string, which
 makes it easy to cross-shop:
@@ -105,6 +109,47 @@ makes it easy to cross-shop:
 | [**`DM30125`**, same part](https://www.dixierestorationdepot.com/product/Detail.aspx?s=DM30125) | Dixie Restoration Depot | $39.95 |
 | [NOS GM `20086901`](https://www.ebay.com/itm/286822654108) · [used chrome remote bezel, 78–88 G-body](https://www.ebay.com/itm/117206503976) | eBay | Varies |
 | [Remote mirror bezel, left, square chrome, used](https://www.chicagomusclecarparts.com/products/775972) | Chicago Muscle Car Parts | — |
+
+---
+
+## Why every listing says Regal, Cutlass or Monte Carlo
+
+Confirmed: they are all the same platform, and the mirror is one of the genuinely shared parts.
+
+GM downsized its intermediates for 1978 onto one rear-drive chassis, badged per division. It was
+called **A-body** through 1981 and **redesignated G-body for 1982** — which is why vendors write
+"78-88 A/G-body" and why a car like this one, built in **1981, is technically an A-body sold out of
+the G-body catalogue**. Same cars either way:
+
+| Division | Badges on the platform |
+|---|---|
+| Chevrolet | Malibu (78–83), Monte Carlo (78–88), **El Camino (78–87)** |
+| GMC | **Caballero (78–87)** — the El Camino twin, and this car |
+| Pontiac | LeMans / Grand Am (78–81), Grand Prix (78–87), Bonneville sedan (82–86) |
+| Oldsmobile | Cutlass Supreme / Cutlass (78–88) |
+| Buick | Century (78–81), Regal (78–87, incl. Grand National) |
+
+**The mirror is shared; the door is not.** Worth keeping straight, because the two facts get confused:
+
+- **Shared across all five divisions** — the bullet/sport mirror and the remote mirror hardware. The
+  proof is in the catalogue numbers: OER sells `20239651` as a **Regal / Cutlass** part, Ground Up
+  sells the identical casting as `MK-870` for **El Camino / Malibu / Monte Carlo / Grand Prix**, and
+  OER's inner door bezel `20086901` is titled for **Chevrolet, Buick, Olds and Pontiac** at once.
+  These were corporate-parts-bin options, not division-specific styling.
+- **Not shared** — body panels. Owner interchange notes for 81–88 say the *only* shared body panel
+  between divisions is the Cutlass and Regal door; the roof skin and glass are common but
+  **El Caminos are excluded**. So "it fits a Regal" tells you nothing about a door panel, a quarter,
+  or a bed.
+
+The practical rule, already in [`parts-sourcing.md`](parts-sourcing.md): for **bolt-on hardware**
+that hangs off the body — mirrors, latches, switches, glass hardware — a listing naming any G-body
+division is a strong lead. For **sheet metal and interior trim**, it has to say El Camino (or
+Caballero) explicitly.
+
+One real limit on this: the year ranges in the titles disagree between vendors. OER's remote bullet
+mirror reads **1981-87**, Ground Up's reads **1978-1988** for the same part number. Both include
+1981, so it does not bite this car — but a 1978–80 car might be a different casting, and nobody's
+catalogue is clear about it.
 
 ---
 
@@ -170,6 +215,8 @@ the door.
 | Can the cable be bought without the mirror? | **Decided — no.** Cable is swaged to the mirror head; it is a complete-assembly replacement |
 | Buy Canadian OER `9865801` on the year overlap? | **Decided — no.** Fitment excludes the G-body. Order in `MK-870` / `KM01058` instead |
 | Which mirror the door-panel knob actually controls | **Open** — vendor copy contradicts itself, follow the cable |
+| Do the Regal / Cutlass / Monte Carlo listings fit this car? | **Decided — yes for the mirror.** Same 1978–88 A/G platform, and the mirror is a shared corporate part; OER sells the identical casting under Regal/Cutlass titles. Does **not** extend to body panels or trim |
+| Does a new mirror include the inner bezel? | **Decided — yes on OER `20239651`** (titled "with Interior Door Bezel, Cable & Knob", plus hardware and gasket). Confirm on the invoice before adding a separate bezel |
 
 ## Sources
 
@@ -179,7 +226,11 @@ Search-result summaries only; the pages themselves were unreachable from this se
 - [Dixie `DM30125` — 78-88 remote mirror inner door bezel](https://www.dixierestorationdepot.com/product/Detail.aspx?s=DM30125)
 - [Ground Up `MK-870` — 1978-1988 GM remote bullet mirror, LH](https://www.ss396.com/part/MK-870.html)
 - [OPGI `KM01058` — 1978-88 G-Body "Sport" remote LH](https://www.opgi.com/mirrors-hardware/outside-mirrors/outside-mirrors/mirror-outside-1978-88-g-body-sport-remote-lh-KM01058.html)
+- [OER `20239651` — remote bullet mirror, LH, with bezel, cable & knob](https://www.oerparts.com/product/20239651.html)
 - [OER `9865801` fitment — the mirror to avoid](https://www.oerparts.com/product/9865801.html)
+- [General Motors G platform (RWD) — 1982 redesignation and model list](https://en.wikipedia.org/wiki/General_Motors_G_platform_(RWD))
+- [Ground Up — A and G body differences, 1969–1988](https://www.ss396.com/cars/a-and-g-body-differences-from-1969-1988/)
+- [GBodyForum — Cutlass and Monte parts interchange](https://gbodyforum.com/threads/cutlass-and-monte-parts-interchange.8996/)
 - [Chevelle Depot listing of `9865801`](https://www.chevelledepot.ca/exterior/mirrors/left-hand-mirror/camaro-outside-bullet-door-mirror-remote-left-1970-1981)
 - [Chicago Muscle Car Parts — used G-body remote mirrors and bezels](https://www.chicagomusclecarparts.com/collections/78-88-g-body-door-parts)
 - [El Camino Central — remote mirror control location](https://www.elcaminocentral.com/threads/remote-mirror-control-location.251408/)

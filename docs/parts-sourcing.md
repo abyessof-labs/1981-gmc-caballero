@@ -14,6 +14,23 @@ Corollary: a listing that says "El Camino" and nothing about GMC is still almost
 for this car. A listing that says *Caballero Laredo/Diablo* is trim-specific and probably is not,
 since this is a base **Z88**.
 
+### Widening the net: Regal, Cutlass, Monte Carlo, Grand Prix
+
+The Caballero sits on GM's 1978–88 rear-drive intermediate platform — **A-body through 1981,
+redesignated G-body for 1982** — shared with the Malibu, Monte Carlo, Regal, Century, Cutlass,
+LeMans and Grand Prix. Listings for those cars are often the right part under another badge, but
+only for one class of part:
+
+| Kind of part | A Regal / Cutlass / Monte listing… |
+|---|---|
+| **Bolt-on hardware** — outside mirrors, remote mirror bezels, latches, switches, clips, glass hardware | **Strong lead.** Many were corporate parts-bin items sold under every division's title. Confirmed for the remote mirror in [`remote-mirror.md`](remote-mirror.md#why-every-listing-says-regal-cutlass-or-monte-carlo) |
+| **Sheet metal** — doors, quarters, bed, roof | **No.** For 81–88 the only cross-division body panel is the Cutlass/Regal door; El Camino is excluded even from the shared roof and glass |
+| **Interior trim** — door panels, dash bezels, armrests | **No.** Per-division styling, and the 1978–80 / 1981–87 door-panel break below still applies |
+
+Year ranges in the titles are unreliable across vendors — the same mirror is listed 1981–87 by one
+maker and 1978–88 by another. Make sure the range includes **1981**, and treat anything titled
+1978–80 only as suspect.
+
 ---
 
 ## Door panels — the specific job
