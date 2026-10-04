@@ -13,7 +13,7 @@ rail rot, the body mounts, and the floor and rocker work, and as the checklist t
 
 ## First, decide how far the body has to come off
 
-There are two very different jobs. The first one may be all this car needs.
+There are two very different jobs. This car needs the second.
 
 | | **Partial lift** — body raised a few inches on the frame | **Full separation** — chassis rolled out from under the body |
 |---|---|---|
@@ -25,12 +25,19 @@ There are two very different jobs. The first one may be all this car needs.
 | Time | An afternoon to a weekend, mostly fighting bolts | Days to disconnect, and a garage you can lose for months |
 | Fits | Body mount bushings ([issue #27](../../../issues/27)); a rear frame rail tail section done body-on ([issue #1](../../../issues/1)) | Rot along the frame or the floor too widespread to reach with the body in place |
 
-**Start with the partial lift.** The bushings can be replaced with the body in place, and the forum
-method for the rear frame rail tail section is body-on as well
-([`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md#rear-frame-rail--the-09--196-repair)).
-Full separation is only worth it if the hoist inspection shows rot well beyond the right-rear corner,
-or if the cab floor turns out to need major work. That inspection
-([issue #1](../../../issues/1)) decides it. Don't commit to either approach before it.
+**Decided: full separation.** The owner has found rot well beyond the right-rear corner: the cab
+floor at the front, middle and rear ([issue #29](../../../issues/29)), a rotted frame crossmember, and
+a couple of frame-side body mounts rotted completely off ([issue #28](../../../issues/28)). A floor
+that size can't be welded from underneath with the frame in the way, and the frame has to be bare
+to decide between repairing it and replacing it. The partial-lift procedure below stays for
+reference, and for refitting the body at the end.
+
+Two things about this car make the lift harder than usual. With floor rot in three places, a
+rotting rocker and mounts already gone, **the floor and rockers are carrying less than they
+should**, so the bracing below isn't optional, and the lift points have to be on sound metal: firewall
+or cowl and upper door hinges at the front, tailgate hinge mounts at the rear, not under the floor.
+And where frame perches are gone, the body may already be resting on whatever is left, so expect
+some mounts to have nothing to unbolt.
 
 ---
 
@@ -217,7 +224,7 @@ the door gaps against your pre-lift measurements, then torque.
 
 | Question | State |
 |---|---|
-| Partial lift or full separation | Open — **leaning partial lift**; decided by the hoist inspection ([issue #1](../../../issues/1)) |
+| Partial lift or full separation | **Decided — full separation.** Floor rot front, middle and rear, a rotted crossmember and missing frame perches put the job beyond a partial lift ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
 | Engine in or out if full separation | Open — owner prefers in; measure clearances first |
 | How the body is braced | Open — angle iron hinge-to-striker at minimum; more if the rocker is as bad as feared |
 | Mount count, bolt size and torque | **Unconfirmed** — single-source forum figures. Count under the car; torque from a service manual |

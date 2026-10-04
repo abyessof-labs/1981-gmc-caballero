@@ -38,7 +38,7 @@ Mapping that onto the known issues:
 | **Rear seat belt anchor** — bright bolt, not fully seated, anchor loose | **Yes — anchorages are structural** | Already flagged safety-critical. Corrosion or weak metal *around* an anchorage fails, not just the bolt |
 | **Smuggler's box floor** — water-trail staining, not yet photographed | Floor perforation is a noted defect; **structural if it reaches the anchorage** | Priority to photograph. Its proximity to the rear belt anchor is the concern |
 | **Rear quarter panel** — confirmed through-hole | **No — outer body panel** | Should be fixed, but not the thing that fails the inspection |
-| Frame rails, front and rear | Sound — factory formed holes, already corrected | No action |
+| Frame rails, front and rear | **Not sound.** The holes in the purchase photos were factory, but the SAAQ failed the right-rear corner, and the owner has since found a rotted crossmember and frame perches rotted off | Frame — structural, and a weakening repair is itself a rejection. See [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md#the-frame-as-a-whole--repair-or-replace) |
 
 The useful conclusion: the dramatic-looking quarter panel hole is the *least* inspection-relevant
 rust on the car, and the unglamorous rocker seam is the one that decides the outcome.

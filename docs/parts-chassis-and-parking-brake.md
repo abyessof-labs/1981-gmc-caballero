@@ -4,7 +4,8 @@ Where to buy the sheet metal, frame and parking-brake parts the 2026-09-10 SAAQ 
 for, and the fitment traps on each. For whoever places the order or walks into the parts counter.
 Researched October 2026. Prices are list at time of writing, not quotes.
 
-Relates to [`known-issues.md`](known-issues.md): the right-rear frame rail rot (`09 / 196`), the rear
+Relates to [`known-issues.md`](known-issues.md): the right-rear frame rail rot (`09 / 196`), the
+rotted crossmember and frame-side body mounts and the floor rot found since, the rear
 body mount cushions (`09 / 198`), the separated driver-side middle body mount (not on the report),
 the parking brake (`23 / 135`, `33 / 135`, `07 / 158`), the smuggler's box floor, and the loose seats
 (`15 / 333`).
@@ -113,6 +114,12 @@ come with the perch already on, EDP-coated, and are cut in and butt-welded to so
 | **Dixie Restoration Depot** | `DM94315 RH` / `LH` — *78–87 rear frame rail replacement* | Right / left | **$187.95 USD** | Dixie's fitment line names Monte Carlo and Malibu as well as the El Camino, which **contradicts** OPGI's split. Confirm with Dixie before relying on it |
 | **Classic 2 Current Fabrication** — c2cfabrication.com | 1978–87 El Camino rear frame rail, rear section | Left / right | Not retrieved | Also sells through Amazon |
 
+> **Update — the rot is wider than this corner.** The owner has since seen a rotted frame
+> crossmember and a couple of frame-side body mounts rotted completely off, as well as floor rot
+> front, middle and rear. A tail section is now one part of a larger frame job. See
+> [The frame as a whole](#the-frame-as-a-whole--repair-or-replace) below and
+> [issue #28](../../../issues/28).
+
 **Buy the section only after the hoist inspection.** Issue #1 is still open: nobody has seen how far
 forward the rot runs. If it stops in the tail, one `RFR-78ER`-type section is the job. If it has
 reached the kick-up over the axle or the rear crossmember, a tail section is not enough and the
@@ -129,10 +136,34 @@ bolts, and the full body-off alternative are in [`body-off-frame.md`](body-off-f
 
 | Crossmember | Source | Notes |
 |---|---|---|
-| **Rear crossmember** (carries the rear suspension) | **No reproduction found** | Fully structural and tied into the rails. If it is rotten, this becomes a donor-frame decision |
+| **Rear crossmember** (carries the rear suspension) | **No reproduction found** | Fully structural and tied into the rails. If it is rotten, this becomes a donor-frame decision. **A crossmember is reported rotted** — which one is not yet recorded ([issue #28](../../../issues/28)) |
 | **Transmission crossmember** (bolt-in) | **The El Camino Store / Classic Chevy** — *El Camino crossmember, double hump, for TH350, TH250, Powerglide…, 1978–87*; **Chevelle Depot** sells El Camino double-hump crossmembers for 200R4/TH400 swaps; **JEGS** G-body crossmembers | Only if the original is rotten. The stock-transmission listing names the THM250 but not the THM200C — this car is one or the other ([issue #9](../../../issues/9)); confirm fitment against whichever it turns out to be. **Do not buy the 200R4/TH400 versions** — 1978–83 frames need an extension kit for those |
 | **Floor brace crossmember, front** (under the front seats, welds to the floor) | **Dixie** `DM02340 FRONT` — 78–88 Monte Carlo, **El Camino**, Malibu | **$149.95 USD**. Part of the cab, not the frame — but this is what the outer seat mounts tie into. Relevant if the loose seats turn out to be a floor problem |
 | Front seat mount brace, LH / RH | **Dixie** `DM02341 LH` / `RH` | $54.95–59.95 USD each. Includes the outer seat mounts |
+
+---
+
+## The frame as a whole — repair or replace
+
+Owner-observed after the inspection: **a crossmember rotted** and **a couple of frame-side body
+mounts rotted completely off**, in addition to the right-rear rail corner the SAAQ recorded. Which
+crossmember and which mounts is not yet written down. **That is the first thing to settle**, because
+the options differ a lot:
+
+| Option | What it involves | Cost signal | For | Against |
+|---|---|---|---|---|
+| **Repair this frame** | Rear tail section(s), fabricated replacement perches, and the crossmember repaired or spliced in from a donor | Parts a few hundred USD. A welding shop runs about $100/hour, and a crossmember alone is reported as **at least a full shop day** | Keeps the car's own frame; parts are cheap | No reproduction exists for the rear crossmember or the mid-frame perches, so they get fabricated. The more spots that are bad, the more likely the rest of the frame is thin too. Every weld is something the SAAQ inspector looks at |
+| **Used El Camino / Caballero frame** | Find a solid one, blast and inspect it, swap everything across | One US listing at **~$899 USD**. Freight to Montréal extra | Factory geometry, all perches and crossmembers intact, a clean inspection story | A 40-year-old frame from a salt-free region is the only kind worth buying, and they're rare in Canada. **Must be El Camino/Caballero** — the coupe and wagon frames are different. A big parts swap |
+| **New aftermarket chassis** | e.g. **Schwartz Performance G-Machine**, listed for 1978–88 G-bodies including the El Camino | Base price reported as **just under $10,000 USD**, older figure | New steel, no rust | Far beyond the value of a base Z88 driver. Changes the suspension entirely, and a heavily modified frame may raise its own SAAQ questions |
+
+**Repair or used frame are the realistic options for this car.** The body comes off either way for
+the floor ([issue #29](../../../issues/29)), which leaves the frame bare. **Blast or wire-wheel it and
+map every soft spot before choosing** — the number of bad spots decides it. Get a frame shop's quote
+for the repair to compare against a used frame landed in Montréal.
+
+The rest of a bare frame job, whichever way it goes: wire-wheel or blast, rust-convert or epoxy
+prime, cavity wax inside the rails, then the coating in
+[`underbody-coating.md`](underbody-coating.md).
 
 ---
 
@@ -159,7 +190,11 @@ and is chosen for stiffness in performance builds. Not a strong preference — e
 
 **Frame-side perches** are the stamped brackets welded to the frame rail that the bushing sits in.
 The rearmost one comes **already on** the rear frame rail section above, which is the part to buy
-for the right-rear corner. Universal weld-on perch-and-bushing kits exist (eBay, *88-145KT*) if a
+for the right-rear corner. **A couple more perches are reported rotted completely off**
+([issue #28](../../../issues/28)). **No reproduction mid-frame perch was found** for the El Camino. The
+fix is to fabricate a perch from plate to the original's dimensions (copy the matching perch on the
+other side of the frame) and weld it on, or cut one from a donor frame. C2C Fabrication's
+*rear frame rail / body mount repair kit* is for the **Monte Carlo** only. Universal weld-on perch-and-bushing kits exist (eBay, *88-145KT*) if a
 mid-frame perch is gone — not El Camino-specific; measure before using one.
 
 **Body-side supports** are the reinforcements in the cab floor the body mount bolt threads into.
@@ -175,6 +210,7 @@ loose belt anchor ([issue #7](../../../issues/7)), and the rocker seam rot ([iss
 | Option | Source | Notes |
 |---|---|---|
 | Reproduction of that reinforcement | **None found** for the El Camino | Seat-mount braces and 3- and 7-piece *A/G-body seat mounting brace* kits exist (eBay; Chevelle Depot RH outer at **$125.99**, assumed CAD) but none was described as the body-mount/belt-anchor piece |
+| Body-side caged nuts | **C2C Fabrication** — *1978–87 El Camino body mount nuts, diamond shape* and *body mount cushion washers* | The diamond-shaped nut that sits in the body's cage. Needed wherever a cage has rotted out |
 | Repair the hole in place | Fabricate | Forum method: a flat **0.090"–0.120" steel donut** welded over a rusted-out mount hole, with a new caged nut behind it. Replacing the whole reinforcement means drilling spot welds from the floor side or cutting the floor out around it |
 | Used | Donor El Camino / Caballero cab floor | Tier 3 salvage — see [`parts-sourcing.md`](parts-sourcing.md) |
 
@@ -205,10 +241,21 @@ is no rear seat.
 **Dead end:** an extract tied Auto Metal Direct `400-3464` / `405-3464-L/R` to the El Camino. It is a
 **1964–67 Chevelle** floor pan. Do not order it.
 
-**No floor pan is needed yet.** The smuggler's box floor is still un-photographed
-([issue #2](../../../issues/2)) and nothing has shown the cab floor perforated. A patch half or a
-front/rear quarter is the likely scale if anything is; a full floor is not on the table without
-evidence.
+**The floor is rotted at the front, middle and rear** (owner-observed, after this section was first
+written — [issue #29](../../../issues/29)). With rot across the whole floor, compare:
+
+- **A full floor with hump** — Chevelle Depot ~$962, or Golden Star's *1978–87 El Camino floor pan
+  complete* (rocker to rocker, toe board to the cab back, hump included). One panel, fewer seams,
+  and the transmission hump comes square.
+- **Four quarter pans** — about $800 in total at Chevelle Depot's prices, plus four times the seam
+  welding, and the hump stays original.
+
+**Leaning full floor**, decided after cutting back to sound metal. Two rules from the vendors and
+forums: **don't cut the old floor out until the new one is in hand**, because it's needed to
+trial-fit. And the **floor braces, seat-belt reinforcement plates and seat brackets** have to come off
+the old floor and go onto the new one, or be bought new (the Dixie floor brace and seat braces under
+*Crossmembers* above). This floor is also the one the loose seats (`15 / 333`) and the belt anchors
+bolt into. Done with the body off the frame — [`body-off-frame.md`](body-off-frame.md).
 
 ---
 
@@ -220,8 +267,10 @@ evidence.
 | Which front cable | **Decided — the 56¼" 1981–87 automatic cable**, not the 54¾" |
 | Kit or individual cables ([issue #26](../../../issues/26)) | Open — **`BSH7801` if Inline Tube confirms El Camino fitment**; otherwise parts-store front + two rears |
 | Do the rear drums need hardware too | Open — pull the drums during the flex hose job and look |
-| Rear frame rail: tail section, longer splice, or donor frame | Open — gated on the hoist inspection ([issue #1](../../../issues/1)) |
+| Rear frame rail: tail section, longer splice, or donor frame | Open — now part of the whole-frame decision below |
+| Repair this frame, used El Camino frame, or new chassis ([issue #28](../../../issues/28)) | Open — **leaning repair or used frame**; decided after the body is off and the frame is mapped |
+| Which crossmember is rotted, and which perches are gone | Open — owner to name and photograph |
 | Which side(s) of rail to buy | Open — right is failed; left unexamined |
 | Body mount bushings: rubber or urethane ([issue #27](../../../issues/27)) | Leaning rubber; open |
 | Driver-side middle body mount: repair the hole or replace the reinforcement | Open — inspect with the belt anchor and rocker seam |
-| Floor pans | Open — none needed until the smuggler's box floor and cab floor are inspected |
+| Floor pans ([issue #29](../../../issues/29)) | **Needed** — rot front, middle and rear. Open: **leaning full floor with hump** over four quarter pans |

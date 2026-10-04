@@ -37,12 +37,22 @@ Equipment, process and safety research for repairing these in-house is in [`docs
 | Bottom edge of outer body panel, ragged/eaten | Cosmetic, edge-only | Open | [`rust-lower-panel-edge.jpg`](../photos/evidence/rust-lower-panel-edge.jpg) |
 | Front frame, driver side (initially misread as perforated) | **Sound — factory formed holes, not rust-through** | Closed, no action | [`frame-front-sound-corrected.jpg`](../photos/evidence/frame-front-sound-corrected.jpg) |
 | Rear underbody frame (initially misread as perforated) | **Sound — factory formed holes** | Closed, no action | [`frame-rear-sound-corrected.jpg`](../photos/evidence/frame-rear-sound-corrected.jpg) |
+| **Cab floor pan rotted — front, middle and rear.** Owner-observed after the inspection. Not on the SAAQ report | **Structural in effect** — the seats, belt anchors and driver-side middle body mount all bolt into it. Floor perforation is a listed SAAQ defect | Open — full floor vs sections, done with the body off. Parts in [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md#floor-pans), [issue #29](../../../issues/29) | Owner observation, not yet photographed |
+| **Frame crossmember rotted.** Owner-observed. Which crossmember is not yet recorded | **Frame — structural.** `traverse` is in the same *Cadre* group as the `longeron` row the SAAQ already failed | Open — repair-vs-replace the frame, [issue #28](../../../issues/28). No reproduction rear crossmember found | Owner observation, not yet photographed |
+| **A couple of frame-side body mounts (perches) rotted completely off.** Owner-observed. Locations not yet recorded | **Frame — structural.** Separate from the right-rear corner on the report | Open — no reproduction mid-frame perch found; fabricate or take from a donor frame. [Issue #28](../../../issues/28) | Owner observation, not yet photographed |
 | Smuggler's box floor (behind seats, inside cab) | **Not yet photographed** — cab back panel was open/trim removed in one photo, revealing water-trail rust staining down the panel | Open — priority | — |
 | Standing water in bed floor, front corner, in listing photos | Suggests bed drains not draining | Open — check | — |
 
 **Note on the two `09` rows:** `longeron` is the frame side rail, not floor pan — on the worksheet
 it sits in the *Cadre / dessous de caisse* group alongside `traverse` (crossmember) and `membrure`.
 Rust-through here is frame repair, not a floor patch. See the log entry for what that implies.
+
+**The frame and floor are worse than the report shows.** Since the inspection, the owner has
+found the floor rotted front, middle and rear, a rotted crossmember, and a couple of frame-side body
+mounts gone. Together these settle the approach: **body off the frame**
+([`body-off-frame.md`](body-off-frame.md)), and a repair-or-replace decision on the frame once it is
+bare. The two *"sound — factory formed holes"* rows above were about specific spots in purchase
+photos and still stand; they do not mean the frame as a whole is sound.
 
 ## Water intrusion
 
