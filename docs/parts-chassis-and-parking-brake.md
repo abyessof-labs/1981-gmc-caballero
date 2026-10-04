@@ -122,7 +122,8 @@ proves bad too** — the inspector did not flag it.
 Per [`rust-repair-inspection.md`](rust-repair-inspection.md), a weakening frame repair is its own
 SAAQ rejection, so this one wants full-penetration butt welds into clean metal. The forum-reported
 method is body-on: drop the fuel tank, remove the rear body mount bolts, loosen the rest forward to
-the front fenders to get lift, cut out with a reciprocating saw, fit and butt-weld.
+the front fenders to get lift, cut out with a reciprocating saw, fit and butt-weld. Bracing, the mount
+bolts, and the full body-off alternative are in [`body-off-frame.md`](body-off-frame.md).
 
 ### Crossmembers
 
