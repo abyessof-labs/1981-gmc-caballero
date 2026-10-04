@@ -220,6 +220,76 @@ the door gaps against your pre-lift measurements, then torque.
 
 ---
 
+## Videos to watch first
+
+What exists on YouTube for this job, closest match first. **The videos were not watched:** YouTube
+was blocked to automated clients during this research, so the titles and one-line descriptions
+come from search results. Treat them as a viewing list.
+
+### The same car — 1978–87 G-body El Camino
+
+The **"G Body El Camino Restomod"** series follows one 1978–87 El Camino through the whole
+body-off cycle this car needs: off, frame work, back on. Watch it in this order:
+
+| Video | What it covers |
+|---|---|
+| [**Frame Off Part 3: Removing the Body**](https://www.youtube.com/watch?v=QGbtdYuqW8A) | Lifting the body off the frame with **two Harbor Freight engine cranes** (440 lb listing) and setting it on a body cart. **The single most relevant video found** |
+| [Frame Boxing Part 1: Prepping the Frame](https://www.youtube.com/watch?v=H6YtQAcTV3U) | The bare G-body frame being prepped for reinforcement plates |
+| [Frame On Part 1: V Bands & Body Bushings](https://www.youtube.com/watch?v=S6ZTQXlaVY0) | Lowering the body back onto the frame with new body bushings |
+| [Core Support Bushings and Panel Gaps](https://www.youtube.com/watch?v=6z-Y6-QUDg0) | The radiator support mounts, and getting the front panel gaps right on reassembly |
+| [Fuel System Part 4: Tank Install](https://www.youtube.com/watch?v=MWQXGOA5vFA) | The tank on a G-body El Camino, which has to come out before any of this |
+| [Smuggler's Box with Lift Hatch and Bed Access](https://www.youtube.com/watch?v=3id2avDTQUg) | The smuggler's box area, though as a modification, not a rust repair |
+
+It's a restomod (drop spindles, boxed frame, EFI), so skip the upgrade episodes. The body-off,
+frame and bushing episodes are the same work on a stock car.
+
+**Other G-body El Camino videos:**
+
+| Video | What it covers |
+|---|---|
+| [I replaced the body bushings on my '79 El Camino without a lift and taking the body off the frame](https://www.youtube.com/watch?v=-lf4wzXNOws) | The **partial-lift** method above, on this generation |
+| [G-Body 1982 El Camino, Floor Pan Replacement (March 2025)](https://www.youtube.com/watch?v=nFciEB1s0x4) | Floor pan replacement with the MIG welding procedure |
+| [#10. 1978 El Camino SS — replacing front floor pan, patching…](https://m.youtube.com/watch?v=x3L27NlZ1kA) | Right front floor pan, and the floors of the rear storage cubbies, which is the smuggler's box area |
+| [Gbody Floor Pan Repair — how to fix your floor pan on a Chevy El Camino](https://www.youtube.com/watch?v=YIVpHjBkVoA) | Floor pan repair |
+| [Chevy El Camino Floor Pan Repair, day 1 — my first time](https://m.youtube.com/watch?v=RyUQjicwazo) | A first-timer's floor repair. Useful for the mistakes |
+| [#23. 1978 El Camino SS — rust repair and coating on beds](https://www.youtube.com/watch?v=epSo_CUyekM) | Bed rust repair and coating, same channel as #10 above |
+
+### Same family, other GM bodies of the era
+
+| Video | Car | What it covers |
+|---|---|---|
+| [83 Hurst/Olds G-Body Floorpan Replacement](https://www.youtube.com/watch?v=OK3re1jfrA0) | 1983 Cutlass Supreme (G-body) | Floor pan replacement on the same floor structure |
+| [Frame Welding and Proper Rust Repair Techniques on the SS Project](https://www.youtube.com/watch?v=5wDKghV3Ujg) | An El Camino SS, probably an earlier generation (big-block) | Welding up rotted spots on an El Camino frame. Same channel as [John's Old El Camino SS Body Off Frame Restoration Begins](https://www.youtube.com/watch?v=STok5n7CrWw) |
+| [Removing the body of the 1970 El Camino and mounting it to a rotisserie](https://www.youtube.com/watch?v=qufCYmb5iuw) | 1970 El Camino (A-body) | Body off after 55 years, onto a rotisserie |
+| [Replacing the '70 El Camino floor pans](https://www.youtube.com/watch?v=w7tOl_eioP0) | 1970 El Camino | Floor pans |
+| [Chevy El Camino Floor Pan Replacement (quick walkthrough)](https://www.youtube.com/watch?v=FlrWb9IRXP8) | 1977 El Camino | Floor pans, short |
+| [DIY '70 Chevelle body removal: no lift, home-built gantry in a two-car garage](https://www.youtube.com/watch?v=1QZCevLzr_4) | 1970 Chevelle | Body off without a lift or engine hoists |
+| [Lifting a car body off of the chassis](https://www.classiccarrestorationclub.com/video/lifting-a-car-body-off-of-the-chassis-005145) | 1967 Chevelle | Classic Car Restoration Club (Craig Hopkins), lifting with rocker bars. May need a membership |
+
+### Frame and crossmember repair — trucks, but the same welding
+
+No video was found of a car frame crossmember being replaced. These are Chevy and GMC trucks, which
+have the same kind of ladder frame:
+
+| Video | What it covers |
+|---|---|
+| [Chevy and GMC Frame Rust Repairs and Cross Member Replacement](https://www.youtube.com/watch?v=EZv3MSUj7Z0) | Cutting out rotted frame sections and a crossmember, welding in new, oil undercoating. **The closest match to the crossmember job** |
+| [SAVING a Severely Rusted Chevy Frame (Start to Finish)](https://www.youtube.com/watch?v=cvh6WTTxzAU) | Whole-frame rust repair |
+| [Patching the Frame Rot on a GMC Truck](https://www.youtube.com/watch?v=PvhK_kTPO2k) | Frame patching |
+| [Truck Frame Restoration Using Simple Welding Techniques](https://www.youtube.com/watch?v=hwsMp-q5zkU) | 5-part series on a K5 Blazer frame: rust and cracks |
+| [How to repair rusty cross members](https://www.youtube.com/watch?v=CeVcNWuoM04) | Crossmember repair |
+
+**Not found:** any video of a **Caballero** specifically, of the **G-body rear frame rail tail
+section** being installed, or of a **G-body body mount perch** being rebuilt. For the perches, the
+written forum threads are the best source. One is about this exact car:
+[*1981 GMC Caballero body mount question*](https://www.elcaminocentral.com/threads/1981-gmc-caballero-body-mount-question.252815/)
+on elcaminocentral (not read).
+
+One search result recommended resting the body on cinder blocks. **Don't** — see *Supporting it*
+above.
+
+---
+
 ## Decision state
 
 | Question | State |

@@ -135,6 +135,12 @@ maker. Never mix an aftermarket tongue with an OE buckle.
 **Colour:** GM beige of this era splits into Tan, Desert Tan, Medium Beige, Camel and Doeskin, which
 are not interchangeable to the eye. Get swatches before committing to two belts.
 
+## Videos
+
+Body-off, floor pan, body mount and frame repair videos — a G-body El Camino series first, then other
+GM cars and trucks of the era — are listed in
+[`body-off-frame.md`](body-off-frame.md#videos-to-watch-first).
+
 ## Technical reference
 
 - Transmission ID: 11 pan bolts = THM200C ("METRIC" stamped on pan); 13 = TH250C/350 family

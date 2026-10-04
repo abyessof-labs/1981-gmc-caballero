@@ -245,7 +245,8 @@ is no rear seat.
 written — [issue #29](../../../issues/29)). With rot across the whole floor, compare:
 
 - **A full floor with hump** — Chevelle Depot ~$962, or Golden Star's *1978–87 El Camino floor pan
-  complete* (rocker to rocker, toe board to the cab back, hump included). One panel, fewer seams,
+  complete* (rocker to rocker, toe board to the cab back, hump included). GBodyParts.com also lists an
+  *El Camino full replacement floor pan* (product 1487, price not retrieved). One panel, fewer seams,
   and the transmission hump comes square.
 - **Four quarter pans** — about $800 in total at Chevelle Depot's prices, plus four times the seam
   welding, and the hump stays original.
