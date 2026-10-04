@@ -40,6 +40,8 @@ docs/
   parts-sourcing.md       Where to buy in Canada, and the El Camino/Caballero part-number traps
   parts-door-panel-window-switch.md
                           Clips, retainers, and part numbers for the door panels and window switches
+  parts-chassis-and-parking-brake.md
+                          Floor pans, rear frame rail, body mounts, crossmembers, parking brake cables
   door-job-plan.md        Combined both-door teardown: motors, seals, vapour barrier, drains
   power-window-motor.md   Manuals, the spring-tension warning, and door-job sequencing
   power-window-circuit.md    Position 4 / 30 A breaker, and the free door-lock test

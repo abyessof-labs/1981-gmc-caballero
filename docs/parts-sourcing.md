@@ -14,6 +14,10 @@ Corollary: a listing that says "El Camino" and nothing about GMC is still almost
 for this car. A listing that says *Caballero Laredo/Diablo* is trim-specific and probably is not,
 since this is a base **Z88**.
 
+Floor pans, frame rail sections, body mounts and parking brake cables have their own sourcing page:
+[`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md). The El Camino frame and
+the 1981 automatic front parking brake cable are both traps of the same kind as the ones below.
+
 ---
 
 ## Door panels — the specific job

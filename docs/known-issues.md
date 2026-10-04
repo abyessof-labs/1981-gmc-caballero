@@ -29,9 +29,9 @@ Equipment, process and safety research for repairing these in-house is in [`docs
 
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
-| **Rear frame rail (`longeron`), right rear corner, at the body mount — completely rotted through.** SAAQ `09 / 196`, code `NN` — *"côté arrière droit (coin) où est située l'attache de carrosserie complètement pourri"* | **SAAQ minor** — but this is frame, not sheet metal | Open — priority | Inspection report #1002981283 |
-| **Rear body mount cushions.** SAAQ `09 / 198`, code `N` — *"coussinets d'attache de la carrosserie complètement à l'arrière"* | **SAAQ minor** | Open | Inspection report #1002981283 |
-| **Driver-side middle body mount — completely separated.** Owner-observed. **Not recorded on the inspection report** — the only structural entries are the two `09` (rear underbody) rows above, and there is no `06`/`08` (left side) entry | Unknown — a fully separated mount may be graded **major** by a second inspector | Open — raise proactively at re-inspection | Owner observation, not yet photographed |
+| **Rear frame rail (`longeron`), right rear corner, at the body mount — completely rotted through.** SAAQ `09 / 196`, code `NN` — *"côté arrière droit (coin) où est située l'attache de carrosserie complètement pourri"* | **SAAQ minor** — but this is frame, not sheet metal | Open — priority. El Camino-specific rear rail tail sections (perch included) sourced in [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md); buy only after the hoist inspection | Inspection report #1002981283 |
+| **Rear body mount cushions.** SAAQ `09 / 198`, code `N` — *"coussinets d'attache de la carrosserie complètement à l'arrière"* | **SAAQ minor** | Open — replace the full set; kits in [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md), issue #27 | Inspection report #1002981283 |
+| **Driver-side middle body mount — completely separated.** Owner-observed. **Not recorded on the inspection report** — the only structural entries are the two `09` (rear underbody) rows above, and there is no `06`/`08` (left side) entry | Unknown — a fully separated mount may be graded **major** by a second inspector | Open — raise proactively at re-inspection. The body-side reinforcement it bolts to also carries the lower driver belt anchor; no reproduction found. See [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md), issue #27 | Owner observation, not yet photographed |
 | Rear quarter panel — through-hole with corroded, curled edge and surrounding blistering | **Confirmed perforated** | Open | [`rust-rear-quarter-hole.jpg`](../photos/evidence/rust-rear-quarter-hole.jpg) |
 | Rocker panel seam (driver side) — flange delaminating along a run, material gone in one section | **Structural — the inspection-critical rust item.** Rockers are on the SAAQ structural list; filler is not an accepted repair there | Open — screwdriver test needed, and it gates the whole repair scope. See [`rust-repair-inspection.md`](rust-repair-inspection.md) | [`rust-rocker-seam.jpg`](../photos/evidence/rust-rocker-seam.jpg) |
 | Bottom edge of outer body panel, ragged/eaten | Cosmetic, edge-only | Open | [`rust-lower-panel-edge.jpg`](../photos/evidence/rust-lower-panel-edge.jpg) |
@@ -56,8 +56,8 @@ Rust-through here is frame repair, not a floor patch. See the log entry for what
 | Issue | Severity | Status | Evidence |
 |---|---|---|---|
 | Rear axle flexible hose leaking — see blocking section above | **SAAQ major** | Open | Inspection report |
-| **Parking brake ineffective, both rear wheels.** SAAQ `23 / 135` and `33 / 135`, code `V` | **SAAQ minor** | Open | Inspection report |
-| **Parking brake cable.** SAAQ `07 / 158`, code `F` | **SAAQ minor** | Open | Inspection report |
+| **Parking brake ineffective, both rear wheels.** SAAQ `23 / 135` and `33 / 135`, code `V` | **SAAQ minor** | Open — rear drums only; check levers/struts/adjusters inside the drums as well as the cables. Issue #26 | Inspection report |
+| **Parking brake cable.** SAAQ `07 / 158`, code `F` | **SAAQ minor** | Open — three cables; front must be the 56¼" 1981–87 automatic one. Sources in [`parts-chassis-and-parking-brake.md`](parts-chassis-and-parking-brake.md), issue #26 | Inspection report |
 | Master cylinder — active corrosion at brake line outlet fittings | Brakes — inspection-critical | Open — **not** flagged by the inspector; `116 maître-cylindre` passed | — |
 
 ## Mechanical
