@@ -44,7 +44,9 @@ Confirmed by **absence** of every YE7 Diablo marker (per the 1981 GMC Caballero 
 - "Diablo" lettering on lower doors and tailgate — absent, checked at high resolution
 - Red Diablo/devil-head dash-pad lettering — not checked, low priority given the above
 - Body-colour sport mirrors — mirrors are black, not body colour
-- Rally wheels with GMC centre emblem — not confirmed either way from photos
+- Rally wheels with GMC centre emblem — absent. Per the owner (2026-10-05), the car wears aftermarket
+  black five-spoke mags with polished lips. Brand and size are not yet read; see
+  [`wheels-and-tires.md`](wheels-and-tires.md).
 
 Also ruled out **Amarillo (D91)**: requires two-tone paint and an "Amarillo" nameplate at the upper-right tailgate. Tailgate reads plain `GMC`.
 

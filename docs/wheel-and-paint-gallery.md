@@ -211,7 +211,7 @@ suggest four ways to go.
 
 | Question | State |
 |---|---|
-| Wheel style and size | **Open.** Nothing to buy until the rust and body-off repair is done. |
+| Wheel style and size | **Leaning:** keep the black five-spoke mag look, with a slightly bigger rear and white-letter tires. Sizes are in [`wheels-and-tires.md`](wheels-and-tires.md). Nothing to buy until the body-off repair is done. |
 | Paint: keep black, or black plus second colour | **Open.** Settle before body work finishes, because a two-tone affects where the paint break and mouldings go. |
 | Correct 1981 rally wheel cap style | **Unconfirmed.** Sources conflict; check the El Camino Central thread linked above. |
 | 1981 Caballero factory colour list | **Inferred** from the Chevy list; confirm against a GMC paint chip or the SPID paint code. |
