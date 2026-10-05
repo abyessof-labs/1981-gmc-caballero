@@ -5,7 +5,7 @@ packages, SS, black cars, period aftermarket wheels, restomod, and pro street. U
 wheels and paint for this car. For forums and build threads, see
 [`community-and-inspiration.md`](community-and-inspiration.md).
 
-> **How this was assembled.** This session's network policy blocked every image host and most car
+> **How this was assembled.** In the first pass, the session's network policy blocked every image host and most car
 > sites (Wikimedia, Bring a Trailer, classic.com, Barn Finds, the forums), so no photos are stored in
 > the repo. Each link below was found by web search and should open normally in a browser. The
 > notes on wheels and paint come from search summaries. **Treat them as a guide to what you'll see,
@@ -157,6 +157,38 @@ Most black cars worth seeing are already listed in the sections above. These are
 |---|---|
 | [In The Garage Media — 1979 El Camino pro street](https://inthegaragemedia.com/pro-street-1979-chevy-el-camino/) | Rich Ambler's car: Billet Specialties Pro Comp, 15×4 front and **15×15 rear**, tubbed. The full 1980s pro street look. |
 | [GBodyForum — Drag racing El Camino](https://gbodyforum.com/threads/drag-racing-el-camino.10755/) | Owner-built drag cars |
+
+## Wheel sizes stated by the sources
+
+A later pass opened the source pages directly. Nine of them state a wheel size, either directly or
+through the tyre size. These figures come from the listing or article text, so they are **as the
+seller or writer reported them**, not measured.
+
+| Car | Size | Wheel and tyre |
+|---|---|---|
+| [1984 Conquista, family owned](https://www.classiccaraddict.com/vehicles/114/1984-chevrolet-el-camino-conquista) | **14"** | Factory Rally |
+| [1983 Conquista, Streetside](https://www.streetsideclassics.com/vehicles/3534-atl/1983-chevrolet-el-camino-conquista) | **14"** | Factory Rally, 205/75R14 |
+| [454-powered 1983 Conquista](https://www.hagerty.com/marketplace/auction/1983-chevrolet-el-camino/163RYfuhZ78gFHSyd3zTBe) | **15"** (from the tyre sizes) | Steel wheels with chrome rings and caps; 215/70R15 front, 265/60R15 rear |
+| [1979 El Camino, Torq Thrust package](https://www.wheelsforless.com/79elcaminovntw5155761.html) | **15×7** | Torq Thrust II, −6 mm offset, 3.75" backspace, 235/60R15. A known-fit stock-height package. |
+| [1987 SS Choo Choo, Classic Auto Mall](https://www.classicautomall.com/vehicles/4528/1987-chevrolet-el-camino-ss-choo-choo) | **15"** | Chrome Cragar, Cooper Cobra |
+| [1987 SS Choo Choo, Streetside](https://www.streetsideclassics.com/vehicles/4229-dfw/1987-chevrolet-el-camino-ss-choo-choo) | **17"** | American Racing chrome; 225/45R17 front, 255/45R17 rear |
+| [17" Torq Thrust on an '84](https://www.elcaminocentral.com/threads/17-american-racing-torq-thrust-on-84-el-camino-thoughts.249905/) | **17"** | American Racing Torq Thrust. The poll in the thread was 70% in favour over the factory 14". |
+| [1978 "El Camaro"](https://silodrome.com/camaro-el-camino-custom/) | **17"** | SS wheels, all four corners |
+| [1979 pro street](https://inthegaragemedia.com/pro-street-1979-chevy-el-camino/) | **15×4 front, 15×15 rear** | Billet Specialties Pro Comp, Hoosier 31×18.50-15 rear (tubbed) |
+
+Some pages name the wheels but not their size:
+
+| Car | Wheels named |
+|---|---|
+| 1980 black/root-beer restomod | US Mags Y-5-spoke chrome |
+| 1987 Choo Choo SS on Hagerty | Chrome Cragar |
+| 1986 Conquista on Hagerty | American Racing aluminium |
+| 1987 Conquista on Hagerty | Ultra aluminium |
+| 1979 Royal Knight on GM Authority | Rally wheels |
+| 1981 SS tribute | American Racing chrome |
+
+**Listing changed:** when checked in October 2026, the Vaughn's link for the black 1985 Caballero
+Diablo showed a different car. It has probably sold.
 
 ## Where this leaves our car
 
