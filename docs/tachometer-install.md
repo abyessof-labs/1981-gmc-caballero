@@ -115,47 +115,76 @@ stock** — the retail sites could not be opened from where this was researched,
 comes from search listings. Confirm availability and price before ordering, and log whatever is
 bought in `costs.csv` as a direct cost.
 
-## Under $150 CAD — the budget shortlist (October 2026)
+## Under $150 CAD — the budget shortlist (October 2026, second pass)
 
 The recommended build above (AutoMeter 0–6,000 chrome plus a separate cup) is AutoMeter's full-price
-line and very likely **over $150 CAD** once both boxes are in. The 5" 0–6,000 Sport-Comp alone lists
-around **$240 USD**. Below $150 CAD, these are the candidates with real review volume behind them.
+line and is **over $150 CAD** once both boxes are in. Everything below is a car tach under or near
+$150 CAD, ranked by review evidence. US prices convert at roughly ×1.38, before shipping and brokerage.
 
 > **Sourcing caveat.** Retail and review pages could not be opened from where this was researched.
-> Star ratings, review counts and prices are from search-engine extracts of those pages. Review counts
-> are small for most of these, so a 4.5 on ten reviews is a weak signal. Confirm price and stock before
-> ordering.
+> Star ratings, review counts and prices are from search-engine extracts of those pages. Confirm price
+> and stock before ordering.
 
-| Gauge | Size / range | Price | Reviews | Verdict |
+### The pick: Bosch Sport II
+
+**The Bosch Sport II is the old Sun / Sunpro Super Tach II under its current owner's name** (Sunpro →
+Actron → Bosch). The part numbers carry straight over: Sunpro `CP7906` is Bosch `FST 7906`. This is
+the same gauge that had the best review record in the first pass, and **it is still made**.
+- Air-core movement, 250° sweep, 0–8,000.
+- **Adjustable redline pointer.** Set it to 4,500 (see the redline section below).
+- 4/6/8-cylinder, works with electronic ignition, includes mounting hardware.
+- A Summit reviewer who had tried two LED tachs that jumped around found this one steady and
+  accurate from the start. Another checked it against an ignition analyser and it read the same.
+
+| Gauge | Size | Price | Reviews |
+|---|---|---|---|
+| **Bosch Sport II `FST 7901` / `SP0F000018`** — black dial, **chrome bezel** | **3-3/8"** | **$54.99 USD** (Summit, MyPartsUniverse); $65.99 at Bosch. **≈ $75–90 CAD** | **4.75/5 on 22** (Summit) |
+| Bosch Sport II `FST 7903` / `SP0F000020` — **white** dial, chrome bezel | 3-3/8" | Similar | Same gauge |
+| **Bosch Sport II `FST 7906` / `SP0F000025`** — black dial, black bezel | **2-5/8"** | **~$45 USD** (Summit $44.99). **≈ $60–70 CAD** | **4.3/5 on 940** (Amazon) and **4.5/5 on 66** (Summit). **The most-reviewed car tach found anywhere** |
+| Bosch Sport II `FST 7911` — white dial | 2-5/8" | Similar | Same gauge |
+
+**Which size:** the **3-3/8" black/chrome `FST 7901`** looks right for a 1981 dash and is big enough
+to read at a glance. The **2-5/8" `FST 7906`** has the far bigger review base and sits more discreetly
+on the pad or column, at the cost of a smaller face. Both are well under budget, leaving room for a
+cup or bracket and the wiring parts.
+
+**Walk-in lead:** PartSource lists an "Equus 2-1/2-in. Tachometer" under part number **`CP7906`**,
+which is the Sunpro/Bosch number for this exact 2-5/8" gauge. It may be the same unit on the shelf.
+Ask at the counter and check the box.
+
+### Other options under or near $150 CAD
+
+| Gauge | Size / range | Price | Reviews | Notes |
 |---|---|---|---|---|
-| AutoMeter Auto Gage `2301` — black dial, chrome case, pedestal | 3-3/4", 0–8,000 | ~$133 CAD on Amazon.ca; ~$96–109 USD at US vendors | The white-dial twin `2304` is 4.0/5 on 4 reviews at Speedway. **The owner found reviews calling it choppy at idle, and saying the needle doesn't reset** | **Dropped by the owner** (October 2026). Auto Gage is AutoMeter's entry line, rated below real AutoMeter on the forums. See the note below on what those two complaints mean |
-| AutoMeter Auto Gage `2304` — white dial | Same | ~$143 CAD on Amazon.ca; also listed by PartsAvatar (Canadian) and ShopEddies.ca | 4.0/5 (4) | Same gauge, white face |
-| Equus `6088` — black, 3-3/8" | 3-3/8", 0–8,000 | Not retrieved for this model; Equus 3-3/8" units were $99.99 CAD at Canadian Tire | 4.4/5 on 74 reviews (Amazon), 4.5/5 (10) Summit, 3.3/5 (3) Walmart, with complaints that the item received differs from the photos | **Dropped by the owner**: the Amazon listing doesn't match its photo. If buying Equus at all, buy from a seller where the part number on the box can be checked (Summit, AutoZone) |
-| Equus `6078` — chrome bezel, black dial, pedestal | 3-3/8", 0–8,000 | Not retrieved | 4.0/5 (13) Summit; 4.0/5 (5) AutoZone | Same family with the chrome look. **One review reports it stopped reading at idle after two weeks.** Idle reading is what this car needs a tach for |
-| GlowShift Tinted 7-Color, on-dash | 3-3/4", 0–10,000, shift light | **$82.99 USD** | 4.0/5 | Well built by most accounts, but **wrong for this engine and car**: a 10,000 RPM face leaves the 5,200-redline LG4 using half the sweep, and 7-colour LEDs look 2010s, not 1981. The 3-3/8" 0–8,000 version is $126.99 USD |
-| Sunpro `CP7901` Super Tach II | 3-3/8", 0–8,000 | Was ~$40 USD | **4.5/5 on 69 reviews** (Summit), the best record here | **Discontinued.** Only new-old-stock and used. Fine if one turns up cheap, but don't plan around it |
+| **Equus `8068`** — *8000 series*, black | 3-3/8", 0–8,000 | **$97.99 USD** (Summit) ≈ $135 CAD; $117 CARiD | **4.5/5 on 24** (Summit). *"Great tach, easy install, very precise and consistent"*; one reviewer compared it favourably with AutoMeter | Equus's **upper** line, not the 6000-series discount gauges. Buy from Summit, not Amazon, so the part number is certain. At the top of the budget |
+| **Dolphin Gauges** 3-3/8" electronic tach | 3-3/8", 0–8,000 | **~$76 USD** ≈ $105 CAD | **4.7/5 on 7** (Amazon) | Air-core, convex lens, polished stainless bezel, choice of black, white or tan faces, 4/6/8 cylinder. Small review base, good brand reputation with hot-rodders |
+| GlowShift Black 7-Color in-dash | 3-3/8", 0–8,000 | $126.99 USD ≈ $175 CAD | Not retrieved | **Over budget**, and the colour-changing LEDs look modern. The on-dash 3-3/4" version is $82.99 USD (4.0/5) but reads to 10,000 |
+| AutoMeter Phantom `5897` | 3-3/8", 0–10,000 | $129–165 USD ≈ $180–230 CAD | 4.0/5 (1) | **Over budget** in CAD. Real AutoMeter (not Auto Gage), if the budget is ever $150 USD |
+| AutoMeter Sport-Comp `3991` | 3-3/8", 0–8,000 | $181–273 USD | Few | **Over budget.** The Sport-Comp II line is 4.7/5 on 27 at Summit, but ~$230 USD |
+| Stewart Warner `82170` Deluxe | 3-3/8", 0–8,000 | $176.99 USD | Consistently praised | **Over budget** — the vintage-look premium option |
+| Sunpro `CP7901` Super Tach II | 3-3/8", 0–8,000 | Was ~$40 USD | 4.5/5 on 69 (Summit) | **Discontinued — buy the Bosch Sport II instead**, which is the same design |
 
-**Canadian Tire / PartSource:** Canadian Tire listed Equus 3-3/8" tachs (black and chrome, **$99.99
-CAD**) and a 2½" at about **$73–79 CAD**, but the 3-3/8" ones show as **discontinued in stores**. PartSource
-lists an Equus 2½" (`CP7906`). These are the only **walk-in** options found. Everything else is
-order-in: Amazon.ca, PartsAvatar, ShopEddies, TDot Performance (Canadian, carries Auto Gage), or US
-vendors with brokerage on top.
+**Dropped by the owner** (October 2026):
+- **AutoMeter Auto Gage `2301` / `2304`** (~$133–143 CAD, Amazon.ca): reviews call it choppy at idle,
+  and say the needle doesn't reset. See *About the Auto Gage complaints* below.
+- **Equus 6000 series `6088` / `6078`**: the Amazon listing doesn't match its photo, and one Summit
+  review says the `6078` stopped reading at idle after two weeks.
 
-**What the forums say about the brands overall:**
-- **AutoMeter** is the reliability benchmark.
-- **Sunpro** was close behind.
-- **Equus** is "discount store" quality with weak night backlighting.
-- **Auto Gage** sits between AutoMeter and Equus.
-- **GlowShift** is well liked, with some sender complaints, which don't apply to a tach.
+Also ruled out:
+- **Intellitronix**: LED digital, reviews describe it as jumpy.
+- **ProSport**: modern multi-colour stepper-motor gauges with very few reviews.
 
-None of these is a precision instrument. For timing and idle settings, check it once against a
-handheld timing light or tach before trusting it.
+**Canadian Tire** listed Equus 3-3/8" tachs at $99.99 CAD, but they show as **discontinued in
+stores**.
 
-**All of these are 0–8,000 (or higher).** Nothing under $150 CAD reads 0–6,000. On an 8,000 face this
-engine's working range is the first half of the dial. That's readable, just not ideal. Mark 4,500 with
-a dot of paint or tape on the bezel if the gauge has no shift light.
+**None of these is a precision instrument.** Check whichever one is fitted once against a handheld tach
+or timing-light tach before trusting it for idle and timing settings.
 
-### Better under $150 CAD — boat tachs (added October 2026)
+**All the car tachs here read 0–8,000.** On that face this engine's working range is the first half of
+the dial. The Bosch's adjustable redline pointer, set to 4,500, makes that easy to read. Only the boat
+tachs below read 0–6,000 under budget.
+
+### Boat tachs — the 0–6,000 alternative (added October 2026)
 
 **Inboard and sterndrive boat tachometers** are the better buy here. The common inboard engine is a
 GM V8 with a points or HEI-type ignition, so these gauges are built for the same signal: they count
@@ -202,9 +231,9 @@ Both are worth understanding, because they can follow any gauge onto this car:
 
 ### Where to put it
 
-The automotive gauges above come with a **pedestal** bracket. The boat tachs need a cup, which
-mounts in the same places. Combining the two mounting write-ups
-([below](#mounting--to-the-right-of-the-column) and [`aftermarket-tach.md`](aftermarket-tach.md)):
+The Bosch Sport II comes with mounting hardware. The old Super Tach II shipped with a bracket for
+under-dash or column mounting; **confirm the Bosch still does** before also buying a cup. The Equus
+8000 and Dolphin are in-dash gauges and need a 3-3/8" cup or bracket.
 
 | Location | Fits | Verdict |
 |---|---|---|
@@ -469,5 +498,5 @@ Prefer the videos, the gauge manufacturer's own instruction sheet, and the facto
 - [ ] Eyeball the fuse block to confirm it is still original SFE glass and has not been converted
 - [ ] Check whether the `ECM` fuse position is populated — a second read on the CCC question
 - [ ] Measure the pad space right of the cluster to choose 3-3/8" vs 3-3/4" (cardboard mock-up)
-- [ ] Pick from the under-$150 shortlist: **Faria Euro `32804`** (~$117 CAD, Amazon.ca) or Faria Coral `33004`. Auto Gage and Equus dropped by the owner. Add a 3-3/8" mounting cup
+- [ ] Pick from the under-$150 shortlist: **Bosch Sport II `FST 7901`** (3-3/8" black/chrome, ~$55 USD) or `FST 7906` (2-5/8", 940 reviews). Ask PartSource about `CP7906` first. Auto Gage and Equus 6000 dropped by the owner
 - [ ] Confirm the engine-to-body ground strap is sound before wiring anything
