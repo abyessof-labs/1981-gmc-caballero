@@ -6,6 +6,9 @@ which matters on a car whose value case includes originality.
 
 ## Mount options
 
+Budget gauge picks with review ratings, and a combined mounting recommendation, are in
+[`tachometer-install.md`](tachometer-install.md#under-150-cad--the-budget-shortlist-october-2026).
+
 | Mount | Gauge size | Notes |
 |---|---|---|
 | **A-pillar pod** | **2-1/16" (52 mm)** | Moulded specifically for the 78–87 G-body. Neat and factory-looking. **But 52 mm is small for a tach** — see below |
