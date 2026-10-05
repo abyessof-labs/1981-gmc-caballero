@@ -39,6 +39,40 @@ or cowl and upper door hinges at the front, tailgate hinge mounts at the rear, n
 And where frame perches are gone, the body may already be resting on whatever is left, so expect
 some mounts to have nothing to unbolt.
 
+### Could it be done with the body mostly on?
+
+The owner asked this directly once the full extent was known (October 2026). The rot is now
+mapped by location:
+- **front** body mounts need redoing
+- **middle**: one mount completely rotted, the other going the same way, and the floor pan around
+  them involved
+- **rear** body mounts somewhat rotted
+- the **rear frame crossmember** rotted
+
+**Body-on is technically possible, but on this car it is the harder, riskier way to do the same
+work. Take the body off.** The reasons, in order of weight:
+
+| | Why body-on fails here |
+|---|---|
+| **Every mount is involved** | The partial lift works by keeping one side bolted down as the anchor while the other side is lifted. With front, middle and rear mounts all rotted on both sides, there is no sound side to anchor to. The body would be propped on cribbing on the very structure being cut out |
+| **The middle mounts are part of the floor** | The middle mount threads into a reinforcement that is spot-welded to the floor and the inner rocker, and also carries the lower belt anchor. Rebuilding it means cutting the floor out around it and welding from **above and below**. With the body on, the frame rail sits an inch or two under that reinforcement and blocks the underside |
+| **The rear crossmember sits under the bed** | On a pickup the bed unbolts, which is how truck crossmembers get replaced body-on. **On the El Camino the bed is part of the body.** The crossmember also carries the rear suspension, so the axle and arms come out regardless. Then you are cutting and welding a structural crossmember lying on your back, with the bed floor a few inches above you |
+| **Fire** | Welding under a body means welding beside undercoating, seam sealer, wet jute and carpet, the wiring harness, and fuel and brake lines. On a bare frame and an upturned body there is nothing to catch |
+| **The floor comes out anyway** | The front, middle and rear floor rot ([issue #29](../../../issues/29)) is a full-floor job. Fitting a new floor with the frame underneath is how people do patches, not whole floors |
+| **The frame has to be judged bare** | Repair-or-replace on the frame ([issue #28](../../../issues/28)) can't be decided while the body hides the top of the rails. A crossmember plus several perches gone suggests more thin metal elsewhere |
+| **The inspector** | A weakening frame repair is itself a SAAQ rejection. Welds made on a bare frame, on a bench, ground and photographed, are better welds and leave a better record |
+
+**What body-on would have going for it:** no front clip removal, no disconnecting the whole car,
+less floor space, no hoists. Also, the frame holds the body's shape while the floor is out. That last
+point is real, and it is why the bracing section below is not optional: once the body is off,
+**the bracing does the frame's job**. Weld it in properly, measure before and after, and set the
+body on a level cart or timbers supported under the rockers and the cowl.
+
+**If body-off is truly impossible** (no space, no help), the fallback is staged body-on work: one
+side's middle mount and floor at a time, with the body supported on cribbing on the frame rails
+fore and aft of the cut. The rear crossmember still effectively needs the axle out and someone who
+welds overhead well. Expect it to take longer than body-off, with more risk to the body's shape.
+
 ---
 
 ## Before anything is unbolted: brace the body
@@ -294,7 +328,7 @@ above.
 
 | Question | State |
 |---|---|
-| Partial lift or full separation | **Decided — full separation.** Floor rot front, middle and rear, a rotted crossmember and missing frame perches put the job beyond a partial lift ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
+| Partial lift or full separation | **Decided — full separation.** Reconfirmed after the owner mapped the mounts: front, both middle and the rear mounts, the floor around the middle mounts, and the rear crossmember. Reasoning in *Could it be done with the body mostly on?* above ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
 | Engine in or out if full separation | Open — owner prefers in; measure clearances first |
 | How the body is braced | Open — angle iron hinge-to-striker at minimum; more if the rocker is as bad as feared |
 | Mount count, bolt size and torque | **Unconfirmed** — single-source forum figures. Count under the car; torque from a service manual |

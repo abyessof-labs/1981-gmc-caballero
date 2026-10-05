@@ -136,7 +136,7 @@ bolts, and the full body-off alternative are in [`body-off-frame.md`](body-off-f
 
 | Crossmember | Source | Notes |
 |---|---|---|
-| **Rear crossmember** (carries the rear suspension) | **No reproduction found** | Fully structural and tied into the rails. If it is rotten, this becomes a donor-frame decision. **A crossmember is reported rotted** — which one is not yet recorded ([issue #28](../../../issues/28)) |
+| **Rear crossmember** (carries the rear suspension) | **No reproduction found** | Fully structural and tied into the rails. If it is rotten, this becomes a donor-frame decision. **This car's rear crossmember is rotted** (owner, 2026-10-05) — so it is a donor-or-fabricate job ([issue #28](../../../issues/28)) |
 | **Transmission crossmember** (bolt-in) | **The El Camino Store / Classic Chevy** — *El Camino crossmember, double hump, for TH350, TH250, Powerglide…, 1978–87*; **Chevelle Depot** sells El Camino double-hump crossmembers for 200R4/TH400 swaps; **JEGS** G-body crossmembers | Only if the original is rotten. The stock-transmission listing names the THM250 but not the THM200C — this car is one or the other ([issue #9](../../../issues/9)); confirm fitment against whichever it turns out to be. **Do not buy the 200R4/TH400 versions** — 1978–83 frames need an extension kit for those |
 | **Floor brace crossmember, front** (under the front seats, welds to the floor) | **Dixie** `DM02340 FRONT` — 78–88 Monte Carlo, **El Camino**, Malibu | **$149.95 USD**. Part of the cab, not the frame — but this is what the outer seat mounts tie into. Relevant if the loose seats turn out to be a floor problem |
 | Front seat mount brace, LH / RH | **Dixie** `DM02341 LH` / `RH` | $54.95–59.95 USD each. Includes the outer seat mounts |
@@ -145,10 +145,12 @@ bolts, and the full body-off alternative are in [`body-off-frame.md`](body-off-f
 
 ## The frame as a whole — repair or replace
 
-Owner-observed after the inspection: **a crossmember rotted** and **a couple of frame-side body
-mounts rotted completely off**, in addition to the right-rear rail corner the SAAQ recorded. Which
-crossmember and which mounts is not yet written down. **That is the first thing to settle**, because
-the options differ a lot:
+Owner-observed after the inspection, and mapped on 2026-10-05: the **rear crossmember** is rotted,
+and body mounts are bad along the whole car — **front** needs redoing, one **middle** mount is
+completely rotted and the other is going (with the floor around them), and the **rear** mounts are
+somewhat rotted. That is on top of the right-rear rail corner the SAAQ recorded. **The rear
+crossmember has no reproduction**, which weighs toward a used frame unless a donor crossmember can be
+spliced in or a shop will fabricate one. The options:
 
 | Option | What it involves | Cost signal | For | Against |
 |---|---|---|---|---|
@@ -270,7 +272,7 @@ bolt into. Done with the body off the frame — [`body-off-frame.md`](body-off-f
 | Do the rear drums need hardware too | Open — pull the drums during the flex hose job and look |
 | Rear frame rail: tail section, longer splice, or donor frame | Open — now part of the whole-frame decision below |
 | Repair this frame, used El Camino frame, or new chassis ([issue #28](../../../issues/28)) | Open — **leaning repair or used frame**; decided after the body is off and the frame is mapped |
-| Which crossmember is rotted, and which perches are gone | Open — owner to name and photograph |
+| Which crossmember is rotted, and which perches are gone | **Answered 2026-10-05 — the rear crossmember**; mounts bad at the front, both middles and the rear. Still to photograph |
 | Which side(s) of rail to buy | Open — right is failed; left unexamined |
 | Body mount bushings: rubber or urethane ([issue #27](../../../issues/27)) | Leaning rubber; open |
 | Driver-side middle body mount: repair the hole or replace the reinforcement | Open — inspect with the belt anchor and rocker seam |
