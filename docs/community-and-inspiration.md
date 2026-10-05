@@ -110,7 +110,9 @@ Mechanically and structurally the same vehicle. Start with the 1981s.
 
 ## Photo threads and galleries
 
-Where finished cars are posted in bulk. This is the fastest way to build a visual reference.
+Where finished cars are posted in bulk. This is the fastest way to build a visual reference. For
+photo sets grouped by wheel and paint setup, see
+[`wheel-and-paint-gallery.md`](wheel-and-paint-gallery.md).
 
 - **[Lets see your El Camino](https://gbodyforum.com/threads/lets-see-your-el-camino.16000/)** — GBodyForum's mega-thread, open since January 2010, many pages deep. ([page 12](https://gbodyforum.com/threads/lets-see-your-el-camino.16000/page-12) as an entry point mid-thread.) Caballeros are posted here too.
 - **[El Camino Central Gallery](https://www.elcaminocentral.com/media/)** — the site's media section, member-uploaded.
