@@ -49,7 +49,7 @@ docs/
   cluster-bezel.md        Loose dash bezel: why it is screws not clips, and the 1981 year trap
   shift-indicator-cable.md  Reattaching the PRNDL cable at the column, and the variants to match
   dash-clock.md           Points clock: self-regulating, why it stops, quartz conversion
-  tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting
+  tachometer-install.md   Adding a dash tach: HEI signal source, wiring, mounting, under-$150 shortlist
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
   rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method

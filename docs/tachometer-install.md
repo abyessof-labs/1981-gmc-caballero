@@ -115,6 +115,62 @@ stock** — the retail sites could not be opened from where this was researched,
 comes from search listings. Confirm availability and price before ordering, and log whatever is
 bought in `costs.csv` as a direct cost.
 
+## Under $150 CAD — the budget shortlist (October 2026)
+
+The recommended build above (AutoMeter 0–6,000 chrome plus a separate cup) is AutoMeter's full-price
+line and very likely **over $150 CAD** once both boxes are in. The 5" 0–6,000 Sport-Comp alone lists
+around **$240 USD**. Below $150 CAD, these are the candidates with real review volume behind them.
+
+> **Sourcing caveat.** Retail and review pages could not be opened from where this was researched.
+> Star ratings, review counts and prices are from search-engine extracts of those pages. Review counts
+> are small for most of these, so a 4.5 on ten reviews is a weak signal. Confirm price and stock before
+> ordering.
+
+| Gauge | Size / range | Price | Reviews | Verdict |
+|---|---|---|---|---|
+| **AutoMeter Auto Gage `2301`** — black dial, chrome case, pedestal | 3-3/4", 0–8,000 | **~$133 CAD on Amazon.ca**; ~$96–109 USD at US vendors | Positive but few. The white-dial twin `2304` is **4.0/5 on 4 reviews** at Speedway; one reviewer expected a steel case and got plastic | **The pick.** The AutoMeter name, the period chrome look, pedestal included, under budget from a Canadian listing. Auto Gage is AutoMeter's *entry* line: forum users rate it below real AutoMeter, with some early failures reported |
+| AutoMeter Auto Gage `2304` — white dial | Same | ~$143 CAD on Amazon.ca; also listed by PartsAvatar (Canadian) and ShopEddies.ca | 4.0/5 (4) | Same gauge, white face |
+| **Equus `6088`** — black, 3-3/8" | 3-3/8", 0–8,000 | Not retrieved for this model; Equus 3-3/8" units were **$99.99 CAD** at Canadian Tire | **4.4/5 on 74 reviews** (Amazon), 4.5/5 (10) Summit, 3.3/5 (3) Walmart | **The value pick, and the most reviewed.** The smaller 3-3/8" body suits the G-body pad better than the 3-3/4" Auto Gage |
+| Equus `6078` — chrome bezel, black dial, pedestal | 3-3/8", 0–8,000 | Not retrieved | 4.0/5 (13) Summit; 4.0/5 (5) AutoZone | Same family with the chrome look. **One review reports it stopped reading at idle after two weeks.** Idle reading is what this car needs a tach for |
+| GlowShift Tinted 7-Color, on-dash | 3-3/4", 0–10,000, shift light | **$82.99 USD** | 4.0/5 | Well built by most accounts, but **wrong for this engine and car**: a 10,000 RPM face leaves the 5,200-redline LG4 using half the sweep, and 7-colour LEDs look 2010s, not 1981. The 3-3/8" 0–8,000 version is $126.99 USD |
+| Sunpro `CP7901` Super Tach II | 3-3/8", 0–8,000 | Was ~$40 USD | **4.5/5 on 69 reviews** (Summit), the best record here | **Discontinued.** Only new-old-stock and used. Fine if one turns up cheap, but don't plan around it |
+
+**Canadian Tire / PartSource:** Canadian Tire listed Equus 3-3/8" tachs (black and chrome, **$99.99
+CAD**) and a 2½" at about **$73–79 CAD**, but the 3-3/8" ones show as **discontinued in stores**. PartSource
+lists an Equus 2½" (`CP7906`). These are the only **walk-in** options found. Everything else is
+order-in: Amazon.ca, PartsAvatar, ShopEddies, TDot Performance (Canadian, carries Auto Gage), or US
+vendors with brokerage on top.
+
+**What the forums say about the brands overall:**
+- **AutoMeter** is the reliability benchmark.
+- **Sunpro** was close behind.
+- **Equus** is "discount store" quality with weak night backlighting.
+- **Auto Gage** sits between AutoMeter and Equus.
+- **GlowShift** is well liked, with some sender complaints, which don't apply to a tach.
+
+None of these is a precision instrument. For timing and idle settings, check it once against a
+handheld timing light or tach before trusting it.
+
+**All of these are 0–8,000 (or higher).** Nothing under $150 CAD reads 0–6,000. On an 8,000 face this
+engine's working range is the first half of the dial. That's readable, just not ideal. Mark 4,500 with
+a dot of paint or tape on the bezel if the gauge has no shift light.
+
+### Where to put it
+
+Both picks come with a **pedestal** bracket. Combining the two mounting write-ups
+([below](#mounting--to-the-right-of-the-column) and [`aftermarket-tach.md`](aftermarket-tach.md)):
+
+| Location | Fits | Verdict |
+|---|---|---|
+| **Dash pad, just right of the cluster, low and outboard** | Pedestal (2301, 6078) | **First choice.** Natural line of sight, and doesn't block the road. Mount with VHB tape or hook-and-loop, or screw the pedestal foot only after probing for the defroster duct under the pad |
+| **Steering column clamp** | Pedestal or cup, with a column bracket | Second choice. Closest to the eye and the period look, no holes. Check it clears the turn-signal stalk and the tilt, if fitted |
+| Under-dash cup below the lip | Any 3-3/8" (6088) | Cheapest and invisible from outside, but you look down to read it |
+| A-pillar pod | 2-1/16" only | **Not for the tach** — too small to read. Use it for oil pressure, volts and temperature, which this car has only warning lights for |
+| Dash-top centre or high on the pad | — | **Avoid.** Quebec restricts anything obstructing the forward view |
+
+**Measure first:** a 3-3/4" Auto Gage has a ~4-3/8" outer bezel. Hold a cardboard circle that size
+on the pad right of the cluster before ordering. If it looks like a turret, go 3-3/8" (Equus).
+
 ## What counts as redline on this engine
 
 **GM never printed one for this car.** The base Z88 cluster has no tach, so there is no factory red
@@ -366,5 +422,6 @@ Prefer the videos, the gauge manufacturer's own instruction sheet, and the facto
 - [ ] Read the underhood emissions label for the actual idle speed spec
 - [ ] Eyeball the fuse block to confirm it is still original SFE glass and has not been converted
 - [ ] Check whether the `ECM` fuse position is populated — a second read on the CCC question
-- [ ] Measure the pad space right of the cluster to choose 3-3/8" vs 2-5/8"
+- [ ] Measure the pad space right of the cluster to choose 3-3/8" vs 3-3/4" (cardboard mock-up)
+- [ ] Pick from the under-$150 shortlist: AutoMeter Auto Gage `2301` (~$133 CAD, Amazon.ca) or Equus `6088`
 - [ ] Confirm the engine-to-body ground strap is sound before wiring anything
