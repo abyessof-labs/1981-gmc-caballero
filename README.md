@@ -60,7 +60,7 @@ docs/
   wheels-and-tires.md     Fitment limits, white-letter tire sizes, and wheel/tire packages
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
-  welding/                Doing the rust repair in-house — equipment, process, safety
+  welding/                Doing the rust repair in-house — equipment, process, safety, local sourcing
 log/
   README.md               How to add a work-log entry
 photos/
@@ -93,7 +93,8 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
-  smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety,
+  smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
+  (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,
   and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.
 
 ## Status

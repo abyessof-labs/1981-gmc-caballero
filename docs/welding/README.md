@@ -28,7 +28,8 @@ wire-feed smoothness are what matter.
 |---|---|
 | [`machine-selection.md`](machine-selection.md) | Welder options by tier, ArcCaptain brand reputation, Canadian availability |
 | [`process-and-gas.md`](process-and-gas.md) | Gasless flux core vs gas MIG for body panels, shielding gas, technique |
-| [`safety.md`](safety.md) | Fume, ventilation, respirator, the brake-cleaner/phosgene hazard |
+| [`safety.md`](safety.md) | Fume, ventilation, respirator, the brake-cleaner/phosgene hazard, inline-fan fume extraction |
+| [`sourcing.md`](sourcing.md) | Gas suppliers near Île-Perrot, sheet steel, and online cut/bend services for fabricated parts |
 | [`glossary.md`](glossary.md) | Welding jargon decoded |
 
 ## Decision state
@@ -40,7 +41,8 @@ wire-feed smoothness are what matter.
 | Process for this job | **Leaning gasless flux core.** Gas MIG is the better process for sheet metal — see `process-and-gas.md` |
 | Specific machine | Open |
 | 240 V in the garage | Open — **potentially 120 V only**, which is adequate for this work |
-| Gas bottle | Open — not purchased. Required for TIG later regardless |
+| Gas bottle | Open — not purchased. Required for TIG later regardless. **Closest supplier: Charbonneau Propane, Vaudreuil-Dorion (Linde dealer)** — questions to ask in [`sourcing.md`](sourcing.md) |
+| Fume extraction fan | **Decided in principle — an inline fan is fine as a close-capture hood, not as room ventilation.** Cloudline S8 over S6 for the reach; see [`safety.md`](safety.md) |
 | Helmet | Open |
 
 ## Budget
@@ -53,6 +55,8 @@ Rough, unverified — see the sourcing caveat below.
 | Auto-darkening helmet | $35–300 USD | $35 tier is genuinely adequate for MIG |
 | Gas bottle + flowmeter (C25) | $250–400 | Deferred under the gasless plan; required for TIG |
 | Respirator (P100) + box fan | ~$60 | **Not optional** — see `safety.md` |
+| Inline fan fume hood (optional) | ~$99–150 USD + duct | Cloudline S6 ~$99 USD; S8 price not checked. Supplements the box fan, does not replace it |
+| Sheet steel, 4×8 each of 18 and 20 ga | Open | Quote from Acier Lachine — see `sourcing.md` |
 | Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md) |
 | 240 V outlet install | $200–600 | **Deferrable.** Not needed at this amperage |
 

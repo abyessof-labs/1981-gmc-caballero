@@ -65,6 +65,10 @@ Next nearest: 2799 Chemin Saint-Rémi (Dorval), 10475 Chemin Côte-de-Liesse (Do
 | Clifton Auto Centre | NDG, Montreal · 514-486-7575 | In-city body + **auto glass in-house** |
 | Fitzback Garage | 2262 rue Michaud, Sainte-Madeleine · 819-471-6798 | Old-car mechanical specialists |
 
+**Welding gas, sheet steel and laser-cut parts** — Charbonneau Propane (Vaudreuil-Dorion, Linde
+dealer, 450-455-2061), Acier Lachine (514-634-2252), uMake (Montréal) and the rest are in
+[`welding/sourcing.md`](welding/sourcing.md).
+
 ## Parts
 
 Vendor rankings, import-cost notes, and the door-panel identification traps are in

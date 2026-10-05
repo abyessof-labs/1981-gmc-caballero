@@ -109,7 +109,8 @@ shop sweet spot.
 
 **Ask any Montreal supplier directly: "do you refill customer-owned cylinders, or is it
 exchange-only?"** Many Canadian suppliers are exchange-only, which changes the buy-vs-rent
-math. Worth one phone call before buying either the bottle or the machine.
+math. Worth one phone call before buying either the bottle or the machine. The nearest suppliers
+to Île-Perrot, and the full list of questions, are in [`sourcing.md`](sourcing.md).
 
 ### Pulse MIG
 
