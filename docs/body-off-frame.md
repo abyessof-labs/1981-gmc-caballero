@@ -300,6 +300,55 @@ frame and bushing episodes are the same work on a stock car.
 | [DIY '70 Chevelle body removal: no lift, home-built gantry in a two-car garage](https://www.youtube.com/watch?v=1QZCevLzr_4) | 1970 Chevelle | Body off without a lift or engine hoists |
 | [Lifting a car body off of the chassis](https://www.classiccarrestorationclub.com/video/lifting-a-car-body-off-of-the-chassis-005145) | 1967 Chevelle | Classic Car Restoration Club (Craig Hopkins), lifting with rocker bars. May need a membership |
 
+### More body lifts on older cars (added October 2026)
+
+More videos of the lift itself, from the same search method and equally unwatched. Grouped by how
+the body comes up, because the method matters more than the make.
+
+**Engine hoists or a shop crane, no lift — the setup this car will most likely use:**
+
+| Video | Car | What it shows |
+|---|---|---|
+| [How to Remove a 1955 Chevy Body From the Frame with No Lift](https://www.youtube.com/watch?v=H-TdLmH9Dik) | 1955 Chevy | DIY, no lift, then rust and chassis work |
+| [57 Chevy — Body Off Frame](https://www.youtube.com/watch?v=PhZ3oTVKOlc) | 1957 Chevy | Body off for repair access. Tri-Five builders use **angle-iron brackets at the hood and tailgate hinges** as lift points, which is the same idea as the El Camino series' tailgate-hinge brackets |
+| [Removing a classic car from its frame!](https://www.youtube.com/watch?v=vm7NC02V_eA) | 1950 Ford | Body off with a crane, no lift |
+| [How to Remove a Body from a Frame Without a Hoist!](https://www.youtube.com/watch?v=RK7c4tolfLg) | Ford Explorer (newer) | One engine crane in a small garage. Not an old car, but the clearest one-crane, small-space method found |
+| [REMOVING THE BODY FROM THE FRAME!](https://www.youtube.com/watch?v=ORB4k7gY-ys) | International Travelall | Stripping the body and lifting it for chassis work |
+| [Square body Cab Removal](https://www.youtube.com/watch?v=L6E-Hq0hz3c) | 1973–87 Chevy truck | Stripping the cab and lifting it off. Same-era GM body mounts and hardware |
+| [Removing a Truck Cab with a Cherry Picker](https://www.youtube.com/watch?v=cZYTrJdkCuM) | Truck | One person, one engine crane |
+
+**Same family — GM A-body and G-body:**
+
+| Video | Car | What it shows |
+|---|---|---|
+| [Lifting the Body Off the Chassis and onto a Body Cart — GTO RestoMod (Ep 7)](https://www.youtube.com/watch?v=aSlV1shcqYQ) | Pontiac GTO (A-body) | Body lifted **about 30 inches** and the chassis rolled out from under it, then onto a body cart. **The best non-El Camino match.** The 30" figure is a useful real number for planning the lift height |
+| [Ep. 2 — 70 Chevelle Restoration: Removing the body off the frame](https://www.youtube.com/watch?v=9jS0IkUWSho) | 1970 Chevelle | Body removal, followed by [Ep. 3 — Frame Repair](https://www.youtube.com/watch?v=4zYe3Bb6HLk) on the same car |
+| [Removing frame off body on a '71 Chevelle](https://www.youtube.com/watch?v=VtdR255_ZUw) | 1971 Chevelle convertible | A convertible, which has even less body stiffness than the El Camino, so the bracing matters even more |
+| [Sam's G-body Monte Carlo Part 1 — Frame off](https://www.youtube.com/watch?v=jRuGyzmCLfE) | G-body Monte Carlo | Frame off ahead of chassis upgrades. The same frame family as this car |
+
+A Chevelle forum tip worth knowing for this car: after the rear bumper comes off, **watch the rear
+valence**. On the 1970–72 A-body, the chassis has to roll forward about 4" before the body lifts, or
+the rear of the frame comes up with it. Check whether the El Camino's rear lip catches the frame
+the same way before lifting.
+
+**Body carts — where the body sits once it's up:**
+
+| Video | What it shows |
+|---|---|
+| [HOW TO MAKE A UNIVERSAL AUTO BODY CART FOR UNDER $200](https://www.youtube.com/watch?v=IPNz6rQxGZ4) | Lonestar Lows, budget welded cart |
+| [I built a Body Cart — Here's How](https://www.youtube.com/watch?v=ZwNQ8fdUcPw) | A simple cart build |
+| [Building a Better Auto Body Cart (DIY Restoration Cart)](https://www.youtube.com/watch?v=uQTa7UuQCBQ) | A wooden cart |
+| [How to build a body cart dolly — builder profile with Spencer and Chad Breeden](https://www.youtube.com/watch?v=mzsD1XF_HEQ) | A cart build |
+| [Heavy Duty Body Cart from Eastwood](https://www.youtube.com/watch?v=n82DNw2oAdk) | The bought alternative |
+
+A cart beats timbers on stands for a job this long: the body can be rolled out of the way, and
+supported under the rockers and cowl at a working height. For this body it has to be **El Camino
+length**, with support under the cab **and** the bed, and the door-opening bracing in place first.
+
+**Putting it back on:** [Bodyshell Mounting Tutorial](https://www.youtube.com/watch?v=Dh8DTMXGg9o).
+The forum method for centring the body is in *Reassembly* above, and in the El Camino series'
+*Frame On* episodes.
+
 ### Frame and crossmember repair — trucks, but the same welding
 
 No video was found of a car frame crossmember being replaced. These are Chevy and GMC trucks, which
