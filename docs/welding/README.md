@@ -29,7 +29,7 @@ wire-feed smoothness are what matter.
 | [`machine-selection.md`](machine-selection.md) | Welder options by tier, ArcCaptain brand reputation, Canadian availability |
 | [`process-and-gas.md`](process-and-gas.md) | Gasless flux core vs gas MIG for body panels, shielding gas, technique |
 | [`safety.md`](safety.md) | Fume, ventilation, respirator, the brake-cleaner/phosgene hazard, inline-fan fume extraction |
-| [`sourcing.md`](sourcing.md) | Gas suppliers near Île-Perrot, sheet steel, and online cut/bend services for fabricated parts |
+| [`sourcing.md`](sourcing.md) | Gas suppliers near Île-Perrot, sheet steel, and every online cut/bend service compared with reviews and the 2026 steel surtax |
 | [`glossary.md`](glossary.md) | Welding jargon decoded |
 
 ## Decision state
