@@ -260,6 +260,36 @@ the old floor and go onto the new one, or be bought new (the Dixie floor brace a
 *Crossmembers* above). This floor is also the one the loose seats (`15 / 333`) and the belt anchors
 bolt into. Done with the body off the frame — [`body-off-frame.md`](body-off-frame.md).
 
+### Make the floor, or buy it stamped
+
+Decided 2026-10-05: **buy stamped pans; don't make floor patches from flat sheet, at home or from a
+laser service.** A floor pan is not flat. It has pressed stiffening ribs, a curved toe board, the
+seat and belt mounting areas, and the transition up into the hump. A laser cutter makes a flat
+outline and a press brake only makes straight bends, so neither can reproduce a pan. A large flat
+18 ga patch without ribs also flexes and drums ("oil-cans"). Reproductions come with the ribs
+already pressed in, cost about $200 a quarter, and are cheaper than the time spent trying to copy them.
+
+**Order of work: map everything first, but don't cut everything first.** Cutting all the rot out
+before measuring sounds tidy, but it takes away the reference you fit the new metal to, and
+weakens a body that is already carrying less than it should. Instead:
+
+1. **Map with the old floor still in.** Wire-wheel the rot, probe with a screwdriver, and mark the
+   cut lines on sound metal. Photograph every area with a tape measure in the shot
+2. **Decide pans vs patches from that map,** and place **one order** for everything: stamped pans
+   for the floor, plus any small flat pieces (below)
+3. **Cut and fit one section at a time.** Put the new pan over the old floor, scribe around it, and
+   cut the old floor *inside* the line. Trim the hole to the pan for a tight butt-weld gap, rather
+   than trying to cut the hole to a measurement
+
+**Where flat cut pieces do fit**, after mapping, in a single batch order (sources in
+[`welding/sourcing.md`](welding/sourcing.md)): small flat repairs the stamped pans don't cover,
+smuggler's box floor patches if that area is flat, the **0.090"–0.120" donuts** for the body-mount
+holes (*Body-side supports* above), and seat or belt reinforcement plates. For those, trace a
+**cardboard template on the car**, photograph it flat beside a ruler, and the cutting service can turn it
+into a cut file. **Order flat patches about ½" oversize** and trim to fit, using the same
+scribe-the-hole-to-the-patch method. A measurement taken off a rusted edge is never exact enough
+for a laser-perfect butt joint.
+
 ---
 
 ## Decision state
@@ -277,3 +307,4 @@ bolt into. Done with the body off the frame — [`body-off-frame.md`](body-off-f
 | Body mount bushings: rubber or urethane ([issue #27](../../../issues/27)) | Leaning rubber; open |
 | Driver-side middle body mount: repair the hole or replace the reinforcement | Open — inspect with the belt anchor and rocker seam |
 | Floor pans ([issue #29](../../../issues/29)) | **Needed** — rot front, middle and rear. Open: **leaning full floor with hump** over four quarter pans |
+| Make floor patches or buy stamped | **Decided — buy stamped.** Flat or laser-cut pieces only for small flat repairs and mount donuts, batched into one order after mapping. Map with the floor in, cut one section at a time — *Make the floor, or buy it stamped* above |

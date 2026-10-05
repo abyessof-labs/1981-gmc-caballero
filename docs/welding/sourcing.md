@@ -122,6 +122,7 @@ free quotes. Closer to home, two Vaudreuil-Dorion welding shops are worth a call
 | Thick plate (over ¼") or tight bends SendCutSend rejects | **OSH Cut** |
 | Only a sketch, no CAD at all | **uMake** design help, or SendCutSend's design team, or a job shop |
 | Patch panels (18/20 ga flat) | **None of them** — cut from a 4×8 sheet |
+| **Floor pans** | **None of them** — pans have pressed ribs and curves a laser and brake can't make. Buy stamped; see [`../parts-chassis-and-parking-brake.md`](../parts-chassis-and-parking-brake.md#make-the-floor-or-buy-it-stamped) |
 
 ### Can one of these make the rear crossmember?
 
