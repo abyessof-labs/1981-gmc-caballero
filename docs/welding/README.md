@@ -43,7 +43,7 @@ wire-feed smoothness are what matter.
 | 240 V in the garage | Open — **potentially 120 V only**, which is adequate for this work |
 | Gas bottle | Open — not purchased. Required for TIG later regardless. **Closest supplier: Charbonneau Propane, Vaudreuil-Dorion (Linde dealer)** — questions to ask in [`sourcing.md`](sourcing.md) |
 | Fume extraction fan | **Decided in principle — an inline fan is fine as a close-capture hood, not as room ventilation.** Cloudline S8 over S6 for the reach; see [`safety.md`](safety.md) |
-| Helmet | Open. **Upper tier narrowed to the ESAB Sentinel A60 ($526 CAD) or the Lincoln Viking 3350 (4th gen, K3034-4)**, with the A60 favoured unless the Viking is under ~$400 CAD. Jackson Insight and Sentinel A50 dropped. See [`machine-selection.md`](machine-selection.md#upper-tier-shortlist-compared-2026-10-08) |
+| Helmet | Open. **Upper tier narrowed to the ESAB Sentinel A60 ($526 CAD) or the Lincoln Viking 3350 (4th gen, K3034-4)**, with the A60 favoured unless the Viking is under ~$400 CAD. The saved Amazon.ca Viking listing is confirmed K3034-4. Its cart price is still unknown. Jackson Insight and Sentinel A50 dropped. See [`machine-selection.md`](machine-selection.md#upper-tier-shortlist-compared-2026-10-08) |
 
 ## Budget
 

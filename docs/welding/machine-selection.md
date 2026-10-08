@@ -158,9 +158,13 @@ fetches. Sources are listed at the end of this file.
 - **Generation matters on the Viking.** The **external grind button and X6 headgear arrived with
   the 4th generation in July 2019.** Some reviews of earlier 3350s describe an internal grind
   switch, which means lifting the hood to change modes. The part-number suffix appears to track
-  the generation: Josef Gases still lists a **K3034-3**, and the 3350 ADV is K3034-5. This is
-  **inferred, not confirmed by Lincoln**. The Amazon listing gives no part number, and the
-  page dates from about 2016.
+  the generation: Josef Gases still lists a **K3034-3**, and the 3350 ADV is K3034-5.
+  Distributor listings for **K3034-4** specifically describe the external grind control and X6
+  headgear, so K3034-4 is the 4th-gen helmet. Lincoln itself has not confirmed this.
+- **The saved Amazon.ca listing is K3034-4.** The model number is shown on the listing (checked
+  2026-10-08). The page itself dates from about 2016, so a third-party seller could still ship
+  old stock. **Check on arrival:** a grind button on the **outside** of the shell and **X6
+  headgear**. If either is missing, it is an older unit, and the 30-day return window applies.
 
 **Recommendation:**
 
@@ -168,8 +172,9 @@ fetches. Sources are listed at the end of this file.
   Canadian, it's a current model, it has the best-documented spec sheet of the four, and its
   wide window suits seam work along a rocker or quarter panel.
 - **The Lincoln Viking 3350 is equal on optics.** Buy it instead only if the cart price comes
-  in well under the A60, roughly $400 CAD or less, **and** the seller confirms **K3034-4**
-  (or -5 ADV). It is the better pick if you prefer a taller window or knobs over touch buttons.
+  in well under the A60, roughly $400 CAD or less. The saved listing's part number, K3034-4,
+  is the right one. It is the better pick if you prefer a taller window or knobs over touch
+  buttons.
 - **Skip the Jackson Insight and the A50.**
 
 Neither is *needed* for this project. A $35–150 helmet from the table above does the job. The
@@ -178,9 +183,9 @@ extra money buys a bigger window, cleaner colour, and an external grind button.
 **Check before buying the Viking listing:**
 
 - Confirm the **price in the cart**. The page hides it.
-- Confirm it is the **complete helmet, part K3034-4**. The listing is sparse: "About this item"
-  says only "Black", and it is categorised as `Style: Headgear`. It could be a replacement shell,
-  headgear on its own, or an older-generation unit with an internal grind switch.
+- Part number: **confirmed K3034-4** on the listing, which is the complete helmet. A
+  replacement shell would be a KP number, such as KP4561-1. "About this item" says only "Black"
+  and Amazon files it under `Style: Headgear`, so check the generation on arrival as above.
 
 ## Sources
 
