@@ -98,8 +98,9 @@ adequate for this job.
 | YESWELDER Blue Light Blocking | ~$34 | 1/1/1/1 clarity, 1/30,000 s switching, ~20,000 reviews at 4.6★ |
 | ARCCAPTAIN Large View w/ LED | ~$60 | 1/1/1/1, larger viewport |
 | **Lincoln Viking 1840** | ~$90–150 | Real brand, 4C lens, large viewing area, stocked by Canadian welding suppliers |
-| ESAB Sentinel A50 | ~$200 | Shade 5–13, best ergonomics in class |
-| Lincoln Viking 3350 | ~$300 | Largest viewport (3.74" × 3.34"), grind button, X6 headgear |
+| ESAB Sentinel A50 | ~$200–330 | Shade 5–13, touchscreen. **Superseded by the A60** — see the shortlist below |
+| Lincoln Viking 3350 | ~$320–450 | 12.5 in² viewport (3.74" × 3.34"), external grind button, X6 headgear — 4th gen (2019+) |
+| **ESAB Sentinel A60** | **$526 CAD** | 13.0 in² viewport, 1/1/1/1, external grind, CSA Z94.3. Shortlist pick — see below |
 
 Two features that matter for **body work specifically**:
 
@@ -110,55 +111,76 @@ Two features that matter for **body work specifically**:
 Minimum spec: **1/1/1/1 optical clarity** and adjustable sensitivity/delay. Both are table
 stakes now, even at $35.
 
-### Shortlist compared: Jackson Insight vs Lincoln Viking 3350 (2026-10-08)
+### Upper-tier shortlist compared (2026-10-08)
 
-Two Amazon.ca listings saved to the cart. Both are industrial-brand helmets in the same price
-band, and they are not interchangeable.
+Four helmets in the $300–600 CAD band: two saved Amazon.ca listings, the
+[Jackson Safety Insight](https://www.amazon.ca/dp/B01HTMLSLQ) and the
+[Lincoln Viking 3350, black](https://www.amazon.ca/dp/B019G6T4RS), plus ESAB's Sentinel A50 and
+the A60 that replaced it. Specs come from manufacturer spec tables as reproduced by distributors.
+The manufacturers' own sites (lincolnelectric.com, esab.com) refused the research session's
+fetches. Sources are listed at the end of this file.
 
-| | [Jackson Safety Insight (HLX / Halo-X shell)](https://www.amazon.ca/dp/B01HTMLSLQ) | [Lincoln Viking 3350, black](https://www.amazon.ca/dp/B019G6T4RS) |
-|---|---|---|
-| Part number | 46131 (Black) | K3034-4 — **inferred**; the listing names no part number |
-| Viewing area | 3.94" × 2.36" (~9.3 in²) | **3.74" × 3.34" (12.5 in²)** — about 35% larger, mostly taller |
-| Dark shade | 9–13 | **5–13** |
-| Grind mode | Yes — shade 4 | Yes — **external grind button**, no need to lift the hood |
-| Optical clarity | **None published** | **1/1/1/1** (Lincoln 4C lens) |
-| Arc sensors | 4 | 4 (stated for the 3350 series; not seen on a K3034-4 page) |
-| Switching speed | 1/10,000 s (one retailer) | Not checked |
-| Controls | Digital, sensitivity and delay | Knobs on the cartridge, sensitivity and delay |
-| Headgear | Ratchet | Lincoln X6 |
-| Warranty | 2 yr lens (retailer) | 5 yr (retailer, not checked against Lincoln) |
-| Standards | ANSI Z87.1, CSA Z94.3 | ANSI Z87.1, CSA Z94.3 |
-| Amazon.ca rating | 4.6★, 661 | 4.7★, 609 |
-| Amazon.ca seller | Third-party offers; 5 offers from **$435.67 CAD** (Narrow Shell variant from $359.84) | **Équipement Polar** (third party). Price hidden until added to cart |
-| Elsewhere | Lumen.ca ~$413, Source Atlantic ~$444 (`.ca`, currency assumed CAD); Cyberweld ~$242 USD | Arcsolinc ~$319 (currency not stated); Cyberweld ~$452 USD |
+| | Jackson Insight | Lincoln Viking 3350 | ESAB Sentinel A50 | **ESAB Sentinel A60** |
+|---|---|---|---|---|
+| Part number | 46131 (black, HLX-100 shell) | K3034-4 (black, 4th gen) | 0700000800 | **0700600860** (black) |
+| Viewing area | 3.94" × 2.36" (9.3 in²) | **3.74" × 3.34" (12.5 in²)** | 3.93" × 2.36" (9.3 in²) | **4.65" × 2.80" (13.0 in²)** |
+| Light state / grind shade | 4 | 3.5 | 4 | **3** |
+| Dark shades | 9–13 only | 5–13, knob | 5–13 | **5–13 in half steps** |
+| Optical class (EN 379) | **Not published** | **1/1/1/1** | 1/1/1/2 | **1/1/1/1** |
+| Grind mode | Yes. Control location not confirmed | **External button** (4th gen only — see below) | External button (owner reviews) | **External button**, with an indicator inside the helmet |
+| Controls | Digital | Knobs inside the shell | Touchscreen, 8 memories | Touch buttons, 9 memories, shade lock |
+| Switching speed | 1/10,000 s | 1/25,000 s | 1/25,000 s | 1/25,000 s |
+| Arc sensors | 4 | 4 | 4 | 4 |
+| Low-amp TIG | Not stated | DC/AC ≥ 2 A (spec table) | Not stated | ISO 16321 +TIG certified |
+| Weight | Not reliably stated | ~595 g (21 oz) | Not stated | 644 g (1.4 lb) |
+| Warranty | 2 yr lens | 3 yr (most listings; one says 5) | Not stated | 3 yr |
+| Standards | ANSI Z87.1, CSA | ANSI Z87.1 | — | ANSI Z87.1, **CSA Z94.3**, EN 379, ISO 16321 |
+| Price, CAD | Amazon.ca **$435.67** (third party); Lumen ~$413, Source Atlantic ~$444 | Amazon.ca hidden until it's in the cart. Lincoln Canada lists *other* 3350 colourways at $751–819 list, less a $100 rebate | $570–599 listed, **sold out** at both Canadian dealers checked | **$526** at Weld-Ready and Canada Welding Supply, both order-in from Ontario |
+| Price, US for reference | ~$223–242 USD | ~$319–452 USD | ~$300–330 USD | ~$335+ USD |
 
 **What actually separates them:**
 
-- **Viewport.** The Viking's window is a third bigger, and the extra is height. That is the
-  feature this job needs most: welding under a quarter panel with a bad sightline.
-- **Shade range.** The Insight stops at 9. The Viking goes down to 5, so it also covers
-  oxy-fuel and plasma cutting (shade 5–8). Shade 9 is still fine for 30–50 A flux core.
-- **Optics.** Lincoln publishes 1/1/1/1. Jackson does not publish a clarity rating for the
-  Insight at all, which at this price is a mark against it.
-- **Grind mode.** Both have it. The Viking's is a button on the outside of the shell, which is
-  the version that gets used on rust repair, where you grind far more than you weld.
+- **Two of these are a different class from the other two.** The Insight and the A50 share the
+  same 9.3 in² window. The Viking 3350 and the A60 are a third bigger and have true 1/1/1/1
+  optics. Make the first cut there.
+- **The Jackson Insight is a mid-range helmet at a premium price.** Jackson does not publish an
+  EN 379 optical class for it at all. The 1/1/1/1 rating belongs to Jackson's TrueSight II and
+  BH3, not this one. It is about $223–242 USD in the US and $413–444 CAD in Canada. **Drop it.**
+- **The A50 is superseded.** Canadian dealers show it sold out. Its window is the small one, and
+  its last optical digit is a 2: the view degrades more when you look through the lens at an
+  angle. **The A60 is the ESAB to consider.**
+- **Viking 3350 vs A60 is close on the things that matter.** The windows are about the same
+  size (12.5 vs 13.0 in²) but a different shape. The Viking's is **taller** (3.34" vs 2.80"); the
+  A60's is **wider** (4.65" vs 3.74"). Both have 1/1/1/1 optics and an external grind button. The
+  A60 adds a lighter grind shade (3), half-shade steps, memory presets, shade lock and CSA
+  Z94.3 certification. The Viking has simple knobs, a lighter shell, and, by one reviewer's
+  account, cheaper replacement lenses than ESAB's proprietary ones.
+- **Generation matters on the Viking.** The **external grind button and X6 headgear arrived with
+  the 4th generation in July 2019.** Some reviews of earlier 3350s describe an internal grind
+  switch, which means lifting the hood to change modes. The part-number suffix appears to track
+  the generation: Josef Gases still lists a **K3034-3**, and the 3350 ADV is K3034-5. This is
+  **inferred, not confirmed by Lincoln**. The Amazon listing gives no part number, and the
+  page dates from about 2016.
 
-**Recommendation: the Lincoln Viking 3350**, if it is one of these two. It is the better helmet
-on every feature that matters for body work. The Insight is a competent industrial helmet that is
-**overpriced on Amazon.ca**: about $435 CAD there, against about $242 USD in the US.
+**Recommendation:**
 
-Neither is needed for this project. The $35–150 tier above does the job (see the top of this
-section). Spending $300+ CAD buys comfort and a bigger window, not a better weld.
+- **For this job, the ESAB Sentinel A60 at $526 CAD** is the safest buy. The price is real and
+  Canadian, it's a current model, it has the best-documented spec sheet of the four, and its
+  wide window suits seam work along a rocker or quarter panel.
+- **The Lincoln Viking 3350 is equal on optics.** Buy it instead only if the cart price comes
+  in well under the A60, roughly $400 CAD or less, **and** the seller confirms **K3034-4**
+  (or -5 ADV). It is the better pick if you prefer a taller window or knobs over touch buttons.
+- **Skip the Jackson Insight and the A50.**
+
+Neither is *needed* for this project. A $35–150 helmet from the table above does the job. The
+extra money buys a bigger window, cleaner colour, and an external grind button.
 
 **Check before buying the Viking listing:**
 
 - Confirm the **price in the cart**. The page hides it.
-- Confirm it is the **complete helmet (K3034-4)**. The listing is sparse: "About this item" says
-  only "Black", and it is categorised as `Style: Headgear`. A replacement shell, or headgear on
-  its own, would also fit that description.
-- Check a Canadian Lincoln distributor for the same part number before paying a third-party
-  seller's markup. Lincoln Canada listed another 3350 colourway (K4440-4) at $599.99 CAD regular
-  in 2024, now discontinued. That is the list-price ceiling.
+- Confirm it is the **complete helmet, part K3034-4**. The listing is sparse: "About this item"
+  says only "Black", and it is categorised as `Style: Headgear`. It could be a replacement shell,
+  headgear on its own, or an older-generation unit with an internal grind switch.
 
 ## Sources
 
@@ -179,4 +201,14 @@ section). Spending $300+ CAD buys comfort and a bigger window, not a better weld
   - https://weldersupply.com/P/8634/K3034-4
   - https://www.weldingsuppliesfromioc.com/lincoln-viking-3350-series-black-auto-darkening-welding-helmet-k3034-4
   - https://shop.arcsolinc.com/products/lincoln-k3034-4-viking-3350-black-welding-helmet
+  - https://www.globalindustrial.com/p/viking153-3350-welding-helmet-5-13-shade-black (Viking spec table: grind 3.5, 1/25,000 s, TIG ≥ 2 A)
+  - https://www.aviationpros.com/aircraft-maintenance-technology/mros-repair-shops/shop-equipment/welding-equipment/product/21088946/lincoln-electric-company-lincoln-electric-releases-the-4th-generation-of-viking-2450-and-3350-series-welding-helmets (4th gen, July 2019)
+  - https://weldingpros.net/lincoln-viking-3350-review/
+  - https://prodcd.lincolnelectric.com/en-CA/Products/k4412-4 (Lincoln Canada list price, other colourway)
+  - https://wcsafety.com/collections/all/products/esab-sentinel-a50-welding-helmet (A50 optical class 1/1/1/2)
+  - https://canadaweldingsupply.ca/collections/esab-sentinel-a50
+  - https://canadaweldingsupply.ca/products/esab-sentinel-a60-welding-helmet (A60 spec table and price)
+  - https://canadaweldingsupply.ca/pages/esab-sentinel-a60-specifications
+  - https://weld-ready.ca/products/esab-sentinel-a60-welding-helmet
+  - https://rme4x4.com/threads/need-a-new-welding-hood.118293 (owner thread, Viking 3350 vs Sentinel A50)
 - https://www.garagejournal.com/forum/threads/one-more-welder-thread-240v-vs-120v.478092/
