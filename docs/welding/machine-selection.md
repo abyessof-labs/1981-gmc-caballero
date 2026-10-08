@@ -123,7 +123,7 @@ fetches. Sources are listed at the end of this file.
 | | Jackson Insight | Lincoln Viking 3350 | ESAB Sentinel A50 | **ESAB Sentinel A60** |
 |---|---|---|---|---|
 | Part number | 46131 (black, HLX-100 shell) | K3034-4 (black, 4th gen) | 0700000800 | **0700600860** (black) |
-| Viewing area | 3.94" × 2.36" (9.3 in²) | **3.74" × 3.34" (12.5 in²)** | 3.93" × 2.36" (9.3 in²) | **4.65" × 2.80" (13.0 in²)** |
+| Viewing area | 3.94" × 2.36" (9.3 in²) | **3.74" × 3.34" (95 × 85 mm, 12.5 in²)** | 3.93" × 2.36" (9.3 in²) | **4.65" × 2.80" (118 × 71 mm, 13.0 in²)** |
 | Light state / grind shade | 4 | 3.5 | 4 | **3** |
 | Dark shades | 9–13 only | 5–13, knob | 5–13 | **5–13 in half steps** |
 | Optical class (EN 379) | **Not published** | **1/1/1/1** | 1/1/1/2 | **1/1/1/1** |
