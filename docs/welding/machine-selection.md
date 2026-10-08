@@ -110,6 +110,56 @@ Two features that matter for **body work specifically**:
 Minimum spec: **1/1/1/1 optical clarity** and adjustable sensitivity/delay. Both are table
 stakes now, even at $35.
 
+### Shortlist compared: Jackson Insight vs Lincoln Viking 3350 (2026-10-08)
+
+Two Amazon.ca listings saved to the cart. Both are industrial-brand helmets in the same price
+band, and they are not interchangeable.
+
+| | [Jackson Safety Insight (HLX / Halo-X shell)](https://www.amazon.ca/dp/B01HTMLSLQ) | [Lincoln Viking 3350, black](https://www.amazon.ca/dp/B019G6T4RS) |
+|---|---|---|
+| Part number | 46131 (Black) | K3034-4 — **inferred**; the listing names no part number |
+| Viewing area | 3.94" × 2.36" (~9.3 in²) | **3.74" × 3.34" (12.5 in²)** — about 35% larger, mostly taller |
+| Dark shade | 9–13 | **5–13** |
+| Grind mode | Yes — shade 4 | Yes — **external grind button**, no need to lift the hood |
+| Optical clarity | **None published** | **1/1/1/1** (Lincoln 4C lens) |
+| Arc sensors | 4 | 4 (stated for the 3350 series; not seen on a K3034-4 page) |
+| Switching speed | 1/10,000 s (one retailer) | Not checked |
+| Controls | Digital, sensitivity and delay | Knobs on the cartridge, sensitivity and delay |
+| Headgear | Ratchet | Lincoln X6 |
+| Warranty | 2 yr lens (retailer) | 5 yr (retailer, not checked against Lincoln) |
+| Standards | ANSI Z87.1, CSA Z94.3 | ANSI Z87.1, CSA Z94.3 |
+| Amazon.ca rating | 4.6★, 661 | 4.7★, 609 |
+| Amazon.ca seller | Third-party offers; 5 offers from **$435.67 CAD** (Narrow Shell variant from $359.84) | **Équipement Polar** (third party). Price hidden until added to cart |
+| Elsewhere | Lumen.ca ~$413, Source Atlantic ~$444 (`.ca`, currency assumed CAD); Cyberweld ~$242 USD | Arcsolinc ~$319 (currency not stated); Cyberweld ~$452 USD |
+
+**What actually separates them:**
+
+- **Viewport.** The Viking's window is a third bigger, and the extra is height. That is the
+  feature this job needs most: welding under a quarter panel with a bad sightline.
+- **Shade range.** The Insight stops at 9. The Viking goes down to 5, so it also covers
+  oxy-fuel and plasma cutting (shade 5–8). Shade 9 is still fine for 30–50 A flux core.
+- **Optics.** Lincoln publishes 1/1/1/1. Jackson does not publish a clarity rating for the
+  Insight at all, which at this price is a mark against it.
+- **Grind mode.** Both have it. The Viking's is a button on the outside of the shell, which is
+  the version that gets used on rust repair, where you grind far more than you weld.
+
+**Recommendation: the Lincoln Viking 3350**, if it is one of these two. It is the better helmet
+on every feature that matters for body work. The Insight is a competent industrial helmet that is
+**overpriced on Amazon.ca**: about $435 CAD there, against about $242 USD in the US.
+
+Neither is needed for this project. The $35–150 tier above does the job (see the top of this
+section). Spending $300+ CAD buys comfort and a bigger window, not a better weld.
+
+**Check before buying the Viking listing:**
+
+- Confirm the **price in the cart**. The page hides it.
+- Confirm it is the **complete helmet (K3034-4)**. The listing is sparse: "About this item" says
+  only "Black", and it is categorised as `Style: Headgear`. A replacement shell, or headgear on
+  its own, would also fit that description.
+- Check a Canadian Lincoln distributor for the same part number before paying a third-party
+  seller's markup. Lincoln Canada listed another 3350 colourway (K4440-4) at $599.99 CAD regular
+  in 2024, now discontinued. That is the list-price ceiling.
+
 ## Sources
 
 - https://weldingpros.net/best-multi-process-welder/
@@ -120,4 +170,13 @@ stakes now, even at $35.
 - https://bestwelderreview.com/arccaptain-welder/
 - https://weldingranked.com/articles/best-auto-darkening-helmets-under-200/
 - https://bakersgas.com/blogs/weld-my-world/lincoln-electric-viking-guide
+- Helmet comparison. Amazon.ca pages were read through a text fetcher. Ratings, seller and
+  variant prices came through, but the spec tables did not. Specs are from distributor listings:
+  - https://store.cyberweld.com/collections/jackson-safety/products/jackson-welding-helmet-black-insight-lens-46131
+  - https://www.airgas.com/product/Safety-Products/Head%2C-Eye-%26-Face-Protection/Welding-Helmets/Welding-Helmet---Auto-Darkening/p/SEL46131
+  - https://lumen.ca/en/products/26-welding-soldering/23-welding-helmets-welding-protection/04-welding-helmets/p-SkVUNDYxMzE=-jet46131-equipement-outillage-jet-46131-hlx-100-welding-helmet---insight-variable-adf---black
+  - https://www.sourceatlantic.ca/Product/46131
+  - https://weldersupply.com/P/8634/K3034-4
+  - https://www.weldingsuppliesfromioc.com/lincoln-viking-3350-series-black-auto-darkening-welding-helmet-k3034-4
+  - https://shop.arcsolinc.com/products/lincoln-k3034-4-viking-3350-black-welding-helmet
 - https://www.garagejournal.com/forum/threads/one-more-welder-thread-240v-vs-120v.478092/

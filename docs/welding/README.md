@@ -43,7 +43,7 @@ wire-feed smoothness are what matter.
 | 240 V in the garage | Open — **potentially 120 V only**, which is adequate for this work |
 | Gas bottle | Open — not purchased. Required for TIG later regardless. **Closest supplier: Charbonneau Propane, Vaudreuil-Dorion (Linde dealer)** — questions to ask in [`sourcing.md`](sourcing.md) |
 | Fume extraction fan | **Decided in principle — an inline fan is fine as a close-capture hood, not as room ventilation.** Cloudline S8 over S6 for the reach; see [`safety.md`](safety.md) |
-| Helmet | Open |
+| Helmet | Open. **Shortlist of two: Lincoln Viking 3350 favoured over the Jackson Insight.** See [`machine-selection.md`](machine-selection.md#shortlist-compared-jackson-insight-vs-lincoln-viking-3350-2026-10-08). The Viking's cart price and part number still need confirming |
 
 ## Budget
 
