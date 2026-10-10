@@ -56,7 +56,7 @@ docs/
   body-off-frame.md       Lifting the body off the frame: bracing, disconnect checklist, mount bolts, videos
   underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
-  wheel-and-paint-gallery.md    78-87 El Camino/Caballero photo sets grouped by wheel and paint look
+  wheel-and-paint-gallery.md    78-87 El Camino/Caballero photo sets grouped by wheel and paint look, incl. orange
   wheels-and-tires.md     Fitment limits, white-letter tire sizes, and wheel/tire packages
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
