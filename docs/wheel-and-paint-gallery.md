@@ -166,17 +166,19 @@ Most black cars worth seeing are already listed in the sections above. These are
 
 Compiled October 2026 to answer one question: what does a 1978–87 body look like in orange?
 
-> **How this section was assembled.** This pass could open Bring a Trailer, Wikimedia Commons and
-> YouTube, and **every car marked "seen" below was checked by eye** for body style and colour. It
-> was a full sweep, not a sample: every 1978–87 El Camino and Caballero on Bring a Trailer
-> (120 auctions), every 1978–87 photo in Wikimedia Commons (about 160), and about 260 YouTube
-> videos from 22 searches. Colour names in quotes are the seller's or video title's words. Rows marked
+> **How this section was assembled.** This pass could open Bring a Trailer, Mecum,
+> Barrett-Jackson, Dyler, Wikimedia Commons and YouTube, and **every car marked "seen" below was
+> checked by eye** for body style and colour. It was a full sweep, not a sample: every 1978–87 El
+> Camino and Caballero on Bring a Trailer (120 auctions), Mecum (344 lots, read from each lot's
+> exterior-colour field), Barrett-Jackson (28 lots), Hagerty Marketplace (17), Dyler (19) and Barn
+> Finds (about 190 posts, none orange); every 1978–87 photo in Wikimedia Commons (about 160); and
+> about 260 YouTube videos from 22 searches. Colour names in quotes are the seller's or video title's words. Rows marked
 > **text only** come from listing text: their photos were blocked (Streetside, ClassicCars dealer
 > photos, Copart) or the page could not be opened. Flickr's image server refused this session, so
 > Flickr is a browse link at the end. Prices are **USD**.
 
 **Orange is rare on these cars.** Wikimedia Commons has no orange 1978–87 car at all. Of 120 Bring
-a Trailer auctions, four are orange or copper. Old Cars Data puts orange at about 5% of El Camino
+a Trailer auctions, four are orange or copper; of 344 Mecum lots, nine. Old Cars Data puts orange at about 5% of El Camino
 sales across all generations, and most of those are 1968–72 Hugger Orange cars. There is no
 confirmed factory orange (see "Factory colours" above), so every orange car below is a repaint.
 
@@ -188,6 +190,7 @@ confirmed factory orange (see "Factory colours" above), so every orange car belo
 | [Gentry Lane — 1981 GMC Caballero](https://www.youtube.com/watch?v=mql9IlJ8KVQ) | Seen | Same year. Solid red-orange, stock ride height, chrome wheels. Looks more red than orange in some frames. |
 | [Bring a Trailer — 1978 GMC Caballero](https://bringatrailer.com/listing/1978-gmc-cabalero-2/) · [ClassicCars.com, same truck probably](https://classiccars.com/listings/view/1640148/1978-gmc-caballero-for-sale-in-layton-utah-84041) | Seen | **Copper metallic** with wire wheel covers. BaT calls it "red"; ClassicCars calls it "Sunburnt Orange/brown". Both describe a 350, three-speed, tan cloth, Utah, so they are **probably the same truck** (not confirmed). Sold $10,000 on BaT, September 2022. The best stock-looking copper. |
 | [Jack R — 1978 GMC Caballero Diablo](https://www.youtube.com/watch?v=QSeJCnKxPRE) | Seen | Diablo tailgate script on red-orange. Titled "Red/Silver", so probably a factory red that photographs orange. |
+| [Mecum lot F58 — 1986 GMC Caballero](https://www.mecum.com/lots/214748/1986-gmc-caballero/) | Text only | Exterior colour listed as **Orange**. The lot page has no photos left. |
 | [carsbat — 1980 GMC Caballero, Copart salvage](https://carsbat.com/en/detail/tkl14aj501010-c5wmo7/) | Text only | Listed orange, front-end damage, sold $3,550 (October 2025). |
 
 ### Orange with a second colour — closest to keeping the black
@@ -197,7 +200,12 @@ orange and black or grey together on this body.
 
 | Car | Seen? | What to look at |
 |---|---|---|
+| [Mecum — 1978 El Camino, black and orange](https://www.mecum.com/lots/247256/1978-chevrolet-el-camino/) | Seen | **Black body, orange hood stripe and an orange band along the bed rails**, Corvette aluminium wheels. **The closest look found to adding orange to a black car without a full repaint.** |
 | [Gateway St. Louis #9233 — 1985 El Camino](https://www.youtube.com/watch?v=HQI2lW_Zsnk) | Seen | **Orange upper, black lower**, split at the factory Conquista/Amarillo moulding line, with black roof and bed caps. Chrome five-spokes. **The best picture of orange on this car without losing the black.** Same paint break as the factory two-tone in section 2. |
+| [Barrett-Jackson — 1978 El Camino, "Orange Bronze"](https://www.barrett-jackson.com/scottsdale-fall-2024/docket/vehicle/1978-chevrolet-el-camino-pickup-278528) | Seen | Bright orange with black hood and roof accents, black interior, 305. Offered at Houston 2021 and Scottsdale Fall 2024. |
+| [Mecum — 1980 El Camino](https://www.mecum.com/lots/488247/1980-chevrolet-el-camino/) | Seen | Red-orange with a **black hood**; 402 stroker street car. One photo. |
+| [Mecum — 1986 El Camino, "Silver/Orange"](https://www.mecum.com/lots/136503/1986-chevrolet-el-camino/) | Seen | Orange upper over silver lower, air ride. One photo. |
+| [Mecum — 1987 El Camino Conquista, gold over bronze](https://www.mecum.com/lots/1111982/1987-chevrolet-el-camino-conquista-pickup/) | Seen | Factory-style two-tone in the warm browns, 15" wheels, white-letter tyres. The tamest way into this colour family. |
 | [craft.beer.vert — Kandy Tangerine on 24s](https://www.youtube.com/watch?v=19RyZmJ1j0A) | Seen | Tangerine body with a **black roof**. A simpler split than the moulding-line two-tone. |
 | [Gateway St. Louis #9207 — 1980 El Camino SS](https://www.youtube.com/watch?v=5v7UBzi_e7M) | Seen | White, with the **SS lower stripe in orange and brown**. Same 1978–81 nose as ours. Shows orange used only as an accent. |
 | [ClassicCars.com — 1978 El Camino, charcoal with orange](https://classiccars.com/listings/view/2084081/1978-chevrolet-el-camino-for-sale-in-morgantown-pennsylvania-19543) | Text only | "Charcoal gray, with some orange highlighting" on the hood scoop and roofline; 15" polished wheels, staggered tyres. Sold, asked $21,500. |
@@ -208,6 +216,12 @@ orange and black or grey together on this body.
 
 | Car | Seen? | What to look at |
 |---|---|---|
+| [Dyler — 1986 El Camino restomod (Streetside Classics, Tampa)](https://dyler.com/cars/chevrolet/el-camino-for-sale/1986/488167/chevrolet-el-camino-restomod-pickup-1986-orange-for-sale) | Seen | **Orange metallic** with a Choo Choo-style nose; 13,636 miles, asked $34,995 (June 2026), 40+ photos. Probably the same car as the Streetside "1984 Hugger Orange" and AutaBuy "1986 Burnt Orange Metallic" rows below (not confirmed). |
+| [Mecum — 1978 El Camino, "Atomic Orange"](https://www.mecum.com/lots/462976/1978-chevrolet-el-camino/) | Seen | Bright orange, SS front bumper, alloy wheels, leather buckets, wood bed floor. |
+| [Dyler — 1981 El Camino Conquista](https://dyler.com/cars/chevrolet/el-camino-for-sale/1981/17315/chevrolet-el-camino-conquista-pickup-1981-orange-for-sale) | Seen | **Same year.** "Orange Metallic" after rust repair with new metal welded in; Hillbilly's Hot Rods, Kentucky. One photo. |
+| [Barrett-Jackson — 1987 El Camino, copper](https://www.barrett-jackson.com/scottsdale-2020/docket/vehicle/1987-chevrolet-el-camino-236540) · [Mecum, same truck probably](https://www.mecum.com/lots/533118/1987-chevrolet-el-camino/) | Seen | **PPG copper** base and clear, tan interior, California–Arizona truck (Scottsdale 2020; later Mecum Kissimmee 2023). Same description at both houses, so **probably one truck**. |
+| [Mecum — 1982 El Camino, copper](https://www.mecum.com/lots/1087063/1982-chevrolet-el-camino/) | Seen | Stock 5.0, cloth interior, soft bed cover. Stock-height copper on the 1982–87 nose. |
+| [Mecum — 1979 El Camino, "Burnt Orange"](https://www.mecum.com/lots/296797/1979-chevrolet-el-camino/) | Text only | White landau vinyl top, 18" Foose wheels. No photos left on the lot page. |
 | [Gateway Tampa 886-TPA — 1980 El Camino](https://www.youtube.com/watch?v=Klbr5fZiUwE) | Seen | **Burnt orange / copper metallic** on the 1978–81 nose, black tonneau, chrome five-spokes. Closest to a period GM colour. |
 | [Bring a Trailer — 1982 El Camino, 383 stroker](https://bringatrailer.com/listing/1982-chevrolet-el-camino-17/) | Seen | Repainted **"coral"**, a strong red-orange. 17" Milanni wheels, QA1 rear coilovers. Bid to $11,750, not sold (October 2025). |
 | [Bring a Trailer — 1979 El Camino, 383](https://bringatrailer.com/listing/1979-chevrolet-el-camino-32/) | Seen | **"Bronze metallic"**: deep copper-brown, black five-spokes, lowered. Sold $19,000, June 2025. |
@@ -239,7 +253,8 @@ Not the direction for this car, but they show how far a candy orange can be push
 |---|---|
 | [Flickr — "el camino", orange colour filter](https://www.flickr.com/search/?text=el%20camino&color_codes=2) · [dark orange](https://www.flickr.com/search/?text=el%20camino&color_codes=1) · [Caballero, orange](https://www.flickr.com/search/?text=caballero&color_codes=2) | Flickr's own colour filter. About 500 matches across the queries; **not reviewed**, because Flickr's image server refused this session. Expect many 1968–72 cars mixed in. |
 | [Old Cars Data — orange El Camino sales](https://oldcarsdata.com/chevrolet/el-camino/colors/orange) | Recent orange sales across all generations, without links to the listings |
-| [Bring a Trailer — El Camino](https://bringatrailer.com/chevrolet/el-camino/) · [Caballero](https://bringatrailer.com/gmc/caballero/) | Fully reviewed for this section as of October 2026. Check again for new listings. |
+| [Bring a Trailer — El Camino](https://bringatrailer.com/chevrolet/el-camino/) · [Caballero](https://bringatrailer.com/gmc/caballero/) · [Mecum](https://www.mecum.com/search/?searchTerm=el%20camino) | Fully reviewed for this section as of October 2026. Check again for new listings. |
+| Gateway Classic Cars, Streetside Classics, ClassicCars.com, CLASSIC.COM, Hemmings, Reddit | Blocked to automated access in October 2026. Gateway has several orange cars (rows above, seen through its YouTube videos); browse its sold archive by hand. |
 
 ## Wheel sizes stated by the sources
 
