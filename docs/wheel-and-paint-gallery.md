@@ -247,6 +247,42 @@ Not the direction for this car, but they show how far a candy orange can be push
 | [WhipAddict — '86 SS on copper Rucci 26s](https://www.youtube.com/watch?v=FMId5A_3aN4) | Seen | Pale copper / rose-gold metallic with matching wheels |
 | [MIAMIEARL — Candy Gold on 24s](https://www.youtube.com/watch?v=a-lwHuHaa9U) | Seen | Gold that reads copper-orange in sun |
 
+### The chosen look, and the paint codes behind it
+
+Picked in October 2026: **orange body, a black stripe or black panel on the raised centre of a
+cowl-induction hood, chrome wheels, chrome trim.** Two cars show it:
+
+| Car | What the seller says about the paint | What it looks like |
+|---|---|---|
+| [Barrett-Jackson — 1978 El Camino, VIN `1W80U8D456190`](https://www.barrett-jackson.com/scottsdale-fall-2024/docket/vehicle/1978-chevrolet-el-camino-pickup-278528) · [earlier sale, Houston 2021](https://www.barrett-jackson.com/houston-2021/docket/vehicle/1978-chevrolet-el-camino-pickup-250760) | "**House of Kolor basecoat** with mirror finish"; cowl-induction hood. Barrett-Jackson's colour field says "Orange Bronze", which is their description, not a paint name. No code is published. | Deep copper-leaning metallic orange. The **raised cowl panel only is black**, lettered "Cowl Induction". Chrome five-spoke wheels, chrome bumpers and trim, black interior. |
+| [Dyler — 1981 El Camino Conquista, Hillbilly's Hot Rods and Restorations](https://dyler.com/cars/chevrolet/el-camino-for-sale/1981/17315/chevrolet-el-camino-conquista-pickup-1981-orange-for-sale) | "Orange Metallic". No brand or code published. | Brighter, purer orange. **Black stripes along the raised cowl**, rally wheels with trim rings. |
+
+**Neither car's code is published, so these are the closest real codes, matched by eye from
+photos.** They are a starting point for spray-out cards, not a confirmed match.
+
+| For the look of | Closest paint | Code | Confidence |
+|---|---|---|---|
+| Barrett-Jackson 1978 (copper-orange metallic) | House of Kolor **Nova Orange**, Shimrin Glamour Metallic basecoat | **BC-08** (BC08) | **Likely brand, inferred colour.** The car is House of Kolor basecoat, and BC-08 is the metallic orange in that range ([product page](https://houseof1000kolors.com/products/bc08hok), US$155 a quart, Pittsburgh). Its chip photo matches the car closely. Needs House of Kolor clear; their system does not mix with other brands after the base. |
+| Dyler 1981 (bright metallic orange) | Chevrolet **Inferno Orange Metallic** (2010–13 Camaro) | **WA502Q**, GM 28, RPO GCR | **Inferred.** Closest factory GM metallic orange; mixes at any PPG, Axalta or Sherwin-Williams counter from the code ([PaintScratch](https://www.paintscratch.com/touch_up_paint/Chevrolet/2012-Chevrolet-Camaro.html)). |
+| Either, if you want it non-metallic | Chevrolet **Hugger Orange** (1969 Camaro) | GM **72**; PPG 2084 per a Chevelle reference site, **unverified** | Period-correct muscle-car orange, solid rather than metallic |
+| The black hood panel or stripe | GM **Black**, 1981 | **19**, WA5118 ([PaintScratch, 1981 Chevrolet](https://www.paintscratch.com/touch_up_paint/Chevrolet/1981-Chevrolet-G-Series-Black-19-WA5118-WA848.html)) | Listed for 1981 Chevrolet; **confirm against our SPID sticker**. The Barrett-Jackson panel looks gloss. Satin black is the common alternative for a hood panel. |
+
+**To get the real codes rather than a match:**
+
+1. **Call the shop that painted the 1981:** Hillbilly's Hot Rods and Restorations, 1235 Ballard
+   Rd, Lawrenceburg KY 40342, +1 502 565 5844 (from the Dyler listing, 2020), or message them through
+   [facebook.com/hillbillysHR](https://www.facebook.com/hillbillysHR). A shop that sprayed the car
+   usually still has the mix on file. Their [build video](https://www.youtube.com/watch?v=Rmw7e6CUW-U)
+   could not be read from here.
+2. **The Barrett-Jackson car** came from the Laymon Family Collection and has sold twice since 2021.
+   There is no public way to reach the owner, so BC-08 is the practical answer.
+3. **Before buying a gallon,** have the supplier spray test cards of the candidates and look at them
+   in daylight against the reference photos. A colour scanner needs the real car; from a photo a
+   counter can only approximate.
+
+The hood itself is a separate job: a 1978–87 cowl-induction hood. Sourcing it has not been
+researched yet.
+
 ### Where to browse for more
 
 | Source | Notes |
@@ -314,8 +350,9 @@ suggest four ways to go.
 | Question | State |
 |---|---|
 | Wheel style and size | **Leaning:** keep the black five-spoke mag look, with a slightly bigger rear and white-letter tires. Sizes are in [`wheels-and-tires.md`](wheels-and-tires.md). Nothing to buy until the body-off repair is done. |
-| Paint: keep black, black plus a second colour, or orange | **Open.** Orange is now on the list; references in section 9. Settle before body work finishes, because a two-tone affects where the paint break and mouldings go. |
-| If orange: which orange, and which code | **Open.** No factory 1978–87 G-body orange is confirmed. A search summary of PaintRef lists two 1981 Chevrolet oranges, "Orange" WA7208 and "Citrus Orange" WA7209, without saying which models used them. They are **unconfirmed**, but they are the place to start if a period-GM orange matters. Otherwise pick from a paint-shop chip book against the cars above. |
+| Paint: keep black, black plus a second colour, or orange | **Leaning, October 2026:** orange body, black panel or stripe on a cowl-induction hood, chrome wheels and trim. See "The chosen look" in section 9. Not final until spray-out cards are seen. |
+| If orange: which orange, and which code | **Open, two candidates:** House of Kolor BC-08 Nova Orange (the Barrett-Jackson car's look) or Chevrolet Inferno Orange Metallic WA502Q (the 1981 Conquista's look). Next step: call Hillbilly's Hot Rods for the 1981's actual mix, then spray-out cards. Earlier note: no factory 1978–87 G-body orange is confirmed. A search summary of PaintRef lists two 1981 Chevrolet oranges, "Orange" WA7208 and "Citrus Orange" WA7209, without saying which models used them. They are **unconfirmed**, but they are the place to start if a period-GM orange matters. Otherwise pick from a paint-shop chip book against the cars above. |
+| Cowl-induction hood | **Open.** Wanted for the chosen look; sourcing and fit on a Caballero not yet researched. |
 | Orange stripe kits on a Caballero | **Unconfirmed.** The OPGI kits are listed for the El Camino; check they suit the GMC trim before buying. |
 | Correct 1981 rally wheel cap style | **Unconfirmed.** Sources conflict; check the El Camino Central thread linked above. |
 | 1981 Caballero factory colour list | **Inferred** from the Chevy list; confirm against a GMC paint chip or the SPID paint code. |
