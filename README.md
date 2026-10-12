@@ -34,6 +34,7 @@ docs/
   radio-delete.md         Radio harness wire map, cut/cap procedure, dash blanking
   oil-and-filter.md       Oil grade, change interval, filter number, and where the oil goes in
   fuel-and-tuning.md      Pump grade, octane requirement, and ignition timing
+  engine-power.md         Whether the 305 can make 400 hp, routes compared, and what else has to change
   charging-system-check.md  Diagnosing a low charging-voltage reading (10SI/12SI)
   reference-links.md      SAAQ / Ontario process links, shops, appraisers
   bulb-reference.md       Every lamp on the car and the bulb number to buy
