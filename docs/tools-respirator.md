@@ -252,6 +252,33 @@ that does not seal on your face is worth nothing regardless of what it cost.
 
 ---
 
+### Amazon.ca
+
+Found 2026-10-12. **Amazon.ca product pages would not open from the research session (HTTP 500),
+so every price below is a search-result snippet, in CAD, and several listings showed different
+prices in different snapshots.** Confirm the price, the seller and the exact model number on the
+page. **Buy from listings sold by Amazon or 3M where possible.** One 2091 review reports a "2091CN"
+Chinese-market filter sold as a 2091 and calls it "quite likely a fake." A counterfeit filter on
+lead dust is worse than no purchase.
+
+| Item | Listing | Snippet price | Notes |
+|---|---|---|---|
+| **3M 68P71 Full Face Paint Project kit, medium** | [B000A1BCYC](https://www.amazon.ca/3M-Project-Respirator-68P71PA1-Medium/dp/B000A1BCYC) | **$159.48** | **The best value found anywhere.** It is the 6800 facepiece, plus 6001 organic-vapour cartridges, two pairs of 5P71 **P95** filters and 501 retainers, for about half the price of the bare 6800 elsewhere. 4.7★, 56 reviews. **Grinding still needs 7093 P100s**: the P95s are not enough for lead. The OV cartridges are useful later for the coating stage |
+| 3M 6800, medium, bare | [B00MA4K4C8](https://www.amazon.ca/3M-50051138541465-piece-Respirators-Reusable/dp/B00MA4K4C8) | $271.01 | 2 ratings. The main 6800 listing ([B007JZ1LG6](https://www.amazon.ca/Facepiece-Reusable-Respirator-6800-medium/dp/B007JZ1LG6)) shows "currently unavailable." No reason to buy this over the kit |
+| **3M 7093, 4 pairs (8 filters)** | [B00O88WST6](https://www.amazon.ca/3M-Particulate-Filter-Respiratory-Protection/dp/B00O88WST6) | $48–89 | Snapshots disagree widely. At $48 it is about $12 a pair; at $89 it is worse than Cobalt's $18.33 a pair |
+| 3M 7093B, 1 pair | Seen in search results, no stable link | $46–48 | **Poor value.** Roughly 2.5× Cobalt |
+| 3M 7093, case of 30 pairs | [B009POI1V2](https://www.amazon.ca/3M-Particulate-7093-Respiratory-Protection/dp/B009POI1V2) | Not captured | More than this project needs |
+| 3M 2091, 1 pair | [B001D1JCK4](https://www.amazon.ca/3M-FBA_51131070009-Filter-2091P100-Bag/dp/B001D1JCK4) | ≈$27 | For sanding, or under a face shield. Check the seller (see the counterfeit note above) |
+| 3M 2097, 1 pair | [B00CRLXEVC](https://www.amazon.ca/3M-Particulate-Filter-Nuisance-Organic/dp/B00CRLXEVC) | ≈$46–48 | P100 plus nuisance OV, soft pancake |
+| 3M 7093C | Not found on Amazon.ca | — | Order from an industrial supplier |
+| **3M 6502QL** half mask, medium (welding) | [B084FK56WX](https://www.amazon.ca/Rugged-Comfort-Facepiece-Reusable-Respirator/dp/B084FK56WX) | **$41–68** | Quick Latch drop-down, takes the same filters. 4.7★, 354 reviews |
+| 3M 7502 half mask, medium | [B004HXBCMG](https://www.amazon.ca/3M-1625-Half-Facepiece-7502-Medium/dp/B004HXBCMG) | $49.95–58.33 | The other usual pick. 4.7★, 632 reviews |
+| 3M 6885 lens covers | Not reliably found | — | Amazon.ca shows mostly third-party "compatible" packs, such as a [40-pack](https://www.amazon.ca/Pack-Peel-Cover-Compatible-Shield/dp/B0BGG23ZL8) at ≈$34 and an [Aisetmoon 100-pack](https://www.amazon.ca/Aisetmoon-Compatible-Protective-Respirator-transparent/dp/B0DX7FR862) at ≈$42. They are a cheap sacrificial film and there is no safety rating to fake, so third-party covers are a reasonable saving here, unlike filters |
+
+**Cheapest full-facepiece route found:** the 68P71 kit from Amazon.ca ($159.48) plus 7093s from
+Cobalt, or the Amazon.ca 4-pair pack if it is near $48. That comes to roughly **$210–250**, against
+about $450 for a bare 6800 from Cobalt.
+
 ## Shopping list
 
 | Item | Qty | Purpose |
@@ -292,6 +319,7 @@ mask alone and did not account for lead.
 | OV cartridges for spraying | Deferred to the coating stage |
 | Size (6700 / 6800 / 6900) | **Open — confirm before ordering.** Medium fits most adults |
 | Prices | **6800, 7093 and 6885 checked on live Cobalt pages, 2026-10-12.** Everything else is still unverified |
+| Where to buy the 6800 | **Leaning the 68P71 Paint Project kit on Amazon.ca** (≈$159, snippet). It is the same facepiece with spare cartridges, for half the bare-mask price. Confirm the listing is the medium kit sold by Amazon |
 
 ---
 

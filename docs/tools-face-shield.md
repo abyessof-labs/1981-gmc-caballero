@@ -62,6 +62,20 @@ A local welding or safety supplier is worth calling first. You can put the shiel
 mask at the counter, which is worth more than a few dollars' difference online. No walk-in Montréal
 stock was confirmed during this research.
 
+### Amazon.ca
+
+Found 2026-10-12. These are search-result snippets in CAD, because Amazon.ca pages would not open,
+so confirm price and seller on the page.
+
+| Shield | Listing | Snippet price | Notes |
+|---|---|---|---|
+| **Uvex Bionic S8510** | [B001VY3ACE](https://www.amazon.ca/Uvex-S8510-Polycarbonate-Anti-Fog-Hardcoat/dp/B001VY3ACE) | **$62–76** (list $80.89) | The pick. 4.6★ from about 7,000 ratings. Listing says Z87.1+ and CSA Z94.3, and "fits well with most goggles and respirators." This is the same ASIN the Sawmill Creek poster wears over a 3M respirator |
+| Uvex S8555 replacement visor | Seen in search results | ≈$33.87 | Genuine spare visor. Third-party 4-packs (Feekoon, ≈$67) exist, but their impact rating is not confirmed. Buy the Uvex part |
+| Jackson MaxView 14201, anti-fog | [B088BRWTSL](https://www.amazon.ca/Jackson-Safety-14201-Ratcheting-Polycarbonate/dp/B088BRWTSL) | Not captured | CSA Z94.3, 4.6★ from about 3,000 ratings. **The listings mention integrated side and chin guards.** That is the feature this doc warns can hit the filters, so check the fit before relying on it |
+| Jackson MaxView 14200, uncoated | [B088B969B5](https://www.amazon.ca/Jackson-Safety-14200-Ratcheting-Polycarbonate/dp/B088B969B5) | ≈$54 | The same shield without the anti-fog coating. The coated 14201 is better under a half mask |
+| 3M 82783-00000 (H8A + WP96) | [B007JZ1QQQ](https://www.amazon.ca/3M-Protection-82783-00000-Polycarbonate-Faceshield/dp/B007JZ1QQQ) | ≈$91.50 | **Dearer than DigiKey's $64.14.** Buy it there if you buy it at all |
+| Benchmark Grinder Hood | Not on Amazon.ca | — | Only from Benchmark directly, in USD |
+
 ---
 
 ## What makes a shield fit over a half mask
