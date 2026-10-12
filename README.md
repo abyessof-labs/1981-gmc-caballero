@@ -99,8 +99,10 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
 - [`docs/tools-grinder-discs.md`](docs/tools-grinder-discs.md) — the consumables for that grinder,
   with Amazon.ca links. Wire wheels are safe when the wheel's rated RPM is **at least the grinder's
   no-load speed** (9,000 for the DCG410VSB) and run behind the guard with a face shield. Picks:
-  **DEWALT DW4930** wire wheel, **Scotch-Brite Clean and Strip** for panel faces, **Type 27 .045"**
-  cut-off wheels (they fit the stock guard), and **60-grit zirconia/ceramic flap discs** for welds.
+  **DEWALT DW4930** wire wheel, **Scotch-Brite Clean and Strip** for panel faces, **.045" Type 1**
+  cut-off wheels, and **60-grit zirconia/ceramic flap discs** for welds. All checked against the
+  DCG410VSB, which is now owned. **Cutting wheels need a Type 1/41 guard**, sold separately. The
+  part number for it is still to be confirmed with DEWALT.
 - [`docs/tools-face-shield.md`](docs/tools-face-shield.md) — a full-face shield for grinding with a
   P100 half mask underneath. Pick: **Uvex Bionic S8510** (16-1/2" wraparound anti-fog visor,
   Z87.1+/CSA Z94.3, sold as respirator-compatible), worn over safety glasses. Fallback **3M 82783**.

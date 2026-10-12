@@ -14,6 +14,9 @@ listings (some quote shipping weight) and are marked `≈`.
 
 ## Recommendation
 
+**Status: bought — the DCG410VSB is the grinder in use.** It ships with a 5" Type 27 guard only; cutting
+wheels need a separately bought Type 1/41 guard (see [`tools-grinder-discs.md`](tools-grinder-discs.md)).
+
 **DEWALT DCG410VSB** — 20V MAX XR, 4-1/2"–5", variable speed, 1,640 MWO, bare tool.
 
 Three reasons it fits this specific job:

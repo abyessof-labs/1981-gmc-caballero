@@ -1,7 +1,7 @@
 # Grinder discs — wire wheels, cut-off wheels, flap discs
 
-Which consumables to put on the 4-1/2" grinder from [`tools-angle-grinder.md`](tools-angle-grinder.md)
-for the rust repair: stripping rust and paint, cutting out the rear quarter and rocker sections, and
+Which consumables to put on the grinder — a **DEWALT DCG410VSB**, the pick from
+[`tools-angle-grinder.md`](tools-angle-grinder.md) — for the rust repair: stripping rust and paint, cutting out the rear quarter and rocker sections, and
 dressing the patch welds. Includes the wire-wheel safety rules and the RPM check, since a wheel run
 over its speed rating is the main way these things hurt people.
 
@@ -21,9 +21,76 @@ seen were CAD on Amazon.ca unless marked.
 |---|---|---|
 | Rust and scale off heavy metal (frame, brackets, seams) | **DEWALT DW4930** 4" knotted wire wheel, 5/8"-11 | 20,000 rpm rating, ~1,000 reviews at 4.7★ |
 | Paint and rust off thin body panels | **Scotch-Brite Clean and Strip XT Pro**, 4-1/2" × 5/8"-11 T27 | Removes coating without thinning 20-ga panel the way a wire wheel or flap disc can |
-| Cutting sheet metal, stock guard | **3M Cubitron II T27**, 4-1/2" × .045" (25-pack) or **DEWALT DWA4531** T27 .045" | Type 27 cut-off wheels work with the guard the grinder ships with |
-| Cutting sheet metal, with a Type 1 guard | **DEWALT DW8062B5** T1 .045" (5-pack) | Most-reviewed cut-off wheel on Amazon.ca (~16,000 at 4.6★) |
+| Cutting sheet metal | **DEWALT DW8062B5** T1 .045" (5-pack), run under a **Type 1/41 guard** bought separately | Most-reviewed cut-off wheel on Amazon.ca (~16,000 at 4.6★). Every thin cut-off wheel needs that guard on the DCG410 — see below |
 | Grinding welds flush | **3M Cubitron II 967A** T29 60+ flap disc, or **DEWALT DW8308** 60-grit zirconia | Flap discs, not hard grinding wheels — less heat into the panel |
+
+## What a Type 1 guard is
+
+The guard is the half-moon shroud behind the disc. Guards come in shapes that match the disc shape,
+named with the same ANSI type numbers as the discs:
+
+| | **Type 27 guard** — the one that ships with the DCG410VSB | **Type 1/41 guard** — sold separately |
+|---|---|---|
+| Shape | Open half-circle that covers the back of the disc only | Deeper shroud with a lip that wraps **both faces** of the disc's rear half |
+| Made for | Discs you press **flat against the work**: depressed-centre grinding wheels, flap discs, wire wheels and cups | Discs that only cut **with their edge**: flat Type 1 / Type 41 cut-off wheels, Type 27 wheels marked "cutting only", diamond blades |
+| Why the difference | Surface grinding needs the face of the disc exposed | A thin cut-off wheel is the disc most likely to shatter when it pinches or twists in a cut. The lip contains the pieces on both sides |
+
+The DCG410VSB comes with a **5" Type 27 guard** (DEWALT's spec page: "5-in. (127 mm) Type 27 guard,
+side handle, wrench, and inner and outer flange"). The DCG410 manual's accessories chart pairs
+**every cutting wheel with the Type 1/41 guard**, and its footnote says: *"Type 1/41 guards are
+intended for use with Type 1/41 cutting wheels and Type 27 wheels marked for cutting only … A Type
+1/41 guard is available at extra cost from your local dealer or authorized service center."* The
+manual also says *"A Type 1 guard must be used for any wheel where surface grinding is forbidden."*
+
+**So a Type 27 thin cut-off wheel does not get you out of buying the guard.** Thin T27 cut-off wheels
+are labelled cutting-only, which puts them under the Type 1/41 guard too. (An earlier version of this
+doc said otherwise; DEWALT's manual corrects it.) The only cutting the stock guard covers is shallow
+notching — under 1/2" deep — with a 1/4" Type 27 *grinding* wheel, which is no use on body panels.
+
+**Getting the guard.** The DCG410-family Type 1/41 guard **part number was not found**; DEWALT guards
+are specific to model and *type* (the "Type 1/2/3" on the nameplate, a production revision), and
+cross-reference lists online did not include the DCG410. **Call DEWALT service on 1-800-433-9258
+(1-800-4-DeWALT) or ask a DEWALT service centre, with the model and type from the nameplate**, and ask
+for the Type 1/41 cutting guard for it. Do not buy a generic "fits DEWALT" guard by appearance —
+it has to match this tool's gear-case collar and release lever. If the guard turns out to be hard to get, a 3" cut-off tool
+(already recommended in the grinder doc) is a complete alternative for cutting panels.
+
+## Fit check — DEWALT DCG410VSB
+
+What the tool takes, from the DCG410 manual and DEWALT's DCG410VSB page:
+
+| | |
+|---|---|
+| Disc diameter | **4-1/2" to 5"** (114–127 mm). A 4" wire wheel or cup is fine — smaller than the guard |
+| Rated no-load speed | **9,000 rpm** — every accessory must be rated **at least 9,000** |
+| Spindle | **5/8"-11** thread (retailer spec; DEWALT's page does not list it). Wire wheels and hubbed discs screw on directly, **without the flanges**; threaded holes must be at least **21 mm** deep |
+| Flanges | Inner backing flange + outer locking flange, for discs with a **7/8" (22.23 mm)** centre hole |
+| Approved disc types | **Type 1/41, 27, 28, 29.** Never Type 11 (flaring cup) |
+| Guards | **Type 27** (included): grinding wheels, flap discs, wire wheels, 3–4" wire cups. **Type 1/41** (extra cost): all cutting wheels |
+
+Every disc in this doc against that:
+
+| Disc | Mount | Size | Rated rpm | Type | Guard | Fits? |
+|---|---|---|---|---|---|---|
+| DEWALT DW4930 wire wheel | 5/8"-11 hub | 4" | 20,000 | Wire wheel | Type 27 (included) | **Yes** |
+| Weiler 13106V wire wheel | 5/8"-11 hub | 4" | 20,000 | Wire wheel | Type 27 (included) | **Yes** |
+| Weiler 13131 stringer wheel | 5/8"-11 hub | 4" | 20,000 | Wire wheel | Type 27 (included) | **Yes** |
+| Weiler 4" knotted cup | 5/8"-11 hub | 4" | 9,000 | Wire cup | Type 27 (included) | **Yes** — exactly at the limit; only on this grinder |
+| Scotch-Brite Clean and Strip XT Pro T27S (3M 05574) | 5/8"-11 hub | 4-1/2" | 13,300 | T27 | Type 27 (included) | **Yes** |
+| DEWALT DW8062B5 cut-off | 7/8" + flanges | 4-1/2" | 13,300 | T1 | **Type 1/41 (buy)** | Yes, with the guard |
+| DEWALT DWA8062F cut-off | 7/8" + flanges | 4-1/2" | Not found; DEWALT 4-1/2" cut-off wheels are 13,300 | T1 | **Type 1/41 (buy)** | Yes, with the guard — check label |
+| Diablo thin-kerf cut-off | 7/8" + flanges | 4-1/2" | 13,280 | T1 | **Type 1/41 (buy)** | Yes, with the guard |
+| 3M Cubitron II T27 cut-off | 7/8" + flanges | 4-1/2" | 13,300 (listing) | T27 cutting-only | **Type 1/41 (buy)** | Yes, with the guard |
+| DEWALT DWA4531 T27 cut-off | 7/8" + flanges | 4-1/2" | Not found | T27 cutting-only | **Type 1/41 (buy)** | Yes, with the guard — check label |
+| 3M Cubitron II T1, case of 50 | 7/8" + flanges | 4-1/2" | 13,300 (listing) | T1 | **Type 1/41 (buy)** | Yes, with the guard |
+| DEWALT DW8308 flap disc | 7/8" + flanges | 4-1/2" | 13,300 | T29 | Type 27 (included) | **Yes** |
+| 3M Cubitron II 967A flap disc | 7/8" + flanges | 4-1/2" | 13,300 | T29 | Type 27 (included) | **Yes** |
+| DEWALT DW8357 flap disc | 5/8"-11 hub | 4-1/2" | Not found; DEWALT's own hubbed disc for its own spindle | T27 | Type 27 (included) | **Yes** |
+| NEIKO 11120A flap disc | 7/8" + flanges | 4-1/2" | **Not found** | T29 | Type 27 (included) | Probably — **check the label shows ≥ 9,000** |
+| WANKADA flap disc | 7/8" + flanges | 4-1/2" | 13,300 | T29 | Type 27 (included) | **Yes** |
+
+All of it fits physically. What it takes to run safely: **one Type 1/41 guard for the cutting wheels**,
+and a speed check on the two budget/no-rating items (NEIKO, and DEWALT's DWA8062F/DWA4531 labels).
 
 ## Are wire wheels on an angle grinder safe?
 
@@ -98,7 +165,7 @@ is **heat** — dwell in one spot and it will warm, and can warp, thin sheet. Ke
 | **DEWALT DW4930** — the pick | 4" cable-twist knotted, .020" carbon steel, 5/8"-11, **20,000 rpm** | 4.7★, ~1,064 reviews | [Amazon.ca](https://www.amazon.ca/dp/B00004RHAO) *(ASIN from amazon.com; Amazon.ca listing seen in search, URL unconfirmed)* |
 | **Weiler 13106V** | 4" standard twist knot, .014" steel, 5/8"-11, **20,000 rpm**, US-made | Not seen | [Amazon.ca](https://www.amazon.ca/Weiler-13106V-Standard-Twist-Vending/dp/B086NL5MVN) |
 | **Weiler 13131** stringer bead | 4" × 3/16" narrow knot, .020", 5/8"-11, **20,000 rpm** — gets into seams and corners | Not seen | [Amazon.ca](https://www.amazon.ca/Weiler-13131-Stringer-Wheel-Diameter/dp/B0006NH0RC) |
-| **Scotch-Brite Clean and Strip XT Pro** T27S | 4-1/2" × 5/8"-11, extra-coarse silicon carbide | Not seen | [Amazon.ca](https://www.amazon.ca/ScotchBrite-Clean-Strip-Quick-Change/dp/B08HSD1F8H) — **speed rating not found; check the label against 9,000 rpm** |
+| **Scotch-Brite Clean and Strip XT Pro** T27S (3M 05574) | 4-1/2" × 5/8"-11, extra-coarse silicon carbide, **13,300 rpm** | Not seen | [Amazon.ca](https://www.amazon.ca/ScotchBrite-Clean-Strip-Quick-Change/dp/B08HSD1F8H) — the 7/8"-hole and "Extra Cut" versions are different SKUs |
 | Weiler 4" knotted *cup* | .014", 5/8"-11, **9,000 rpm only** | — | [Amazon.ca](https://www.amazon.ca/Weiler-Threaded-Partial-Knotted-Diameter/dp/B004FTPQ92) — OK on the DCG410VSB, **not** on a corded 11,000+ rpm grinder |
 
 Skip: the no-name 4–20-wheel multipacks that dominate the search results. Several state no speed
@@ -110,21 +177,17 @@ rating at all, and you cannot follow the RPM rule without one.
 kerf and less heat; a 1/8" wheel is for structural steel. Let the wheel do the work — forcing a thin
 wheel or twisting it in the cut is how it shatters.
 
-**The guard catch.** Flat **Type 1** cut-off wheels are meant to be run under a **Type 1 guard**
-(a closed, two-sided shroud). DEWALT's small grinders ship with the **Type 27** guard only, and
-DEWALT's wheel charts pair cutting wheels with the Type 1/41 guard. Two clean ways out:
-
-- **Buy Type 27 (depressed-centre) thin cut-off wheels** — they run under the stock guard. Easiest.
-- Or buy **Type 1 wheels plus DEWALT's Type 1 guard** for the grinder. The 4-1/2" guard part number
-  for the DCG410 was not confirmed — check the manual's accessory list or at the counter.
+**All of these need the Type 1/41 guard on the DCG410**, Type 1 and cutting-only Type 27 alike —
+see [What a Type 1 guard is](#what-a-type-1-guard-is). With the guard bought, Type 1 is the better
+choice: cheaper, more choice, and the most-reviewed wheels are Type 1.
 
 | Item | Spec | Rating seen | Link |
 |---|---|---|---|
-| **3M Cubitron II T27** — premium, stock guard | 4-1/2" × .045" × 7/8", 60 grit ceramic, 25-pack | Not seen; Cubitron II is the industrial benchmark | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-Cut-Off-Ceramic-Diameter/dp/B00DHLPW1Q) |
-| **DEWALT DWA4531 T27** — cheap, stock guard | 4-1/2" × .045" × 7/8", 60 grit | 4.6★, 17 reviews; ~$4.47 each | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA4531-Cut-Off-2-Inch-045-Inch/dp/B007C6PFXM) |
-| **DEWALT DW8062B5 T1** — most reviewed | 4-1/2" × .045" × 7/8", 5-pack | 4.6★, ~16,456 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DW8062B5-0-045-Inch-Stainless-Cutting/dp/B005B8LZCI) — needs Type 1 guard |
-| **DEWALT DWA8062F T1** | 4-1/2" × .040" × 7/8" | 4.5★, 633 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA8062F-Cut-Off-Wheel-0-875/dp/B01GLGEJKI) — needs Type 1 guard |
-| **Diablo thin-kerf T1** | 4-1/2" × .040" × 7/8", 13,280 rpm, 10-pack | Not seen | [Amazon.ca](https://www.amazon.ca/Diablo-Metal-Cut-Off-10-Pack/dp/B07TN9JPR2) — needs Type 1 guard |
+| **3M Cubitron II T27** — premium | 4-1/2" × .045" × 7/8", 60 grit ceramic, 25-pack | Not seen; Cubitron II is the industrial benchmark | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-Cut-Off-Ceramic-Diameter/dp/B00DHLPW1Q) |
+| **DEWALT DWA4531 T27** — cheap | 4-1/2" × .045" × 7/8", 60 grit | 4.6★, 17 reviews; ~$4.47 each | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA4531-Cut-Off-2-Inch-045-Inch/dp/B007C6PFXM) |
+| **DEWALT DW8062B5 T1** — most reviewed | 4-1/2" × .045" × 7/8", 5-pack | 4.6★, ~16,456 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DW8062B5-0-045-Inch-Stainless-Cutting/dp/B005B8LZCI) |
+| **DEWALT DWA8062F T1** | 4-1/2" × .040" × 7/8" | 4.5★, 633 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA8062F-Cut-Off-Wheel-0-875/dp/B01GLGEJKI) |
+| **Diablo thin-kerf T1** | 4-1/2" × .040" × 7/8", 13,280 rpm, 10-pack | Not seen | [Amazon.ca](https://www.amazon.ca/Diablo-Metal-Cut-Off-10-Pack/dp/B07TN9JPR2) |
 | 3M Cubitron II T1, case of 50 | 4-1/2" × .040" × 7/8" | — | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-II-Cut-Off-Wheel/dp/B07S2GR2MW) — only if buying for a whole build |
 
 For spot welds and cuts inside the wheel arch, the **3" cut-off tool** recommended in
@@ -156,11 +219,12 @@ forgiving. **Zirconia or ceramic, 60 grit to knock the weld down, 80 to blend.**
 |---|---|
 | Are wire wheels safe on the grinder? | Decided — yes, with a wheel rated ≥ the grinder's no-load rpm (≥ 9,000 for the DCG410VSB) and the rules above |
 | Wire wheel | Decided — **DW4930** (or Weiler 13106V) for heavy rust; strip disc for panel faces |
-| Cut-off wheels | Open — T27 thin wheels on the stock guard, or T1 wheels plus a Type 1 guard. Depends on whether the guard is bought with the grinder |
-| Type 1 guard part number for the DCG410 family | Open — not confirmed |
+| Grinder | Decided — **DCG410VSB** owned. Every disc listed here fits it (see the fit check) |
+| Cut-off wheels | Decided — **Type 1 thin wheels (DW8062B5) under a Type 1/41 guard.** Corrected: T27 cutting-only wheels also need that guard on the DCG410, so they are no shortcut |
+| Type 1/41 guard for the DCG410VSB | Open — part number not found. Call DEWALT (1-800-433-9258) with model + type from the nameplate. Do not cut without it |
 | Flap discs | Decided — 60-grit zirconia/ceramic for weld knock-down, 80 for blending |
 | Amazon.ca links marked *unconfirmed* (DW4930, DW8308) | Open — open the link; if it 404s, search the model number on Amazon.ca |
-| Nothing purchased yet | — |
+| Discs | Nothing purchased yet |
 
 ## Sources
 
@@ -169,5 +233,8 @@ forgiving. **Zirconia or ceramic, 60 grit to knock the weld down, 80 to blend.**
 - [Makita GA4540R manual — grinder as grinder, sander, wire brush or cut-off tool](https://makita.com.mx/makita-v3/wp-content/uploads/2018/03/Manual_GA4540R-GA4541R.pdf)
 - DW4930 specs (5/8"-11, .020", 20,000 rpm): [Rexel](https://rexelusa.com/p/2090866/dewalt/4-x-5-8-carbon-cable-twist-wire-wheel/028874049307/dw4930) · [HomElectrical](https://homelectrical.com/4x58-11-carbon-steel-full-cable-twist-wire-wheel.dew-dw4930.1.html)
 - DW8308 specs (T29, 13,300 rpm): [Acme Tools](https://www.acmetools.com/dewalt-4-1-2-in-x-7-8-in-60-grit-zirconia-flap-disc-dw8308/028877310442.html) · [DK Hardware](https://www.dkhardware.com/dewalt-dw8308-flap-disc-4-1-2-d-x-7-8-s-zirconia-type-29-60-grit-product-5616766.html)
+- [DEWALT DCG410 instruction manual (PDF)](https://assets.dewalt.com/GLOBALBOM/QU/DCG410B/1/Instruction_Manual/EN/NA563620_r01_man_cordless_Grinder_DCG410_NA.pdf) — accessories chart, guard rules, wire-wheel mounting, 21 mm thread depth
+- [DEWALT DCG410VSB product page](https://www.dewalt.com/en-us/product/dcg410vsb/20v-max-xr-4-12-5-brushless-variable-speed-paddle-switch-grinder-tool-only) — what's in the box, 9,000 rpm · [Toolnut listing](https://www.toolnut.com/products/dewalt-dcg410vsb-20v-max-xr-brushless-4-1-2-in-5-in-angle-grinder-w-variable-speed-paddle-switch-tool-only) — 5/8"-11 arbor
+- [DEWALT DW8062B5](https://www.dewalt.com/product/dw8062b5/type-11-surface-grinding-wheel) — 13,300 rpm, 7/8" · [Cyberweld — Scotch-Brite Clean and Strip XT Pro 05574](https://store.cyberweld.com/products/3m-scotch-brite-clean-strip-xt-pro-disc-4-1-2-x-5-8-11-type-27-05574) — 13,300 rpm
 - [DEWALT DC410 manual — Type 1 guard for Type 1 wheels](https://manualsnet.com/dewalt/dc410ka-type-1) · [Tools in Action forum — small DEWALT grinders ship with the Type 27 guard only](https://forum.toolsinaction.com/topic/16123-do-i-need-a-type-1-guard-for-a-diamond-chip-blade-on-a-dewalt-grinder/)
 - [Benchmark Abrasives — poly strip discs for paint and rust removal](https://benchmarkabrasives.com/blogs/abrasives/poly-strip-discs) · [wire wheel vs flap disc](https://benchmarkabrasives.com/blogs/selecting-tools/wire-wheel-vs-flap-disc)
