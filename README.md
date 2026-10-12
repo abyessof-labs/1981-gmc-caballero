@@ -63,6 +63,7 @@ docs/
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
   tools-grinder-discs.md  Wire wheels, cut-off wheels and flap discs; wire-wheel RPM and safety rules
   tools-face-shield.md    Grinding face shield that fits over a half-mask respirator, Canadian sources
+  tools-respirator.md     Respirator for grinding rust and leaded paint, full facepiece vs half mask, filters
   welding/                Doing the rust repair in-house — equipment, process, safety, local sourcing
 log/
   README.md               How to add a work-log entry
@@ -106,6 +107,11 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   Avoid chin-guard shields, which hit the filters. Fit check with your actual mask before buying.
   Also lists hood and mask combos (Benchmark Grinder Hood) and linked forum reports of shields worn
   over half masks.
+- [`docs/tools-respirator.md`](docs/tools-respirator.md) — respiratory protection for the rust work.
+  Short version: **3M 6800 full facepiece (CA$332) with P100 (7093) filters and 6885 lens covers** for
+  grinding, because paint on a car of this era is very likely leaded and a full facepiece is the eye
+  protection too — **plus a separate P100 half mask**, since a full facepiece does not fit under a
+  welding helmet.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
   (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,

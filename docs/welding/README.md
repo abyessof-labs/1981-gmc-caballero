@@ -44,6 +44,7 @@ wire-feed smoothness are what matter.
 | Gas bottle | Open — not purchased. Required for TIG later regardless. **Closest supplier: Charbonneau Propane, Vaudreuil-Dorion (Linde dealer)** — questions to ask in [`sourcing.md`](sourcing.md) |
 | Fume extraction fan | **Decided in principle — an inline fan is fine as a close-capture hood, not as room ventilation.** Cloudline S8 over S6 for the reach; see [`safety.md`](safety.md) |
 | Helmet | Open. **Upper tier narrowed to the ESAB Sentinel A60 ($526 CAD) or the Lincoln Viking 3350 (4th gen, K3034-4)**, with the A60 favoured unless the Viking is under ~$400 CAD. The saved Amazon.ca Viking listing is confirmed K3034-4. Its cart price is still unknown. Jackson Insight and Sentinel A50 dropped. See [`machine-selection.md`](machine-selection.md#upper-tier-shortlist-compared-2026-10-08) |
+| Respirator | **Decided — P100.** Grinding mask open: 3M 6800 full facepiece, or half mask + face shield; see [`../tools-respirator.md`](../tools-respirator.md) and [`../tools-face-shield.md`](../tools-face-shield.md) |
 
 ## Budget
 
@@ -54,7 +55,7 @@ Rough, unverified — see the sourcing caveat below.
 | Multi-process welder | $160–800 USD | Wide range by tier; see `machine-selection.md` |
 | Auto-darkening helmet | $35–300 USD | $35 tier is genuinely adequate for MIG |
 | Gas bottle + flowmeter (C25) | $250–400 | Deferred under the gasless plan; required for TIG |
-| Respirator (P100) + box fan | ~$60 | **Not optional** — see `safety.md` |
+| Respirator (P100) + box fan | $150–450 | **Not optional.** Half mask under the hood for welding; full facepiece **or** half mask + face shield for grinding — see `safety.md`, [`../tools-respirator.md`](../tools-respirator.md) and [`../tools-face-shield.md`](../tools-face-shield.md) |
 | Inline fan fume hood (optional) | ~$99–150 USD + duct | Cloudline S6 ~$99 USD; S8 price not checked. Supplements the box fan, does not replace it |
 | Sheet steel, 4×8 each of 18 and 20 ga | Open | Quote from Acier Lachine — see `sourcing.md` |
 | Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md); discs in [`docs/tools-grinder-discs.md`](../tools-grinder-discs.md) |

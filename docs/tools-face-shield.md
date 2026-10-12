@@ -165,8 +165,7 @@ Reports **against**:
 
 ## How this changes the respirator plan
 
-Issue #24 (and `docs/tools-respirator.md`, on branch `claude/peaceful-noether-ph1hg8` and not yet
-merged to `main`) plans **two masks**:
+Issue #24 and [`tools-respirator.md`](tools-respirator.md) plan **two masks**:
 
 - a 3M 6800 full facepiece for grinding, because its lens doubles as eye protection
 - a 6000-series half mask for welding
