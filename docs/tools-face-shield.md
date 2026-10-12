@@ -107,6 +107,62 @@ Do this with the actual mask, filters and shield, at the counter or before the f
 
 ---
 
+## Built-together options: hood, mask and goggle combos
+
+These are products designed as a set, or designed specifically to go under a shield. None of them
+was found at a Canadian vendor.
+
+| Option | What it is | Price | Why it is interesting | Catch |
+|---|---|---|---|---|
+| **[Benchmark Abrasives Grinder Hood](https://benchmarkabrasives.com/products/grinding-mask)** | A grinding hood, not a flat shield, sold as having "ample room for full can hearing protection and a half-mask respirator." Lens rated ANSI Z87+ and CSA Z94.3 | **$41.99 USD** | **The only shield built around the half-mask problem.** One [Garage Journal owner](https://www.garagejournal.com/forum/threads/best-face-shield-and-respirator.509697/) calls it "excellent" and says it also takes earmuffs. The hood shape covers more from the sides and below than a visor does, which matters for grinding dust | US seller. Free shipping only to the lower 48, and Canadian shipping is not stated. Replacement lens part number not listed |
+| [Benchmark Grinder Hood PPE combo kit](https://benchmarkabrasives.com/products/benchmark-abrasives-grinder-hood-ppe-combo-kit) | The hood, a spare lens, a Benchmark G510 half mask with P100 filters, and behind-the-head earmuffs (NRR 26) | $99.99 USD | Everything in one box, including earmuffs that do not use a band over the crown and so stay clear of the hood | Duplicates the 3M mask already planned in #24. The bundled mask uses Benchmark's own filters, not the 3M bayonet system |
+| [3M 6502QL](https://www.sourceatlantic.ca/Product/6502QL) half mask (6500 series) | Low-profile silicone half mask with a **Quick Latch drop-down** | Not priced (Source Atlantic stocks it in Canada) | 3M markets it as "compatible with welding and grinding shields." The latch lets you drop the mask without taking the shield off. Takes the same 2091/2097/7093 filters | A half mask, not a shield. This is the mask to pick if you go the half-mask route in #24 |
+| [GVS Elipse Integra](https://www.blastone.com/product/gvs-integra-full-face-mask-dust-respirator-with-goggles/) | P100 half mask with **sealed goggles built in** | ≈$70–103 USD (Blastone); $75.99 USD (Woodcraft) | Eyes sealed against floating dust, which a visor cannot do. One [Sawmill Creek user](https://sawmillcreek.org/threads/looking-for-recommendations-for-a-respirator.245213/) wears a plain Elipse under a Bionic | Goggles are not a face shield. You still need a shield over it for cut-off wheels and wire wheels |
+
+**Closest Canadian route** to the same result: the Bionic or the Jackson MaxView (below) over a
+3M 6502QL or 7502 with pancake filters.
+
+## User reports: shields worn over a half mask
+
+Forum posts where a person says a specific shield fits over a half-mask respirator. **All of these
+are anecdotes, and most are several years old.** They show the pairing works for some people. They
+do not show it will fit your face, your mask or your filters. Reddit could not be searched or
+opened from the research session, so it is not represented here.
+
+| Shield | Mask under it | What they said | Source |
+|---|---|---|---|
+| **Uvex Bionic** | 3M 7502 | "there was plenty of room." Valve points down, so no fogging | [AAW forum — "Faceshield with room for separate respirator"](https://www.aawforum.org/community/threads/faceshield-with-room-for-separate-respirator.21748/) |
+| **Uvex Bionic** | Not named | "there's plenty of room for it" | Same AAW thread |
+| **Uvex Bionic** | 3M 7500 series | "fits under the face shield and doesn't fog up" | [Sawmill Creek — "Looking for recommendations for a respirator"](https://sawmillcreek.org/threads/looking-for-recommendations-for-a-respirator.245213/) |
+| **Uvex Bionic** | GVS Elipse P100 | "It fits fine under the bionic face shield" (a moderator) | Same Sawmill Creek thread |
+| **Uvex Bionic** (Amazon B001VY3ACE) | 3M respirator, model not named | "I can use it with my 3M respirator" | [Sawmill Creek — "Face shield, please help me find the right one"](https://sawmillcreek.org/threads/face-shield-please-help-me-find-the-right-one.253677/) |
+| Uvex, model not named | Not named | "a big head, and wear a respirator under it" | Same Sawmill Creek thread |
+| **Benchmark Grinder Hood** | Not named | "I have one and it's excellent. It even accommodates ear protection" | [Garage Journal — "Best face shield and respirator"](https://www.garagejournal.com/forum/threads/best-face-shield-and-respirator.509697/) |
+| AOSafety face shield | Dual-cartridge half mask | "I can wear my dual cartridge half mask respirator underneath" | [Fine Woodworking forum — "Full face shield"](https://www.finewoodworking.com/forum/full-face-shield) |
+| 3M lightweight face shield | Mask, model not named | "allows me to use a mask without fogging" | Same Fine Woodworking thread |
+| Not named | 3M 7502 with P100 pancakes | "They fit under my face shield with no problem" | [KnifeDogs — "Respirator recommendations"](https://knifedogs.com/threads/respirator-recommendations.45561/) and [KnifeDogs — "What respirator do you use?"](https://knifedogs.com/threads/what-respirator-do-you-use.50365/) |
+| Not named | Resp-O-Rator (mouthpiece type, no face seal) | "fits under the faceshield, doesn't ever fog" | [AAW forum — "face shield respirator"](https://www.aawforum.org/community/threads/face-shield-respirator.15225/) |
+
+Shields that **claim** respirator fit, with no user report found:
+
+- **Jackson Safety MaxView** (14200 clear, 14201 anti-fog). Retailers say it "fits well with
+  respirators and most goggles." Asked about with a 3M 7502 in the AAW thread above, with no
+  answer given. Listed by [Oxymax](https://catalogue.oxymax.ca/product/jackson-safety-maxview-anti-fog-premium-faceshield-14201-sha387),
+  a Québec welding supplier. The page would not open, so price and stock are unknown. **Worth a
+  phone call, since it could be a walk-in.**
+
+Reports **against**:
+
+- [Hobby-Machinist — "Face shield big enough for respirator?"](https://www.hobby-machinist.com/threads/face-shield-big-enough-for-respirator.102160/):
+  no shield named. The complaint is "getting the straps and headgear of each to play nicely
+  together," and the thread recommends a full facepiece instead.
+- In the Garage Journal thread above, one poster says a welding helmet or "full face shield like
+  the uvex/honeywell bionic" is "not sufficient for grinding." No reason given. Probably floating
+  dust getting in around an open-sided shield, which is a fair point for the eyes: a shield is
+  not a seal. Goggles, or a full facepiece, close that gap.
+- A user wearing a 3M 7502 under a SIP welding hood says it "only just fits." Welding hoods are
+  tighter than grinding shields.
+
 ## How this changes the respirator plan
 
 Issue #24 (and `docs/tools-respirator.md`, on branch `claude/peaceful-noether-ph1hg8` and not yet
@@ -129,6 +185,8 @@ wire-wheel work: the full-facepiece plan in #24 already calls for a shield over 
 | Pancake (2091/2097) or 7093 filters under the shield | Open — depends on clearance at the fit check |
 | Full facepiece + shield, or half mask + glasses + shield, for grinding | Open — APF 50 vs APF 10, see above. Decide in issue #24 |
 | Walk-in Montréal source | Open — none confirmed. Cobalt shows Montréal stock, pickup unconfirmed |
+| Benchmark Grinder Hood instead of a visor | Open — the better grinding design and user-praised, but a US seller with Canadian shipping unknown |
+| Jackson MaxView as the local alternative | Open — call Oxymax for price and stock |
 
 ## Sources
 
@@ -143,5 +201,12 @@ wire-wheel work: the full-facepiece plan in #24 already calls for a shield over 
   https://www.digikey.ca/en/products/detail/3m/82783-00000/6828126
 - Source Atlantic, Sellstrom S38110 (6" × 19" window, chin guard):
   https://sourceatlantic.ca/Product/S38110
+- Benchmark Abrasives Grinder Hood and PPE combo kit:
+  https://benchmarkabrasives.com/products/grinding-mask ·
+  https://benchmarkabrasives.com/products/benchmark-abrasives-grinder-hood-ppe-combo-kit
+- Source Atlantic, 3M 6502QL: https://www.sourceatlantic.ca/Product/6502QL
+- Blastone, GVS Elipse Integra:
+  https://www.blastone.com/product/gvs-integra-full-face-mask-dust-respirator-with-goggles/
+- Forum threads are linked in the user-reports table above.
 - 3M 7500 series specifications (drop-down harness, 7585F head cradle for use under face shields):
   https://multimedia.3m.com/mws/media/1152038O/3m-half-facepiece-respirator-7500-series-specifications.pdf

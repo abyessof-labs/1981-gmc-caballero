@@ -104,6 +104,8 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   P100 half mask underneath. Pick: **Uvex Bionic S8510** (16-1/2" wraparound anti-fog visor,
   Z87.1+/CSA Z94.3, sold as respirator-compatible), worn over safety glasses. Fallback **3M 82783**.
   Avoid chin-guard shields, which hit the filters. Fit check with your actual mask before buying.
+  Also lists hood and mask combos (Benchmark Grinder Hood) and linked forum reports of shields worn
+  over half masks.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
   (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,
