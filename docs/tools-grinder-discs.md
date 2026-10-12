@@ -69,7 +69,7 @@ grinder manual:
    **nobody in front of or in line with it.** A wheel that is going to shed or fly apart usually
    does it here.
 4. **Safety glasses *and* a full face shield**, on you and anyone nearby. Glasses alone are not
-   enough.
+   enough. Which shield fits over a half-mask respirator: [`tools-face-shield.md`](tools-face-shield.md).
 5. **Respirator** for rust and paint dust. Old paint and body solder on a car this age may contain
    lead — see [`welding/safety.md`](welding/safety.md).
 6. **Gloves and close-fitting clothing.** No loose sleeves, hoodie strings or rags near the wheel;

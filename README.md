@@ -62,6 +62,7 @@ docs/
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
   tools-grinder-discs.md  Wire wheels, cut-off wheels and flap discs; wire-wheel RPM and safety rules
+  tools-face-shield.md    Grinding face shield that fits over a half-mask respirator, Canadian sources
   welding/                Doing the rust repair in-house — equipment, process, safety, local sourcing
 log/
   README.md               How to add a work-log entry
@@ -99,6 +100,10 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   no-load speed** (9,000 for the DCG410VSB) and run behind the guard with a face shield. Picks:
   **DEWALT DW4930** wire wheel, **Scotch-Brite Clean and Strip** for panel faces, **Type 27 .045"**
   cut-off wheels (they fit the stock guard), and **60-grit zirconia/ceramic flap discs** for welds.
+- [`docs/tools-face-shield.md`](docs/tools-face-shield.md) — a full-face shield for grinding with a
+  P100 half mask underneath. Pick: **Uvex Bionic S8510** (16-1/2" wraparound anti-fog visor,
+  Z87.1+/CSA Z94.3, sold as respirator-compatible), worn over safety glasses. Fallback **3M 82783**.
+  Avoid chin-guard shields, which hit the filters. Fit check with your actual mask before buying.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
   (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,
