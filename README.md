@@ -60,6 +60,7 @@ docs/
   wheels-and-tires.md     Fitment limits, white-letter tire sizes, and wheel/tire packages
   logger-app.md           How the logger app works and how to host it
   tools-angle-grinder.md  Angle grinder selection for the sheet-metal work, Canadian sources
+  tools-grinder-discs.md  Wire wheels, cut-off wheels and flap discs; wire-wheel RPM and safety rules
   welding/                Doing the rust repair in-house — equipment, process, safety, local sourcing
 log/
   README.md               How to add a work-log entry
@@ -92,6 +93,11 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   for cutting out the perforated rear quarter and rocker seam and dressing the patch welds. Short
   version: **DCG410VSB** (20V MAX XR, variable speed, both anti-kickback systems, full power on
   standard 20V packs), or the **DCG408B** as the cheaper option that is still enough for sheet metal.
+- [`docs/tools-grinder-discs.md`](docs/tools-grinder-discs.md) — the consumables for that grinder,
+  with Amazon.ca links. Wire wheels are safe when the wheel's rated RPM is **at least the grinder's
+  no-load speed** (9,000 for the DCG410VSB) and run behind the guard with a face shield. Picks:
+  **DEWALT DW4930** wire wheel, **Scotch-Brite Clean and Strip** for panel faces, **Type 27 .045"**
+  cut-off wheels (they fit the stock guard), and **60-grit zirconia/ceramic flap discs** for welds.
 - [`docs/welding/`](docs/welding/README.md) — welding the perforated quarter, rocker seam and
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
   (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,

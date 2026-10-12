@@ -57,7 +57,7 @@ Rough, unverified — see the sourcing caveat below.
 | Respirator (P100) + box fan | ~$60 | **Not optional** — see `safety.md` |
 | Inline fan fume hood (optional) | ~$99–150 USD + duct | Cloudline S6 ~$99 USD; S8 price not checked. Supplements the box fan, does not replace it |
 | Sheet steel, 4×8 each of 18 and 20 ga | Open | Quote from Acier Lachine — see `sourcing.md` |
-| Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md) |
+| Grinder, discs, clamps, magnets, blanket, extinguisher | $150–250 | Grinder selection is covered separately in [`docs/tools-angle-grinder.md`](../tools-angle-grinder.md); discs in [`docs/tools-grinder-discs.md`](../tools-grinder-discs.md) |
 | 240 V outlet install | $200–600 | **Deferrable.** Not needed at this amperage |
 
 ## Sourcing caveat

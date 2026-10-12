@@ -29,6 +29,8 @@ Three reasons it fits this specific job:
 Budget alternative: **DCG408B** (850 MWO, ≈3.55 lb) — same protection suite, lighter, and genuinely
 enough for this work. See the power note below.
 
+Discs, wire wheels and the wire-wheel speed rule are in [`tools-grinder-discs.md`](tools-grinder-discs.md).
+
 Worth owning alongside it: a **3" cut-off tool** beats any angle grinder for cutting out spot welds
 and panel seams in tight spots (inside the wheel arch, behind the rocker).
 
