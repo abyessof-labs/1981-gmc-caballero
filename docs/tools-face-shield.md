@@ -116,6 +116,19 @@ Do this with the actual mask, filters and shield, at the counter or before the f
   the wheel) are in [`tools-grinder-discs.md`](tools-grinder-discs.md#rules-for-using-one).
 - **Replace a pitted or cracked visor.** It cannot be repaired. Once spark pitting blocks your view,
   you will start tilting the shield up to see.
+- **Grinding needs clear lenses, not tinted ones.** Grinding sparks are hot metal particles. They
+  are an impact and burn hazard, not a light hazard, so the protection is **clear, impact-rated
+  (Z87.1+ / CSA Z94.3)** glasses and shield. A tint only makes it harder to see the wheel and the
+  cut line. OSHA's shade table (29 CFR 1910.133(a)(5)) covers only light-producing work:
+  - arc welding: shade 7–11 for MIG and flux core at these currents
+  - plasma cutting: shade 8 minimum
+  - oxy-fuel gas welding: shade 4–6
+  - oxygen cutting: shade 3–5
+  - torch brazing: shade 3
+  - torch soldering: shade 2
+
+  It has no row for grinding. **Shade is needed for any flame or arc, including a torch**, not
+  only for welders and plasma cutters.
 - **This is not a welding shield.** A clear visor gives no arc protection. Welding still needs the
   helmet, with the half mask under it, per [`welding/safety.md`](welding/safety.md).
 
@@ -221,5 +234,7 @@ wire-wheel work: the full-facepiece plan in #24 already calls for a shield over 
 - Blastone, GVS Elipse Integra:
   https://www.blastone.com/product/gvs-integra-full-face-mask-dust-respirator-with-goggles/
 - Forum threads are linked in the user-reports table above.
+- OSHA 29 CFR 1910.133, eye and face protection, with the filter-lens shade table:
+  https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133
 - 3M 7500 series specifications (drop-down harness, 7585F head cradle for use under face shields):
   https://multimedia.3m.com/mws/media/1152038O/3m-half-facepiece-respirator-7500-series-specifications.pdf
