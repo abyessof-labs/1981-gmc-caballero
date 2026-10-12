@@ -217,6 +217,26 @@ sale. MAS Chibougamau lists $309 (snippet, unverified). The **CAD $58.66** grain
 quoted in September is **not a real price**. Street price is about five times that. The FF-402
 figures above are still unverified.
 
+### Best budget full facepiece, any brand (2026-10-12)
+
+Question asked: the cheapest full facepiece worth buying, judged on reviews, not limited to 3M.
+**There is almost no independent testing of these masks.** Most "best full-face respirator" pages
+are affiliate roundups, and WC Safety, the most detailed one, says it does no testing. So this was
+judged on what can be verified: **a genuine NIOSH approval, an impact-rated lens for grinding, the
+real Canadian price, and filters that are easy to buy.**
+
+| Mask | Price | NIOSH | Lens for grinding | Filters | Verdict |
+|---|---|---|---|---|---|
+| **3M 6800 via the 68P71 Paint Project kit** | **≈$159 CAD** on Amazon.ca (snippet), with OV cartridges and P95 filters | Yes | **ANSI Z87.1-2010 high impact** (3M product page) | 3M bayonet. Shares 7093s with the 6000-series half mask; sold everywhere | **The pick.** It is the cheapest genuine full facepiece found in Canada, and it has the best-documented lens. It is the default in every roundup and by far the most reviewed (4.7★ on the Amazon.ca kit listing) |
+| Honeywell North 5400 (54001 M/L) | **CA$206.40** at Cobalt Industrial (snippet); CA$179–236 elsewhere | Yes (TC-14C, APF 50) | Polycarbonate. Described as Z87.1 for **chemical splash**; no impact rating found | North bayonet only, **not 3M-compatible**. A second filter inventory if the welding half mask is 3M | A fine mask, but dearer than the 3M kit and weaker on the one spec grinding needs |
+| GVS Elipse full facepiece FFM1243 | ≈$150–175 **USD** (WC Safety, Blastone); no Canadian source found | Stated as 42 CFR 84 approved on GVS's datasheet; TC number not captured | Polycarbonate, **no impact rating stated**. A tear-off lens kit (SPM1003) exists | Proprietary Elipse SPR321 P100 pair, included | **The lightest: 400 g with filters.** One size, silicone headband. Worth a look if the 3M fits badly, but not cheaper once shipped to Canada |
+| Parcil Safety (PD-101, WF-100, etc.) | ≈$40–200 | **No.** Parcil's own pages list CE and ASTM, and Home Depot calls the PD-101 "ASTM tested, not NIOSH approved." One roundup names Parcil "best budget" | Varies | Parcil's own | **Avoid for lead dust.** No NIOSH approval |
+| Unbranded "6800-style" masks on Amazon | ≈$40 | **No** | Unknown | Copycat bayonets | **Avoid.** 3M warns that copycats reuse its model numbers and colours without its name. NIOSH approves the facepiece and filters *as a system*, so a knock-off mask with genuine filters is still not approved. Check any TC number against the [NIOSH Certified Equipment List](https://wwwn.cdc.gov/niosh-cel/) |
+
+**Decision: the 3M 68P71 kit.** For this job the cheapest real option is also the best-documented
+one. The only reason to look past it is fit. If the medium 3M will not seal on your face, the
+North 5400 and the GVS are the alternatives.
+
 ### PAPR — the answer to a beard, and to comfort
 
 **3M Versaflo TR-300N+**, NIOSH-approved for grinding, is the powered option: a belt-mounted blower
@@ -319,6 +339,7 @@ mask alone and did not account for lead.
 | OV cartridges for spraying | Deferred to the coating stage |
 | Size (6700 / 6800 / 6900) | **Open — confirm before ordering.** Medium fits most adults |
 | Prices | **6800, 7093 and 6885 checked on live Cobalt pages, 2026-10-12.** Everything else is still unverified |
+| Budget full facepiece, any brand | **Decided — the 3M 68P71 kit.** Cheapest genuine option found; North 5400 or GVS Elipse only if the 3M does not fit. Parcil and unbranded masks are out (not NIOSH-approved) |
 | Where to buy the 6800 | **Leaning the 68P71 Paint Project kit on Amazon.ca** (≈$159, snippet). It is the same facepiece with spare cartridges, for half the bare-mask price. Confirm the listing is the medium kit sold by Amazon |
 
 ---
@@ -329,6 +350,10 @@ mask alone and did not account for lead.
 - [3M — 6800 full facepiece product page (ANSI Z87.1-2010 high impact lens, grinding listed)](https://www.3m.com/3M/en_US/p/d/v000057488/)
 - [Cobalt Industrial — 3M 6800](https://cobaltindustrial.ca/products/000-g1553484b) · [7093B pair](https://cobaltindustrial.ca/products/000-g3beaab75) · [6885](https://cobaltindustrial.ca/products/000-g6edb0f5e)
 - [WC Safety — 7093C hard-shell P100 with nuisance OV/AG relief](https://wcsafety.com/collections/acid-gas-respirator-cartridges/products/3m-7093c-p100-respirator-cartridge-nuisance-acid-gas-and-organic-vapor)
+- [WC Safety — Honeywell North 5400 review](https://wcsafety.com/blogs/product-reviews/honeywell-north-5400-series-full-face-respirator-54001s-54001m-l-review) · [GVS Elipse FFM1243 review](https://wcsafety.com/blogs/product-reviews/gvs-elipse-ffm1243-full-face-respirator-with-p100-filters-review) (retailer write-ups, no testing)
+- [GVS — Elipse full facepiece P100 datasheet (PDF)](https://static.gvs.com/product-collections/attachments/202505120936-abc77063ff2279b8/Full-Facepiece-Respirator-P100-TDS.pdf)
+- [Parcil Safety full-face collection](https://parcilsafety.com/collections/parcil-safety-collection-full-face-respirators) · [Home Depot — Parcil PD-101](https://www.homedepot.com/p/Parcil-Safety-Full-Face-Organic-Vapor-Respirator-and-Gas-Mask-with-2-Bayonet-Style-P-A-3-Replacement-Filters-PD-101/314851510)
+- [3M — counterfeit and copycat respirator alert (PDF)](https://multimedia.3m.com/mws/media/2389540O/3m-alert-fraudulent-counterfeit-product-offered-online.pdf) · [Virginia Dept. of Health — counterfeit NIOSH respirators](https://www.vdh.virginia.gov/environmental-health/2026/09/04/counterfeit-niosh-approved-respirators/)
 - [3M — particulate filter 7093 P100 technical specifications (PDF)](https://multimedia.3m.com/mws/media/149967O/3m-particulate-filter-7093-p100-technical-specifications.pdf)
 - [3M — particulate filter 2097 P100 with nuisance-level organic vapour relief (PDF)](https://multimedia.3m.com/mws/media/5188O/3m-particulate-filter-2097-p100.pdf)
 - [3M — CSA Z94.4-18 review of updates and changes (PDF)](https://multimedia.3m.com/mws/media/1687483O/csa-z94-4-18-reusable-respirators-review-of-updates-and-changes-english.pdf)
