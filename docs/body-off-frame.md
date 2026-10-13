@@ -270,11 +270,29 @@ lifts under load, and **total lift** may include a drop leg that is only re-pinn
 
 | Jack | Price (CAD) | Lift | Notes |
 |---|---|---|---|
-| [**Ironworks 7,000 lb Weld-On Drop Leg Sidewind Trailer Jack**, SKU 8690018](https://www.princessauto.com/en/product/pa0008690018-7-000-lb-weld-on-drop-leg-sidewind-trailer-jack/PA0008690018) (Princess Auto) | **$129.99** each, **~$520 for four** | **28½" total**, 25–53½" height, 26" retracted | **The pick for a taller lift.** Side-wind, zinc-plated, 6¼ × 8" footplate, 23 lb. Same family as the jack in the photo, just bigger. Weld-on mount |
+| [Ironworks 7,000 lb Weld-On Drop Leg Sidewind Trailer Jack, SKU 8690018](https://www.princessauto.com/en/product/pa0008690018-7-000-lb-weld-on-drop-leg-sidewind-trailer-jack/PA0008690018) (Princess Auto) | $129.99 each, ~$520 for four | **28½" total**, 25–53½" height, 26" retracted | Works, but **more jack than a body needs**: 23 lb each and a weld-on mount. Side-wind, zinc-plated, 6¼ × 8" footplate. The lighter jacks below give the same height |
 | [Ironworks 10,000 lb Weld-On Drop Leg Sidewind Trailer Jack, SKU 8146490](https://www.princessauto.com/en/product/PA0008146490) (Princess Auto) | $289.99 | 26" total, 27½–53½" | 63.9 lb each. Far more jack than a body needs. No |
 | [BE 7,000 lb side-wind implement jack, square tube, 26"](https://peaveymart.com/farm/repair-maintenance/implement-jacks/heavy-duty-side-wind-implement-jacks-sqr-7000/11615) (Peavey Mart) | not read | 15" drop leg, per a search extract | Alternative if Princess Auto is out. Specs unconfirmed |
 | Rieco-Titan manual truck camper jack, 2,000 lb ([Roulottes Lupien](https://boutique.roulotteslupien.ca/en/products/verin-de-boite-campeur), St-Cyrille-de-Wendover QC) | **$699 each**, out of stock | **36" of crank travel**, continuous | The real camper jack: one lift, no staging. About **$2,800 for four**, so only worth it used |
 | [Manual camper jack, 4-piece set, 2,500 lb](https://www.expeditionupfitter.ca/products/manual-camper-jack-set-max-capacity-is-2500-lbs) (Expedition Upfitter) | $850 for the set, plus freight | 950 mm (37") stroke, 1,300 mm retracted | Cheapest new camper-jack set found. **Sold out until December**; listing names only three mounting plates, so confirm it is four jacks |
+
+**Lighter drop-leg jacks — the better fit.** A body doesn't need 7,000 lb jacks; they are heavy
+and need a welded mount. The same ~28" of drop-leg height comes in the **2,000–2,500 lb** class,
+sold mostly as boat-trailer jacks:
+
+| Jack | Price | Lift | Notes |
+|---|---|---|---|
+| [**etrailer MJSQ-2500B** square jack with footplate](https://www.etrailer.com/Trailer-Jack/etrailer/MJSQ-2500B.html) | **US$114–140** (two prices seen) | **29⅛" total**: 15⅜" screw + 13¾" drop leg | **The pick.** 2,500 lb, side-wind, square tube, zinc, footplate. **Bolt-on, brackets and hardware included**, which is the easiest to adapt to a body bracket. Closest to the jack in the photo |
+| [Dutton-Lainson DL22320](https://www.etrailer.com/Trailer-Jack/Dutton~Lainson/DL22320.html) | ~US$169 | 28½" total, with a 13½" drop leg | 2,500 lb, side-wind, footplate, fixed mount, zinc, made in the USA. Mounting-plate bolt holes 5½" apart, per an etrailer answer. Same idea, pricier |
+| RAM fixed-mount drop-leg jack with footplate, 2,500 lb ([Croft Trailer](https://www.crofttrailer.com/jacks/swivel-jacks/swivel-jacks-2-000-lb-capacity-below/)) | not found | 28" total: 15" screw + 13" drop leg | 2,000 lb lift / 3,000 lb support, side-wind. Price and Canadian shipping unknown |
+| [The Ultimate Trailer Jack 322-RDJ-2K](https://www.etrailer.com/Trailer-Jack/Ultimate%20Jack/322-RDJ-2K.html) | ~US$85–110 (Walmart, etrailer, Tractor Supply) | 27½–28" | 2,000 lb, zinc, rapid-adjust drop leg with seven settings. **Top-wind**, crank on top, which is awkward with a body bracket above it |
+| TowKing side-wind A-frame jack with drop leg, 5,000 lb ([amazon.ca search](https://www.amazon.ca/trailer-jack-drop-leg/s?k=trailer+jack+drop+leg)) | ~$55–69 CAD | 15" screw plus drop leg | Cheapest seen, sold in Canada. A-frame mount is shaped for a trailer tongue, so the bracket is more work. Drop-leg length not confirmed |
+
+All of these are about **15" of crank plus a ~13" pinned leg**, so the two-stage method below
+still applies. No light-duty jack was found with ~28" of continuous crank travel; only camper
+jacks do that. These sellers' pages (etrailer, Walmart, Amazon) were blocked to automated reading,
+so the specs and prices above come from **search extracts, in USD unless marked**, and need
+checking on the page before ordering. etrailer ships to Canada; expect brokerage and duty on top.
 
 **How a drop leg buys height.** The lower leg slides out of the jack tube and is held by a pin.
 Under load, only the screw lifts (about **15"**, by comparison with similar 7,000 lb drop-leg
@@ -476,7 +494,7 @@ above.
 |---|---|
 | Partial lift or full separation | **Decided — full separation.** Reconfirmed after the owner mapped the mounts: front, both middle and the rear mounts, the floor around the middle mounts, and the rear crossmember. Reasoning in *Could it be done with the body mostly on?* above ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
 | Engine in or out if full separation | Open — owner prefers in; measure clearances first |
-| Lift method | Open — two engine hoists, or **four side-wind jacks** on home-made corner brackets: Powerfist 2,000 lb (15", ~$160 for four on sale), or the taller **Ironworks 7,000 lb drop-leg** (28½" in two stages, ~$520 for four), both Princess Auto. Camper jacks (36" in one go) only if found used. Measure bracket heights on the body first |
+| Lift method | Open — two engine hoists, or **four side-wind jacks** on home-made corner brackets: Powerfist 2,000 lb (15", ~$160 for four on sale, Princess Auto), or for height a **2,500 lb drop-leg jack such as the etrailer MJSQ-2500B** (29⅛" in two stages, ~US$115–140 each). The Ironworks 7,000 lb drop-leg is heavier than needed. Camper jacks (36" in one go) only if found used. Measure bracket heights on the body first |
 | How the body is braced | Open — angle iron hinge-to-striker at minimum; more if the rocker is as bad as feared |
 | Mount count, bolt size and torque | **Unconfirmed** — single-source forum figures. Count under the car; torque from a service manual |
 | Shop or driveway | Open — a full separation needs hoists, tall stands and a garage tied up for the length of the repair |

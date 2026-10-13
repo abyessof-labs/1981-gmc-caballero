@@ -122,8 +122,9 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   the tall silver crank jacks some restorers bolt to the body corners to lift it off the frame are
   **side-wind trailer jacks** with a footplate. Pick: **Powerfist 2,000 lb implement jack, Princess
   Auto SKU 8004689** (15" travel, $39.99 on sale), four of them on home-made corner brackets. 15" of
-  travel means lifting in stages onto stands. Taller: **Ironworks 7,000 lb drop-leg jack, SKU
-  8690018** ($129.99, 28½" in two stages), or used truck camper jacks (36"). Not purchased.
+  travel means lifting in stages onto stands. Taller: a light **2,500 lb drop-leg boat-trailer jack,
+  etrailer MJSQ-2500B** (29⅛" in two stages, bolt-on, ~US$115–140), or used truck camper jacks
+  (36"). Not purchased.
 
 ## Status
 
