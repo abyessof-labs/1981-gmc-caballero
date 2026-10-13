@@ -263,6 +263,43 @@ move the jack brackets lower on the body (or put solid blocking under each jack 
 again. Measure the clearances first (see *Leaving the engine and transmission on the frame*) to know
 how many stages it takes.
 
+#### Taller options
+
+Two kinds of jack get past 15". Watch the wording on listings: **screw travel** is what the crank
+lifts under load, and **total lift** may include a drop leg that is only re-pinned with no load on it.
+
+| Jack | Price (CAD) | Lift | Notes |
+|---|---|---|---|
+| [**Ironworks 7,000 lb Weld-On Drop Leg Sidewind Trailer Jack**, SKU 8690018](https://www.princessauto.com/en/product/pa0008690018-7-000-lb-weld-on-drop-leg-sidewind-trailer-jack/PA0008690018) (Princess Auto) | **$129.99** each, **~$520 for four** | **28½" total**, 25–53½" height, 26" retracted | **The pick for a taller lift.** Side-wind, zinc-plated, 6¼ × 8" footplate, 23 lb. Same family as the jack in the photo, just bigger. Weld-on mount |
+| [Ironworks 10,000 lb Weld-On Drop Leg Sidewind Trailer Jack, SKU 8146490](https://www.princessauto.com/en/product/PA0008146490) (Princess Auto) | $289.99 | 26" total, 27½–53½" | 63.9 lb each. Far more jack than a body needs. No |
+| [BE 7,000 lb side-wind implement jack, square tube, 26"](https://peaveymart.com/farm/repair-maintenance/implement-jacks/heavy-duty-side-wind-implement-jacks-sqr-7000/11615) (Peavey Mart) | not read | 15" drop leg, per a search extract | Alternative if Princess Auto is out. Specs unconfirmed |
+| Rieco-Titan manual truck camper jack, 2,000 lb ([Roulottes Lupien](https://boutique.roulotteslupien.ca/en/products/verin-de-boite-campeur), St-Cyrille-de-Wendover QC) | **$699 each**, out of stock | **36" of crank travel**, continuous | The real camper jack: one lift, no staging. About **$2,800 for four**, so only worth it used |
+| [Manual camper jack, 4-piece set, 2,500 lb](https://www.expeditionupfitter.ca/products/manual-camper-jack-set-max-capacity-is-2500-lbs) (Expedition Upfitter) | $850 for the set, plus freight | 950 mm (37") stroke, 1,300 mm retracted | Cheapest new camper-jack set found. **Sold out until December**; listing names only three mounting plates, so confirm it is four jacks |
+
+**How a drop leg buys height.** The lower leg slides out of the jack tube and is held by a pin.
+Under load, only the screw lifts (about **15"**, by comparison with similar 7,000 lb drop-leg
+jacks; the Ironworks screw travel is not listed). The extra height comes from the leg:
+
+1. Mount the jacks with the drop leg pinned up and the foot near the floor. Crank the screw up its
+   full travel.
+2. **Set the body on stands or cribbing**, and crank until the jacks are unloaded.
+3. Wind the screw back down, pull the pin, drop the leg to the floor, re-pin.
+4. Crank again for the second stage.
+
+That is the same staging as the 15" jacks, but there is no blocking under the feet and the brackets
+don't move, and about **28" in two stages** comes close to the 30" from the GTO video. If the engine
+stays in and more is needed, add a third stage on solid blocking, or use camper jacks.
+
+**Mounting height.** These are tall jacks. The 7,000 lb drop-leg jack is **26" long retracted**, so
+its mount sits roughly two feet up. A camper jack is **46–51" collapsed** and mounts near the top of
+a camper. Before buying either, **measure how high each bracket point on the body is above the
+floor** (cowl or hinge, tailgate hinge). A bracket can reach up or out to meet the jack, but it gets
+longer and has to be stiffer.
+
+**Camper jacks used.** A new set costs more than the hoists or the welder. A used set off
+Marketplace or Kijiji, from someone who sold their camper, is the way to get the one-lift version.
+The Rieco-Titan jacks need their own brackets and crank handle, which used sets may not include.
+
 **Brackets — you make them.** The jacks come with a weld-on ring or flange mount, not a car bracket.
 Each corner needs a steel bracket that bolts to strong points on the body and holds the jack mount
 outboard of the body, clear of the tires. On this car the strong points are the same ones listed
@@ -439,7 +476,7 @@ above.
 |---|---|
 | Partial lift or full separation | **Decided — full separation.** Reconfirmed after the owner mapped the mounts: front, both middle and the rear mounts, the floor around the middle mounts, and the rear crossmember. Reasoning in *Could it be done with the body mostly on?* above ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
 | Engine in or out if full separation | Open — owner prefers in; measure clearances first |
-| Lift method | Open — two engine hoists, or **four side-wind trailer jacks** on bolt-on corner brackets (Powerfist SKU 8004689 at Princess Auto, about $160 for four on sale). Jacks need staged lifts for the height |
+| Lift method | Open — two engine hoists, or **four side-wind jacks** on home-made corner brackets: Powerfist 2,000 lb (15", ~$160 for four on sale), or the taller **Ironworks 7,000 lb drop-leg** (28½" in two stages, ~$520 for four), both Princess Auto. Camper jacks (36" in one go) only if found used. Measure bracket heights on the body first |
 | How the body is braced | Open — angle iron hinge-to-striker at minimum; more if the rocker is as bad as feared |
 | Mount count, bolt size and torque | **Unconfirmed** — single-source forum figures. Count under the car; torque from a service manual |
 | Shop or driveway | Open — a full separation needs hoists, tall stands and a garage tied up for the length of the repair |
