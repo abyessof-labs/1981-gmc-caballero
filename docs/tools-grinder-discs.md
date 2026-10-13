@@ -15,6 +15,32 @@ seen were CAD on Amazon.ca unless marked.
 
 ---
 
+## Shopping list for the DCG410VSB
+
+Everything here fits the grinder: 4-1/2" with a 7/8" centre hole, and rated at 13,280–13,300 rpm
+against the grinder's 9,000 (the Milwaukee rating was not found — check the label). Details and
+alternatives are in the sections below.
+
+**Cutting** — needs the Type 1/41 guard first
+([issue 31](https://github.com/abyessof-labs/1981-gmc-caballero/issues/31)). Thickness
+**.040"–.045"**.
+
+1. **[DEWALT DW8062B5](https://www.amazon.ca/DEWALT-DW8062B5-0-045-Inch-Stainless-Cutting/dp/B005B8LZCI)**
+   — 4-1/2" × .045", Type 1, 5-pack, 4.6★ from ~16,000. The default.
+2. [Milwaukee 49-94-4500, 10-pack](https://www.amazon.ca/Milwaukee-10-Pack-Aggressive-Stainless/dp/B01EBDZOFC)
+   — 4-1/2" × .045", Type 1, 4.6★ from ~1,400. Better value per wheel.
+3. [Diablo thin-kerf, 10-pack](https://www.amazon.ca/Diablo-Metal-Cut-Off-10-Pack/dp/B07TN9JPR2)
+   — 4-1/2" × .040", Type 1. The thinnest, for the cleanest panel cuts.
+
+**Weld grinding** — fits the guard already on the grinder.
+
+1. **[DEWALT DW8308](https://www.amazon.ca/DW8308-Zirconia-Grinder-2-Inches-8-Inches/dp/B000BPC2PU)**
+   — 60-grit zirconia, Type 29, 4.7★. Knocks the weld down. Buy several; they are sold singly.
+2. [3M Cubitron II 967A T27, 80+, 10-pack](https://www.amazon.ca/3M-Cubitron-967A-Ceramic-Diameter/dp/B00E08HPTC)
+   — flat, for blending the weld flush with the panel. Premium.
+3. [WANKADA 60-grit T29, 10-pack](https://www.amazon.ca/WANKADA-Zirconia-Abrasive-Grinding-Stainless/dp/B0CJC22986)
+   — 4.7★, 13,300 rpm. The budget bulk pack.
+
 ## Short answer
 
 | Job | Buy | Why |
@@ -173,9 +199,19 @@ rating at all, and you cannot follow the RPM rule without one.
 
 ## Cut-off wheels for sheet metal
 
-**Thin is the point.** A **.040"–.045" (1 mm)** wheel cuts 18–22 ga body steel fast with a narrow
-kerf and less heat; a 1/8" wheel is for structural steel. Let the wheel do the work — forcing a thin
-wheel or twisting it in the cut is how it shatters.
+### What thickness
+
+| Thickness | Common name | Use it for |
+|---|---|---|
+| **.040" (1.0 mm)** | Thin / "1 mm" | **Body panels.** Narrowest kerf, least heat, cleanest edge. Breaks soonest if twisted |
+| **.045" (≈1.1 mm), 3/64" (≈1.2 mm)** | Thin | **Body panels and general use — the safe default.** A little more forgiving of side load |
+| 1/16" (1.6 mm) | Long-life | Frame rails, brackets, bolts. Slower and hotter on sheet |
+| 1/8" (3.2 mm) | Cut-and-grind / pipeline | Structural steel, and light grinding on the side. Wrong for body panels |
+
+**Buy .040"–.045".** The car's panels are 18–22 ga (≈0.8–1.2 mm), so a 1 mm wheel is right. The
+thin wheel cuts fast and keeps heat (and warping) down. The only cost is that it will not take any
+side pressure: a thin wheel that is twisted or levered in the cut is how they shatter. Keep a few
+1/16" wheels if the frame-rail and floor-pan work turns up thicker metal.
 
 **All of these need the Type 1/41 guard on the DCG410**, Type 1 and cutting-only Type 27 alike —
 see [What a Type 1 guard is](#what-a-type-1-guard-is). With the guard bought, Type 1 is the better
@@ -185,10 +221,19 @@ choice: cheaper, more choice, and the most-reviewed wheels are Type 1.
 |---|---|---|---|
 | **3M Cubitron II T27** — premium | 4-1/2" × .045" × 7/8", 60 grit ceramic, 25-pack | Not seen; Cubitron II is the industrial benchmark | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-Cut-Off-Ceramic-Diameter/dp/B00DHLPW1Q) |
 | **DEWALT DWA4531 T27** — cheap | 4-1/2" × .045" × 7/8", 60 grit | 4.6★, 17 reviews; ~$4.47 each | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA4531-Cut-Off-2-Inch-045-Inch/dp/B007C6PFXM) |
-| **DEWALT DW8062B5 T1** — most reviewed | 4-1/2" × .045" × 7/8", 5-pack | 4.6★, ~16,456 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DW8062B5-0-045-Inch-Stainless-Cutting/dp/B005B8LZCI) |
+| **DEWALT DW8062B5 T1** — most reviewed | 4-1/2" × .045" × 7/8", 13,300 rpm, 5-pack | 4.6★, ~16,456 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DW8062B5-0-045-Inch-Stainless-Cutting/dp/B005B8LZCI) |
+| DEWALT DW8062, 10-pack | Same wheel, bigger pack | Not seen | [Amazon.ca](https://www.amazon.ca/DeWalt-DW8062-Grinder-Cutoff-10/dp/B006ERQD2M) |
+| **Milwaukee 49-94-4500 T1**, 10-pack | 4-1/2" × .045" × 7/8" | 4.6★, 1,374 ratings | [Amazon.ca](https://www.amazon.ca/Milwaukee-10-Pack-Aggressive-Stainless/dp/B01EBDZOFC) — listing contradicts itself on "discontinued" |
+| **Walter Zip 11T042 T1**, 25-pack | 4-1/2" × 3/64" × 7/8", 13,300 rpm, rated for sheet metal | No product reviews found; Walter is an industrial brand | [Amazon.ca](https://www.amazon.ca/Walter-11T042-64X7-Performance-Wheels/dp/B01BKTDBP0) |
 | **DEWALT DWA8062F T1** | 4-1/2" × .040" × 7/8" | 4.5★, 633 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA8062F-Cut-Off-Wheel-0-875/dp/B01GLGEJKI) |
 | **Diablo thin-kerf T1** | 4-1/2" × .040" × 7/8", 13,280 rpm, 10-pack | Not seen | [Amazon.ca](https://www.amazon.ca/Diablo-Metal-Cut-Off-10-Pack/dp/B07TN9JPR2) |
 | 3M Cubitron II T1, case of 50 | 4-1/2" × .040" × 7/8" | — | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-II-Cut-Off-Wheel/dp/B07S2GR2MW) — only if buying for a whole build |
+
+**If DEWALT's Type 1/41 guard for the DCG410 turns out to be 5"**, buy the cutting wheels in 5" to
+match it: [DEWALT DW8063](https://www.amazon.ca/DEWALT-DW8063-045-Inch-Abrasive-Cutting/dp/B00004YMDC)
+(5" × .045" × 7/8" T1) or
+[DEWALT DWA8063F](https://www.amazon.ca/DEWALT-DWA8063F-Cut-Off-Wheel-0-875/dp/B01GLGEP3O) (5" × .040").
+The manual says to use the smallest guard that fits the wheel, so match the wheel to the guard.
 
 For spot welds and cuts inside the wheel arch, the **3" cut-off tool** recommended in
 [`tools-angle-grinder.md`](tools-angle-grinder.md) does the job better than any 4-1/2" wheel.
@@ -208,7 +253,9 @@ forgiving. **Zirconia or ceramic, 60 grit to knock the weld down, 80 to blend.**
 | Item | Spec | Rating seen | Link |
 |---|---|---|---|
 | **3M Cubitron II 967A T29** — premium | 4-1/2" × 7/8", 60+ ceramic, 13,300 rpm, 10-pack | Not seen | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-967A-Ceramic-Diameter/dp/B00E08KO4U) |
-| **DEWALT DW8308** — the pick on value | 4-1/2" × 7/8", 60-grit zirconia, T29, 13,300 rpm, single | 4.7★, ~2,072 reviews | [Amazon.ca](https://www.amazon.ca/dp/B000BPC2PU) *(ASIN from amazon.com; Amazon.ca listing seen in search, URL unconfirmed)* |
+| **DEWALT DW8308** — the pick on value | 4-1/2" × 7/8", 60-grit zirconia, T29, 13,300 rpm, single | 4.7★; snapshots showed 423 to ~2,072 ratings | [Amazon.ca](https://www.amazon.ca/DW8308-Zirconia-Grinder-2-Inches-8-Inches/dp/B000BPC2PU) |
+| DEWALT DWA8207 | 4-1/2" × 7/8", 60-grit zirconia, T29 — DEWALT's newer equivalent | 4.5★, 23 reviews | [Amazon.ca](https://www.amazon.ca/DEWALT-DWA8207-Zirconia-2-Inch-8-Inch/dp/B007C6PRP8) |
+| **3M Cubitron II 967A T27, 80+** — premium blending | 4-1/2" × 7/8", 80+ ceramic, flat, 13,300 rpm, 10-pack | Not seen; ~$124 per 10 | [Amazon.ca](https://www.amazon.ca/3M-Cubitron-967A-Ceramic-Diameter/dp/B00E08HPTC) |
 | **DEWALT DW8357** | 4-1/2" × 5/8"-11 threaded, 60 grit, **Type 27** — flat, for panel welds | Not seen | [Amazon.ca](https://www.amazon.ca/DEWALT-DW8357-2-Inch-8-Inch-11-Type/dp/B003R7LCE6) |
 | **NEIKO 11120A** — budget bulk | 4-1/2" × 7/8", 80-grit zirconia, T29, 10-pack | Amazon.ca best-seller list | [Amazon.ca](https://www.amazon.ca/11120A-Zirconia-Grinder-Flapper-Grinding/dp/B07FSY8X57) |
 | WANKADA 60 grit T29 | 4-1/2" × 7/8", zirconia, 13,300 rpm, 10-pack | 4.7★, 61 ratings | [Amazon.ca](https://www.amazon.ca/WANKADA-Zirconia-Abrasive-Grinding-Stainless/dp/B0CJC22986) |
@@ -221,9 +268,11 @@ forgiving. **Zirconia or ceramic, 60 grit to knock the weld down, 80 to blend.**
 | Wire wheel | Decided — **DW4930** (or Weiler 13106V) for heavy rust; strip disc for panel faces |
 | Grinder | Decided — **DCG410VSB** owned. Every disc listed here fits it (see the fit check) |
 | Cut-off wheels | Decided — **Type 1 thin wheels (DW8062B5) under a Type 1/41 guard.** Corrected: T27 cutting-only wheels also need that guard on the DCG410, so they are no shortcut |
-| Type 1/41 guard for the DCG410VSB | Open — part number not found. Call DEWALT (1-800-433-9258) with model + type from the nameplate. Do not cut without it |
+| Type 1/41 guard for the DCG410VSB | Open — part number not found. Call DEWALT (1-800-433-9258) with model + type from the nameplate, and ask whether it is a 4-1/2" or 5" guard. Do not cut without it |
+| Cut-off wheel thickness | Decided — **.040"–.045" (1 mm)** for body panels; 1/16" only for frame-rail-thick metal |
+| Cut-off wheel diameter | Open — 4-1/2" unless the Type 1/41 guard is 5"; match the wheel to the guard |
 | Flap discs | Decided — 60-grit zirconia/ceramic for weld knock-down, 80 for blending |
-| Amazon.ca links marked *unconfirmed* (DW4930, DW8308) | Open — open the link; if it 404s, search the model number on Amazon.ca |
+| Amazon.ca link marked *unconfirmed* (DW4930) | Open — open the link; if it 404s, search the model number on Amazon.ca. DW8308 link now confirmed |
 | Discs | Nothing purchased yet |
 
 ## Sources
