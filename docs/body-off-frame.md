@@ -294,6 +294,38 @@ jacks do that. These sellers' pages (etrailer, Walmart, Amazon) were blocked to 
 so the specs and prices above come from **search extracts, in USD unless marked**, and need
 checking on the page before ordering. etrailer ships to Canada; expect brokerage and duty on top.
 
+#### Heights compared
+
+Two heights matter more than the lift figure:
+
+- **Mount height**, floor to the jack's bracket, lowest to highest. Trailer-jack listings call this
+  *bracket height*. It is how high the body's lift point can go. The lowest figure has to be at or
+  below where the bracket meets the body, and the highest has to be that plus the lift you need
+  (about 30").
+- **Jack length retracted**, foot to top. It is how much room the jack needs beside the car, and
+  where the crank ends up.
+
+| Jack | Mount height, min → max | Jack length retracted | Source / confidence |
+|---|---|---|---|
+| Powerfist 2,000 lb (Princess Auto 8004689) | **11½" → 26½"** | not listed | Princess Auto page, read. No drop leg, so 26½" is the ceiling |
+| **etrailer / RAM MJSQ-2500B** | **7¼" → 22⅝"** cranked, **→ about 36⅜"** with the drop leg | **24¾"** | 7¼" and 22⅝" from several sellers; 24¾" from AAA Trailer and Six Robblees. The 36⅜" is 7¼" + 29⅛" total lift: **arithmetic, not a published figure** |
+| RAM 2,500 lb fixed-mount drop leg (Croft) | **7" → 35"** | **25¼"** | Croft listing, via search extract. Probably the same jack as the MJSQ-2500B with a slightly different lift figure |
+| Dutton-Lainson DL22320 | **10¼" → 25¼"** cranked, **→ 38½"** with the drop leg | **23½–25¼"** (sources differ) | 38½" is Dutton-Lainson's own *maximum tongue height*. The others from etrailer and GME Supply |
+| The Ultimate Trailer Jack 322-RDJ-2K | **1¾" → 29¼"** | about 19¼" from bracket to handle mount; 7¼" body at lowest setting | etrailer, via search extract. The bracket sits near the bottom, so it starts very low but tops out lowest of the drop-leg jacks |
+| Ironworks 7,000 lb drop leg (Princess Auto 8690018) | **25" → 53½"** | **26"** | Princess Auto page, read. Only works if the body's lift point is already **25" or more** off the floor |
+| Rieco-Titan manual camper jack | not listed | **46"** collapsed, about 82" extended (46" + 36") | Replacement-jack listing for the 44410. 82" is arithmetic |
+| Expedition Upfitter camper jack set | not listed | **1,300 mm (51")** retracted, **2,100 mm (83")** extended | Listing, read |
+
+**What this means for this car.** The light drop-leg jacks start low (7–10") and top out at
+**35–38½"**. That suits a bracket at the **bottom** of the body, such as angle iron run across
+under the body at the mount holes (not the rotten rocker; see *Brackets* below), lifted about 28"
+in two stages. A bracket high on the body (cowl, hinge, tailgate
+hinge) needs a jack whose range starts higher, like the Ironworks (25–53½") or a camper jack, or a
+bracket that hangs down to meet a short jack. **Measure, with the car on its wheels, the height of
+each bracket point above the floor**, then pick the jack whose range covers that height plus 30".
+Every dimension above should be confirmed on the seller's page before ordering, because listings
+mix up bracket height, overall height and lift.
+
 **How a drop leg buys height.** The lower leg slides out of the jack tube and is held by a pin.
 Under load, only the screw lifts (about **15"**, by comparison with similar 7,000 lb drop-leg
 jacks; the Ironworks screw travel is not listed). The extra height comes from the leg:
@@ -308,8 +340,8 @@ That is the same staging as the 15" jacks, but there is no blocking under the fe
 don't move, and about **28" in two stages** comes close to the 30" from the GTO video. If the engine
 stays in and more is needed, add a third stage on solid blocking, or use camper jacks.
 
-**Mounting height.** These are tall jacks. The 7,000 lb drop-leg jack is **26" long retracted**, so
-its mount sits roughly two feet up. A camper jack is **46–51" collapsed** and mounts near the top of
+**Mounting height.** These are tall jacks. The 7,000 lb drop-leg jack is **26" long retracted**, and
+its mount sits at 25" at the lowest (*Heights compared* above). A camper jack is **46–51" collapsed** and mounts near the top of
 a camper. Before buying either, **measure how high each bracket point on the body is above the
 floor** (cowl or hinge, tailgate hinge). A bracket can reach up or out to meet the jack, but it gets
 longer and has to be stiffer.
