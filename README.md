@@ -54,7 +54,7 @@ docs/
   tach-swap.md            Fitting a factory tach — on a 78-85 it comes with the clock built in
   aftermarket-tach.md     Standalone tach: pillar/column mounts, HEI wiring, EST noise
   rust-repair-inspection.md  SAAQ rejection criteria, structural vs cosmetic, and weld method
-  body-off-frame.md       Lifting the body off the frame: bracing, disconnect checklist, mount bolts, videos
+  body-off-frame.md       Lifting the body off the frame: bracing, disconnect checklist, lift jacks, mount bolts, videos
   underbody-coating.md    Rust converter: what to mask, and why it comes after the welding
   community-and-inspiration.md  Forums to join, Caballero build threads, photo galleries
   wheel-and-paint-gallery.md    78-87 El Camino/Caballero photo sets grouped by wheel and paint look, incl. orange
@@ -118,6 +118,11 @@ Tool research for the repair work, with Canadian purchase links, lives in `docs/
   smuggler's box floor in-house: machine selection, gasless vs gas, fume and ventilation safety
   (including an inline-fan fume hood), local gas and sheet-steel suppliers, online cut/bend services,
   and a glossary. Nothing purchased yet; open decisions are tracked in that section's README.
+- [`docs/body-off-frame.md`](docs/body-off-frame.md#the-silver-crank-jacks-side-wind-trailer-jacks) —
+  the tall silver crank jacks some restorers bolt to the body corners to lift it off the frame are
+  **side-wind trailer jacks** with a footplate. Pick: **Powerfist 2,000 lb implement jack, Princess
+  Auto SKU 8004689** (15" travel, $39.99 on sale), four of them on home-made corner brackets. 15" of
+  travel means lifting in stages onto stands. Not purchased.
 
 ## Status
 

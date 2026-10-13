@@ -221,6 +221,66 @@ Optional, but each item makes the lift lighter and the body less likely to flex:
 | Jacks and lumber | Floor or bottle jacks under 4×4 or 4×6 timbers laid **across the underside** at the body mount locations. Raise each side a little at a time and crib as you go |
 | Steel crossbars | Angle iron welded or bolted across under the body perches just behind the rear axle, as a rear lift point |
 | Two-post lift | A shop option. Lift the whole car, set the body on stands or timbers that reach under it from outside the tires, then lower the chassis away |
+| **Four crank jacks on the body** | A tall side-wind trailer jack (or truck camper jack) on a bracket at each corner of the body, foot on the floor. Crank all four up together and the body rises off the frame. Details below |
+
+### The silver crank jacks: side-wind trailer jacks
+
+The tall zinc-plated jacks with a side crank and a flat foot that some restorers bolt to the body
+are **side-wind trailer jacks**: the same jack that holds up a trailer tongue, in the
+**footplate** version (no caster wheel). Search for *side wind jack*, *implement jack* or
+*weld-on trailer jack*. The bigger, more expensive cousins sold for lifting a slide-in camper off a
+pickup are **truck camper jacks**, and forum posts describe using a pair or three of those the same
+way for car bodies (Jalopy Journal, a 1957 Cadillac, a Corvette club). Identified from a photo the
+owner sent in October 2026: a silver side-wind jack with a red crank grip and a footplate, clamped
+by its mount to a bracket on a stripped body.
+
+**How it works:** one jack at each corner of the body, mounted to a bracket bolted to sound metal.
+The foot sits on the floor, the jack is vertical beside the car, and cranking it pushes the bracket,
+and the body, up. Four people (or one person going round in small turns) crank evenly. Nothing
+lifts against the frame, so the chassis can roll out once the body is high enough.
+
+**What to buy — Princess Auto has the right jack:**
+
+| Jack | Price | Spec | Notes |
+|---|---|---|---|
+| [**Powerfist 2,000 lb Mechanical Implement Trailer Jack**, SKU 8004689](https://www.princessauto.com/en/product/PA0008004689) | **$39.99** on sale, reg. $64.99 (CAD, Oct 2026) | **Side-wind**, 2,000 lb, 15" travel, 11½–26½" height, 7¼ × 3¾" footplate, weld-on ring mount, 13.9 lb | **The pick.** Closest match to the photo. Need **four**: ~$160 on sale, ~$260 at regular price |
+| [Butler 2,000 lb Mechanical Implement Trailer Jack, SKU 8689713](https://www.princessauto.com/2000-lb-mechanical-implement-trailer-jack/product/PA0008689713) | $64.99 | Top-wind, 10" travel, 11¾–21¾", footplate, flange mount | Bolt-on flange is easier to mount, but the crank is on top and travel is only 10". Second choice |
+| [MotoMaster round tubular swivel jack, 2,000 lb, 10"](https://www.canadiantire.ca/en/pdp/bulldog-round-tubular-swivel-jack-10-in-2000-lb-0406919p.html) (Canadian Tire) | $74.99 | 10" travel, weld-on swivel | Wind type not confirmed from the listing. More expensive and shorter travel. Only if Princess Auto is out |
+| Truck camper jacks, set of 4 (Rieco-Titan, EZ Lite) | ~US$560–1,200 new, per US listings | 2,000 lb each, much longer travel, corner brackets included | Made for this kind of lift, but **far too expensive new**. Worth it only used (Marketplace, Kijiji), where forum posts report sets for under US$100 |
+
+Prices and specs for the two Princess Auto jacks were read from their product pages; stock at a
+Montréal-area store was not checked. The Canadian Tire price is from a search extract only.
+
+**Is 2,000 lb enough?** Yes, with a wide margin. Four jacks give 8,000 lb of lift. A stripped
+El Camino body (no front clip, doors, glass or seats) is a few hundred kilograms at most. That
+weight is **inferred, not weighed or sourced**, but even an untouched body is nowhere near the
+limit. The limit that matters is height, not weight.
+
+**Lift height — the catch.** 15" of travel is not enough on its own to roll a chassis out:
+the GTO video below lifted the body about **30"**, and leaving the engine in needs more. The usual
+way round it is to lift in stages: crank up the full travel, **set the body on stands or cribbing**,
+move the jack brackets lower on the body (or put solid blocking under each jack foot), and crank
+again. Measure the clearances first (see *Leaving the engine and transmission on the frame*) to know
+how many stages it takes.
+
+**Brackets — you make them.** The jacks come with a weld-on ring or flange mount, not a car bracket.
+Each corner needs a steel bracket that bolts to strong points on the body and holds the jack mount
+outboard of the body, clear of the tires. On this car the strong points are the same ones listed
+for hoists above: **cowl or upper door hinge bolts at the front, tailgate hinge mounts at the rear**,
+or angle iron run across under the body at the mount holes. Not the floor, and not the rotten
+rocker. Fabricate them with the welder ([`welding/`](welding/README.md)) or bolt them up from
+angle iron. Nobody sells a G-body bracket for this; no source was found.
+
+**Cautions:**
+
+- A jack that tall on a 7" footplate can tip. Keep the jacks **vertical**, on a level concrete
+  floor, and raise **all four a few turns at a time**. Never one corner far ahead of the others —
+  that is how the body twists (*Lift straight up, evenly* above).
+- Camper-jack makers say their jacks are for lifting and lowering, **not for holding a load for
+  storage**. Same rule here: once the body is up, it goes onto stands, cribbing or a body cart. Never
+  work under a body held only by jacks.
+- The bracing goes in **before** the jacks go on. The jacks lift at the four corners, which loads
+  the door openings exactly where this body is weakest.
 
 **Supporting it:**
 
@@ -379,6 +439,7 @@ above.
 |---|---|
 | Partial lift or full separation | **Decided — full separation.** Reconfirmed after the owner mapped the mounts: front, both middle and the rear mounts, the floor around the middle mounts, and the rear crossmember. Reasoning in *Could it be done with the body mostly on?* above ([issues #28](../../../issues/28), [#29](../../../issues/29)) |
 | Engine in or out if full separation | Open — owner prefers in; measure clearances first |
+| Lift method | Open — two engine hoists, or **four side-wind trailer jacks** on bolt-on corner brackets (Powerfist SKU 8004689 at Princess Auto, about $160 for four on sale). Jacks need staged lifts for the height |
 | How the body is braced | Open — angle iron hinge-to-striker at minimum; more if the rocker is as bad as feared |
 | Mount count, bolt size and torque | **Unconfirmed** — single-source forum figures. Count under the car; torque from a service manual |
 | Shop or driveway | Open — a full separation needs hoists, tall stands and a garage tied up for the length of the repair |
