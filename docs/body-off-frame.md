@@ -326,6 +326,33 @@ each bracket point above the floor**, then pick the jack whose range covers that
 Every dimension above should be confirmed on the seller's page before ordering, because listings
 mix up bracket height, overall height and lift.
 
+**Jacks on a lifting cradle under the body.** Asked October 2026: if the jacks bolt to a steel
+frame (a cradle) that sits under the body, which raises it highest? The cradle starts low, so the
+jack has to reach **down** to it. The two numbers to check are the lowest mount height (it must be
+at or below the cradle) and the highest (the ceiling):
+
+| Rank | Jack | Cradle can go up to | Fits a low cradle directly? |
+|---|---|---|---|
+| 1 | **Dutton-Lainson DL22320** | **38½"** | Yes, from 10¼" up. 38½" is the maker's own figure, the most reliable in this list |
+| 2 | etrailer / RAM MJSQ-2500B | about 36⅜" | Yes, from 7¼". The ceiling is arithmetic, not published |
+| 3 | RAM 2,500 lb drop leg (Croft) | 35" | Yes, from 7" |
+| 4 | The Ultimate Trailer Jack | 29¼" | Yes, from 1¾" |
+| 5 | Powerfist 2,000 lb | 26½" | Yes, from 11½". Lifts only 15" |
+| — | Ironworks 7,000 lb | 53½" | **No**, lowest mount is 25". Needs cradle arms that rise to meet it |
+| — | Camper jacks | highest of all | **No**, they mount near the top of a 46–51" jack. Same as above |
+
+The **lift** from where the cradle starts is about the same for all the drop-leg jacks (28–29"). The
+ceiling only differs because the DL22320 starts higher (10¼"). So with a cradle at about 10", the
+DL22320 takes it to 38½", while the MJSQ-2500B takes it to about 36". The Ironworks or a camper jack go
+higher only with **uprights welded on the cradle** to reach their bracket; the jack still lifts its
+own travel (28½" Ironworks, about 36" camper), which sets how high the cradle ends up.
+
+Two catches with a cradle: its crossbars ride **under** the body, so the chassis has to clear the
+crossbars, not just the floor, and the bar depth comes straight off the clearance. And a crossbar
+across the middle of the body traps the chassis. Place them where the chassis doesn't have to pass
+under them when it rolls out (the rear one behind the end of the frame), or make them high enough
+to clear.
+
 **How a drop leg buys height.** The lower leg slides out of the jack tube and is held by a pin.
 Under load, only the screw lifts (about **15"**, by comparison with similar 7,000 lb drop-leg
 jacks; the Ironworks screw travel is not listed). The extra height comes from the leg:
